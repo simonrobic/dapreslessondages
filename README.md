@@ -9,25 +9,25 @@ D’après les sondages est la suite de **Depuis 1958**, créé en 2017 par
 méthode bayésienne et l'historique des sondages depuis 1981, ajoute la
 prévision 2027 et conserve les licences d'origine (voir [NOTICE.md](NOTICE.md)).
 
-## Mettre à jour
+## Ce que publie le site
+
+- **Prévision 2027** : chances de victoire, de qualification et scores attendus
+  de chaque candidat, selon le scénario de candidatures, et leur évolution.
+- **Au même stade de la campagne** : ce que le même modèle donnait, à la même
+  distance du vote, à chaque présidentielle depuis 1958, et qui a gagné.
+- **Préoccupations des Français** : ce qui inquiétait les Français à chaque
+  stade (Eurobaromètre), comparé aux professions de foi des élus, et un score
+  d'alignement provisoire pour les candidats 2027.
+- **Sondages**, **historique** du modèle depuis 1965 et **méthodologie**.
+
+## Reproduire les calculs
 
 ```sh
-./update.sh                 # récupère les sondages 2027 sur Wikipédia et régénère site/
-.venv/bin/python scripts/eurobarometer.py   # nouvelles vagues de l'Eurobaromètre (deux fois par an)
-./update.sh --quick         # aperçu rapide (moins de tirages)
-python3 -m http.server 8765 --directory site
+uv venv --python 3.13 && uv pip install -r pyproject.toml
+.venv/bin/python scripts/build.py
 ```
 
-Le site généré (`site/`) est entièrement statique : il peut être servi par
-GitHub Pages, Netlify, Cloudflare Pages ou n'importe quel hébergement. Le
-workflow `.github/workflows/update.yml` le met à jour chaque matin et le publie
-sur GitHub Pages (à activer dans les réglages du dépôt : *Pages → Source :
-GitHub Actions*). Le fichier `CNAME` généré déclare le domaine
-`dapreslessondages.fr` ; côté DNS, faites pointer le domaine vers GitHub Pages
-(enregistrements A / AAAA de l'apex, voir la documentation GitHub).
-
-Le nom et l'adresse du site sont définis en tête de `scripts/build.py`
-(`SITE_NAME`, `SITE_URL`).
+Le site est généré, entièrement statique, dans `site/`.
 
 ## Organisation
 
@@ -69,10 +69,9 @@ Les licences du projet d'origine sont conservées (détail dans [NOTICE.md](NOTI
   (CC BY-SA 3.0 FR pour l'historique d'origine, MIT pour NSPPolls, CC BY-SA 4.0
   pour Wikipédia).
 
-L'AGPL demande que le code reste accessible aux visiteurs du site : il est
-public sur [github.com/simonrobic/dapreslessondages](https://github.com/simonrobic/dapreslessondages)
-et le pied de page de chaque page y renvoie. Pour publier depuis un autre dépôt,
-renseignez son adresse dans la variable d'environnement `SOURCE_CODE`.
+L'AGPL demande que le code reste accessible aux visiteurs du site : chaque page
+renvoie à ce dépôt. Si vous publiez votre propre version, indiquez l'adresse de
+votre code dans la variable d'environnement `SOURCE_CODE`.
 
 L'historique Git de ce dépôt commence par les commits de Victor Poughon sur le
 code de Depuis 1958 (avril 2017, repris de la copie archivée
