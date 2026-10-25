@@ -1,0 +1,23 @@
+{# Carte « au même stade » : variables c (élection), snap (instantané), root #}
+{% set fav = c.candidats.get(snap.favori, {}) %}
+{% set elu = c.candidats.get(c.elu, {}) %}
+<article class="card compare-card">
+  <div class="eyebrow">Présidentielle {{ c.annee }} · {{ snap.date|date_fr }}</div>
+  {% if snap.absence %}
+  <p class="compare-absence">{{ snap.absence }}</p>
+  <dl class="compare-facts"><div><dt>Élu</dt><dd><span class="key-dot" style="--c:var(--s{{ elu.slot or 0 }})"></span><strong>{{ c.elu }}</strong></dd></div></dl>
+  {% else %}
+  <dl class="compare-facts">
+    <div><dt>En tête des prévisions</dt><dd><span class="key-dot" style="--c:var(--s{{ fav.slot or 0 }})"></span><strong>{{ snap.favori }}</strong> <span class="compare-p">{{ snap.p_favori|pct }}</span></dd></div>
+    <div><dt>Élu</dt><dd><span class="key-dot" style="--c:var(--s{{ elu.slot or 0 }})"></span><strong>{{ c.elu }}</strong> <span class="compare-p">{% if snap.issue == "gagne" %}le même{% elif snap.p_elu is none %}absent du scénario le plus sondé{% else %}{{ snap.p_elu|pct }} de chances alors{% endif %}</span></dd></div>
+  </dl>
+  <p class="verdict {{ 'ok' if snap.issue == 'gagne' else 'ko' }}">
+    {% if snap.issue == "gagne" %}Le candidat en tête à ce stade l'a emporté.
+    {% elif snap.issue == "absent" %}{{ snap.favori }} n'a finalement pas figuré parmi les candidats.
+    {% elif snap.issue == "battu" %}{{ snap.favori }} a perdu au second tour.
+    {% else %}{{ snap.favori }} a terminé à la {{ snap.rang_favori }}<sup>e</sup> place du premier tour.{% endif %}
+  </p>
+  {% endif %}
+  <div class="compare-chart" data-annee="{{ c.annee }}" data-j="{{ p.jours_avant }}"></div>
+  <p class="small" style="margin:10px 0 0"><a href="{{ root }}{{ c.annee }}/">Toute la campagne {{ c.annee }}</a></p>
+</article>

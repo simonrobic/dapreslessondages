@@ -1,0 +1,245 @@
+{
+ "election": 1974,
+ "date_premier_tour": "1974-05-05",
+ "date_second_tour": "1974-05-19",
+ "source": "https://fr.wikipedia.org/wiki/Élection_présidentielle_française_de_1974",
+ "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
+ "sources": [
+  {
+   "url": "https://fr.wikipedia.org/wiki/Élection_présidentielle_française_de_1974",
+   "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
+   "periode": null,
+   "revision": 240378275
+  }
+ ],
+ "premier_tour": [
+  {
+   "sondeur": "Ifop",
+   "debut": "1974-04-09",
+   "fin": "1974-04-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 40.0,
+    "Valéry Giscard d'Estaing": 27.0,
+    "Jacques Chaban-Delmas": 29.0
+   },
+   "total_brut": 96.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1974-04-08",
+   "fin": "1974-04-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 36.0,
+    "Valéry Giscard d'Estaing": 27.0,
+    "Jacques Chaban-Delmas": 26.0,
+    "Edgar Faure": 8.0
+   },
+   "total_brut": 97.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1974-04-16",
+   "fin": "1974-04-16",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 43.0,
+    "Valéry Giscard d'Estaing": 27.0,
+    "Jacques Chaban-Delmas": 25.0,
+    "Jean Royer": 5.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1974-04-12",
+   "fin": "1974-04-16",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 40.0,
+    "Valéry Giscard d'Estaing": 28.0,
+    "Jacques Chaban-Delmas": 26.0,
+    "Jean Royer": 5.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1974-04-18",
+   "fin": "1974-04-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 42.0,
+    "Valéry Giscard d'Estaing": 25.0,
+    "Jacques Chaban-Delmas": 23.0,
+    "Jean Royer": 5.0
+   },
+   "total_brut": 95.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1974-04-22",
+   "fin": "1974-04-22",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 41.0,
+    "Valéry Giscard d'Estaing": 26.0,
+    "Jacques Chaban-Delmas": 23.0,
+    "Jean Royer": 6.0
+   },
+   "total_brut": 96.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1974-04-22",
+   "fin": "1974-04-22",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 42.0,
+    "Valéry Giscard d'Estaing": 28.0,
+    "Jacques Chaban-Delmas": 24.0,
+    "Jean Royer": 4.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1974-04-25",
+   "fin": "1974-04-25",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 42.0,
+    "Valéry Giscard d'Estaing": 31.0,
+    "Jacques Chaban-Delmas": 18.0,
+    "Jean Royer": 3.0
+   },
+   "total_brut": 94.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1974-04-29",
+   "fin": "1974-04-29",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 42.0,
+    "Valéry Giscard d'Estaing": 31.0,
+    "Jacques Chaban-Delmas": 18.0,
+    "Jean Royer": 3.0
+   },
+   "total_brut": 94.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1974-04-29",
+   "fin": "1974-04-30",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 44.0,
+    "Valéry Giscard d'Estaing": 31.0,
+    "Jacques Chaban-Delmas": 17.0,
+    "Jean Royer": 3.0
+   },
+   "total_brut": 95.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1974-05-03",
+   "fin": "1974-05-03",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 45.0,
+    "Valéry Giscard d'Estaing": 30.0,
+    "Jacques Chaban-Delmas": 15.0,
+    "Jean Royer": 4.0
+   },
+   "total_brut": 94.0
+  }
+ ],
+ "second_tour": [
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1974-04-22",
+   "fin": "1974-04-22",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Valéry Giscard d'Estaing": 52.0,
+    "François Mitterrand": 48.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1974-04-29",
+   "fin": "1974-04-29",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Valéry Giscard d'Estaing": 51.0,
+    "François Mitterrand": 49.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1974-05-07",
+   "fin": "1974-05-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Valéry Giscard d'Estaing": 51.0,
+    "François Mitterrand": 49.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1974-05-11",
+   "fin": "1974-05-11",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Valéry Giscard d'Estaing": 51.5,
+    "François Mitterrand": 48.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1974-05-13",
+   "fin": "1974-05-13",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Valéry Giscard d'Estaing": 50.0,
+    "François Mitterrand": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1974-05-14",
+   "fin": "1974-05-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Valéry Giscard d'Estaing": 50.0,
+    "François Mitterrand": 50.0
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "evenements": []
+}

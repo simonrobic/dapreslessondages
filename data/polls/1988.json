@@ -1,0 +1,857 @@
+{
+ "election": 1988,
+ "date_premier_tour": "1988-04-24",
+ "date_second_tour": "1988-05-08",
+ "source": "https://github.com/depuis1958/sondages",
+ "licence": "CC BY-SA 3.0 FR — Victor Poughon et contributeurs",
+ "sources": [
+  {
+   "url": "https://github.com/depuis1958/sondages",
+   "licence": "CC BY-SA 3.0 FR — Victor Poughon et contributeurs"
+  },
+  {
+   "url": "https://fr.wikipedia.org/wiki/Élection_présidentielle_française_de_1988",
+   "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
+   "periode": "sondages antérieurs au 12 janvier 1988",
+   "revision": 240378302
+  }
+ ],
+ "premier_tour": [
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1987-10-21",
+   "fin": "1987-10-25",
+   "echantillon": null,
+   "source": "https://www.lemonde.fr/societe/infographie/2006/09/14/les-precedents-sondages-pour-les-presidentielles_813205_3224.html",
+   "scores": {
+    "François Mitterrand": 39.0,
+    "Raymond Barre": 20.0,
+    "Jacques Chirac": 21.0,
+    "Jean-Marie Le Pen": 11.0
+   },
+   "total_brut": 91.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1987-10-21",
+   "fin": "1987-10-25",
+   "echantillon": null,
+   "source": "https://www.lemonde.fr/societe/infographie/2006/09/14/les-precedents-sondages-pour-les-presidentielles_813205_3224.html",
+   "scores": {
+    "François Mitterrand": 33.0,
+    "Michel Rocard": 9.0,
+    "Raymond Barre": 20.0,
+    "Jacques Chirac": 20.0,
+    "Jean-Marie Le Pen": 9.0
+   },
+   "total_brut": 91.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1987-10-21",
+   "fin": "1987-10-25",
+   "echantillon": null,
+   "source": "https://www.lemonde.fr/societe/infographie/2006/09/14/les-precedents-sondages-pour-les-presidentielles_813205_3224.html",
+   "scores": {
+    "Michel Rocard": 31.0,
+    "Raymond Barre": 23.0,
+    "Jacques Chirac": 24.0,
+    "Jean-Marie Le Pen": 11.0
+   },
+   "total_brut": 89.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1987-11-07",
+   "fin": "1987-11-12",
+   "echantillon": null,
+   "source": "http://www.lelab2012.com/historique-election-presidentielle-1988.php",
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "André Lajoinie": 4.0,
+    "Pierre Juquin": 3.0,
+    "François Mitterrand": 38.0,
+    "Antoine Waechter": 0.5,
+    "Raymond Barre": 24.5,
+    "Jacques Chirac": 18.0,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1987-12-04",
+   "fin": "1987-12-08",
+   "echantillon": null,
+   "source": "http://www.lelab2012.com/historique-election-presidentielle-1988.php",
+   "scores": {
+    "Arlette Laguiller": 1.5,
+    "André Lajoinie": 4.5,
+    "Pierre Juquin": 2.0,
+    "François Mitterrand": 38.0,
+    "Antoine Waechter": 1.0,
+    "Raymond Barre": 24.0,
+    "Jacques Chirac": 19.0,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-01-08",
+   "fin": "1988-01-12",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "Pierre Boussel": 0.0,
+    "André Lajoinie": 5.0,
+    "Pierre Juquin": 2.0,
+    "François Mitterrand": 40.0,
+    "Antoine Waechter": 0.5,
+    "Raymond Barre": 23.0,
+    "Jacques Chirac": 19.5,
+    "Jean-Marie Le Pen": 9.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-01-11",
+   "fin": "1988-01-20",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "Pierre Boussel": 0.0,
+    "André Lajoinie": 4.0,
+    "Pierre Juquin": 2.0,
+    "François Mitterrand": 37.0,
+    "Antoine Waechter": 3.0,
+    "Raymond Barre": 21.0,
+    "Jacques Chirac": 21.0,
+    "Jean-Marie Le Pen": 11.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-01-20",
+   "fin": "1988-01-26",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "Pierre Boussel": 0.0,
+    "André Lajoinie": 4.0,
+    "Pierre Juquin": 2.0,
+    "François Mitterrand": 41.5,
+    "Antoine Waechter": 3.0,
+    "Raymond Barre": 19.0,
+    "Jacques Chirac": 21.5,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 102.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-02-01",
+   "fin": "1988-02-03",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Arlette Laguiller": 0.5,
+    "Pierre Boussel": 0.0,
+    "André Lajoinie": 4.5,
+    "Pierre Juquin": 2.0,
+    "François Mitterrand": 39.0,
+    "Antoine Waechter": 1.0,
+    "Raymond Barre": 21.0,
+    "Jacques Chirac": 22.0,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-02-01",
+   "fin": "1988-02-04",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "Pierre Boussel": 0.0,
+    "André Lajoinie": 5.5,
+    "Pierre Juquin": 3.0,
+    "François Mitterrand": 36.0,
+    "Antoine Waechter": 1.5,
+    "Raymond Barre": 19.0,
+    "Jacques Chirac": 23.0,
+    "Jean-Marie Le Pen": 11.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-02-15",
+   "fin": "1988-02-19",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "Pierre Boussel": 0.0,
+    "André Lajoinie": 6.5,
+    "Pierre Juquin": 2.5,
+    "François Mitterrand": 35.5,
+    "Antoine Waechter": 1.5,
+    "Raymond Barre": 19.0,
+    "Jacques Chirac": 23.0,
+    "Jean-Marie Le Pen": 11.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-03-01",
+   "fin": "1988-03-03",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "Pierre Boussel": 0.0,
+    "André Lajoinie": 5.5,
+    "Pierre Juquin": 2.0,
+    "François Mitterrand": 38.0,
+    "Antoine Waechter": 2.0,
+    "Raymond Barre": 20.0,
+    "Jacques Chirac": 21.5,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-04-01",
+   "fin": "1988-04-02",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "Pierre Boussel": 0.0,
+    "André Lajoinie": 6.0,
+    "Pierre Juquin": 3.0,
+    "François Mitterrand": 37.0,
+    "Antoine Waechter": 2.5,
+    "Raymond Barre": 15.0,
+    "Jacques Chirac": 24.0,
+    "Jean-Marie Le Pen": 11.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-04-08",
+   "fin": "1988-04-09",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "Pierre Boussel": 0.0,
+    "André Lajoinie": 7.0,
+    "Pierre Juquin": 2.0,
+    "François Mitterrand": 36.0,
+    "Antoine Waechter": 2.5,
+    "Raymond Barre": 17.0,
+    "Jacques Chirac": 23.5,
+    "Jean-Marie Le Pen": 11.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-04-20",
+   "fin": "1988-04-21",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Arlette Laguiller": 1.5,
+    "Pierre Boussel": 0.0,
+    "André Lajoinie": 7.0,
+    "Pierre Juquin": 2.0,
+    "François Mitterrand": 35.0,
+    "Antoine Waechter": 2.5,
+    "Raymond Barre": 16.5,
+    "Jacques Chirac": 23.5,
+    "Jean-Marie Le Pen": 12.0
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "second_tour": [
+  {
+   "sondeur": "Ipsos",
+   "debut": "1986-11-28",
+   "fin": "1986-12-04",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-12",
+   "scores": {
+    "François Mitterrand": 53.0,
+    "Raymond Barre": 47.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1986-12-13",
+   "fin": "1986-12-17",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-12",
+   "scores": {
+    "François Mitterrand": 53.0,
+    "Raymond Barre": 47.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-01-05",
+   "fin": "1987-01-10",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-5",
+   "scores": {
+    "François Mitterrand": 53.0,
+    "Raymond Barre": 47.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-01-15",
+   "fin": "1987-01-20",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-5",
+   "scores": {
+    "François Mitterrand": 50.5,
+    "Raymond Barre": 49.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-01-30",
+   "fin": "1987-02-06",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-11",
+   "scores": {
+    "François Mitterrand": 50.5,
+    "Raymond Barre": 49.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-02-13",
+   "fin": "1987-02-18",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-11",
+   "scores": {
+    "François Mitterrand": 50.0,
+    "Raymond Barre": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-02-27",
+   "fin": "1987-03-05",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-10",
+   "scores": {
+    "François Mitterrand": 50.0,
+    "Raymond Barre": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-03-13",
+   "fin": "1987-03-18",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-10",
+   "scores": {
+    "François Mitterrand": 49.0,
+    "Raymond Barre": 51.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-03-31",
+   "fin": "1987-04-05",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-9",
+   "scores": {
+    "François Mitterrand": 49.0,
+    "Raymond Barre": 51.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-04-13",
+   "fin": "1987-04-17",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-9",
+   "scores": {
+    "François Mitterrand": 55.0,
+    "Raymond Barre": 45.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-05-11",
+   "fin": "1987-05-16",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/barometre-election-presidentielle-intentions-de-vote-et-souhaits-5",
+   "scores": {
+    "François Mitterrand": 56.0,
+    "Jacques Chirac": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-05-11",
+   "fin": "1987-05-16",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/barometre-election-presidentielle-intentions-de-vote-et-souhaits-5",
+   "scores": {
+    "François Mitterrand": 53.0,
+    "Raymond Barre": 47.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-07-01",
+   "fin": "1987-07-05",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-4",
+   "scores": {
+    "François Mitterrand": 53.0,
+    "Raymond Barre": 47.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-07-15",
+   "fin": "1987-07-20",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-4",
+   "scores": {
+    "François Mitterrand": 49.0,
+    "Raymond Barre": 51.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-10-31",
+   "fin": "1987-11-05",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-6",
+   "scores": {
+    "François Mitterrand": 53.0,
+    "Raymond Barre": 47.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1987-11-07",
+   "fin": "1987-11-12",
+   "echantillon": null,
+   "source": "http://www.lelab2012.com/historique-election-presidentielle-1988.php",
+   "scores": {
+    "François Mitterrand": 56.0,
+    "Jacques Chirac": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1987-11-07",
+   "fin": "1987-11-12",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/barometre-election-presidentiellevote-transfert-de-voix-cote-des-candidats-0",
+   "scores": {
+    "François Mitterrand": 52.0,
+    "Raymond Barre": 48.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1987-11-14",
+   "fin": "1987-11-19",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/sondage-mensuel-elections-presiden-tielle-et-legislatives-6",
+   "scores": {
+    "François Mitterrand": 50.0,
+    "Raymond Barre": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1987-12-04",
+   "fin": "1987-12-08",
+   "echantillon": null,
+   "source": "http://www.lelab2012.com/historique-election-presidentielle-1988.php",
+   "scores": {
+    "François Mitterrand": 55.0,
+    "Jacques Chirac": 45.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1987-12-04",
+   "fin": "1987-12-08",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/barometre-election-presidentiellevote-transfert-de-voix-cote-des-candidats",
+   "scores": {
+    "François Mitterrand": 52.0,
+    "Raymond Barre": 48.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-01-08",
+   "fin": "1988-01-12",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Jacques Chirac": 43.0,
+    "François Mitterrand": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-01-11",
+   "fin": "1988-01-20",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Raymond Barre": 46.0,
+    "François Mitterrand": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-01-11",
+   "fin": "1988-01-20",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Jacques Chirac": 43.0,
+    "François Mitterrand": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-02-01",
+   "fin": "1988-02-03",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Jacques Chirac": 45.0,
+    "François Mitterrand": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-02-16",
+   "fin": "1988-02-19",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Raymond Barre": 47.0,
+    "François Mitterrand": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-02-16",
+   "fin": "1988-02-19",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Jacques Chirac": 46.0,
+    "François Mitterrand": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-03-01",
+   "fin": "1988-03-03",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Jacques Chirac": 45.0,
+    "François Mitterrand": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-03-15",
+   "fin": "1988-03-17",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Raymond Barre": 46.0,
+    "François Mitterrand": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-03-15",
+   "fin": "1988-03-17",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Jacques Chirac": 46.0,
+    "François Mitterrand": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-03-17",
+   "fin": "1988-03-21",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Raymond Barre": 48.0,
+    "François Mitterrand": 52.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-03-17",
+   "fin": "1988-03-21",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Jacques Chirac": 47.0,
+    "François Mitterrand": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-03-23",
+   "fin": "1988-03-24",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Raymond Barre": 45.0,
+    "François Mitterrand": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-03-23",
+   "fin": "1988-03-24",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Jacques Chirac": 45.0,
+    "François Mitterrand": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-03-25",
+   "fin": "1988-03-26",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Raymond Barre": 45.0,
+    "François Mitterrand": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-03-25",
+   "fin": "1988-03-26",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Jacques Chirac": 45.0,
+    "François Mitterrand": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-04-01",
+   "fin": "1988-04-02",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Jacques Chirac": 45.0,
+    "François Mitterrand": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-04-05",
+   "fin": "1988-04-06",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Raymond Barre": 46.0,
+    "François Mitterrand": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-04-05",
+   "fin": "1988-04-06",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Jacques Chirac": 48.0,
+    "François Mitterrand": 52.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-04-08",
+   "fin": "1988-04-09",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Raymond Barre": 46.0,
+    "François Mitterrand": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-04-08",
+   "fin": "1988-04-09",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Jacques Chirac": 46.0,
+    "François Mitterrand": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-04-09",
+   "fin": "1988-04-09",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Jacques Chirac": 46.0,
+    "François Mitterrand": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-04-20",
+   "fin": "1988-04-21",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Jacques Chirac": 47.0,
+    "François Mitterrand": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1988-04-24",
+   "fin": "1988-04-24",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Jacques Chirac": 47.0,
+    "François Mitterrand": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-04-26",
+   "fin": "1988-04-27",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Jacques Chirac": 44.0,
+    "François Mitterrand": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-04-29",
+   "fin": "1988-04-29",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Jacques Chirac": 45.0,
+    "François Mitterrand": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-05-04",
+   "fin": "1988-05-05",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Jacques Chirac": 45.0,
+    "François Mitterrand": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1988-05-06",
+   "fin": "1988-05-06",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Jacques Chirac": 46.0,
+    "François Mitterrand": 54.0
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "evenements": []
+}

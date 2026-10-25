@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+{% set sc = p.scenarios[0] %}
+{% set past = p.passee %}
+{% block title %}{% if past %}Présidentielle {{ p.annee }} — {{ site_name }}{% else %}Présidentielle 2027 : la prévision — {{ site_name }}{% endif %}{% endblock %}
+{% block content %}
+{% set nsim = '{:,}'.format(p.n_simulations).replace(',', ' ') %}
+<div class="hero hero-split">
+  <div class="hero-text">
+    {% if past %}
+    <div class="eyebrow"><a href="{{ root }}historique/">Historique</a> · Présidentielle {{ p.annee }}</div>
+    <h1>Ce que disaient les sondages la veille du premier tour</h1>
+    <p class="lede">Le modèle actuel, appliqué aux {{ p.n_sondages }} sondages publiés avant le {{ p.date_premier_tour|date_fr }}. Rien n'a été ajusté après coup : ce sont les chances telles qu'on pouvait les calculer le {{ p.date_prevision|date_fr }}.</p>
+    {% set elu = p.resultats.second_tour|dictsort(by="value")|last %}
+    <div class="hero-figure">
+      <div class="hero-number">{{ h.p_txt }}</div>
+      <div class="hero-caption">de chances de victoire pour <strong>{{ h.nom }}</strong>, en tête des prévisions.
+        {% if elu[0] == h.nom %}Résultat : victoire au second tour avec {{ elu[1]|num(2) }} % des voix.{% else %}C'est finalement <strong>{{ elu[0] }}</strong> qui l'a emporté, avec {{ elu[1]|num(2) }} % des voix ({{ sc.stats.get(elu[0], {}).get("p_victoire", 0)|pct }} de chances selon le modèle).{% endif %}</div>
+    </div>
+    {% else %}
+    <div class="eyebrow">Premier tour le {{ p.date_premier_tour|date_fr }} · J-{{ p.jours_avant }}</div>
+    <h1>Qui sera élu en 2027 ?</h1>
+    <p class="lede">Nous agrégeons tous les sondages publiés, puis simulons {{ nsim }} fois les deux tours de l'élection pour estimer les chances de chaque candidat.</p>
+    <div class="hero-figure">
+      <div class="hero-number">{{ h.p_txt }}</div>
+      <div class="hero-caption">de chances de victoire pour <strong>{{ h.nom }}</strong> dans le scénario de candidatures le plus sondé, au {{ p.date_prevision|date_fr }}.</div>
+    </div>
+    <p class="notice">À {{ p.jours_avant }} jours du vote, l'incertitude reste très forte, et le modèle en tient compte : il donne beaucoup moins de poids aux sondages qu'il ne le fera à l'approche du scrutin. En 2017 comme en 2022, des candidats ont gagné ou perdu plus de 10 points dans les six derniers mois. <a href="#compare-title">Ce que donnaient les sondages au même stade</a>.</p>
+    {% endif %}
+  </div>
+  <section class="hero-panel" aria-labelledby="victoire-title">
+    <h2 id="victoire-title">Chances de victoire</h2>
+    <p class="dek">Part des {{ nsim }} élections simulées remportées par chaque candidat.</p>
+    <div id="victoire" style="margin-top:18px"></div>
+  </section>
+</div>
+
+<div class="scenario-bar">
+  <div>
+    <h2 class="panel-title" id="composer-title">Scénario de candidatures</h2>
+    {% if p.scenarios|length > 1 %}<p class="dek">Cochez les candidats qui se présentent : le modèle reprend les sondages qui ont testé cette liste.</p>{% endif %}
+  </div>
+  <div>
+    {% if p.scenarios|length > 1 %}<div class="filters" role="group" aria-labelledby="composer-title" id="composer"></div>{% endif %}
+    <p class="scenario-note" id="scenario-note" aria-live="polite"></p>
+  </div>
+</div>
+
+<div class="grid cols-3">
+  <section class="card">
+    <div class="card-head"><h2>Chances d'être au second tour</h2><p>Arriver dans les deux premiers au premier tour.</p></div>
+    <div id="qualif"></div>
+  </section>
+  <section class="card">
+    <div class="card-head"><h2>Premier tour</h2><p>Score attendu en % des suffrages exprimés, et l'intervalle qui a 9 chances sur 10 de contenir le résultat.</p></div>
+    <div id="premier-tour"></div>
+  </section>
+  <section class="card">
+    <div class="card-head"><h2>Seconds tours les plus probables</h2><p>Score attendu d'après les sondages de second tour.</p></div>
+    <div id="duels"></div>
+  </section>
+</div>
+
+<section class="block" aria-labelledby="questions-title">
+  <div class="block-head"><h2 id="questions-title">Questions de campagne</h2><p>Tirées des mêmes {{ nsim }} élections simulées, dans le scénario affiché.</p></div>
+  <div id="questions" class="tiles"></div>
+</section>
+
+{% if p.comparaisons %}
+<section class="block" aria-labelledby="compare-title">
+  <div class="block-head"><h2 id="compare-title">Au même stade de la campagne</h2><p>Ce que donnait le même modèle à {{ p.jours_avant }} jours du premier tour lors des dernières élections, et ce qui s'est passé ensuite. <a href="{{ root }}meme-stade/">Toutes les élections depuis 1958</a></p></div>
+  <div class="grid compare-grid">
+    {% for c in p.comparaisons %}
+    {% set snap = c.etapes[p.jours_avant] %}
+    {% include "_stage_card.html" %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if p.semaine %}
+{% set w = p.semaine %}
+<section class="block" aria-labelledby="week-title">
+  <div class="block-head">
+    <h2 id="week-title">Cette semaine</h2>
+    <p>Depuis la prévision du {{ w.depuis|date_fr }}{% if w.scenario_change %}. Le scénario le plus sondé a changé entre-temps : les écarts comparent deux listes de candidats différentes{% endif %}.</p>
+  </div>
+  <div class="week-grid">
+    <div class="table-wrap" style="margin-top:0">
+      <table>
+        <thead><tr><th>Candidat</th><th class="n">Victoire</th><th class="n">Écart</th><th class="n">1er tour</th><th class="n">Écart</th></tr></thead>
+        <tbody>
+        {% for r in w.candidats %}
+        <tr>
+          <td><span class="tbl-cand"><span class="key-rect" style="--c:var(--s{{ p.candidats[r.nom].slot }})"></span>{{ p.candidats[r.nom].court }}</span></td>
+          <td class="n">{{ r.p|pct }}</td><td class="n delta">{{ r.dp|delta }}</td>
+          <td class="n">{{ r.s|num(1) }} %</td><td class="n delta">{{ (r.ds / 100 if r.ds is not none else none)|delta(threshold=0.1, digits=1) }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="week-news">
+      {% set pw = w.sondage_semaine %}
+      {% if pw and pw.effet|abs >= 0.005 %}
+      <div class="poll-week">
+        <div class="eyebrow">Le sondage de la semaine</div>
+        <p><strong>{% if pw.source %}<a href="{{ pw.source }}" rel="noopener">{{ pw.sondeur }}</a>{% else %}{{ pw.sondeur }}{% endif %}, {{ pw.fin|date_fr }}</strong> : c'est celui qui a le plus fait bouger la prévision. Sans lui, {{ p.candidats[pw.candidat].court }} aurait {{ pw.sans|pct }} de chances de victoire, contre {{ pw.avec|pct }} avec.</p>
+        {% if pw.hypothese %}<p class="small muted">Dans ce sondage : {% for c, v in pw.hypothese[:4] %}{{ p.candidats[c].court if c in p.candidats else c }} {{ v|num(1) if v != v|int else v|int }} %{{ ', ' if not loop.last }}{% endfor %}.</p>{% endif %}
+      </div>
+      {% endif %}
+      <p><strong>{{ w.sondages|length }} nouveau{{ 'x' if w.sondages|length > 1 }} sondage{{ 's' if w.sondages|length > 1 }}</strong>{% if w.sondages %} :
+        {% for s in w.sondages %}{% if s.source %}<a href="{{ s.source }}" rel="noopener">{{ s.sondeur }}</a>{% else %}{{ s.sondeur }}{% endif %} ({{ s.fin|date_fr|replace(' ' ~ s.fin[:4], '') }}){{ ', ' if not loop.last }}{% endfor %}{% endif %}.</p>
+      {% for e in w.evenements %}<p class="small"><time datetime="{{ e.date }}">{{ e.date|date_fr }}</time> — {{ e.texte }}</p>{% endfor %}
+      {% if w.evenements and p.wiki %}<p class="small muted">Jalons : <a href="{{ p.wiki.url }}">Wikipédia</a>, CC BY-SA 4.0.</p>{% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="block" aria-labelledby="evolution-title">
+  <div class="block-head"><h2 id="evolution-title">Évolution</h2><p>Prévision recalculée chaque semaine, avec le scénario le plus sondé à chaque date.{% if p.evenements %} Les ronds en haut du graphique marquent les jalons de la campagne.{% endif %}</p></div>
+  <div class="chart-controls" role="group" aria-label="Mesure affichée">
+    <button class="chip" type="button" data-evo="victoire" aria-pressed="true">Chances de victoire</button>
+    <button class="chip" type="button" data-evo="intentions" aria-pressed="false">Intentions de vote au 1er tour</button>
+  </div>
+  <div id="evolution"></div>
+  {% if p.evenements %}
+  <details class="data">
+    <summary>Jalons de la campagne ({{ p.evenements|length }})</summary>
+    <ul class="events">
+      {% for e in p.evenements|reverse %}
+      <li><time datetime="{{ e.date }}">{{ e.date|date_fr }}</time> {{ e.texte }}</li>
+      {% endfor %}
+    </ul>
+    {% if p.wiki %}<p class="small muted" style="margin-top:10px">Textes des jalons repris de <a href="{{ p.wiki.url }}">Wikipédia</a> (<a href="{{ p.wiki.historique }}">auteurs</a>), sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>.</p>{% endif %}
+  </details>
+  {% endif %}
+</section>
+
+<section class="block" aria-labelledby="retenus-title">
+  <div class="block-head"><h2 id="retenus-title">Sondages retenus</h2><p>Pour chaque institut, seul le sondage le plus récent du scénario affiché compte. Son poids diminue avec l'éloignement du scrutin (1 le jour du vote). <a href="{{ root }}methodologie/">Méthodologie</a>{% if not past %} · <a href="{{ root }}sondages/">tous les sondages</a>{% endif %}.</p></div>
+  <div id="retenus" style="max-width:760px"></div>
+  <p class="muted small" style="margin-top:12px">Source{% if p.sources|length > 1 %}s{% endif %} des sondages :
+    {% for s in p.sources %}<a href="{{ s.url }}">{{ s.url.split('://')[-1] }}</a> ({{ s.licence }}{% if s.periode %}, {{ s.periode }}{% endif %}){% if not loop.last %} ; {% endif %}{% endfor %}.</p>
+</section>
+{% endblock %}
+{% block scripts %}
+<script id="payload" type="application/json">{{ p|json|safe }}</script>
+<script src="{{ root }}assets/charts.js?v={{ assets_v }}" defer></script>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Intégrer la prévision — {{ site_name }}{% endblock %}
+{% block description %}Affichez la prévision du jour de la présidentielle 2027 sur votre site ou votre blog, mise à jour automatiquement.{% endblock %}
+{% block content %}
+<div class="hero">
+  <div class="eyebrow">Module à intégrer</div>
+  <h1>Intégrer la prévision sur votre site</h1>
+  <p class="lede">Copiez ce code dans votre page : le module affiche la prévision du jour et se met à jour tout seul, sans rien à installer.</p>
+</div>
+<section>
+  <h2>Code</h2>
+  <pre class="code" id="embed-code">&lt;iframe src="{{ site_url }}widget/" title="Présidentielle {{ p.annee }} : la prévision de {{ site_name }}" width="100%" height="300" style="border:0;max-width:640px" loading="lazy"&gt;&lt;/iframe&gt;</pre>
+  <p><button class="chip" type="button" id="copy-embed">Copier le code</button> <span class="muted small" id="copy-status" aria-live="polite"></span></p>
+</section>
+<section>
+  <h2>Aperçu</h2>
+  <iframe src="{{ root }}widget/" title="Aperçu du module" width="100%" height="300" style="border:1px solid var(--grid);border-radius:10px;max-width:640px;background:var(--surface)"></iframe>
+</section>
+<section class="prose">
+  <h2>Conditions</h2>
+  <p>L'intégration est libre et gratuite, y compris sur des sites de médias, tant que le module reste affiché tel quel, avec son lien vers {{ site_name }}. Le module ne dépose aucun cookie et ne fait appel à aucun service tiers.</p>
+  <p>Pour reprendre les chiffres sous une autre forme (article, graphique, émission), citez « {{ site_name }} » et la date de la prévision. Les données brutes sont <a href="{{ root }}donnees/">téléchargeables</a>, chacune sous la licence de sa source.</p>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+  document.getElementById("copy-embed").addEventListener("click", async () => {
+    const code = document.getElementById("embed-code").textContent;
+    const status = document.getElementById("copy-status");
+    try { await navigator.clipboard.writeText(code); status.textContent = "Copié."; }
+    catch (e) { status.textContent = "Sélectionnez le code et copiez-le."; }
+  });
+</script>
+{% endblock %}

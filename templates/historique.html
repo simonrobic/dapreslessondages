@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Historique 1965–2022 — {{ site_name }}{% endblock %}
+{% block content %}
+{% set hits = record|selectattr("favori_elu")|list %}
+<div class="hero">
+  <div class="eyebrow">{{ record|length }} élections, de {{ record[0].annee }} à {{ record[-1].annee }}</div>
+  <h1>Le modèle face aux résultats</h1>
+  <p class="lede">Nous avons appliqué exactement le même modèle aux sondages publiés avant chaque élection depuis {{ record[0].annee }}, en s'arrêtant la veille du premier tour. Le candidat en tête des prévisions a été élu {{ hits|length }} fois sur {{ record|length }}.</p>
+  <p class="notice">Un modèle probabiliste n'a pas « raté » une élection quand le favori perd : un candidat à 35 % de chances gagne une fois sur trois. Ce qui compte, c'est que les candidats donnés à 80 % gagnent environ 8 fois sur 10. {{ record|length }} élections sont trop peu pour le vérifier pleinement, mais elles montrent où les sondages se sont trompés.</p>
+</div>
+
+<div class="table-wrap">
+  <table class="record">
+    <thead><tr><th>Élection</th><th>En tête des prévisions</th><th class="n">Chances</th><th>Élu</th><th class="n">Chances de l'élu</th><th class="n">Duel réel prévu à</th><th class="n">Écart moyen au 1er tour</th></tr></thead>
+    <tbody>
+    {% for r in record %}
+    <tr>
+      <td><a href="{{ root }}{{ r.annee }}/">{{ r.annee }}</a></td>
+      <td><span class="tbl-cand"><span class="key-rect" style="--c:var(--s{{ r.candidats[r.favori].slot }})"></span>{{ r.favori }}</span></td>
+      <td class="n">{{ r.p_favori|pct }}</td>
+      <td class="{{ 'ok' if r.favori_elu else 'ko' }}">{{ r.elu }}</td>
+      <td class="n">{{ r.p_elu|pct }}</td>
+      <td class="n">{{ r.p_duel_reel|pct }}</td>
+      <td class="n">{{ r.erreur_moyenne|num(1) }} pt</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p class="muted small" style="margin-top:10px">« Duel réel prévu à » : probabilité que le modèle donnait au second tour qui a effectivement eu lieu. « Écart moyen » : différence moyenne, en points, entre le score attendu et le score officiel des candidats suivis par le modèle.</p>
+
+<section class="block prose">
+  <h2>Ce que montre l'historique</h2>
+  {% for r in record if not r.favori_elu %}
+  <p><strong><a href="{{ root }}{{ r.annee }}/">{{ r.annee }}</a></strong> — {{ r.favori }} était en tête des prévisions ({{ r.p_favori|pct }}), mais {{ r.elu }} l'a emporté. Le modèle lui donnait {{ r.p_elu|pct }} de chances.</p>
+  {% endfor %}
+  {% for r in record if r.p_duel_reel < 0.2 %}
+  <p><strong><a href="{{ root }}{{ r.annee }}/">{{ r.annee }}</a></strong> — le second tour {{ r.finalistes|join(" – ") }} n'avait que {{ r.p_duel_reel|pct }} de chances selon les sondages de la veille.</p>
+  {% endfor %}
+  <p>Les données de 1965 à 1995 sont maigres : quelques sondages d'un ou deux instituts seulement. Pour ces années, les prévisions sont surtout illustratives. Pour voir ce que disaient les sondages plus tôt dans chaque campagne, consultez <a href="{{ root }}meme-stade/">Au même stade de la campagne</a>.</p>
+</section>
+{% endblock %}

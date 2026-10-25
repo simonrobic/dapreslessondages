@@ -1,45 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="/style.css" rel="stylesheet">
-<link href="data:image/x-icon;base64,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" rel="icon" type="image/x-icon">
-{% block head %}
-{% endblock %}
-
-<header>
-<a href="/">
-<img id="logo" src="/logo.png" alt="Depuis 1958">
-</a>
-<aside>
-    Mis à jour le {{ last_update }}<br>
-    {{ number_of_valid_polls }} sondages agrégés<br>
-    {{ formatted_number_of_samples }} élections simulées<br>
-</aside>
-<nav>
-    <ul>
-        <li><a href="/">Prédictions</a></li>
-        <li><a href="/methodologie/">Méthodologie</a></li>
-        <li><a href="https://github.com/depuis1958/sondages">Sondages</a></li>
-        <li><a href="/apropos/">À propos</a></li>
-    </ul>
-</nav>
+<title>{% block title %}{{ site_name }}{% endblock %}</title>
+{% set description %}{% block description %}Prévisions probabilistes de l'élection présidentielle française, à partir de tous les sondages publiés.{% endblock %}{% endset %}
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ canonical }}">
+<meta property="og:site_name" content="{{ site_name }}">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+{% if og_image %}
+<meta property="og:image" content="{{ og_image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Prévision du jour pour la présidentielle : chances de victoire des principaux candidats.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ og_image }}">
+{% else %}
+<meta name="twitter:card" content="summary">
+{% endif %}
+<link rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/fr/">
+<link rel="preload" href="{{ root }}assets/fonts/ibm-plex-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ root }}assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ root }}assets/style.css?v={{ assets_v }}">
+<meta name="theme-color" content="#fcfbf9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)">
+<!-- D’après les sondages reprend Depuis 1958, le site créé par Victor Poughon en 2017.
+     Textes et graphiques : CC BY-NC 3.0 FR · Code : GNU AGPL v3 · Données : CC BY-SA 3.0 FR / 4.0 et MIT (NSPPolls). -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23141413'/%3E%3Crect x='7' y='9' width='18' height='3' rx='1' fill='%23fcfbf9'/%3E%3Crect x='7' y='15' width='12' height='3' rx='1' fill='%23fcfbf9'/%3E%3Crect x='7' y='21' width='7' height='3' rx='1' fill='%23fcfbf9'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ root }}"><span class="brand-name">{{ site_name }}</span><span class="brand-tag">Présidentielle 2027 · prévisions à partir de tous les sondages</span></a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      {% for href, label in nav %}
+      <a href="{{ root }}{{ href }}"{% if page == href %} aria-current="page"{% endif %}>{{ label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
 </header>
-
-<article>
-{% block content %}
-Jinja 2 content block.
-{% endblock %}
-</article>
-
-<footer>
-<p>
-Sources: {{ data_source }}.
-</p>
-
-<p>
-<em>Depuis 1958</em> est publié sous
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/fr/">Licence Creative Commons Attribution - Pas d’Utilisation Commerciale 3.0 France</a>.
-</p>
-<p class="center">— CC BY-NC 3.0 FR —</p>
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">{{ site_name }}</p>
+        <p>Reprend <a href="{{ root }}a-propos/">Depuis 1958</a>, le site de prévision créé en 2017 par <a href="https://victorpoughon.fr">Victor Poughon</a> : sa méthode, ses données et ses licences.</p>
+        <p><a href="{{ root }}methodologie/">Méthodologie</a> · <a href="{{ root }}donnees/">Télécharger les données</a> · <a href="{{ root }}integrer/">Intégrer la prévision</a></p>
+      </div>
+      <div>
+        <p class="footer-title">Licences</p>
+        <p>Textes et graphiques : <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/fr/">CC BY-NC 3.0 FR</a>, sauf les tableaux de sondages et les jalons de campagne repris de Wikipédia, sous <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>.</p>
+        <p>Code : <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU AGPL v3</a>{% if source_code %} (<a href="{{ source_code }}">code source</a>){% endif %}. <a href="{{ root }}a-propos/#licences">Crédits et licences</a></p>
+      </div>
+      <div>
+        <p class="footer-title">Sources</p>
+        <p>Sondages : <a href="https://github.com/depuis1958/sondages">depuis1958/sondages</a> (CC BY-SA 3.0 FR), <a href="https://github.com/nsppolls/nsppolls">NSPPolls</a> (MIT), <a href="https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027">Wikipédia</a> (CC BY-SA 4.0). Résultats : Conseil constitutionnel.</p>
+      </div>
+    </div>
+    <p class="footer-meta">Page générée le {{ built|date_fr }}.</p>
+  </div>
 </footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>

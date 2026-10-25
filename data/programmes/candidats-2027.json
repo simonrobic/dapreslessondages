@@ -1,0 +1,2624 @@
+{
+ "methode": "Mêmes règles que pour les professions de foi des élus : chaque passage (titre, paragraphe, élément de liste ; phrase par phrase au-delà de 120 mots) reçoit le thème qu'il développe le plus. Les énumérations, valeurs et appels au vote vont en « Généralités » ; la navigation, les appels aux dons, les notes de bas de page et les liens vers d'autres documents sont écartés. Famille, handicap, dépendance et aides sociales relèvent de la santé ; salaires et pouvoir d'achat des prix ; emploi, code du travail et assurance chômage du chômage ; impôts, cotisations et dépenses publiques de la dette ; énergie de l'environnement ; défense, cybersécurité et relations extérieures de l'international ; institutions et État de la démocratie ; agriculture, industrie et numérique de la situation économique.",
+ "selection": "les textes programmatiques mis en avant sur le site\nofficiel du candidat ou de son parti, tels qu'en ligne le jour de la collecte.\nLes sites tiers (agrégateurs, « fiches programme ») sont exclus.",
+ "candidats": [
+  {
+   "candidat": "Marine Le Pen",
+   "documents": [
+    {
+     "titre": "« 22 mesures pour 2022 », programme présidentiel de 2022 toujours présenté comme le programme du Rassemblement national",
+     "url": "https://rassemblementnational.fr/22-mesures"
+    }
+   ],
+   "remarque": "Aucun programme 2027 publié : le texte retenu est celui de 2022, toujours mis en avant par le RN.",
+   "collecte": "2026-10-24",
+   "mots": 1205,
+   "parts": {
+    "sante": 19.5,
+    "economie": 13.9,
+    "dette_impots": 13.6,
+    "immigration": 8.9,
+    "insecurite": 7.3,
+    "education": 6.6,
+    "retraites": 5.8,
+    "prix": 5.3,
+    "logement": 5.1,
+    "environnement": 4.6,
+    "international": 3.0,
+    "chomage": 2.4,
+    "democratie": 1.9,
+    "terrorisme": 1.8,
+    "general": 0.3
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "22 mesures pour 2022",
+     "mots": 4,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "1 Arrêter l’immigration incontrôlée en donnant la parole …",
+     "mots": 12,
+     "theme": "immigration"
+    },
+    {
+     "n": 2,
+     "debut": "Mettre fin à l’immigration de peuplement et au …",
+     "mots": 10,
+     "theme": "immigration"
+    },
+    {
+     "n": 3,
+     "debut": "Traiter les demandes de droit d’asile uniquement à …",
+     "mots": 9,
+     "theme": "immigration"
+    },
+    {
+     "n": 4,
+     "debut": "Réserver les aides sociales aux Français, et conditionner …",
+     "mots": 20,
+     "theme": "immigration"
+    },
+    {
+     "n": 5,
+     "debut": "Assurer la priorité nationale d’accès au logement social …",
+     "mots": 11,
+     "theme": "immigration"
+    },
+    {
+     "n": 6,
+     "debut": "Supprimer l’autorisation de séjour pour tout étranger n’ayant …",
+     "mots": 15,
+     "theme": "immigration"
+    },
+    {
+     "n": 7,
+     "debut": "Expulser systématiquement les clandestins, délinquants et criminels étrangers.",
+     "mots": 8,
+     "theme": "immigration"
+    },
+    {
+     "n": 8,
+     "debut": "Supprimer le droit du sol et limiter l’accès …",
+     "mots": 22,
+     "theme": "immigration"
+    },
+    {
+     "n": 9,
+     "debut": "2 Éradiquer les idéologies islamistes et l’ensemble de …",
+     "mots": 13,
+     "theme": "terrorisme"
+    },
+    {
+     "n": 10,
+     "debut": "Proposition de loi visant à combattre les idéologies …",
+     "mots": 9,
+     "theme": "terrorisme"
+    },
+    {
+     "n": 11,
+     "debut": "3 Faire de la sécurité partout et pour …",
+     "mots": 13,
+     "theme": "insecurite"
+    },
+    {
+     "n": 12,
+     "debut": "Rétablir les peines planchers pour que tout criminel …",
+     "mots": 13,
+     "theme": "insecurite"
+    },
+    {
+     "n": 13,
+     "debut": "Supprimer toute possibilité de réduction et d’aménagements de …",
+     "mots": 17,
+     "theme": "insecurite"
+    },
+    {
+     "n": 14,
+     "debut": "Instituer une présomption de légitime défense pour les …",
+     "mots": 11,
+     "theme": "insecurite"
+    },
+    {
+     "n": 15,
+     "debut": "Accélérer les procédures judiciaires en engageant le doublement …",
+     "mots": 12,
+     "theme": "insecurite"
+    },
+    {
+     "n": 16,
+     "debut": "Inscrire au fichier des délinquants sexuels les harceleurs …",
+     "mots": 10,
+     "theme": "insecurite"
+    },
+    {
+     "n": 17,
+     "debut": "Atteindre 85 000 places de prison en 2027.",
+     "mots": 8,
+     "theme": "insecurite"
+    },
+    {
+     "n": 18,
+     "debut": "Établir une perpétuité réelle.",
+     "mots": 4,
+     "theme": "insecurite"
+    },
+    {
+     "n": 19,
+     "debut": "4 Baisser la TVA de 20% à 5.5% …",
+     "mots": 24,
+     "theme": "prix"
+    },
+    {
+     "n": 20,
+     "debut": "5 Permettre aux entreprises une hausse des salaires …",
+     "mots": 20,
+     "theme": "prix"
+    },
+    {
+     "n": 21,
+     "debut": "6 Renationaliser les autoroutes pour baisser de 15% …",
+     "mots": 20,
+     "theme": "prix"
+    },
+    {
+     "n": 22,
+     "debut": "7 Encourager les projets des jeunes et leur …",
+     "mots": 13,
+     "theme": "chomage"
+    },
+    {
+     "n": 23,
+     "debut": "Créer un chèque-formation mensuel de 200 à 300€ …",
+     "mots": 16,
+     "theme": "chomage"
+    },
+    {
+     "n": 24,
+     "debut": "Exonérer d’impôt sur le revenu tous les jeunes …",
+     "mots": 23,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 25,
+     "debut": "Supprimer l’impôt sur les sociétés pour les entrepreneurs …",
+     "mots": 24,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 26,
+     "debut": "8 Soutenir les familles françaises.",
+     "mots": 5,
+     "theme": "sante"
+    },
+    {
+     "n": 27,
+     "debut": "Instituer une part fiscale complète dès le deuxième …",
+     "mots": 9,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 28,
+     "debut": "Doubler le soutien aux mères isolées élevant des …",
+     "mots": 18,
+     "theme": "sante"
+    },
+    {
+     "n": 29,
+     "debut": "Créer un prêt à 0% pour les jeunes …",
+     "mots": 21,
+     "theme": "sante"
+    },
+    {
+     "n": 30,
+     "debut": "Construire en cinq ans 100 000 nouveaux logements …",
+     "mots": 9,
+     "theme": "logement"
+    },
+    {
+     "n": 31,
+     "debut": "Supprimer les impôts sur l’héritage direct pour les …",
+     "mots": 14,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 32,
+     "debut": "Exonérer les donations des parents mais aussi des …",
+     "mots": 23,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 33,
+     "debut": "9 Garantir à nos aînés une retraite sereine …",
+     "mots": 10,
+     "theme": "retraites"
+    },
+    {
+     "n": 34,
+     "debut": "Réindexer les retraites sur l’inflation pour un pouvoir …",
+     "mots": 14,
+     "theme": "retraites"
+    },
+    {
+     "n": 35,
+     "debut": "Revaloriser le minimum vieillesse à 1 000 € …",
+     "mots": 15,
+     "theme": "retraites"
+    },
+    {
+     "n": 36,
+     "debut": "Refuser tout allongement de l’âge de départ à …",
+     "mots": 10,
+     "theme": "retraites"
+    },
+    {
+     "n": 37,
+     "debut": "Permettre à ceux qui ont commencé à travailler …",
+     "mots": 21,
+     "theme": "retraites"
+    },
+    {
+     "n": 38,
+     "debut": "Restaurer la demi-part fiscale en faveur des veuves …",
+     "mots": 10,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 39,
+     "debut": "Créer un droit opposable aux visites dans les …",
+     "mots": 20,
+     "theme": "sante"
+    },
+    {
+     "n": 40,
+     "debut": "10 Assurer enfin les droits de nos compatriotes …",
+     "mots": 12,
+     "theme": "sante"
+    },
+    {
+     "n": 41,
+     "debut": "Déconjugaliser et revaloriser l’Allocation Adulte Handicapée.",
+     "mots": 6,
+     "theme": "sante"
+    },
+    {
+     "n": 42,
+     "debut": "Lancer un grand plan sur l’accès à la …",
+     "mots": 16,
+     "theme": "sante"
+    },
+    {
+     "n": 43,
+     "debut": "Appliquer la loi sur l’accès à tous les …",
+     "mots": 12,
+     "theme": "sante"
+    },
+    {
+     "n": 44,
+     "debut": "Revaloriser et augmenter la durée des aides destinées …",
+     "mots": 11,
+     "theme": "sante"
+    },
+    {
+     "n": 45,
+     "debut": "11 Instaurer le Référendum d’Initiative Citoyenne et mettre …",
+     "mots": 12,
+     "theme": "democratie"
+    },
+    {
+     "n": 46,
+     "debut": "12 Assurer notre indépendance énergétique pour baisser la …",
+     "mots": 11,
+     "theme": "environnement"
+    },
+    {
+     "n": 47,
+     "debut": "Rendre aux ménages les 5 milliards de subventions …",
+     "mots": 12,
+     "theme": "environnement"
+    },
+    {
+     "n": 48,
+     "debut": "Arrêter les projets éoliens et dé- manteler progressivement …",
+     "mots": 11,
+     "theme": "environnement"
+    },
+    {
+     "n": 49,
+     "debut": "Relancer la filière nucléaire, hydroélectrique et investir dans …",
+     "mots": 11,
+     "theme": "environnement"
+    },
+    {
+     "n": 50,
+     "debut": "Sortir du marché européen de l'électricité pour retrouver …",
+     "mots": 11,
+     "theme": "environnement"
+    },
+    {
+     "n": 51,
+     "debut": "13 Défendre nos agriculteurs et une alimentation de …",
+     "mots": 11,
+     "theme": "economie"
+    },
+    {
+     "n": 52,
+     "debut": "Garantir aux paysans des prix respectueux de leur …",
+     "mots": 20,
+     "theme": "economie"
+    },
+    {
+     "n": 53,
+     "debut": "Interdire les importations de produits agricoles ne respectant …",
+     "mots": 14,
+     "theme": "economie"
+    },
+    {
+     "n": 54,
+     "debut": "Contraindre les cantines à utiliser 80% de produits …",
+     "mots": 10,
+     "theme": "economie"
+    },
+    {
+     "n": 55,
+     "debut": "Mettre en place un « plan abattoirs » …",
+     "mots": 18,
+     "theme": "economie"
+    },
+    {
+     "n": 56,
+     "debut": "Généraliser l’étiquetage sur l’origine et la qualité des …",
+     "mots": 10,
+     "theme": "economie"
+    },
+    {
+     "n": 57,
+     "debut": "14 Lancer un plan de soutien d’urgence pour …",
+     "mots": 14,
+     "theme": "sante"
+    },
+    {
+     "n": 58,
+     "debut": "Arrêter les fermetures des lits à l’hôpital public …",
+     "mots": 11,
+     "theme": "sante"
+    },
+    {
+     "n": 59,
+     "debut": "Revaloriser les salaires des personnels soignants à hauteur …",
+     "mots": 11,
+     "theme": "sante"
+    },
+    {
+     "n": 60,
+     "debut": "Investir dans les technologies de santé et rapatrier …",
+     "mots": 12,
+     "theme": "sante"
+    },
+    {
+     "n": 61,
+     "debut": "Créer des urgences gériatriques dédiées à nos aînés.",
+     "mots": 8,
+     "theme": "sante"
+    },
+    {
+     "n": 62,
+     "debut": "Supprimer les ARS et réduire à 10% les …",
+     "mots": 20,
+     "theme": "sante"
+    },
+    {
+     "n": 63,
+     "debut": "Agir contre les déserts médicaux grâce à des …",
+     "mots": 22,
+     "theme": "sante"
+    },
+    {
+     "n": 64,
+     "debut": "Donner plus de place à la prévention, notamment …",
+     "mots": 16,
+     "theme": "sante"
+    },
+    {
+     "n": 65,
+     "debut": "15 Restaurer notre système éducatif pour qu’il retrouve …",
+     "mots": 14,
+     "theme": "education"
+    },
+    {
+     "n": 66,
+     "debut": "Remettre au cœur des programmes l’enseignement du français, …",
+     "mots": 13,
+     "theme": "education"
+    },
+    {
+     "n": 67,
+     "debut": "Revaloriser les salaires des enseignants et refonder leur …",
+     "mots": 9,
+     "theme": "education"
+    },
+    {
+     "n": 68,
+     "debut": "Rétablir l’autorité de l’institution scolaire par l’instauration d’un …",
+     "mots": 22,
+     "theme": "education"
+    },
+    {
+     "n": 69,
+     "debut": "Supprimer la bureaucratie de l’Education nationale pour libérer …",
+     "mots": 21,
+     "theme": "education"
+    },
+    {
+     "n": 70,
+     "debut": "16 Supprimer l’IFI qui taxe l’enracinement et créer …",
+     "mots": 19,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 71,
+     "debut": "17 Favoriser l’accès à la propriété et au …",
+     "mots": 11,
+     "theme": "logement"
+    },
+    {
+     "n": 72,
+     "debut": "Construire 100 000 logements sociaux par an dont …",
+     "mots": 17,
+     "theme": "logement"
+    },
+    {
+     "n": 73,
+     "debut": "Lancer un plan de réhabilitation de l’habitat ancien …",
+     "mots": 13,
+     "theme": "logement"
+    },
+    {
+     "n": 74,
+     "debut": "Créer un Fonds de Garantie des Loyers pour …",
+     "mots": 11,
+     "theme": "logement"
+    },
+    {
+     "n": 75,
+     "debut": "18 Mettre en place le patriotisme économique pour …",
+     "mots": 15,
+     "theme": "economie"
+    },
+    {
+     "n": 76,
+     "debut": "Donner la priorité aux PME pour les marchés …",
+     "mots": 9,
+     "theme": "economie"
+    },
+    {
+     "n": 77,
+     "debut": "Conditionner les subventions à la création d’emplois au …",
+     "mots": 14,
+     "theme": "economie"
+    },
+    {
+     "n": 78,
+     "debut": "Supprimer la Cotisation Foncière des Entreprises (CFE) qui …",
+     "mots": 22,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 79,
+     "debut": "Protéger notre économie de la concurrence déloyale et …",
+     "mots": 22,
+     "theme": "economie"
+    },
+    {
+     "n": 80,
+     "debut": "19 Créer un « fonds souverain français » …",
+     "mots": 24,
+     "theme": "economie"
+    },
+    {
+     "n": 81,
+     "debut": "20 Porter le budget de la défense à …",
+     "mots": 14,
+     "theme": "international"
+    },
+    {
+     "n": 82,
+     "debut": "Renforcer notre souveraineté et notre indépendance.",
+     "mots": 6,
+     "theme": "international"
+    },
+    {
+     "n": 83,
+     "debut": "Garantir à nos soldats l’équipement et les moyens …",
+     "mots": 16,
+     "theme": "international"
+    },
+    {
+     "n": 84,
+     "debut": "21 Créer un ministère d’État de la Mer …",
+     "mots": 11,
+     "theme": "democratie"
+    },
+    {
+     "n": 85,
+     "debut": "22 Créer un ministère de la lutte contre …",
+     "mots": 20,
+     "theme": "dette_impots"
+    }
+   ]
+  },
+  {
+   "candidat": "Édouard Philippe",
+   "documents": [
+    {
+     "titre": "Le Manifeste d'Horizons",
+     "url": "https://horizonsleparti.fr/le-manifeste/"
+    },
+    {
+     "titre": "Le plan d'Édouard Philippe contre le narcotrafic",
+     "url": "https://horizonsleparti.fr/le-plan-dedouard-philippe-contre-le-narcotrafic/"
+    }
+   ],
+   "remarque": "Pas de programme complet publié : le manifeste du parti et le seul plan thématique en ligne, consacré au narcotrafic, qui pèse donc lourd dans sa répartition.",
+   "collecte": "2026-10-24",
+   "mots": 2284,
+   "parts": {
+    "insecurite": 61.2,
+    "general": 13.7,
+    "societe": 8.2,
+    "democratie": 3.6,
+    "education": 3.5,
+    "environnement": 3.0,
+    "international": 2.1,
+    "europe": 1.8,
+    "immigration": 1.7,
+    "dette_impots": 1.4
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "Nous nous rassemblons au sein d’un parti politique …",
+     "mots": 46,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "Fidèles à nos valeurs, nous affirmons clairement et …",
+     "mots": 37,
+     "theme": "general"
+    },
+    {
+     "n": 2,
+     "debut": "Soucieux avant tout de l’intérêt général, nous croyons …",
+     "mots": 55,
+     "theme": "general"
+    },
+    {
+     "n": 3,
+     "debut": "1. L’unité et la cohésion de la France …",
+     "mots": 44,
+     "theme": "general"
+    },
+    {
+     "n": 4,
+     "debut": "2. La poursuite de la transformation du pays …",
+     "mots": 64,
+     "theme": "general"
+    },
+    {
+     "n": 5,
+     "debut": "3. La liberté comme valeur cardinale de la …",
+     "mots": 52,
+     "theme": "societe"
+    },
+    {
+     "n": 6,
+     "debut": "4. L’ordre comme la meilleure garantie de la …",
+     "mots": 60,
+     "theme": "insecurite"
+    },
+    {
+     "n": 7,
+     "debut": "5. Un humanisme républicain qui fait de l’éducation …",
+     "mots": 79,
+     "theme": "education"
+    },
+    {
+     "n": 8,
+     "debut": "6. Une ambition écologique pour la France, fondée …",
+     "mots": 51,
+     "theme": "environnement"
+    },
+    {
+     "n": 9,
+     "debut": "7. La justice sociale comme fondement du pacte …",
+     "mots": 48,
+     "theme": "societe"
+    },
+    {
+     "n": 10,
+     "debut": "8. L’organisation décentralisée de la République avec une …",
+     "mots": 61,
+     "theme": "democratie"
+    },
+    {
+     "n": 11,
+     "debut": "9. L’indépendance Nationale dans un monde dangereux et …",
+     "mots": 48,
+     "theme": "international"
+    },
+    {
+     "n": 12,
+     "debut": "10. Le projet Européen comme la voie de …",
+     "mots": 41,
+     "theme": "europe"
+    },
+    {
+     "n": 13,
+     "debut": "11. Les ennemis de la laïcité qui refusent …",
+     "mots": 32,
+     "theme": "societe"
+    },
+    {
+     "n": 14,
+     "debut": "12. Les extrêmes de tous bords qui dressent …",
+     "mots": 22,
+     "theme": "general"
+    },
+    {
+     "n": 15,
+     "debut": "13. Les démagogues qui abaissent la controverse démocratique …",
+     "mots": 22,
+     "theme": "general"
+    },
+    {
+     "n": 16,
+     "debut": "14. Les fossoyeurs de l’universalisme républicain qui enferment …",
+     "mots": 23,
+     "theme": "societe"
+    },
+    {
+     "n": 17,
+     "debut": "15. Les partisans de la décroissance ruineuse pour …",
+     "mots": 17,
+     "theme": "environnement"
+    },
+    {
+     "n": 18,
+     "debut": "16. L’illusion de l’argent public magique qui admet …",
+     "mots": 31,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 19,
+     "debut": "17. L’esprit de défaite, de repentance et de …",
+     "mots": 33,
+     "theme": "societe"
+    },
+    {
+     "n": 20,
+     "debut": "18. La facilité de l’immobilisme qui voit dans …",
+     "mots": 22,
+     "theme": "general"
+    },
+    {
+     "n": 21,
+     "debut": "19. La tentation antidémocratique qui préfère la voie …",
+     "mots": 21,
+     "theme": "democratie"
+    },
+    {
+     "n": 22,
+     "debut": "20. Les naïfs et les populistes de l’immigration …",
+     "mots": 38,
+     "theme": "immigration"
+    },
+    {
+     "n": 25,
+     "debut": "L’« état d’urgence narco » : des moyens …",
+     "mots": 30,
+     "theme": "insecurite"
+    },
+    {
+     "n": 26,
+     "debut": "→ Cette proposition vise à modifier le droit …",
+     "mots": 33,
+     "theme": "insecurite"
+    },
+    {
+     "n": 27,
+     "debut": "→ Elle introduirait également, dans ce cadre juridique …",
+     "mots": 22,
+     "theme": "insecurite"
+    },
+    {
+     "n": 28,
+     "debut": "→ Cette proposition a été formulée par Edouard …",
+     "mots": 22,
+     "theme": "insecurite"
+    },
+    {
+     "n": 29,
+     "debut": "Un choc de fermeté pénale : alignement du …",
+     "mots": 51,
+     "theme": "insecurite"
+    },
+    {
+     "n": 30,
+     "debut": "→ Les terroristes ont aujourd’hui un régime d’application …",
+     "mots": 41,
+     "theme": "insecurite"
+    },
+    {
+     "n": 31,
+     "debut": "→ Aujourd’hui, un primo-condamné pour plusieurs délits en …",
+     "mots": 59,
+     "theme": "insecurite"
+    },
+    {
+     "n": 32,
+     "debut": "Une modernisation du renseignement : DGSI mobilisée sur …",
+     "mots": 32,
+     "theme": "insecurite"
+    },
+    {
+     "n": 33,
+     "debut": "→ La DGSI est aujourd’hui très peu mobilisée …",
+     "mots": 17,
+     "theme": "insecurite"
+    },
+    {
+     "n": 34,
+     "debut": "→ Le renseignement économique et financier est éclaté …",
+     "mots": 57,
+     "theme": "insecurite"
+    },
+    {
+     "n": 35,
+     "debut": "La « fiche S financière » : création …",
+     "mots": 18,
+     "theme": "insecurite"
+    },
+    {
+     "n": 36,
+     "debut": "→ En s’inspirant du régime « personne politiquement …",
+     "mots": 40,
+     "theme": "insecurite"
+    },
+    {
+     "n": 37,
+     "debut": "Une réponse adaptée pour les mineurs mis en …",
+     "mots": 32,
+     "theme": "insecurite"
+    },
+    {
+     "n": 38,
+     "debut": "→ Plus de 10 000 mineurs seraient aujourd’hui …",
+     "mots": 59,
+     "theme": "insecurite"
+    },
+    {
+     "n": 39,
+     "debut": "→ En matière de réinsertion, des établissements nouveaux …",
+     "mots": 37,
+     "theme": "insecurite"
+    },
+    {
+     "n": 40,
+     "debut": "Faire du maire le premier maillon de la …",
+     "mots": 35,
+     "theme": "insecurite"
+    },
+    {
+     "n": 41,
+     "debut": "→ Les polices municipales n’ont aujourd’hui pas le …",
+     "mots": 26,
+     "theme": "insecurite"
+    },
+    {
+     "n": 42,
+     "debut": "→ De même, les maires n’ont pas le …",
+     "mots": 36,
+     "theme": "insecurite"
+    },
+    {
+     "n": 43,
+     "debut": "Des opérations place nette « boîtes de nuit …",
+     "mots": 16,
+     "theme": "insecurite"
+    },
+    {
+     "n": 44,
+     "debut": "→ Des opération place nette ont été lancées …",
+     "mots": 50,
+     "theme": "insecurite"
+    },
+    {
+     "n": 45,
+     "debut": "Transparence pour les missions de service public : …",
+     "mots": 31,
+     "theme": "insecurite"
+    },
+    {
+     "n": 46,
+     "debut": "→ Il est inacceptable qu’un conducteur de bus, …",
+     "mots": 31,
+     "theme": "insecurite"
+    },
+    {
+     "n": 47,
+     "debut": "→ Aujourd’hui, le ministère public peut prendre une …",
+     "mots": 37,
+     "theme": "insecurite"
+    },
+    {
+     "n": 48,
+     "debut": "Un grand plan anticorruption des fonctionnaires : criblage …",
+     "mots": 22,
+     "theme": "insecurite"
+    },
+    {
+     "n": 49,
+     "debut": "→ Il n’y a jamais eu autant de …",
+     "mots": 52,
+     "theme": "insecurite"
+    },
+    {
+     "n": 50,
+     "debut": "Lutter contre le scandale des amendes non-recouvrées : …",
+     "mots": 32,
+     "theme": "insecurite"
+    },
+    {
+     "n": 51,
+     "debut": "→ Les amendes forfaitaires délictuelles (AFD) sont un …",
+     "mots": 31,
+     "theme": "insecurite"
+    },
+    {
+     "n": 52,
+     "debut": "→ Mais agir sur le montant ne suffit …",
+     "mots": 31,
+     "theme": "insecurite"
+    },
+    {
+     "n": 53,
+     "debut": "→ Les obstacles sont connus : mauvaise coordination …",
+     "mots": 24,
+     "theme": "insecurite"
+    },
+    {
+     "n": 54,
+     "debut": "Un « plan Marshall » de sécurisation de …",
+     "mots": 13,
+     "theme": "insecurite"
+    },
+    {
+     "n": 55,
+     "debut": "→ Edouard Philippe est maire d’une grande ville …",
+     "mots": 42,
+     "theme": "insecurite"
+    },
+    {
+     "n": 56,
+     "debut": "→ Il était cette semaine à Anvers pour …",
+     "mots": 20,
+     "theme": "insecurite"
+    },
+    {
+     "n": 57,
+     "debut": "→ Beaucoup a été fait depuis 2017, mais …",
+     "mots": 25,
+     "theme": "insecurite"
+    },
+    {
+     "n": 58,
+     "debut": "Assumer le rapport de force diplomatique : une …",
+     "mots": 24,
+     "theme": "insecurite"
+    },
+    {
+     "n": 59,
+     "debut": "→ Les Etats-Unis sont dotés depuis 1986 d’une …",
+     "mots": 41,
+     "theme": "insecurite"
+    },
+    {
+     "n": 60,
+     "debut": "→ L’Europe dispose du même outil pour les …",
+     "mots": 30,
+     "theme": "insecurite"
+    },
+    {
+     "n": 61,
+     "debut": "→ La coopération judiciaire reste essentielle et une …",
+     "mots": 20,
+     "theme": "insecurite"
+    },
+    {
+     "n": 62,
+     "debut": "Reprendre le contrôle de notre souveraineté dans nos …",
+     "mots": 43,
+     "theme": "insecurite"
+    },
+    {
+     "n": 63,
+     "debut": "→ L’opération Harpie en Guyane est aujourd’hui centrée …",
+     "mots": 40,
+     "theme": "insecurite"
+    },
+    {
+     "n": 64,
+     "debut": "→ Dans la même logique, il est proposé …",
+     "mots": 35,
+     "theme": "insecurite"
+    }
+   ]
+  },
+  {
+   "candidat": "Gabriel Attal",
+   "documents": [
+    {
+     "titre": "« Mes chantiers capitaux » : École",
+     "url": "https://attalpresident.fr/programme/education"
+    },
+    {
+     "titre": "« Mes chantiers capitaux » : Travail et salaires",
+     "url": "https://attalpresident.fr/programme/travail-salaires"
+    },
+    {
+     "titre": "« Mes chantiers capitaux » : Frontières",
+     "url": "https://attalpresident.fr/programme/frontieres"
+    },
+    {
+     "titre": "« Mes chantiers capitaux » : Intelligence artificielle",
+     "url": "https://attalpresident.fr/programme/intelligence-artificielle"
+    },
+    {
+     "titre": "« Mes chantiers capitaux » : Dette de l'État",
+     "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
+    {
+     "titre": "« Mes chantiers capitaux » : Dette écologique",
+     "url": "https://attalpresident.fr/programme/dette-ecologique"
+    }
+   ],
+   "remarque": "Programme publié par thèmes sur le site de campagne.",
+   "collecte": "2026-10-24",
+   "mots": 4482,
+   "parts": {
+    "economie": 19.2,
+    "environnement": 17.6,
+    "international": 13.8,
+    "chomage": 13.5,
+    "education": 13.1,
+    "dette_impots": 12.4,
+    "prix": 3.8,
+    "immigration": 3.4,
+    "sante": 2.9,
+    "retraites": 0.2
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "C’est le défi que je porte depuis toujours …",
+     "mots": 18,
+     "theme": "education"
+    },
+    {
+     "n": 1,
+     "debut": "Elle est la condition de la liberté , …",
+     "mots": 58,
+     "theme": "education"
+    },
+    {
+     "n": 2,
+     "debut": "Elle est la condition de l’avenir parce que …",
+     "mots": 44,
+     "theme": "education"
+    },
+    {
+     "n": 3,
+     "debut": "Quand l’école recule, ce sont toujours les mêmes …",
+     "mots": 83,
+     "theme": "education"
+    },
+    {
+     "n": 4,
+     "debut": "Comme ministre de l’Éducation nationale, j’ai pris des …",
+     "mots": 32,
+     "theme": "education"
+    },
+    {
+     "n": 5,
+     "debut": "Je veux une école qui transmet . C’est-à-dire …",
+     "mots": 114,
+     "theme": "education"
+    },
+    {
+     "n": 6,
+     "debut": "Une école qui protège , c’est une école …",
+     "mots": 26,
+     "theme": "education"
+    },
+    {
+     "n": 7,
+     "debut": "Nous devrons faire un choix de société majeur …",
+     "mots": 13,
+     "theme": "education"
+    },
+    {
+     "n": 8,
+     "debut": "D’ici 10 ans, on estime qu’il y aura …",
+     "mots": 25,
+     "theme": "education"
+    },
+    {
+     "n": 9,
+     "debut": "Je n’y vois pas une source d’économies mais …",
+     "mots": 38,
+     "theme": "education"
+    },
+    {
+     "n": 10,
+     "debut": "Ces moyens supplémentaires dégagés par cette baisse démographique …",
+     "mots": 28,
+     "theme": "education"
+    },
+    {
+     "n": 11,
+     "debut": "Je fixe pour notre système éducatif un objectif …",
+     "mots": 21,
+     "theme": "education"
+    },
+    {
+     "n": 15,
+     "debut": "Ces dernières années, nous avons réussi à mettre …",
+     "mots": 17,
+     "theme": "chomage"
+    },
+    {
+     "n": 16,
+     "debut": "Mais aujourd’hui, nous faisons face à un nouveau …",
+     "mots": 58,
+     "theme": "prix"
+    },
+    {
+     "n": 17,
+     "debut": "Alors mon combat, ce sera de faire monter …",
+     "mots": 43,
+     "theme": "prix"
+    },
+    {
+     "n": 18,
+     "debut": "Pour que le travail paie",
+     "mots": 5,
+     "theme": "prix"
+    },
+    {
+     "n": 19,
+     "debut": "D’abord en investissant dans la productivité et dans …",
+     "mots": 66,
+     "theme": "prix"
+    },
+    {
+     "n": 20,
+     "debut": "Ensuite, nous ferons monter les salaires en renforçant …",
+     "mots": 94,
+     "theme": "chomage"
+    },
+    {
+     "n": 21,
+     "debut": "Pour que le travail pèse moins sur les …",
+     "mots": 21,
+     "theme": "chomage"
+    },
+    {
+     "n": 22,
+     "debut": "La France n’a pas seulement un problème de …",
+     "mots": 73,
+     "theme": "chomage"
+    },
+    {
+     "n": 23,
+     "debut": "Le taux d’emploi des jeunes français est 15% …",
+     "mots": 77,
+     "theme": "chomage"
+    },
+    {
+     "n": 24,
+     "debut": "Créer un livret garde d’enfant",
+     "mots": 5,
+     "theme": "sante"
+    },
+    {
+     "n": 25,
+     "debut": "Plus de la moitié des enfants de moins …",
+     "mots": 85,
+     "theme": "sante"
+    },
+    {
+     "n": 26,
+     "debut": "Je propose un nouveau livret d’épargne , sur …",
+     "mots": 40,
+     "theme": "sante"
+    },
+    {
+     "n": 27,
+     "debut": "Repenser les retraites et libérer les forces du …",
+     "mots": 9,
+     "theme": "retraites"
+    },
+    {
+     "n": 28,
+     "debut": "Pour augmenter le taux d’emploi des seniors, l’enjeu …",
+     "mots": 85,
+     "theme": "chomage"
+    },
+    {
+     "n": 29,
+     "debut": "Au premier trimestre 2026, on compte encore 5,7 …",
+     "mots": 42,
+     "theme": "chomage"
+    },
+    {
+     "n": 30,
+     "debut": "Les Français ne veulent pas seulement un emploi …",
+     "mots": 59,
+     "theme": "chomage"
+    },
+    {
+     "n": 31,
+     "debut": "Adapter le monde du travail à la réalité …",
+     "mots": 10,
+     "theme": "chomage"
+    },
+    {
+     "n": 32,
+     "debut": "Cela passe par la promotion, là où c’est …",
+     "mots": 53,
+     "theme": "chomage"
+    },
+    {
+     "n": 33,
+     "debut": "Refonder le Code du travail.",
+     "mots": 5,
+     "theme": "chomage"
+    },
+    {
+     "n": 34,
+     "debut": "Le Code du travail est passé de 5000 …",
+     "mots": 71,
+     "theme": "chomage"
+    },
+    {
+     "n": 38,
+     "debut": "Faire le choix de la puissance dans un …",
+     "mots": 10,
+     "theme": "international"
+    },
+    {
+     "n": 39,
+     "debut": "Je suis né en 1989, à la veille …",
+     "mots": 104,
+     "theme": "international"
+    },
+    {
+     "n": 40,
+     "debut": "J’ai été Premier ministre et donc responsable de …",
+     "mots": 11,
+     "theme": "international"
+    },
+    {
+     "n": 41,
+     "debut": "Je sais les enjeux devant nous.",
+     "mots": 6,
+     "theme": "international"
+    },
+    {
+     "n": 42,
+     "debut": "Et dans ce monde brutal, la puissance ne …",
+     "mots": 13,
+     "theme": "international"
+    },
+    {
+     "n": 43,
+     "debut": "Alors nous serons puissants.",
+     "mots": 4,
+     "theme": "international"
+    },
+    {
+     "n": 44,
+     "debut": "Nous allons nous renforcer, nous préparer .",
+     "mots": 7,
+     "theme": "international"
+    },
+    {
+     "n": 45,
+     "debut": "Nous allons continuer sans relâche à soutenir l’Ukraine.",
+     "mots": 8,
+     "theme": "international"
+    },
+    {
+     "n": 46,
+     "debut": "Nous allons continuer sans relâche parce que si …",
+     "mots": 15,
+     "theme": "international"
+    },
+    {
+     "n": 47,
+     "debut": "Il s’en prendra à la Pologne, il s’en …",
+     "mots": 19,
+     "theme": "international"
+    },
+    {
+     "n": 48,
+     "debut": "Le monde se réarme.",
+     "mots": 4,
+     "theme": "international"
+    },
+    {
+     "n": 49,
+     "debut": "Selon le SIPRI, le Stockholm International Peace Research …",
+     "mots": 41,
+     "theme": "international"
+    },
+    {
+     "n": 50,
+     "debut": "La France ne peut pas rester spectatrice d’un …",
+     "mots": 10,
+     "theme": "international"
+    },
+    {
+     "n": 51,
+     "debut": "Nous avons commencé notre réarmement avec des hausses …",
+     "mots": 22,
+     "theme": "international"
+    },
+    {
+     "n": 52,
+     "debut": "Une vérité simple s’impose à nous : pour …",
+     "mots": 41,
+     "theme": "international"
+    },
+    {
+     "n": 53,
+     "debut": "nos capacités militaires ;",
+     "mots": 4,
+     "theme": "international"
+    },
+    {
+     "n": 54,
+     "debut": "nos réserves humaines et opérationnelles ;",
+     "mots": 6,
+     "theme": "international"
+    },
+    {
+     "n": 55,
+     "debut": "notre outil industriel ;",
+     "mots": 4,
+     "theme": "international"
+    },
+    {
+     "n": 56,
+     "debut": "Notre dissuasion nucléaire doit être un outil de …",
+     "mots": 25,
+     "theme": "international"
+    },
+    {
+     "n": 57,
+     "debut": "Car la France doit être capable de dissuader, …",
+     "mots": 31,
+     "theme": "international"
+    },
+    {
+     "n": 58,
+     "debut": "Mais nos frontières ne sont plus seulement physiques. …",
+     "mots": 31,
+     "theme": "international"
+    },
+    {
+     "n": 59,
+     "debut": "L’ANSSI, Autorité nationale en matière de cybersécurité et …",
+     "mots": 101,
+     "theme": "international"
+    },
+    {
+     "n": 60,
+     "debut": "Faire le choix de la souveraineté contre l’agressivité …",
+     "mots": 9,
+     "theme": "economie"
+    },
+    {
+     "n": 61,
+     "debut": "Là où la France fait face à des …",
+     "mots": 94,
+     "theme": "economie"
+    },
+    {
+     "n": 62,
+     "debut": "Se protéger , c'est accepter de mettre en …",
+     "mots": 84,
+     "theme": "economie"
+    },
+    {
+     "n": 63,
+     "debut": "Il faut aussi réduire notre dépendance aux approvisionnements …",
+     "mots": 39,
+     "theme": "economie"
+    },
+    {
+     "n": 64,
+     "debut": "Reprendre l'offensive , c'est faire de l'Europe un …",
+     "mots": 100,
+     "theme": "economie"
+    },
+    {
+     "n": 65,
+     "debut": "La Chine n’est pas un ennemi avec qui …",
+     "mots": 27,
+     "theme": "international"
+    },
+    {
+     "n": 66,
+     "debut": "Quant aux États-Unis, ils ont réactivé la guerre …",
+     "mots": 43,
+     "theme": "economie"
+    },
+    {
+     "n": 67,
+     "debut": "Protéger nos frontières, c’est aussi maîtriser les flux …",
+     "mots": 16,
+     "theme": "immigration"
+    },
+    {
+     "n": 68,
+     "debut": "En 2024, 7,7 millions d’immigrés, soit 11,3 % …",
+     "mots": 51,
+     "theme": "immigration"
+    },
+    {
+     "n": 69,
+     "debut": "Notre ligne est claire, ce que nous voulons, …",
+     "mots": 38,
+     "theme": "immigration"
+    },
+    {
+     "n": 70,
+     "debut": "Ce que nous voulons, c’est la préférence travail, …",
+     "mots": 49,
+     "theme": "immigration"
+    },
+    {
+     "n": 71,
+     "debut": "Mais les frontières, ce n’est pas seulement l’immigration. …",
+     "mots": 73,
+     "theme": "international"
+    },
+    {
+     "n": 75,
+     "debut": "L’IA est là, elle s’impose, elle est entrée …",
+     "mots": 73,
+     "theme": "economie"
+    },
+    {
+     "n": 76,
+     "debut": "L’IA peut être une opportunité extraordinaire pour travailler …",
+     "mots": 39,
+     "theme": "economie"
+    },
+    {
+     "n": 77,
+     "debut": "Pour cela, nous allons former massivement , attirer …",
+     "mots": 74,
+     "theme": "economie"
+    },
+    {
+     "n": 78,
+     "debut": "Faire le choix de la souveraineté",
+     "mots": 6,
+     "theme": "economie"
+    },
+    {
+     "n": 79,
+     "debut": "Tout comme la dissuasion nucléaire en son temps …",
+     "mots": 85,
+     "theme": "economie"
+    },
+    {
+     "n": 80,
+     "debut": "Faire le choix de l’innovation",
+     "mots": 5,
+     "theme": "economie"
+    },
+    {
+     "n": 81,
+     "debut": "La France a plus d’atouts qu’elle ne le …",
+     "mots": 110,
+     "theme": "economie"
+    },
+    {
+     "n": 82,
+     "debut": "Faire le choix de l’adoption massive : l’État …",
+     "mots": 12,
+     "theme": "economie"
+    },
+    {
+     "n": 83,
+     "debut": "Nous ne subirons pas la révolution de l'IA. …",
+     "mots": 24,
+     "theme": "economie"
+    },
+    {
+     "n": 84,
+     "debut": "Je ne veux laisser aucun Français, aucun jeune, …",
+     "mots": 65,
+     "theme": "economie"
+    },
+    {
+     "n": 85,
+     "debut": "Face à cela, l’État doit opérer un effort …",
+     "mots": 32,
+     "theme": "education"
+    },
+    {
+     "n": 86,
+     "debut": "Je veux donc former l’ensemble des Français à …",
+     "mots": 57,
+     "theme": "education"
+    },
+    {
+     "n": 90,
+     "debut": "Un pays surendetté est un pays qui abandonne …",
+     "mots": 49,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 91,
+     "debut": "En 2025, la France aura consacré autant d’argent …",
+     "mots": 21,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 92,
+     "debut": "Entre 1995 et 2025, la France aura augmenté …",
+     "mots": 39,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 93,
+     "debut": "Aujourd’hui, sur 100 € d'argent public dépensé, 57 …",
+     "mots": 23,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 94,
+     "debut": "Deux tiers de notre dette proviennent de l’absence …",
+     "mots": 21,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 95,
+     "debut": "Pour sortir de cette impasse et léguer à …",
+     "mots": 28,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 96,
+     "debut": "Comme Premier ministre à Matignon, Gabriel Attal avait …",
+     "mots": 66,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 97,
+     "debut": "En 2027, les Français auront à faire des …",
+     "mots": 76,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 98,
+     "debut": "Nous devons commencer par enrayer cette spirale de …",
+     "mots": 55,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 99,
+     "debut": "Pour reprendre en main nos finances publiques et …",
+     "mots": 71,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 100,
+     "debut": "Enfin, la campagne présidentielle et les élections législatives …",
+     "mots": 65,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 101,
+     "debut": "Dire la vérité sur la situation de nos …",
+     "mots": 30,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 102,
+     "debut": "L’objectif est clair : zéro déficit en 10 …",
+     "mots": 11,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 106,
+     "debut": "La France a choisi, depuis trente ans, de …",
+     "mots": 90,
+     "theme": "environnement"
+    },
+    {
+     "n": 107,
+     "debut": "Ce que la science économique nous dit et …",
+     "mots": 14,
+     "theme": "environnement"
+    },
+    {
+     "n": 108,
+     "debut": "Des travaux récents montrent que les conséquences économiques …",
+     "mots": 49,
+     "theme": "environnement"
+    },
+    {
+     "n": 109,
+     "debut": "Mais surtout, ces recherches tranchent le faux débat …",
+     "mots": 64,
+     "theme": "environnement"
+    },
+    {
+     "n": 110,
+     "debut": "Ce que vivront concrètement nos enfants si nous …",
+     "mots": 9,
+     "theme": "environnement"
+    },
+    {
+     "n": 111,
+     "debut": "Un enfant né aujourd’hui aura 24 ans en …",
+     "mots": 60,
+     "theme": "environnement"
+    },
+    {
+     "n": 112,
+     "debut": "Ce n’est pas un inconfort anecdotique : c’est …",
+     "mots": 60,
+     "theme": "environnement"
+    },
+    {
+     "n": 113,
+     "debut": "Ce sont aussi des vies en danger. Les …",
+     "mots": 33,
+     "theme": "environnement"
+    },
+    {
+     "n": 114,
+     "debut": "Et c’est une question de patrimoine et de …",
+     "mots": 56,
+     "theme": "environnement"
+    },
+    {
+     "n": 115,
+     "debut": "Agir plus, pour nos enfants",
+     "mots": 5,
+     "theme": "environnement"
+    },
+    {
+     "n": 116,
+     "debut": "Pour respecter nos engagements climatiques, nous devons tripler …",
+     "mots": 49,
+     "theme": "environnement"
+    },
+    {
+     "n": 117,
+     "debut": "Nous avons déjà fait d’immenses progrès ! Depuis …",
+     "mots": 24,
+     "theme": "environnement"
+    },
+    {
+     "n": 118,
+     "debut": "Cet effort, nous devons aller plus loin.",
+     "mots": 7,
+     "theme": "environnement"
+    },
+    {
+     "n": 119,
+     "debut": "En sortant notamment de notre dépendance aux énergies …",
+     "mots": 9,
+     "theme": "environnement"
+    },
+    {
+     "n": 120,
+     "debut": "Les énergies fossiles représentent encore environ 56 % …",
+     "mots": 86,
+     "theme": "environnement"
+    },
+    {
+     "n": 121,
+     "debut": "L'énergie pèse à hauteur de 58 milliards d'euros …",
+     "mots": 51,
+     "theme": "environnement"
+    },
+    {
+     "n": 122,
+     "debut": "Acheter des fossiles, c'est financer des budgets de …",
+     "mots": 57,
+     "theme": "environnement"
+    },
+    {
+     "n": 123,
+     "debut": "Je veux une France qui continue à montrer …",
+     "mots": 64,
+     "theme": "environnement"
+    }
+   ]
+  },
+  {
+   "candidat": "Raphaël Glucksmann",
+   "documents": [
+    {
+     "titre": "Site de campagne",
+     "url": "https://glucks2027.fr/"
+    },
+    {
+     "titre": "Place publique : le projet",
+     "url": "https://place-publique.eu/pages/69jA2SKIG5udlNX7wI3dmc/le-projet"
+    },
+    {
+     "titre": "Place publique : les combats",
+     "url": "https://place-publique.eu/pages/59EfFYTpFlj2lJhQ92PXsy/les-combats"
+    }
+   ],
+   "remarque": "Pas de programme complet publié : la déclaration du site de campagne et le projet de son parti.",
+   "collecte": "2026-10-24",
+   "mots": 1771,
+   "parts": {
+    "general": 40.0,
+    "societe": 13.4,
+    "environnement": 11.5,
+    "democratie": 11.1,
+    "europe": 8.6,
+    "prix": 8.3,
+    "economie": 4.0,
+    "sante": 2.2,
+    "dette_impots": 1.0
+   },
+   "passages": [
+    {
+     "n": 1,
+     "debut": "Aujourd’hui commence la bataille de France.",
+     "mots": 6,
+     "theme": "general"
+    },
+    {
+     "n": 2,
+     "debut": "Je prends cette élection avec gravité et responsabilité. …",
+     "mots": 29,
+     "theme": "general"
+    },
+    {
+     "n": 3,
+     "debut": "Les Français veulent de nouveau pouvoir vivre dignement …",
+     "mots": 54,
+     "theme": "general"
+    },
+    {
+     "n": 4,
+     "debut": "Et nous serons l’alternative à ces dix années …",
+     "mots": 11,
+     "theme": "general"
+    },
+    {
+     "n": 5,
+     "debut": "La campagne commence maintenant. Elle se gagnera ville …",
+     "mots": 19,
+     "theme": "general"
+    },
+    {
+     "n": 6,
+     "debut": "Nous avons laissé, nous avons abandonné trop de …",
+     "mots": 31,
+     "theme": "general"
+    },
+    {
+     "n": 7,
+     "debut": "Venez nous rejoindre pour l’élection la plus importante …",
+     "mots": 13,
+     "theme": "general"
+    },
+    {
+     "n": 8,
+     "debut": "Vive la justice ! Vive la gauche ! …",
+     "mots": 17,
+     "theme": "general"
+    },
+    {
+     "n": 20,
+     "debut": "Une prise de conscience collective",
+     "mots": 5,
+     "theme": "general"
+    },
+    {
+     "n": 21,
+     "debut": "« Il est des moments dans l’histoire qui …",
+     "mots": 41,
+     "theme": "general"
+    },
+    {
+     "n": 23,
+     "debut": "Face à ces constats, nous ambitionnons de refonder, …",
+     "mots": 33,
+     "theme": "general"
+    },
+    {
+     "n": 24,
+     "debut": "L'Acte I, notre vision pour la France",
+     "mots": 7,
+     "theme": "general"
+    },
+    {
+     "n": 25,
+     "debut": "Depuis octobre 2024, des groupes thématiques, des forums …",
+     "mots": 92,
+     "theme": "general"
+    },
+    {
+     "n": 26,
+     "debut": "Notre pari méthodologique : la co-construction",
+     "mots": 6,
+     "theme": "general"
+    },
+    {
+     "n": 27,
+     "debut": "Il s’agit d’un document d’une densité rare, un …",
+     "mots": 50,
+     "theme": "general"
+    },
+    {
+     "n": 28,
+     "debut": "À l’inverse des projets conçus en petit comité …",
+     "mots": 21,
+     "theme": "general"
+    },
+    {
+     "n": 29,
+     "debut": "Place publique a fait le pari de l'intelligence …",
+     "mots": 32,
+     "theme": "general"
+    },
+    {
+     "n": 30,
+     "debut": "Notre projet est profondément collaboratif et rigoureusement structuré. …",
+     "mots": 40,
+     "theme": "general"
+    },
+    {
+     "n": 31,
+     "debut": "À ce jour, nous avons dépassé les 3 …",
+     "mots": 25,
+     "theme": "general"
+    },
+    {
+     "n": 32,
+     "debut": "Ce sont près de 3000 personnes que nous …",
+     "mots": 20,
+     "theme": "general"
+    },
+    {
+     "n": 33,
+     "debut": "La méthode devait refléter notre ADN : intégrer …",
+     "mots": 16,
+     "theme": "general"
+    },
+    {
+     "n": 34,
+     "debut": "Ce projet est le fruit d’un travail inédit …",
+     "mots": 9,
+     "theme": "general"
+    },
+    {
+     "n": 35,
+     "debut": "Une quarantaine d’animateurs, une vingtaine de superviseurs, 200 …",
+     "mots": 22,
+     "theme": "general"
+    },
+    {
+     "n": 36,
+     "debut": "Qu'est-ce que cela représente ?",
+     "mots": 5,
+     "theme": "general"
+    },
+    {
+     "n": 37,
+     "debut": "Près de 200 visios ouvertes à toutes et …",
+     "mots": 13,
+     "theme": "general"
+    },
+    {
+     "n": 38,
+     "debut": "300 réunions de comités d’experts pour débattre et …",
+     "mots": 11,
+     "theme": "general"
+    },
+    {
+     "n": 39,
+     "debut": "150 auditions de spécialistes, syndicalistes, chercheurs, acteurs d’associations, …",
+     "mots": 12,
+     "theme": "general"
+    },
+    {
+     "n": 40,
+     "debut": "Des diagnostics territoriaux depuis toute la France remontés …",
+     "mots": 13,
+     "theme": "general"
+    },
+    {
+     "n": 42,
+     "debut": "C’est une méthode qui a fait émerger une …",
+     "mots": 16,
+     "theme": "general"
+    },
+    {
+     "n": 43,
+     "debut": "Nous rejoindre, c’est s’emparer d’un stylo collectif pour …",
+     "mots": 24,
+     "theme": "general"
+    },
+    {
+     "n": 48,
+     "debut": "Combat pour une écologie synonyme de puissance",
+     "mots": 7,
+     "theme": "environnement"
+    },
+    {
+     "n": 49,
+     "debut": "La révolution écologique que nous portons est une …",
+     "mots": 33,
+     "theme": "environnement"
+    },
+    {
+     "n": 50,
+     "debut": "Nous sommes à un point de bascule. Incendies, …",
+     "mots": 44,
+     "theme": "environnement"
+    },
+    {
+     "n": 51,
+     "debut": "À l’inverse, les ultras riches, qui sont les …",
+     "mots": 54,
+     "theme": "environnement"
+    },
+    {
+     "n": 52,
+     "debut": "Combat pour une agriculture qui nourrit et protège …",
+     "mots": 10,
+     "theme": "environnement"
+    },
+    {
+     "n": 53,
+     "debut": "Nous voulons porter un modèle agricole de liberté, …",
+     "mots": 71,
+     "theme": "economie"
+    },
+    {
+     "n": 54,
+     "debut": "Ce modèle abîme nos terres, pollue l’eau, détruit …",
+     "mots": 20,
+     "theme": "environnement"
+    },
+    {
+     "n": 55,
+     "debut": "Face au risque d’extinction de masse, aux pollutions, …",
+     "mots": 35,
+     "theme": "environnement"
+    },
+    {
+     "n": 56,
+     "debut": "Combat pour refonder les services publics, et fonder …",
+     "mots": 17,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 57,
+     "debut": "Soyons clairs : la France est au bord …",
+     "mots": 68,
+     "theme": "democratie"
+    },
+    {
+     "n": 58,
+     "debut": "Les français jugent leur démocratie avec sévérité, l’état …",
+     "mots": 24,
+     "theme": "democratie"
+    },
+    {
+     "n": 59,
+     "debut": "Ils ont raison. Les dépenses contraintes : logement, …",
+     "mots": 45,
+     "theme": "prix"
+    },
+    {
+     "n": 60,
+     "debut": "L’École de la République, pilier de l’égalité des …",
+     "mots": 39,
+     "theme": "sante"
+    },
+    {
+     "n": 61,
+     "debut": "Le travail qui permettait hier d’améliorer nos conditions …",
+     "mots": 102,
+     "theme": "prix"
+    },
+    {
+     "n": 62,
+     "debut": "Combat pour une social-démocratie qui garantit la liberté …",
+     "mots": 15,
+     "theme": "general"
+    },
+    {
+     "n": 63,
+     "debut": "Nous entendons porter autre chose que des mesures …",
+     "mots": 77,
+     "theme": "democratie"
+    },
+    {
+     "n": 64,
+     "debut": "La France ne redeviendra forte et libre que …",
+     "mots": 27,
+     "theme": "democratie"
+    },
+    {
+     "n": 65,
+     "debut": "Combat pour une France puissante, grâce à une …",
+     "mots": 10,
+     "theme": "europe"
+    },
+    {
+     "n": 66,
+     "debut": "La seule voie pour retrouver notre rang dans …",
+     "mots": 30,
+     "theme": "europe"
+    },
+    {
+     "n": 67,
+     "debut": "Nous voulons sortir la France et l’Europe de …",
+     "mots": 51,
+     "theme": "europe"
+    },
+    {
+     "n": 68,
+     "debut": "Pour affirmer la puissance européenne face à Poutine, …",
+     "mots": 41,
+     "theme": "europe"
+    },
+    {
+     "n": 69,
+     "debut": "Loin d’un idéal abstrait, notre ambition fédérale pour …",
+     "mots": 20,
+     "theme": "europe"
+    },
+    {
+     "n": 70,
+     "debut": "Combat pour une société humaniste et féministe",
+     "mots": 7,
+     "theme": "societe"
+    },
+    {
+     "n": 71,
+     "debut": "Les luttes contre les inégalités entre les femmes …",
+     "mots": 55,
+     "theme": "societe"
+    },
+    {
+     "n": 72,
+     "debut": "La domination masculine structurée socialement dès l’enfance instille, …",
+     "mots": 30,
+     "theme": "societe"
+    },
+    {
+     "n": 73,
+     "debut": "La lutte pour l’égalité des genres inclut pleinement …",
+     "mots": 43,
+     "theme": "societe"
+    },
+    {
+     "n": 74,
+     "debut": "Aussi, les discriminations structurelles dans notre société balafrent …",
+     "mots": 103,
+     "theme": "societe"
+    }
+   ]
+  },
+  {
+   "candidat": "Bruno Retailleau",
+   "documents": [
+    {
+     "titre": "Les Républicains : nos propositions",
+     "url": "https://republicains.fr/nos-propositions/"
+    }
+   ],
+   "remarque": "Propositions du parti dont il est le candidat. Elles ne couvrent encore ni la sécurité ni l'immigration, au cœur de son discours : le score mesure ce qui est publié, pas tout ce qu'il dit.",
+   "collecte": "2026-10-24",
+   "mots": 1259,
+   "parts": {
+    "economie": 35.3,
+    "education": 14.9,
+    "logement": 14.7,
+    "environnement": 13.7,
+    "sante": 9.1,
+    "chomage": 4.3,
+    "international": 2.8,
+    "prix": 2.0,
+    "democratie": 1.5,
+    "retraites": 0.8,
+    "general": 0.7,
+    "dette_impots": 0.4
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "Les idées qui nous rassemblent",
+     "mots": 5,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "Le pouvoir d’achat et la compétitivité sont au …",
+     "mots": 13,
+     "theme": "prix"
+    },
+    {
+     "n": 2,
+     "debut": "Pour répondre à ces enjeux majeurs, nous portons …",
+     "mots": 38,
+     "theme": "economie"
+    },
+    {
+     "n": 3,
+     "debut": "Les principales mesures :",
+     "mots": 4,
+     "theme": "general"
+    },
+    {
+     "n": 4,
+     "debut": "Travailler plus et gagner plus grâce au seuil …",
+     "mots": 12,
+     "theme": "prix"
+    },
+    {
+     "n": 5,
+     "debut": "Encourager la reprise d’activité avec le Revenu d’incitation …",
+     "mots": 11,
+     "theme": "chomage"
+    },
+    {
+     "n": 6,
+     "debut": "Libérer le travail des seniors qui ont tous …",
+     "mots": 10,
+     "theme": "retraites"
+    },
+    {
+     "n": 7,
+     "debut": "Réduire l’assistance grâce au Compte social unique (CSU)",
+     "mots": 8,
+     "theme": "sante"
+    },
+    {
+     "n": 8,
+     "debut": "Réformer l’assurance chômage pour accélérer le retour à …",
+     "mots": 9,
+     "theme": "chomage"
+    },
+    {
+     "n": 17,
+     "debut": "L’urgence absolue de produire plus.",
+     "mots": 5,
+     "theme": "economie"
+    },
+    {
+     "n": 18,
+     "debut": "Depuis quarante ans, la France s’est désindustrialisée plus …",
+     "mots": 113,
+     "theme": "economie"
+    },
+    {
+     "n": 20,
+     "debut": "Supprimer, dès le lendemain de l’élection, les 50 …",
+     "mots": 15,
+     "theme": "economie"
+    },
+    {
+     "n": 21,
+     "debut": "Refonder le code du travail sur 50 principes, …",
+     "mots": 15,
+     "theme": "chomage"
+    },
+    {
+     "n": 22,
+     "debut": "Stopper la surproduction de règles qui étouffent la …",
+     "mots": 9,
+     "theme": "economie"
+    },
+    {
+     "n": 23,
+     "debut": "Passer d’un État de méfiance à un État …",
+     "mots": 10,
+     "theme": "democratie"
+    },
+    {
+     "n": 24,
+     "debut": "Réduire franchement les prélèvements obligatoires",
+     "mots": 5,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 25,
+     "debut": "Garantir un prix de l’électricité durablement compétitif pour …",
+     "mots": 10,
+     "theme": "environnement"
+    },
+    {
+     "n": 26,
+     "debut": "Rompre avec plusieurs décennies de naïveté en rétablissant …",
+     "mots": 11,
+     "theme": "economie"
+    },
+    {
+     "n": 27,
+     "debut": "Restaurer notre souveraineté industrielle en investissant dans l’outil …",
+     "mots": 10,
+     "theme": "economie"
+    },
+    {
+     "n": 28,
+     "debut": "Remettre notre système de formation au service de …",
+     "mots": 12,
+     "theme": "chomage"
+    },
+    {
+     "n": 29,
+     "debut": "Donner à l’industrie française la capacité de vraiment …",
+     "mots": 14,
+     "theme": "economie"
+    },
+    {
+     "n": 30,
+     "debut": "Libérer la transmission du capital productif",
+     "mots": 6,
+     "theme": "economie"
+    },
+    {
+     "n": 31,
+     "debut": "Encourager l’épargne à soutenir le financement de l’économie",
+     "mots": 8,
+     "theme": "economie"
+    },
+    {
+     "n": 44,
+     "debut": "La souveraineté alimentaire est une condition vitale de …",
+     "mots": 10,
+     "theme": "economie"
+    },
+    {
+     "n": 45,
+     "debut": "Pour reconquérir notre place de grande puissance agricole, …",
+     "mots": 37,
+     "theme": "economie"
+    },
+    {
+     "n": 46,
+     "debut": "Rompre avec un cadre juridique devenu hostile à …",
+     "mots": 9,
+     "theme": "economie"
+    },
+    {
+     "n": 47,
+     "debut": "Reprendre la main sur l’État et ses agences",
+     "mots": 8,
+     "theme": "economie"
+    },
+    {
+     "n": 48,
+     "debut": "Aligner nos règles sur l’Europe, pas au-delà",
+     "mots": 7,
+     "theme": "economie"
+    },
+    {
+     "n": 49,
+     "debut": "Faire de l’eau une ressource agricole stratégique",
+     "mots": 7,
+     "theme": "economie"
+    },
+    {
+     "n": 50,
+     "debut": "Moderniser les fermes, relancer la productivité",
+     "mots": 6,
+     "theme": "economie"
+    },
+    {
+     "n": 51,
+     "debut": "Faciliter la reprise et renouveler les générations",
+     "mots": 7,
+     "theme": "economie"
+    },
+    {
+     "n": 52,
+     "debut": "Protéger les agriculteurs, en finir avec l’agribashing",
+     "mots": 7,
+     "theme": "economie"
+    },
+    {
+     "n": 53,
+     "debut": "Sécuriser les débouchés",
+     "mots": 3,
+     "theme": "economie"
+    },
+    {
+     "n": 54,
+     "debut": "Refonder la PAC comme outil de souveraineté et …",
+     "mots": 13,
+     "theme": "economie"
+    },
+    {
+     "n": 55,
+     "debut": "Rééquilibrer la chaîne de valeur et assurer la …",
+     "mots": 10,
+     "theme": "economie"
+    },
+    {
+     "n": 56,
+     "debut": "Pour répondre à cet enjeu majeur, nous voulons …",
+     "mots": 41,
+     "theme": "sante"
+    },
+    {
+     "n": 57,
+     "debut": "Instaurer un Revenu familial (RF) remplaçant 12 dispositifs …",
+     "mots": 14,
+     "theme": "sante"
+    },
+    {
+     "n": 58,
+     "debut": "Encourager financièrement les familles nombreuses avec un RF …",
+     "mots": 16,
+     "theme": "sante"
+    },
+    {
+     "n": 59,
+     "debut": "Recentrer le logement social sur ceux qui travaillent …",
+     "mots": 11,
+     "theme": "logement"
+    },
+    {
+     "n": 60,
+     "debut": "Soutenir les familles avec enfants dans l’achat de …",
+     "mots": 11,
+     "theme": "logement"
+    },
+    {
+     "n": 61,
+     "debut": "Accompagner les six premiers mois de l’enfant pour …",
+     "mots": 18,
+     "theme": "sante"
+    },
+    {
+     "n": 62,
+     "debut": "Favoriser la création de solutions de garde par …",
+     "mots": 17,
+     "theme": "sante"
+    },
+    {
+     "n": 63,
+     "debut": "L’électricité compétitive est la colonne vertébrale de notre …",
+     "mots": 9,
+     "theme": "environnement"
+    },
+    {
+     "n": 64,
+     "debut": "Pour répondre à cet enjeu majeur, nous portons …",
+     "mots": 33,
+     "theme": "environnement"
+    },
+    {
+     "n": 65,
+     "debut": "Inscrire le parc nucléaire dans une trajectoire « …",
+     "mots": 11,
+     "theme": "environnement"
+    },
+    {
+     "n": 66,
+     "debut": "Maîtriser les coûts et les délais des nouveaux …",
+     "mots": 9,
+     "theme": "environnement"
+    },
+    {
+     "n": 67,
+     "debut": "Augmenter la capacité de production et de stockage …",
+     "mots": 9,
+     "theme": "environnement"
+    },
+    {
+     "n": 68,
+     "debut": "Stopper le subventionnement de nouvelles capacités éoliennes et …",
+     "mots": 14,
+     "theme": "environnement"
+    },
+    {
+     "n": 69,
+     "debut": "Protéger le parc nucléaire des arrêts subis et …",
+     "mots": 17,
+     "theme": "environnement"
+    },
+    {
+     "n": 70,
+     "debut": "Faire bénéficier industriels et consommateurs de la compétitivité …",
+     "mots": 16,
+     "theme": "environnement"
+    },
+    {
+     "n": 71,
+     "debut": "Lever immédiatement et à coût budgétaire nul les …",
+     "mots": 11,
+     "theme": "environnement"
+    },
+    {
+     "n": 72,
+     "debut": "Relancer immédiatement les études et recherches sur un …",
+     "mots": 16,
+     "theme": "environnement"
+    },
+    {
+     "n": 73,
+     "debut": "Faire respecter le principe de subsidiarité et la …",
+     "mots": 17,
+     "theme": "environnement"
+    },
+    {
+     "n": 74,
+     "debut": "Maîtriser les chaînes de valeur stratégiques et neutraliser …",
+     "mots": 20,
+     "theme": "international"
+    },
+    {
+     "n": 75,
+     "debut": "Se loger est un besoin fondamental, trop longtemps …",
+     "mots": 19,
+     "theme": "logement"
+    },
+    {
+     "n": 76,
+     "debut": "Pour redonner aux Français la capacité de se …",
+     "mots": 36,
+     "theme": "logement"
+    },
+    {
+     "n": 77,
+     "debut": "Faire confiance aux maires, simplifier radicalement l’urbanisme Proposition",
+     "mots": 8,
+     "theme": "logement"
+    },
+    {
+     "n": 78,
+     "debut": "Aligner l’État sur l’objectif de construction Proposition",
+     "mots": 7,
+     "theme": "logement"
+    },
+    {
+     "n": 79,
+     "debut": "Mobiliser le foncier existant et libérer la transformation …",
+     "mots": 10,
+     "theme": "logement"
+    },
+    {
+     "n": 80,
+     "debut": "Encourager fortement l’accession à la propriété pour tous",
+     "mots": 8,
+     "theme": "logement"
+    },
+    {
+     "n": 81,
+     "debut": "Lever les blocages financiers qui empêchent d’acheter",
+     "mots": 7,
+     "theme": "logement"
+    },
+    {
+     "n": 82,
+     "debut": "Mettre fin aux interdictions de louer liées au …",
+     "mots": 9,
+     "theme": "logement"
+    },
+    {
+     "n": 83,
+     "debut": "Restaurer la liberté du marché locatif",
+     "mots": 6,
+     "theme": "logement"
+    },
+    {
+     "n": 84,
+     "debut": "Créer un véritable statut du bailleur privé",
+     "mots": 7,
+     "theme": "logement"
+    },
+    {
+     "n": 85,
+     "debut": "Assumer une tolérance zéro contre le squat et …",
+     "mots": 10,
+     "theme": "logement"
+    },
+    {
+     "n": 86,
+     "debut": "Adapter la loi SRU à la réalité du …",
+     "mots": 17,
+     "theme": "logement"
+    },
+    {
+     "n": 87,
+     "debut": "Recentrer le logement social sur ceux qui travaillent …",
+     "mots": 11,
+     "theme": "logement"
+    },
+    {
+     "n": 88,
+     "debut": "Diversifier et responsabiliser le financement du logement social",
+     "mots": 8,
+     "theme": "logement"
+    },
+    {
+     "n": 89,
+     "debut": "L’intelligence artificielle n’est pas une technologie de plus. …",
+     "mots": 52,
+     "theme": "economie"
+    },
+    {
+     "n": 91,
+     "debut": "Reconquérir nos données souveraines",
+     "mots": 4,
+     "theme": "economie"
+    },
+    {
+     "n": 92,
+     "debut": "Former le nation, du salarié à l’ingénieur d’élite",
+     "mots": 8,
+     "theme": "education"
+    },
+    {
+     "n": 93,
+     "debut": "Attirer et rapatrier les meilleurs talents",
+     "mots": 6,
+     "theme": "economie"
+    },
+    {
+     "n": 94,
+     "debut": "Lever les verrous réglementaires qui asphyxient l’IA",
+     "mots": 7,
+     "theme": "economie"
+    },
+    {
+     "n": 95,
+     "debut": "Faire naître des champions européens et français",
+     "mots": 7,
+     "theme": "economie"
+    },
+    {
+     "n": 96,
+     "debut": "Déployer l’IA dans les entreprises",
+     "mots": 5,
+     "theme": "economie"
+    },
+    {
+     "n": 97,
+     "debut": "Adapter le droit du travail des cadres",
+     "mots": 7,
+     "theme": "chomage"
+    },
+    {
+     "n": 98,
+     "debut": "Simplifier l’État par l’IA et libérer le temps …",
+     "mots": 9,
+     "theme": "democratie"
+    },
+    {
+     "n": 99,
+     "debut": "« Buy European First » : de la …",
+     "mots": 10,
+     "theme": "economie"
+    },
+    {
+     "n": 100,
+     "debut": "Doper la défense française par l’IA",
+     "mots": 6,
+     "theme": "international"
+    },
+    {
+     "n": 101,
+     "debut": "Garantir la résilience et la sécurité de la …",
+     "mots": 9,
+     "theme": "international"
+    },
+    {
+     "n": 102,
+     "debut": "La France est une grande nation. Une nation …",
+     "mots": 81,
+     "theme": "education"
+    },
+    {
+     "n": 103,
+     "debut": "Mieux payer les professeurs : la fiche de …",
+     "mots": 14,
+     "theme": "education"
+    },
+    {
+     "n": 104,
+     "debut": "Refaire du professorat un métier de passion que …",
+     "mots": 10,
+     "theme": "education"
+    },
+    {
+     "n": 105,
+     "debut": "Rendre aux enfants le temps d’apprendre à lire, …",
+     "mots": 10,
+     "theme": "education"
+    },
+    {
+     "n": 106,
+     "debut": "Un collège où chacun avance, où personne n’est …",
+     "mots": 11,
+     "theme": "education"
+    },
+    {
+     "n": 107,
+     "debut": "Des notes qui disent la vérité et qui …",
+     "mots": 15,
+     "theme": "education"
+    },
+    {
+     "n": 108,
+     "debut": "Reprendre en main le temps scolaire",
+     "mots": 6,
+     "theme": "education"
+    },
+    {
+     "n": 109,
+     "debut": "Mille écoles libres dans l’école publique",
+     "mots": 6,
+     "theme": "education"
+    },
+    {
+     "n": 110,
+     "debut": "L’intelligence artificielle au service du maître, jamais à …",
+     "mots": 10,
+     "theme": "education"
+    },
+    {
+     "n": 111,
+     "debut": "Faire de la voie professionnelle une fierté",
+     "mots": 7,
+     "theme": "education"
+    },
+    {
+     "n": 112,
+     "debut": "Une école où l’on dépose son enfant l’esprit …",
+     "mots": 9,
+     "theme": "education"
+    }
+   ]
+  }
+ ],
+ "non_classes": [
+  {
+   "candidat": "Jean-Luc Mélenchon",
+   "raison": "La 5e édition de L'Avenir en commun paraît le 6 novembre 2026 ; l'édition 2025 en ligne refuse les téléchargements automatiques."
+  },
+  {
+   "candidat": "Éric Zemmour",
+   "raison": "Pas de programme publié : Reconquête mène une consultation en ligne (« Le programme pour la France ») et présente un plan budgétaire de Sarah Knafo."
+  },
+  {
+   "candidat": "David Lisnard",
+   "raison": "Aucun texte programmatique trouvé sur un site officiel."
+  }
+ ]
+}

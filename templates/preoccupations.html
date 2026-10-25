@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}Préoccupations des Français — {{ site_name }}{% endblock %}
+{% block description %}Ce qui préoccupait les Français à chaque stade de la campagne, et la place de ces sujets dans la profession de foi du président élu, de 1965 à 2027.{% endblock %}
+{% block content %}
+<div class="hero">
+  <div class="eyebrow">Préoccupations des Français</div>
+  <h1>Ce qui inquiétait les Français, et ce dont l'élu a parlé</h1>
+  <p class="lede">À chaque stade de la campagne, les problèmes que les Français jugeaient les plus importants pour le pays, comparés à la place de ces sujets dans la profession de foi du candidat finalement élu. Et, pour 2027, <a href="#candidats-2027">un score provisoire pour les principaux candidats</a>.</p>
+</div>
+
+<section class="block">
+  <div class="block-head"><h2>Ce qui préoccupe les Français depuis 2005</h2><p>{{ pp.question }} Part des Français qui citent chaque thème ; les traits verticaux marquent le premier tour de chaque présidentielle.</p></div>
+  <div id="concerns-timeline"></div>
+</section>
+
+<div class="filters" role="group" aria-label="Stade de la campagne">
+  <span class="filters-label">Stade :</span>
+  {% for j in pp.etapes %}
+  <button class="chip" type="button" data-cstage="{{ j }}" aria-pressed="{{ 'true' if j == pp.jours_avant else 'false' }}">{% if j == 1 %}Veille du vote{% else %}J-{{ j }}{% endif %}{% if j == pp.jours_avant %} (aujourd'hui){% endif %}</button>
+  {% endfor %}
+</div>
+<p class="stage-summary" id="concerns-summary" aria-live="polite"></p>
+<p class="legend" style="margin:8px 0 0">
+  <span class="legend-item"><span class="key-rect" style="--c:var(--ink-2)"></span>Part des Français qui citent ce problème</span>
+  <span class="legend-item"><span class="key-rect" style="--c:var(--s7)"></span>Part des propositions de l'élu consacrée à ce thème</span>
+</p>
+<noscript><p>Cette page a besoin de JavaScript pour afficher les comparaisons. Les données sont aussi <a href="{{ root }}donnees/preoccupations.json">téléchargeables</a>.</p></noscript>
+<div class="grid compare-grid" id="concerns-cards"></div>
+
+{% set A = pp.candidats %}
+{% set R = pp.resume[pp.jours_avant] %}
+{% set ctot = A.preoccupations.values()|sum %}
+{% set first = A.liste[0] %}
+{% set k1 = first.top3[0] %}
+<section class="block" id="candidats-2027">
+  <div class="block-head">
+    <div class="eyebrow">Provisoire · candidats 2027</div>
+    <h2>Les candidats parlent-ils de ce qui inquiète les Français&nbsp;?</h2>
+    <p>Score d'alignement entre les textes programmatiques publiés par chaque candidat et la dernière vague de l'Eurobaromètre (n° {{ A.vague }}, terrain du {{ A.terrain[0]|date_fr }} au {{ A.terrain[1]|date_fr }}). Le score des élus de 2007 à 2022, calculé de la même façon sur leur profession de foi à J-{{ pp.jours_avant }}, sert de repère.</p>
+  </div>
+  <div id="align-chart"></div>
+</section>
+<noscript><p>Les scores sont aussi <a href="{{ root }}donnees/preoccupations.json">téléchargeables</a>.</p></noscript>
+<div class="grid compare-grid" id="align-cards"></div>
+
+<section class="block prose" id="methode-alignement">
+  <h2>Comment se calcule le score d'alignement</h2>
+  <ol>
+    <li><strong>Ce qui préoccupe les Français.</strong> Dans la vague {{ A.vague }} de l'Eurobaromètre, chaque personne interrogée cite les deux problèmes les plus importants pour le pays : les pourcentages font donc environ 200 %. On les ramène à 100. Par exemple, {{ A.preoccupations[k1]|round|int }} % des Français citent « {{ pp.themes[k1]|lower }} », soit {{ (100 * A.preoccupations[k1] / ctot)|round|int }} points sur 100.</li>
+    <li><strong>Ce dont parle chaque candidat.</strong> Nous retenons les textes programmatiques mis en avant sur le site officiel du candidat ou de son parti, {% set dates = A.liste|map(attribute='collecte')|unique|sort|list %}consultés {% if dates|length == 1 %}le {{ dates[0]|date_fr }}{% else %}entre le {{ dates[0]|date_fr }} et le {{ dates[-1]|date_fr }}{% endif %} ; les sites tiers (agrégateurs, « fiches programme ») sont exclus. Les textes sont découpés en passages. {{ A.methode }} On compte les mots consacrés à chaque thème, sans les généralités, et on les ramène aussi à 100.</li>
+    <li><strong>Le score.</strong> Pour chaque thème, on retient la plus petite des deux parts, puis on additionne. Avec 100, le programme donnerait à chaque sujet exactement la place que lui donnent les Français ; avec 0, il ne parlerait que de sujets qu'ils ne citent pas. Exemple : « {{ pp.themes[k1]|lower }} » pèse {{ (100 * A.preoccupations[k1] / ctot)|round|int }} points chez les Français et {{ (first.parts[k1] or 0)|round|int }} % des propositions de {{ first.candidat }}, qui gagne donc {{ [(100 * A.preoccupations[k1] / ctot), (first.parts[k1] or 0)]|min|round|int }} points sur ce thème.</li>
+    <li><strong>La marge.</strong> Elle montre de combien le score varie si l'on tire au hasard d'autres combinaisons des mêmes passages (2 000 tirages, 8 sur 10 dans la marge). Une marge large signale un texte court ou dominé par quelques passages. Elle ne tient compte ni du choix des documents ni des choix de classement.</li>
+    <li><strong>Le repère.</strong> Au même stade de leur campagne, les élus de 2007 à 2022 obtenaient {% for y, v in R.elus|dictsort|reverse %}{{ v }} ({{ y }}){{ ", " if not loop.last else "" }}{% endfor %}, soit {{ R.alignement }} en moyenne.</li>
+  </ol>
+  <h3>Ce que ce score ne dit pas</h3>
+  <ul>
+    <li><strong>Ce n'est ni une note ni une prévision.</strong> Le score mesure si un programme parle des sujets qui inquiètent, pas ce qu'il propose : deux candidats peuvent obtenir le même score avec des réponses opposées sur le pouvoir d'achat.</li>
+    <li><strong>Les documents ne sont pas encore comparables.</strong> Programme de 2022 pour Marine Le Pen, manifeste et plan contre le narcotrafic pour Édouard Philippe, propositions du parti pour Bruno Retailleau et Raphaël Glucksmann, chapitres thématiques pour Gabriel Attal. Le score reflète ce qui est publié aujourd'hui. Il sera recalculé sur les professions de foi officielles, comme pour les élus, quand elles seront publiées avant le premier tour.</li>
+    <li><strong>Le score récompense l'étendue.</strong> Un programme qui donnerait la même place à chacun des {{ A.preoccupations|length }} thèmes obtiendrait {{ A.parts_egales }}, sans rien hiérarchiser. La part consacrée aux trois premières préoccupations, indiquée pour chaque candidat, dit au contraire s'il se concentre sur ce qui inquiète le plus.</li>
+    <li><strong>Certains sujets ne comptent pas.</strong> L'Eurobaromètre ne propose ni l'Europe ni les questions de société : un programme qui leur donne beaucoup de place est mécaniquement pénalisé.</li>
+    <li><strong>Le classement est un jugement.</strong> Il est publié passage par passage sous chaque candidat, pour pouvoir être vérifié et contesté.</li>
+  </ul>
+  <h3>Candidats non classés</h3>
+  <ul>
+    {% for c in A.non_classes %}<li><strong>{{ c.candidat }}</strong> : {{ c.raison }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="block prose">
+  <h2>Méthode</h2>
+  <p><strong>Préoccupations.</strong> Deux fois par an, l'Eurobaromètre standard de la Commission européenne demande à environ 1 000 Français : « {{ pp.question }} » Les réponses, dont la liste évolue au fil des années, sont regroupées en thèmes stables. À chaque stade, nous retenons la dernière vague dont le terrain était terminé. La question n'est posée que depuis 2003 : avant, aucune série ouverte et comparable n'existe. Les enquêtes électorales françaises plus anciennes la posent rarement, et leurs données ne sont accessibles que sur demande.</p>
+  <p><strong>Programmes.</strong> Nous analysons la profession de foi du premier tour, le document envoyé à chaque électeur, qui a le même statut depuis 1965. {{ pp.methode }}</p>
+  <p><strong>Lecture.</strong> La part des propositions est calculée sans les « Généralités ». Le score d'alignement compare les deux répartitions, sur 100 : 100 signifierait que le programme consacre à chaque thème la même part que les Français dans leurs réponses (<a href="#methode-alignement">détail du calcul</a>). L'Eurobaromètre ne propose ni l'Europe ni les questions de société, ce qui limite mécaniquement ce score.</p>
+  <h2>Sources et licences</h2>
+  <ul>
+    <li>Eurobaromètre standard, Commission européenne, sur <a href="https://data.europa.eu">data.europa.eu</a> : <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</a>. Les chiffres sont extraits des tableaux par pays et regroupés en thèmes.</li>
+    <li>Textes des candidats 2027 : sites officiels des candidats et de leurs partis, liens sous chaque candidat. Comme pour les professions de foi, seuls les premiers mots de chaque passage sont cités.</li>
+    <li>Professions de foi 1965–2012 : <a href="https://www.sciencespo.fr/bibliotheque/fr/actualites/archelec-les-archives-electorales-en-ligne/">archives électorales du CEVIPOF</a> (Archelec, Sciences Po), sur Internet Archive ; 2017 et 2022 : <a href="https://www.france-politique.fr">France-politique</a>. Les textes appartiennent à leurs auteurs : ils sont analysés, et seuls leurs premiers mots sont cités pour permettre de vérifier le classement.</li>
+  </ul>
+</section>
+{% endblock %}
+{% block scripts %}
+<script id="payload" type="application/json">{{ {"preoccupations": pp, "jours_avant": pp.jours_avant}|json|safe }}</script>
+<script src="{{ root }}assets/charts.js?v={{ assets_v }}" defer></script>
+{% endblock %}

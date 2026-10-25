@@ -1,0 +1,2480 @@
+{
+ "methode": "Chaque passage (un paragraphe, ou une phrase quand le paragraphe dépasse 120 mots) est classé dans un seul thème : celui qu'il développe le plus. Les passages qui énumèrent plusieurs sujets sans en développer aucun, les éléments biographiques et les appels au vote sont classés en « Généralités » ; les mentions légales et le texte illisible sont écartés. La part d'un thème est le nombre de mots des passages qui lui sont attribués, rapporté au total. Classement fait par Claude, l'assistant d'Anthropic, le 24 octobre 2026, à relire : chaque passage est listé avec ses premiers mots pour pouvoir le vérifier.",
+ "themes": {
+  "prix": "Prix et pouvoir d'achat",
+  "economie": "Situation économique",
+  "chomage": "Chômage et emploi",
+  "insecurite": "Insécurité et délinquance",
+  "terrorisme": "Terrorisme",
+  "immigration": "Immigration",
+  "sante": "Santé et protection sociale",
+  "retraites": "Retraites",
+  "education": "Éducation",
+  "environnement": "Environnement, climat et énergie",
+  "dette_impots": "Dette publique et impôts",
+  "logement": "Logement",
+  "international": "International et défense",
+  "democratie": "Démocratie et institutions",
+  "europe": "Europe",
+  "societe": "Société, culture et égalités",
+  "general": "Généralités (valeurs, rassemblement, appel au vote)"
+ },
+ "documents": [
+  {
+   "annee": 1965,
+   "candidat": "Charles de Gaulle",
+   "source": "https://archive.org/details/EL033_P_1965_002",
+   "mots": 717,
+   "parts": {
+    "general": 42.0,
+    "democratie": 33.8,
+    "international": 24.3
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "lly a vingt -cinq ans, lorsque la France …",
+     "mots": 30,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "Il y a sept ans, j'ai cru devoir …",
+     "mots": 42,
+     "theme": "democratie"
+    },
+    {
+     "n": 2,
+     "debut": "Depuis lors , j'ai cru devoir exercer les …",
+     "mots": 48,
+     "theme": "general"
+    },
+    {
+     "n": 3,
+     "debut": "Aujourd' hui , je crois devoir me tenir …",
+     "mots": 35,
+     "theme": "general"
+    },
+    {
+     "n": 4,
+     "debut": "Car , ainsi, notre pays se voit offrir …",
+     "mots": 85,
+     "theme": "democratie"
+    },
+    {
+     "n": 5,
+     "debut": "C’est dire que, suivant votre choix, notre pays …",
+     "mots": 22,
+     "theme": "general"
+    },
+    {
+     "n": 6,
+     "debut": "Or, qu'il s' agisse de son unité, de …",
+     "mots": 57,
+     "theme": "general"
+    },
+    {
+     "n": 7,
+     "debut": "Certes, il y a encore, il y aura …",
+     "mots": 13,
+     "theme": "general"
+    },
+    {
+     "n": 8,
+     "debut": "Mais, comment y parviendrait -on, si l'Etat, livré …",
+     "mots": 14,
+     "theme": "democratie"
+    },
+    {
+     "n": 9,
+     "debut": "Am contraire, quel élan nouveau prendra notre République …",
+     "mots": 27,
+     "theme": "democratie"
+    },
+    {
+     "n": 10,
+     "debut": "En meme temps, se trouvent en jeu : …",
+     "mots": 137,
+     "theme": "international"
+    },
+    {
+     "n": 11,
+     "debut": "Voici que le monde entier regarde vers vous …",
+     "mots": 37,
+     "theme": "international"
+    },
+    {
+     "n": 12,
+     "debut": "Une grande responsabilité nationale incombera donc à vous …",
+     "mots": 13,
+     "theme": "general"
+    },
+    {
+     "n": 13,
+     "debut": "Telle est, d'ailleurs, la raison d'être de la …",
+     "mots": 37,
+     "theme": "democratie"
+    },
+    {
+     "n": 14,
+     "debut": "En élisant le Président de la République, il …",
+     "mots": 37,
+     "theme": "democratie"
+    },
+    {
+     "n": 15,
+     "debut": "A moi-même , que vous connaisse ^ bien …",
+     "mots": 38,
+     "theme": "general"
+    },
+    {
+     "n": 16,
+     "debut": "-Ainsi, devant tous les peuples, le scrutin historique …",
+     "mots": 39,
+     "theme": "general"
+    },
+    {
+     "n": 17,
+     "debut": "Vive la ^publique, Vive la France!",
+     "mots": 6,
+     "theme": "general"
+    }
+   ]
+  },
+  {
+   "annee": 1969,
+   "candidat": "Georges Pompidou",
+   "source": "https://archive.org/details/EL053_P_1969_006",
+   "mots": 1476,
+   "parts": {
+    "democratie": 24.5,
+    "economie": 20.0,
+    "education": 19.9,
+    "general": 11.8,
+    "international": 7.2,
+    "societe": 5.7,
+    "sante": 4.1,
+    "europe": 3.7,
+    "prix": 3.1
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "Tous les Français, quelles qtie soient leurs opinions, …",
+     "mots": 19,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "Aussi faut-il sauvegarder les institutions de la République …",
+     "mots": 41,
+     "theme": "democratie"
+    },
+    {
+     "n": 2,
+     "debut": "Maintien des institutions, ouverture, large union",
+     "mots": 6,
+     "theme": "democratie"
+    },
+    {
+     "n": 3,
+     "debut": "Pour cela, tl faut maintenir le rôle du …",
+     "mots": 59,
+     "theme": "democratie"
+    },
+    {
+     "n": 4,
+     "debut": "Pour cela, l'autorité qu’il tient du peuple tout …",
+     "mots": 19,
+     "theme": "democratie"
+    },
+    {
+     "n": 5,
+     "debut": "L’ouverture, c'est tout d'abord dans les rela- tions …",
+     "mots": 63,
+     "theme": "democratie"
+    },
+    {
+     "n": 6,
+     "debut": "Il faut que îe gouvernement, et davan- tage …",
+     "mots": 24,
+     "theme": "democratie"
+    },
+    {
+     "n": 7,
+     "debut": "Ministre, la réflexion pendant une année en dehors …",
+     "mots": 115,
+     "theme": "democratie"
+    },
+    {
+     "n": 8,
+     "debut": "Cette recherche du dialogue doit, enfin, être marquée …",
+     "mots": 35,
+     "theme": "democratie"
+    },
+    {
+     "n": 9,
+     "debut": "Progrès économique, justice sociale pour tous",
+     "mots": 6,
+     "theme": "economie"
+    },
+    {
+     "n": 10,
+     "debut": "La même volonté d’équilibre et de progrès doit …",
+     "mots": 112,
+     "theme": "economie"
+    },
+    {
+     "n": 11,
+     "debut": "la collectivité nationale, mais aussi des conditions de …",
+     "mots": 60,
+     "theme": "societe"
+    },
+    {
+     "n": 12,
+     "debut": "Seule cette expansion rendra possible une revalorisation régulière …",
+     "mots": 46,
+     "theme": "prix"
+    },
+    {
+     "n": 13,
+     "debut": "A cet égard, une de mes préoccupations Fondamentales …",
+     "mots": 66,
+     "theme": "economie"
+    },
+    {
+     "n": 14,
+     "debut": "Dans les entreprises, un certain nombre de réformes …",
+     "mots": 30,
+     "theme": "economie"
+    },
+    {
+     "n": 15,
+     "debut": "Ces réformes, il faut maintenant les faire entrer …",
+     "mots": 81,
+     "theme": "economie"
+    },
+    {
+     "n": 16,
+     "debut": "Mais l’attention du gouvernement doit se porter par …",
+     "mots": 60,
+     "theme": "sante"
+    },
+    {
+     "n": 17,
+     "debut": "Un avenir pour Ja jeunesse Université ; rénovation …",
+     "mots": 10,
+     "theme": "education"
+    },
+    {
+     "n": 18,
+     "debut": "Croire en un Idéal, conserver le sens du …",
+     "mots": 109,
+     "theme": "education"
+    },
+    {
+     "n": 19,
+     "debut": "Rien ne peut être construit dans le désordre. …",
+     "mots": 114,
+     "theme": "education"
+    },
+    {
+     "n": 20,
+     "debut": "Ceci est plus vrai encore des établisse- ments …",
+     "mots": 60,
+     "theme": "education"
+    },
+    {
+     "n": 21,
+     "debut": "Rayonnement culturel, respect des hommes, progrès social, voilà …",
+     "mots": 24,
+     "theme": "societe"
+    },
+    {
+     "n": 22,
+     "debut": "En politique étrangère : indépendance, Europe, paix",
+     "mots": 7,
+     "theme": "international"
+    },
+    {
+     "n": 23,
+     "debut": "En politique extérieure, la voie est tracée : …",
+     "mots": 41,
+     "theme": "international"
+    },
+    {
+     "n": 24,
+     "debut": "Dans ce cadre, il convient de développer la …",
+     "mots": 55,
+     "theme": "europe"
+    },
+    {
+     "n": 25,
+     "debut": "Fondée sur l’intérêt national, la défense de (a …",
+     "mots": 40,
+     "theme": "international"
+    },
+    {
+     "n": 26,
+     "debut": "mettre fin à la division du monde en …",
+     "mots": 19,
+     "theme": "international"
+    },
+    {
+     "n": 27,
+     "debut": "Conserver à notre pays des institutions solides et …",
+     "mots": 111,
+     "theme": "general"
+    },
+    {
+     "n": 28,
+     "debut": "Dans les Jours tragiques de mai dernier, je …",
+     "mots": 44,
+     "theme": "general"
+    }
+   ]
+  },
+  {
+   "annee": 1974,
+   "candidat": "Valéry Giscard d'Estaing",
+   "source": "https://archive.org/details/EL084_P_1974_002",
+   "mots": 564,
+   "parts": {
+    "general": 69.9,
+    "societe": 13.7,
+    "international": 10.5,
+    "sante": 4.8,
+    "democratie": 1.2
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "Pour succéder au Président Georges POMPIDOU, vous allez …",
+     "mots": 27,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "Votre choix n’est pas un choix entre de …",
+     "mots": 23,
+     "theme": "general"
+    },
+    {
+     "n": 2,
+     "debut": "Je vous demande de me confier cette mission.",
+     "mots": 8,
+     "theme": "general"
+    },
+    {
+     "n": 3,
+     "debut": "Si vous m’élisez, chaque Française et chaque Français …",
+     "mots": 23,
+     "theme": "general"
+    },
+    {
+     "n": 4,
+     "debut": "Je serai un Président qui vous informera.",
+     "mots": 7,
+     "theme": "democratie"
+    },
+    {
+     "n": 5,
+     "debut": "Je vous propose comme objectifs, à l’intérieur, la …",
+     "mots": 13,
+     "theme": "general"
+    },
+    {
+     "n": 6,
+     "debut": "— la sécurité face à la vieillesse, face …",
+     "mots": 27,
+     "theme": "sante"
+    },
+    {
+     "n": 7,
+     "debut": "— le changement, en rajeunissant la politique française, …",
+     "mots": 77,
+     "theme": "societe"
+    },
+    {
+     "n": 8,
+     "debut": "A l’extérieur, nous assurerons les deux indépendances : …",
+     "mots": 59,
+     "theme": "international"
+    },
+    {
+     "n": 9,
+     "debut": "Si vous me choisissez, je ser2u fier de …",
+     "mots": 37,
+     "theme": "general"
+    },
+    {
+     "n": 10,
+     "debut": "Vous devez avoir confiance dans votre Président. Il …",
+     "mots": 19,
+     "theme": "general"
+    },
+    {
+     "n": 12,
+     "debut": "— Etudes aux lycées Janson-de-Sailly et Louis-le-Grand à …",
+     "mots": 14,
+     "theme": "general"
+    },
+    {
+     "n": 13,
+     "debut": "— A 16 ans, il sert dans la …",
+     "mots": 16,
+     "theme": "general"
+    },
+    {
+     "n": 14,
+     "debut": "— Engagé volontaire à 18 ans dans la …",
+     "mots": 19,
+     "theme": "general"
+    },
+    {
+     "n": 15,
+     "debut": "— Reçu au concours de FEcole polytechnique en …",
+     "mots": 20,
+     "theme": "general"
+    },
+    {
+     "n": 16,
+     "debut": "— Directeur adjoint du cabinet de M. Edgar …",
+     "mots": 14,
+     "theme": "general"
+    },
+    {
+     "n": 17,
+     "debut": "— Elu Conseiller Général du canton rural de …",
+     "mots": 13,
+     "theme": "general"
+    },
+    {
+     "n": 18,
+     "debut": "— Réélu Député du Puy-de-Dôme en novembre 1958 …",
+     "mots": 12,
+     "theme": "general"
+    },
+    {
+     "n": 19,
+     "debut": "— Nommé Secrétaire d’Etat aux Finances, en janvier …",
+     "mots": 19,
+     "theme": "general"
+    },
+    {
+     "n": 20,
+     "debut": "— En janvier 1962, nommé Ministre des Finances …",
+     "mots": 19,
+     "theme": "general"
+    },
+    {
+     "n": 21,
+     "debut": "— Elu Maire de Chamalières, ville proche de …",
+     "mots": 13,
+     "theme": "general"
+    },
+    {
+     "n": 22,
+     "debut": "— Réélu Député du Puy-de-Dôme, au premier tour, …",
+     "mots": 24,
+     "theme": "general"
+    },
+    {
+     "n": 23,
+     "debut": "— Après son élection, en juin 1969, le …",
+     "mots": 33,
+     "theme": "general"
+    },
+    {
+     "n": 24,
+     "debut": "Mariés en décembre 1952, Anne-Aymone et Valéry GISCARD …",
+     "mots": 28,
+     "theme": "general"
+    }
+   ]
+  },
+  {
+   "annee": 1981,
+   "candidat": "François Mitterrand",
+   "source": "https://archive.org/details/EL123_P_1981_010",
+   "mots": 988,
+   "parts": {
+    "general": 30.5,
+    "democratie": 16.7,
+    "economie": 10.6,
+    "international": 9.9,
+    "societe": 9.6,
+    "chomage": 8.9,
+    "prix": 6.7,
+    "dette_impots": 6.1,
+    "logement": 1.0
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "De votre vote dépendent, pour une large part, …",
+     "mots": 26,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "Vous êtes inquiet de voir le chômage s’aggraver, …",
+     "mots": 31,
+     "theme": "chomage"
+    },
+    {
+     "n": 2,
+     "debut": "Vous êtes inquiet devant les incertitudes de notre …",
+     "mots": 21,
+     "theme": "international"
+    },
+    {
+     "n": 3,
+     "debut": "Vous jugez qu’il est temps de faire une …",
+     "mots": 18,
+     "theme": "general"
+    },
+    {
+     "n": 4,
+     "debut": "Mais l’heure n’est plus au regret, elle est …",
+     "mots": 24,
+     "theme": "general"
+    },
+    {
+     "n": 5,
+     "debut": "L’Emploi, c’est la première de nos obligations. J’y …",
+     "mots": 19,
+     "theme": "chomage"
+    },
+    {
+     "n": 6,
+     "debut": "- L’augmentation des bas salaires, des allocations familiales, …",
+     "mots": 18,
+     "theme": "prix"
+    },
+    {
+     "n": 7,
+     "debut": "- Un programme ambitieux de grands travaux et …",
+     "mots": 10,
+     "theme": "logement"
+    },
+    {
+     "n": 8,
+     "debut": "- La reconquête de notre marché intérieur contre …",
+     "mots": 12,
+     "theme": "economie"
+    },
+    {
+     "n": 9,
+     "debut": "- La création d’emplois indispensables dans les hôpitaux, …",
+     "mots": 17,
+     "theme": "chomage"
+    },
+    {
+     "n": 10,
+     "debut": "- La promotion de l’exploitation familiale agricole.",
+     "mots": 7,
+     "theme": "economie"
+    },
+    {
+     "n": 11,
+     "debut": "- La semaine de 35 heures négociée par …",
+     "mots": 21,
+     "theme": "chomage"
+    },
+    {
+     "n": 12,
+     "debut": "- Une répartition plus juste des charges sociales, …",
+     "mots": 18,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 13,
+     "debut": "En agissant ainsi, nous gagnerons cette première bataille.",
+     "mots": 8,
+     "theme": "general"
+    },
+    {
+     "n": 14,
+     "debut": "La Pabc, la fermeté de nos positions, l’autonomie …",
+     "mots": 77,
+     "theme": "international"
+    },
+    {
+     "n": 15,
+     "debut": "La Liberté: sans elle rien ne vaut et …",
+     "mots": 37,
+     "theme": "societe"
+    },
+    {
+     "n": 16,
+     "debut": "je proposerai l’égalité des chances, pour les travailleurs …",
+     "mots": 40,
+     "theme": "democratie"
+    },
+    {
+     "n": 17,
+     "debut": "Avec les départements et territoires d’outre-mer, un dialogue …",
+     "mots": 28,
+     "theme": "societe"
+    },
+    {
+     "n": 18,
+     "debut": "Je suis socialiste et vous savez qu’un socialiste, …",
+     "mots": 48,
+     "theme": "general"
+    },
+    {
+     "n": 19,
+     "debut": "Sur tous ces points, j’ai annoncé des mesures …",
+     "mots": 24,
+     "theme": "general"
+    },
+    {
+     "n": 20,
+     "debut": "La Crise : non, elle n’est pas fatale …",
+     "mots": 86,
+     "theme": "economie"
+    },
+    {
+     "n": 21,
+     "debut": "L’Inflation : elle compromet notre avenir, ronge votre …",
+     "mots": 48,
+     "theme": "prix"
+    },
+    {
+     "n": 22,
+     "debut": "La Fiscalité : il n’est pas juste que …",
+     "mots": 42,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 23,
+     "debut": "La Bureaucratie: elle m’inquiète comme vous. Un pouvoir …",
+     "mots": 80,
+     "theme": "democratie"
+    },
+    {
+     "n": 24,
+     "debut": "Permettez-moi d’ajouter deux réflexions de bon sens pour …",
+     "mots": 12,
+     "theme": "general"
+    },
+    {
+     "n": 25,
+     "debut": "Vous ne voulez pas le désordre, moi non …",
+     "mots": 9,
+     "theme": "general"
+    },
+    {
+     "n": 26,
+     "debut": "Seule l’alternance garantit la bonne santé d’une démocratie. …",
+     "mots": 45,
+     "theme": "democratie"
+    },
+    {
+     "n": 27,
+     "debut": "Refuser le désordre, c’est aujourd’hui vouloir le changement …",
+     "mots": 11,
+     "theme": "general"
+    },
+    {
+     "n": 28,
+     "debut": "Vous voulez un pays fort. Moi aussi.",
+     "mots": 7,
+     "theme": "general"
+    },
+    {
+     "n": 29,
+     "debut": "Un pays est faible lorsque ses gouvernants composent …",
+     "mots": 30,
+     "theme": "societe"
+    },
+    {
+     "n": 30,
+     "debut": "Un pays est fort lorsque tout un peuple …",
+     "mots": 16,
+     "theme": "general"
+    },
+    {
+     "n": 31,
+     "debut": "Je vous ai parlé en homme libre. Libre …",
+     "mots": 24,
+     "theme": "general"
+    },
+    {
+     "n": 32,
+     "debut": "Je ne connais qu’une obligation, celle à laquelle …",
+     "mots": 51,
+     "theme": "general"
+    },
+    {
+     "n": 33,
+     "debut": "J’invite aussi à les rejoindre celles et ceux …",
+     "mots": 23,
+     "theme": "general"
+    }
+   ]
+  },
+  {
+   "annee": 1988,
+   "candidat": "François Mitterrand",
+   "source": "https://archive.org/details/EL169_P_1988_008",
+   "mots": 541,
+   "parts": {
+    "general": 28.5,
+    "societe": 17.7,
+    "democratie": 17.2,
+    "europe": 13.5,
+    "education": 10.4,
+    "international": 7.6,
+    "economie": 3.9,
+    "sante": 1.3
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "n sept ans, nous avons appris à nous …",
+     "mots": 66,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "Pendant ce temps, deux majorités se sont succédé …",
+     "mots": 38,
+     "theme": "democratie"
+    },
+    {
+     "n": 2,
+     "debut": "Socialiste, je suis fidèle aux valeurs de la …",
+     "mots": 37,
+     "theme": "general"
+    },
+    {
+     "n": 3,
+     "debut": "Vous le savez, rien ne peut être obtenu …",
+     "mots": 55,
+     "theme": "societe"
+    },
+    {
+     "n": 4,
+     "debut": "Rien ne sera possible non plus si nous …",
+     "mots": 30,
+     "theme": "democratie"
+    },
+    {
+     "n": 5,
+     "debut": "Je souhaite construire avec vous l'Europe de la …",
+     "mots": 48,
+     "theme": "europe"
+    },
+    {
+     "n": 6,
+     "debut": "Tout en maintenant la capacité de dissuasion de …",
+     "mots": 21,
+     "theme": "international"
+    },
+    {
+     "n": 7,
+     "debut": "J’appelle les Françaises et les Français à se …",
+     "mots": 37,
+     "theme": "education"
+    },
+    {
+     "n": 8,
+     "debut": "Mobilisons nos énergies, les forces du travail, de …",
+     "mots": 20,
+     "theme": "general"
+    },
+    {
+     "n": 9,
+     "debut": "Seul compte à mes yeux l’avenir de notre …",
+     "mots": 22,
+     "theme": "general"
+    },
+    {
+     "n": 10,
+     "debut": "La France unie pour la paix et le …",
+     "mots": 9,
+     "theme": "general"
+    },
+    {
+     "n": 11,
+     "debut": "La paix civile . La tolérance, le respect …",
+     "mots": 18,
+     "theme": "societe"
+    },
+    {
+     "n": 12,
+     "debut": "L’impartialité de la justice, de l'information, de",
+     "mots": 7,
+     "theme": "democratie"
+    },
+    {
+     "n": 13,
+     "debut": "La paix sociale . Le respect des acquis …",
+     "mots": 9,
+     "theme": "societe"
+    },
+    {
+     "n": 14,
+     "debut": "Dans la région, le département, la commune, une",
+     "mots": 8,
+     "theme": "democratie"
+    },
+    {
+     "n": 15,
+     "debut": "La paix dans le monde. La sécurité par …",
+     "mots": 20,
+     "theme": "international"
+    },
+    {
+     "n": 16,
+     "debut": "Une économie qui marche. D'abord la formation et …",
+     "mots": 21,
+     "theme": "economie"
+    },
+    {
+     "n": 17,
+     "debut": "L'Etat qui joue son rôle sans se mêler …",
+     "mots": 10,
+     "theme": "democratie"
+    },
+    {
+     "n": 18,
+     "debut": "L'égaUté des chances. L'éducation, première des priorités.",
+     "mots": 7,
+     "theme": "education"
+    },
+    {
+     "n": 19,
+     "debut": "Le droit à la formation, à tous les …",
+     "mots": 12,
+     "theme": "education"
+    },
+    {
+     "n": 20,
+     "debut": "La solidarité. Le refus des exclusions.",
+     "mots": 6,
+     "theme": "societe"
+    },
+    {
+     "n": 21,
+     "debut": "Le revenu minimum pour les plus démunis.",
+     "mots": 7,
+     "theme": "sante"
+    },
+    {
+     "n": 22,
+     "debut": "La culture. L'accès de tous à la culture.",
+     "mots": 8,
+     "theme": "societe"
+    },
+    {
+     "n": 23,
+     "debut": "L'Europe. Une France forte au rendez-vous du grand",
+     "mots": 8,
+     "theme": "europe"
+    },
+    {
+     "n": 24,
+     "debut": "Une Europe facteur de paix et de prospérité.",
+     "mots": 8,
+     "theme": "europe"
+    },
+    {
+     "n": 25,
+     "debut": "La France est notre patrie, l'Europe est notre …",
+     "mots": 9,
+     "theme": "europe"
+    }
+   ]
+  },
+  {
+   "annee": 1995,
+   "candidat": "Jacques Chirac",
+   "source": "https://archive.org/details/EL209_P_1995_003",
+   "mots": 508,
+   "parts": {
+    "general": 42.3,
+    "chomage": 17.5,
+    "europe": 14.0,
+    "societe": 13.4,
+    "economie": 12.8
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "“Progression du chômage, renforcement des inégalités, les choses …",
+     "mots": 13,
+     "theme": "chomage"
+    },
+    {
+     "n": 1,
+     "debut": "“Je veux m’entourer d’hommes et de femmes nouveaux …",
+     "mots": 14,
+     "theme": "general"
+    },
+    {
+     "n": 2,
+     "debut": "“Je veux mobiliser toutes nos forces contre le …",
+     "mots": 11,
+     "theme": "chomage"
+    },
+    {
+     "n": 3,
+     "debut": "Quand on écoute les Français depuis des années …",
+     "mots": 68,
+     "theme": "societe"
+    },
+    {
+     "n": 4,
+     "debut": "Au terme de quatorze ans de mitterrandisme, et …",
+     "mots": 37,
+     "theme": "general"
+    },
+    {
+     "n": 5,
+     "debut": "Je suis candidat à la Présidence de la …",
+     "mots": 66,
+     "theme": "general"
+    },
+    {
+     "n": 6,
+     "debut": "Je veux bâtir une France pour tous. Je …",
+     "mots": 65,
+     "theme": "chomage"
+    },
+    {
+     "n": 7,
+     "debut": "“Je veux faire revivre les valeurs de la …",
+     "mots": 9,
+     "theme": "general"
+    },
+    {
+     "n": 8,
+     "debut": "Au centre de ma démarche, il y a …",
+     "mots": 50,
+     "theme": "general"
+    },
+    {
+     "n": 9,
+     "debut": "Je m’engage à libérer les forces vives de …",
+     "mots": 65,
+     "theme": "economie"
+    },
+    {
+     "n": 10,
+     "debut": "“Dans l’intérêt des Français, je veux réussir l’Europe.”",
+     "mots": 8,
+     "theme": "europe"
+    },
+    {
+     "n": 11,
+     "debut": "Cette nouvelle France, plus solidaire, et donc plus …",
+     "mots": 63,
+     "theme": "europe"
+    },
+    {
+     "n": 12,
+     "debut": "La France n 'est elle-même que lorsqu ’ …",
+     "mots": 39,
+     "theme": "general"
+    }
+   ]
+  },
+  {
+   "annee": 2002,
+   "candidat": "Jacques Chirac",
+   "source": "https://archive.org/details/EL231_P_2002_004",
+   "mots": 1331,
+   "parts": {
+    "general": 20.2,
+    "insecurite": 17.6,
+    "chomage": 15.7,
+    "logement": 7.1,
+    "sante": 6.8,
+    "international": 6.2,
+    "economie": 5.8,
+    "education": 5.7,
+    "environnement": 5.0,
+    "dette_impots": 4.4,
+    "retraites": 4.4,
+    "societe": 1.1
+   },
+   "passages": [
+    {
+     "n": 4,
+     "debut": "A FRANCE est une grande démocratie,",
+     "mots": 6,
+     "theme": "general"
+    },
+    {
+     "n": 5,
+     "debut": "L unie par son histoire et par des …",
+     "mots": 66,
+     "theme": "general"
+    },
+    {
+     "n": 6,
+     "debut": "Mais aujourd’hui la France tourne au ralenti. Son …",
+     "mots": 107,
+     "theme": "general"
+    },
+    {
+     "n": 7,
+     "debut": "Nous devons absolument réagir, sans tarder.",
+     "mots": 6,
+     "theme": "general"
+    },
+    {
+     "n": 8,
+     "debut": "Je veux garantir Les libertés fondamentales sans lesquelles …",
+     "mots": 13,
+     "theme": "insecurite"
+    },
+    {
+     "n": 9,
+     "debut": "D’abord la sécurité qui constitue un préalable indispensable. …",
+     "mots": 29,
+     "theme": "insecurite"
+    },
+    {
+     "n": 10,
+     "debut": "pas compris l'ampleur et la gravité du phénomène.",
+     "mots": 8,
+     "theme": "insecurite"
+    },
+    {
+     "n": 11,
+     "debut": "La violence se nourrit d’abord des défaillances de …",
+     "mots": 54,
+     "theme": "insecurite"
+    },
+    {
+     "n": 12,
+     "debut": "Pour donner un coup d’arrêt 4'abor: à l’insécurité, …",
+     "mots": 18,
+     "theme": "insecurite"
+    },
+    {
+     "n": 13,
+     "debut": "comme à la campagne. En faisant appliquer par …",
+     "mots": 26,
+     "theme": "insecurite"
+    },
+    {
+     "n": 14,
+     "debut": "Pour des raisons idéologiques, la création de ces …",
+     "mots": 44,
+     "theme": "insecurite"
+    },
+    {
+     "n": 15,
+     "debut": "exceptionnels : magistrats, policiers, gen- darmes, douaniers, fonctionnaires …",
+     "mots": 34,
+     "theme": "insecurite"
+    },
+    {
+     "n": 16,
+     "debut": "d’un retour au droit, d’un retour au respect.",
+     "mots": 8,
+     "theme": "insecurite"
+    },
+    {
+     "n": 17,
+     "debut": "J'ai confiance dans l’avenir de nos villes. Dans …",
+     "mots": 14,
+     "theme": "societe"
+    },
+    {
+     "n": 18,
+     "debut": "avant tout sauvegarder son système de retraite par …",
+     "mots": 9,
+     "theme": "retraites"
+    },
+    {
+     "n": 19,
+     "debut": "je rencontre à chaque fois une extraordinaire richesse …",
+     "mots": 95,
+     "theme": "logement"
+    },
+    {
+     "n": 20,
+     "debut": "Les solidarités qui nous protègent face aux risques …",
+     "mots": 13,
+     "theme": "sante"
+    },
+    {
+     "n": 21,
+     "debut": "Mon ambition est de Les renouveler.",
+     "mots": 6,
+     "theme": "sante"
+    },
+    {
+     "n": 22,
+     "debut": "La France doit avant tout sauvegarder son système …",
+     "mots": 49,
+     "theme": "retraites"
+    },
+    {
+     "n": 23,
+     "debut": "La France doit créer l’“assurance-emploi”. Elle apportera à …",
+     "mots": 51,
+     "theme": "chomage"
+    },
+    {
+     "n": 24,
+     "debut": "La France doit redevenir le pays de légalité …",
+     "mots": 39,
+     "theme": "education"
+    },
+    {
+     "n": 25,
+     "debut": "et que, chaque année, 60 000 adolescents quittent …",
+     "mots": 37,
+     "theme": "education"
+    },
+    {
+     "n": 26,
+     "debut": "La France doit garantir son système de santé, …",
+     "mots": 29,
+     "theme": "sante"
+    },
+    {
+     "n": 27,
+     "debut": "Une Charte de l’environnement de valeur constitutionnelle imposera …",
+     "mots": 29,
+     "theme": "environnement"
+    },
+    {
+     "n": 28,
+     "debut": "cela implique pour le renforcement de la sécu- …",
+     "mots": 12,
+     "theme": "environnement"
+    },
+    {
+     "n": 29,
+     "debut": "rité face aux risques naturels, alimentaires, industriels et …",
+     "mots": 26,
+     "theme": "environnement"
+    },
+    {
+     "n": 30,
+     "debut": "Je veux libérer Les forces du travail et …",
+     "mots": 10,
+     "theme": "economie"
+    },
+    {
+     "n": 31,
+     "debut": "Je veux que puisse s'exprimer toute la puissance …",
+     "mots": 76,
+     "theme": "chomage"
+    },
+    {
+     "n": 32,
+     "debut": "Vous devez pouvoir travailler plus si vous avez …",
+     "mots": 39,
+     "theme": "chomage"
+    },
+    {
+     "n": 33,
+     "debut": "| généreuse, plus solidaire, une France du respect …",
+     "mots": 11,
+     "theme": "general"
+    },
+    {
+     "n": 34,
+     "debut": "Les 35 heures ne doivent pas décourager les …",
+     "mots": 43,
+     "theme": "chomage"
+    },
+    {
+     "n": 35,
+     "debut": "Chacun doit pouvoir mieux profiter du fruit de …",
+     "mots": 59,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 36,
+     "debut": "Dans leur diversité, les familles ont en effet …",
+     "mots": 42,
+     "theme": "sante"
+    },
+    {
+     "n": 37,
+     "debut": "Les entreprises, et tous ceux qui créent",
+     "mots": 7,
+     "theme": "economie"
+    },
+    {
+     "n": 38,
+     "debut": "’emploi, doivent voir allégées les contraintes fiscales et …",
+     "mots": 11,
+     "theme": "economie"
+    },
+    {
+     "n": 39,
+     "debut": "eur développement par rapport à leurs concurrents européens. …",
+     "mots": 37,
+     "theme": "economie"
+    },
+    {
+     "n": 40,
+     "debut": "ces. Et nous devons faire en sorte que …",
+     "mots": 12,
+     "theme": "economie"
+    },
+    {
+     "n": 41,
+     "debut": "Je crois au destin de La France, à …",
+     "mots": 15,
+     "theme": "general"
+    },
+    {
+     "n": 42,
+     "debut": "es Français rassurés, nous retrouverons alors une France …",
+     "mots": 21,
+     "theme": "general"
+    },
+    {
+     "n": 43,
+     "debut": "Je veux une France de l'initiative, une France …",
+     "mots": 37,
+     "theme": "general"
+    },
+    {
+     "n": 44,
+     "debut": "Jne France qui affirme sa présence dans e …",
+     "mots": 24,
+     "theme": "international"
+    },
+    {
+     "n": 45,
+     "debut": "pauvres. Au service du dialogue des cultures et …",
+     "mots": 13,
+     "theme": "international"
+    },
+    {
+     "n": 46,
+     "debut": "Une France qui rétablira l’effort d’équi- pement de …",
+     "mots": 46,
+     "theme": "international"
+    }
+   ]
+  },
+  {
+   "annee": 2007,
+   "candidat": "Nicolas Sarkozy",
+   "source": "https://archive.org/details/EL235_P_2007_008",
+   "mots": 1655,
+   "parts": {
+    "chomage": 20.5,
+    "general": 14.4,
+    "democratie": 10.6,
+    "prix": 8.4,
+    "education": 8.0,
+    "societe": 7.9,
+    "economie": 5.4,
+    "europe": 5.0,
+    "immigration": 4.9,
+    "dette_impots": 3.9,
+    "sante": 3.4,
+    "insecurite": 3.4,
+    "logement": 2.7,
+    "international": 1.6
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "Depuis vingt-cinq ans, on vous dit que contre …",
+     "mots": 45,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "Je vous propose d’en finir avec ce renoncement, …",
+     "mots": 11,
+     "theme": "general"
+    },
+    {
+     "n": 2,
+     "debut": "Depuis 2002, je vous ai montré que l’on …",
+     "mots": 32,
+     "theme": "insecurite"
+    },
+    {
+     "n": 3,
+     "debut": "Je sais que si nous voulons, nous pouvons.",
+     "mots": 8,
+     "theme": "general"
+    },
+    {
+     "n": 4,
+     "debut": "Notre pays traverse une triple crise. Une crise …",
+     "mots": 27,
+     "theme": "general"
+    },
+    {
+     "n": 5,
+     "debut": "d’identité ; notre nation n’ose plus défendre, ni …",
+     "mots": 12,
+     "theme": "general"
+    },
+    {
+     "n": 6,
+     "debut": "n n’y a aucune fatalité. Notre pays peut …",
+     "mots": 32,
+     "theme": "general"
+    },
+    {
+     "n": 7,
+     "debut": "Ces dernières semaines, j’ai eu l’occasion de vous …",
+     "mots": 81,
+     "theme": "general"
+    },
+    {
+     "n": 8,
+     "debut": "Je veux d’abord être le Président de la …",
+     "mots": 10,
+     "theme": "chomage"
+    },
+    {
+     "n": 9,
+     "debut": "Le travail est au cœur de mon projet …",
+     "mots": 66,
+     "theme": "chomage"
+    },
+    {
+     "n": 10,
+     "debut": "Je veux réhabiliter le travail. Le travail est …",
+     "mots": 51,
+     "theme": "chomage"
+    },
+    {
+     "n": 11,
+     "debut": "Je ferai en sorte que le travail soit …",
+     "mots": 35,
+     "theme": "chomage"
+    },
+    {
+     "n": 12,
+     "debut": "Je supprimerai les droits de donation et de …",
+     "mots": 26,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 13,
+     "debut": "Partager le travail n’a jamais permis de réduire …",
+     "mots": 24,
+     "theme": "chomage"
+    },
+    {
+     "n": 14,
+     "debut": "liserai pour inciter les Français à travailler plus, …",
+     "mots": 31,
+     "theme": "chomage"
+    },
+    {
+     "n": 15,
+     "debut": "Le service public de l’emploi sera unifié et …",
+     "mots": 32,
+     "theme": "chomage"
+    },
+    {
+     "n": 16,
+     "debut": "Surtout, je mènerai une politique économique tota- lement …",
+     "mots": 90,
+     "theme": "economie"
+    },
+    {
+     "n": 17,
+     "debut": "Je souhaite que nous atteignions le plein-emploi en …",
+     "mots": 41,
+     "theme": "chomage"
+    },
+    {
+     "n": 18,
+     "debut": "Je veux être le Président du pouvoir d’achat",
+     "mots": 8,
+     "theme": "prix"
+    },
+    {
+     "n": 19,
+     "debut": "Avec l’euro qui a fait augmenter les prix, …",
+     "mots": 70,
+     "theme": "prix"
+    },
+    {
+     "n": 20,
+     "debut": "C’est pourquoi les heures supplémentaires seront Je baisserai …",
+     "mots": 61,
+     "theme": "prix"
+    },
+    {
+     "n": 21,
+     "debut": "Je veux être le Président qui garantit",
+     "mots": 7,
+     "theme": "general"
+    },
+    {
+     "n": 22,
+     "debut": "Vous voulez que vos familles, vos proches, vos …",
+     "mots": 50,
+     "theme": "chomage"
+    },
+    {
+     "n": 23,
+     "debut": "Je ferai en sorte que vous puissiez tous …",
+     "mots": 44,
+     "theme": "logement"
+    },
+    {
+     "n": 24,
+     "debut": "Grâce aux richesses que nous créerons, nous mettrons …",
+     "mots": 24,
+     "theme": "sante"
+    },
+    {
+     "n": 25,
+     "debut": "dès le premier enfant, renforcer notre système de …",
+     "mots": 33,
+     "theme": "sante"
+    },
+    {
+     "n": 26,
+     "debut": "J’agirai pour que l’Europe nous protège dans la …",
+     "mots": 82,
+     "theme": "europe"
+    },
+    {
+     "n": 27,
+     "debut": "Je veux être le Président d’un Etat fort …",
+     "mots": 10,
+     "theme": "democratie"
+    },
+    {
+     "n": 28,
+     "debut": "Je défendrai la V® République parce que c’est …",
+     "mots": 70,
+     "theme": "democratie"
+    },
+    {
+     "n": 29,
+     "debut": "Je gouvernerai dans la transparence, avec un attentes …",
+     "mots": 32,
+     "theme": "democratie"
+    },
+    {
+     "n": 30,
+     "debut": "du Parlement. Je veux que ia justice soit …",
+     "mots": 63,
+     "theme": "democratie"
+    },
+    {
+     "n": 31,
+     "debut": "Je veux être le Président qui prépare l’avenir …",
+     "mots": 11,
+     "theme": "education"
+    },
+    {
+     "n": 32,
+     "debut": "Je n’accepte plus un tel niveau d’échec scolaire …",
+     "mots": 39,
+     "theme": "education"
+    },
+    {
+     "n": 33,
+     "debut": "Je garantirai à tous vos enfants l’acquisition des …",
+     "mots": 40,
+     "theme": "education"
+    },
+    {
+     "n": 34,
+     "debut": "supérieur et la recherche, en particulier en donnant …",
+     "mots": 43,
+     "theme": "education"
+    },
+    {
+     "n": 35,
+     "debut": "Je réduirai la dette et le déficit, qui …",
+     "mots": 38,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 36,
+     "debut": "Je veux être le Président d’une France fière …",
+     "mots": 15,
+     "theme": "general"
+    },
+    {
+     "n": 37,
+     "debut": "Avec vous, Français de métropole, d’Outre-mer et de …",
+     "mots": 45,
+     "theme": "societe"
+    },
+    {
+     "n": 38,
+     "debut": "Je considère que l’autorité et le respect sont …",
+     "mots": 41,
+     "theme": "societe"
+    },
+    {
+     "n": 39,
+     "debut": "Je poursuivrai la politique de sécurité, notamment en …",
+     "mots": 24,
+     "theme": "insecurite"
+    },
+    {
+     "n": 40,
+     "debut": "Je veux que la France reste un pays …",
+     "mots": 18,
+     "theme": "immigration"
+    },
+    {
+     "n": 41,
+     "debut": "l’origine de graves déséquilibres sociaux. C’est pourquoi j’instaurerai …",
+     "mots": 63,
+     "theme": "immigration"
+    },
+    {
+     "n": 42,
+     "debut": "Je stimulerai la création et défendrai la langue …",
+     "mots": 44,
+     "theme": "societe"
+    },
+    {
+     "n": 43,
+     "debut": "La France pèsera sur la scène internationale et …",
+     "mots": 26,
+     "theme": "international"
+    }
+   ]
+  },
+  {
+   "annee": 2012,
+   "candidat": "François Hollande",
+   "source": "https://archive.org/details/EL245_P_2012_033",
+   "mots": 1116,
+   "parts": {
+    "general": 17.1,
+    "dette_impots": 11.2,
+    "economie": 10.8,
+    "societe": 8.4,
+    "education": 7.7,
+    "insecurite": 7.0,
+    "international": 6.6,
+    "democratie": 6.0,
+    "chomage": 4.8,
+    "europe": 4.6,
+    "prix": 4.3,
+    "environnement": 3.3,
+    "retraites": 3.2,
+    "sante": 2.5,
+    "logement": 2.3
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "REDRESSER LA FRANCE DANS LA JUSTICE",
+     "mots": 6,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "Le 22 avril, par votre vote, vous allez …",
+     "mots": 14,
+     "theme": "general"
+    },
+    {
+     "n": 2,
+     "debut": "La France a besoin de changement.",
+     "mots": 6,
+     "theme": "general"
+    },
+    {
+     "n": 3,
+     "debut": "Le quinquennat qui s'achève est un échec. Les …",
+     "mots": 45,
+     "theme": "general"
+    },
+    {
+     "n": 4,
+     "debut": "Quelques-uns confisquent la richesse quand le plus grand …",
+     "mots": 20,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 5,
+     "debut": "En Europe, nos dirigeants se sont résignés à …",
+     "mots": 18,
+     "theme": "europe"
+    },
+    {
+     "n": 6,
+     "debut": "Le changement que je propose est fondé sur …",
+     "mots": 11,
+     "theme": "general"
+    },
+    {
+     "n": 7,
+     "debut": "- le redressement de notre économie et de …",
+     "mots": 12,
+     "theme": "economie"
+    },
+    {
+     "n": 8,
+     "debut": "- la justice fiscale, sociale et territoriale ;",
+     "mots": 8,
+     "theme": "societe"
+    },
+    {
+     "n": 9,
+     "debut": "- la réussite de notre jeunesse ;",
+     "mots": 7,
+     "theme": "education"
+    },
+    {
+     "n": 10,
+     "debut": "- le rassemblement autour des valeurs de la …",
+     "mots": 9,
+     "theme": "general"
+    },
+    {
+     "n": 11,
+     "debut": "Je ne veux rien promettre que je ne …",
+     "mots": 22,
+     "theme": "general"
+    },
+    {
+     "n": 12,
+     "debut": "> J'agirai pour produire en France : une …",
+     "mots": 41,
+     "theme": "economie"
+    },
+    {
+     "n": 13,
+     "debut": "en France, embaucheront ou seront offensives à l'exportation.",
+     "mots": 8,
+     "theme": "economie"
+    },
+    {
+     "n": 14,
+     "debut": "> Je modulerai l'impôt sur les sociétés selon …",
+     "mots": 33,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 15,
+     "debut": "> Notre agriculture sera soutenue lors de la …",
+     "mots": 21,
+     "theme": "economie"
+    },
+    {
+     "n": 16,
+     "debut": "> Je ferai construire 2,5 millions de loge- …",
+     "mots": 26,
+     "theme": "logement"
+    },
+    {
+     "n": 17,
+     "debut": "> J'engagerai la transition écologique et énergétique : …",
+     "mots": 37,
+     "theme": "environnement"
+    },
+    {
+     "n": 18,
+     "debut": "> Je mettrai les banques au service de …",
+     "mots": 39,
+     "theme": "economie"
+    },
+    {
+     "n": 19,
+     "debut": "> Je rétablirai les comptes publics : l'équilibre …",
+     "mots": 28,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 20,
+     "debut": "> Je réorienterai l'Europe : renégociation du traité …",
+     "mots": 33,
+     "theme": "europe"
+    },
+    {
+     "n": 21,
+     "debut": "> Je protégerai le pouvoir d'achat :",
+     "mots": 7,
+     "theme": "prix"
+    },
+    {
+     "n": 22,
+     "debut": "allocation de rentrée scolaire immédiatement revalorisée de 25% …",
+     "mots": 41,
+     "theme": "prix"
+    },
+    {
+     "n": 23,
+     "debut": "> Je réformerai la fiscalité : les revenus …",
+     "mots": 44,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 24,
+     "debut": "> Je lutterai contre les discriminations en matière …",
+     "mots": 57,
+     "theme": "societe"
+    },
+    {
+     "n": 25,
+     "debut": "> J'agirai pour l'égalité territoriale : dans nos …",
+     "mots": 29,
+     "theme": "societe"
+    },
+    {
+     "n": 26,
+     "debut": "C'EST LA RÉUSSITE DE LA JEUNESSE",
+     "mots": 6,
+     "theme": "education"
+    },
+    {
+     "n": 27,
+     "debut": "> Je permettrai à tous d'accéder à la …",
+     "mots": 28,
+     "theme": "sante"
+    },
+    {
+     "n": 28,
+     "debut": "> Je négocierai une nouvelle réforme des retraites. …",
+     "mots": 36,
+     "theme": "retraites"
+    },
+    {
+     "n": 29,
+     "debut": "> Je remettrai l'école au cœur de l'action …",
+     "mots": 48,
+     "theme": "education"
+    },
+    {
+     "n": 30,
+     "debut": "> Je donnerai la priorité à 'emploi. C'est …",
+     "mots": 38,
+     "theme": "chomage"
+    },
+    {
+     "n": 31,
+     "debut": "> Je proposerai la création de 150 000 …",
+     "mots": 16,
+     "theme": "chomage"
+    },
+    {
+     "n": 32,
+     "debut": "> Je fixerai un objectif de 100 000 …",
+     "mots": 12,
+     "theme": "education"
+    },
+    {
+     "n": 33,
+     "debut": "> Je créerai une allocation d'études et de …",
+     "mots": 13,
+     "theme": "education"
+    },
+    {
+     "n": 34,
+     "debut": "> Je ferai respecter les lois de la …",
+     "mots": 78,
+     "theme": "insecurite"
+    },
+    {
+     "n": 35,
+     "debut": "> Je veillerai à l'exemplarité de l'Etat et …",
+     "mots": 36,
+     "theme": "democratie"
+    },
+    {
+     "n": 36,
+     "debut": "> Je donnerai plus d'efficacité à notre démocratie …",
+     "mots": 31,
+     "theme": "democratie"
+    },
+    {
+     "n": 37,
+     "debut": "> Je porterai haut la voix de la …",
+     "mots": 62,
+     "theme": "international"
+    },
+    {
+     "n": 38,
+     "debut": "> J'accompagnerai nos compatriotes établis hors de France …",
+     "mots": 12,
+     "theme": "international"
+    },
+    {
+     "n": 39,
+     "debut": "Présider la République, c'est réconcilier les Français autour …",
+     "mots": 59,
+     "theme": "general"
+    },
+    {
+     "n": 40,
+     "debut": "C'est conscient de ces exigences que je vous …",
+     "mots": 19,
+     "theme": "general"
+    }
+   ]
+  },
+  {
+   "annee": 2017,
+   "candidat": "Emmanuel Macron",
+   "source": "https://www.france-politique.fr/doc/PR-2017/2017-Macron.pdf",
+   "mots": 1183,
+   "parts": {
+    "general": 22.3,
+    "chomage": 11.7,
+    "economie": 10.5,
+    "europe": 8.2,
+    "democratie": 7.9,
+    "education": 6.7,
+    "terrorisme": 6.3,
+    "prix": 5.4,
+    "insecurite": 5.4,
+    "societe": 5.1,
+    "sante": 4.1,
+    "logement": 3.6,
+    "retraites": 2.9
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "Macron Président ‘‘La France doit être une chance …",
+     "mots": 10,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "J’ai décidé de me présenter à l’élection présidentielle …",
+     "mots": 53,
+     "theme": "general"
+    },
+    {
+     "n": 2,
+     "debut": "“ Le projet que je vous propose, c’est …",
+     "mots": 15,
+     "theme": "general"
+    },
+    {
+     "n": 3,
+     "debut": "Depuis plus de trente ans, nous ne parvenons …",
+     "mots": 85,
+     "theme": "general"
+    },
+    {
+     "n": 4,
+     "debut": "Pour faire face à ces transformations et ces …",
+     "mots": 31,
+     "theme": "general"
+    },
+    {
+     "n": 5,
+     "debut": "Une France plus forte dans une Europe plus …",
+     "mots": 9,
+     "theme": "europe"
+    },
+    {
+     "n": 6,
+     "debut": "Une France qui répare les injustices de départ …",
+     "mots": 13,
+     "theme": "societe"
+    },
+    {
+     "n": 7,
+     "debut": "Une France qui dépasse les vieux clivages pour …",
+     "mots": 26,
+     "theme": "democratie"
+    },
+    {
+     "n": 8,
+     "debut": "Je veux que nous soyons à nouveau fiers …",
+     "mots": 20,
+     "theme": "societe"
+    },
+    {
+     "n": 9,
+     "debut": "Je veux que nous soyons libres d’entreprendre, d’innover, …",
+     "mots": 16,
+     "theme": "economie"
+    },
+    {
+     "n": 10,
+     "debut": "Je veux que nous soyons solidaires car la …",
+     "mots": 21,
+     "theme": "societe"
+    },
+    {
+     "n": 11,
+     "debut": "Je veux auprès de vous prendre des engagements …",
+     "mots": 18,
+     "theme": "general"
+    },
+    {
+     "n": 12,
+     "debut": "Car présider, ce n’est pas s’occuper de tout.",
+     "mots": 8,
+     "theme": "general"
+    },
+    {
+     "n": 13,
+     "debut": "Ce sont ces mêmes engagements que je demanderai …",
+     "mots": 31,
+     "theme": "general"
+    },
+    {
+     "n": 14,
+     "debut": "NOS SIX CHANTIERS POUR LA FRANCE",
+     "mots": 6,
+     "theme": "general"
+    },
+    {
+     "n": 15,
+     "debut": "Le premier chantier sera celui de l’éducation et …",
+     "mots": 44,
+     "theme": "education"
+    },
+    {
+     "n": 16,
+     "debut": "Le quatrième chantier que je vous propose consiste …",
+     "mots": 75,
+     "theme": "terrorisme"
+    },
+    {
+     "n": 17,
+     "debut": "Le deuxième chantier sera celui du travail. Dès …",
+     "mots": 72,
+     "theme": "chomage"
+    },
+    {
+     "n": 18,
+     "debut": "Le troisième chantier sera celui de la modernisation …",
+     "mots": 81,
+     "theme": "economie"
+    },
+    {
+     "n": 19,
+     "debut": "Le cinquième chantier sera celui du renouveau démocratique. …",
+     "mots": 51,
+     "theme": "democratie"
+    },
+    {
+     "n": 20,
+     "debut": "Enfin, sixième et dernier chantier : l’Europe et …",
+     "mots": 59,
+     "theme": "europe"
+    },
+    {
+     "n": 21,
+     "debut": "Voter pour Emmanuel Macron, c’est... Suppression des cotisations …",
+     "mots": 64,
+     "theme": "prix"
+    },
+    {
+     "n": 22,
+     "debut": "Libérer le travail et l’esprit d’entreprise :",
+     "mots": 7,
+     "theme": "chomage"
+    },
+    {
+     "n": 23,
+     "debut": "Suppression du RSI Baisse de 60 milliards des …",
+     "mots": 20,
+     "theme": "economie"
+    },
+    {
+     "n": 24,
+     "debut": "Inventer un nouveau modèle de croissance :",
+     "mots": 7,
+     "theme": "economie"
+    },
+    {
+     "n": 25,
+     "debut": "Un plan d’investissement de 50 milliards d’euros pour …",
+     "mots": 40,
+     "theme": "chomage"
+    },
+    {
+     "n": 26,
+     "debut": "Réduction d’un tiers du nombre de parlementaires Interdiction …",
+     "mots": 16,
+     "theme": "democratie"
+    },
+    {
+     "n": 27,
+     "debut": "Fixer les mêmes règles pour tous :",
+     "mots": 7,
+     "theme": "general"
+    },
+    {
+     "n": 28,
+     "debut": "Mise en place progressive d’un système universel de …",
+     "mots": 34,
+     "theme": "retraites"
+    },
+    {
+     "n": 29,
+     "debut": "Renforcer un État qui protège :",
+     "mots": 6,
+     "theme": "insecurite"
+    },
+    {
+     "n": 30,
+     "debut": "10 000 policiers et gendarmes supplémentaires Une nouvelle …",
+     "mots": 46,
+     "theme": "insecurite"
+    },
+    {
+     "n": 31,
+     "debut": "Donner les mêmes chances à tous nos enfants …",
+     "mots": 35,
+     "theme": "education"
+    },
+    {
+     "n": 32,
+     "debut": "Restaurer la fierté d’être français :",
+     "mots": 6,
+     "theme": "societe"
+    },
+    {
+     "n": 33,
+     "debut": "Démantèlement des associations qui, sous couvert de religion, …",
+     "mots": 12,
+     "theme": "insecurite"
+    },
+    {
+     "n": 34,
+     "debut": "Une zone euro avec un budget commun pour …",
+     "mots": 29,
+     "theme": "europe"
+    },
+    {
+     "n": 35,
+     "debut": "Faire plus pour notre santé :",
+     "mots": 6,
+     "theme": "sante"
+    },
+    {
+     "n": 36,
+     "debut": "Investissement massif et réorganisation de l’hôpital Doublement du …",
+     "mots": 42,
+     "theme": "sante"
+    },
+    {
+     "n": 37,
+     "debut": "Couverture en très haut débit et en 4G …",
+     "mots": 42,
+     "theme": "logement"
+    },
+    {
+     "n": 39,
+     "debut": "Donner à chacun la possibilité de bien vivre …",
+     "mots": 20,
+     "theme": "chomage"
+    }
+   ]
+  },
+  {
+   "annee": 2022,
+   "candidat": "Emmanuel Macron",
+   "source": "https://www.france-politique.fr/doc/PR-2022/PR2022-Macron-PROF.pdf",
+   "mots": 1349,
+   "parts": {
+    "general": 20.2,
+    "sante": 13.7,
+    "retraites": 10.2,
+    "chomage": 7.3,
+    "societe": 7.3,
+    "environnement": 6.0,
+    "education": 6.0,
+    "insecurite": 5.9,
+    "prix": 5.3,
+    "dette_impots": 5.0,
+    "immigration": 4.1,
+    "international": 3.3,
+    "democratie": 2.1,
+    "economie": 1.9,
+    "europe": 1.7
+   },
+   "passages": [
+    {
+     "n": 0,
+     "debut": "Nous tous Emmanuel Macron avec vous",
+     "mots": 6,
+     "theme": "general"
+    },
+    {
+     "n": 1,
+     "debut": "Le choix que vous ferez dans le secret …",
+     "mots": 16,
+     "theme": "general"
+    },
+    {
+     "n": 2,
+     "debut": "Qui allez-vous investir de votre confiance pour diriger …",
+     "mots": 23,
+     "theme": "general"
+    },
+    {
+     "n": 3,
+     "debut": "Qui allez-vous choisir pour agir sur votre quotidien …",
+     "mots": 14,
+     "theme": "general"
+    },
+    {
+     "n": 4,
+     "debut": "À ces questions essentielles, je vous propose des …",
+     "mots": 10,
+     "theme": "general"
+    },
+    {
+     "n": 5,
+     "debut": "En me faisant confiance, vous voterez pour préparer …",
+     "mots": 10,
+     "theme": "general"
+    },
+    {
+     "n": 6,
+     "debut": "Parce que nous continuerons d’investir pour être le …",
+     "mots": 19,
+     "theme": "environnement"
+    },
+    {
+     "n": 7,
+     "debut": "Parce que nous mettrons en place une taxe …",
+     "mots": 30,
+     "theme": "environnement"
+    },
+    {
+     "n": 8,
+     "debut": "Parce que la priorité sera donnée à l’école, …",
+     "mots": 49,
+     "theme": "education"
+    },
+    {
+     "n": 9,
+     "debut": "En me faisant confiance, vous voterez pour notre …",
+     "mots": 9,
+     "theme": "general"
+    },
+    {
+     "n": 10,
+     "debut": "Au plus haut de la pandémie, nous avons …",
+     "mots": 46,
+     "theme": "chomage"
+    },
+    {
+     "n": 11,
+     "debut": "Nous ouvrirons toutes les places nécessaires dans les …",
+     "mots": 15,
+     "theme": "education"
+    },
+    {
+     "n": 12,
+     "debut": "Nous investirons dans les secteurs qui seront dans …",
+     "mots": 25,
+     "theme": "economie"
+    },
+    {
+     "n": 13,
+     "debut": "En me faisant confiance, vous voterez pour les …",
+     "mots": 17,
+     "theme": "general"
+    },
+    {
+     "n": 14,
+     "debut": "Les salariés du privé gagneront plus grâce au …",
+     "mots": 14,
+     "theme": "prix"
+    },
+    {
+     "n": 15,
+     "debut": "Il sera possible de placer ses RTT et …",
+     "mots": 31,
+     "theme": "prix"
+    },
+    {
+     "n": 16,
+     "debut": "Les impôts continueront de baisser, avec la suppression …",
+     "mots": 12,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 17,
+     "debut": "Il sera possible de transmettre le fruit d’une …",
+     "mots": 31,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 18,
+     "debut": "Pour ramener le plus grand nombre sur le …",
+     "mots": 53,
+     "theme": "chomage"
+    },
+    {
+     "n": 19,
+     "debut": "En me faisant confiance, vous voterez pour les …",
+     "mots": 9,
+     "theme": "general"
+    },
+    {
+     "n": 20,
+     "debut": "Terminée, pour les jeunes parents, l’angoisse de rester …",
+     "mots": 28,
+     "theme": "sante"
+    },
+    {
+     "n": 21,
+     "debut": "Terminée aussi, pour nos aînés, la peur du …",
+     "mots": 41,
+     "theme": "sante"
+    },
+    {
+     "n": 22,
+     "debut": "Les contrôles seront accrus sur les maisons de …",
+     "mots": 14,
+     "theme": "sante"
+    },
+    {
+     "n": 23,
+     "debut": "Nous poursuivrons notre action pour bâtir une",
+     "mots": 7,
+     "theme": "sante"
+    },
+    {
+     "n": 24,
+     "debut": "société inclusive dans laquelle les personnes en situation …",
+     "mots": 17,
+     "theme": "sante"
+    },
+    {
+     "n": 25,
+     "debut": "En me faisant confiance, vous voterez pour les …",
+     "mots": 19,
+     "theme": "retraites"
+    },
+    {
+     "n": 26,
+     "debut": "La retraite minimale sera portée à 1 100 …",
+     "mots": 26,
+     "theme": "retraites"
+    },
+    {
+     "n": 27,
+     "debut": "Le financement de nos retraites par répartition sera …",
+     "mots": 38,
+     "theme": "retraites"
+    },
+    {
+     "n": 28,
+     "debut": "En me faisant confiance, vous voterez pour l’égalité …",
+     "mots": 10,
+     "theme": "societe"
+    },
+    {
+     "n": 29,
+     "debut": "Égalité entre les femmes et les hommes : …",
+     "mots": 25,
+     "theme": "societe"
+    },
+    {
+     "n": 30,
+     "debut": "Égalité quelle que soit son origine, en mettant …",
+     "mots": 40,
+     "theme": "societe"
+    },
+    {
+     "n": 31,
+     "debut": "En me faisant confiance, vous voterez pour vivre …",
+     "mots": 25,
+     "theme": "general"
+    },
+    {
+     "n": 32,
+     "debut": "Vivre en sécurité avec le renforcement de nos …",
+     "mots": 42,
+     "theme": "insecurite"
+    },
+    {
+     "n": 33,
+     "debut": "Vivre en bonne santé avec le recul des …",
+     "mots": 31,
+     "theme": "sante"
+    },
+    {
+     "n": 34,
+     "debut": "La vie sera aussi plus simple avec un …",
+     "mots": 19,
+     "theme": "democratie"
+    },
+    {
+     "n": 35,
+     "debut": "En me faisant confiance, vous voterez pour une …",
+     "mots": 17,
+     "theme": "general"
+    },
+    {
+     "n": 36,
+     "debut": "Nous continuerons d'investir dans notre défense et de …",
+     "mots": 12,
+     "theme": "international"
+    },
+    {
+     "n": 37,
+     "debut": "Nous maîtriserons mieux nos frontières et conditionnerons l'obtention …",
+     "mots": 25,
+     "theme": "immigration"
+    },
+    {
+     "n": 38,
+     "debut": "Nous poursuivrons notre action pour bâtir une Europe-puissance, …",
+     "mots": 23,
+     "theme": "europe"
+    },
+    {
+     "n": 39,
+     "debut": "En me faisant confiance, au fond, c’est pour …",
+     "mots": 12,
+     "theme": "general"
+    },
+    {
+     "n": 40,
+     "debut": "J’ai appris de ces cinq ans à la …",
+     "mots": 21,
+     "theme": "general"
+    },
+    {
+     "n": 41,
+     "debut": "C’est pourquoi vous serez associés à chaque grande …",
+     "mots": 9,
+     "theme": "democratie"
+    },
+    {
+     "n": 42,
+     "debut": "Les temps de crise que nous traversons, les …",
+     "mots": 20,
+     "theme": "general"
+    },
+    {
+     "n": 43,
+     "debut": "Je veillerai à ne laisser personne au bord …",
+     "mots": 29,
+     "theme": "general"
+    },
+    {
+     "n": 44,
+     "debut": "Parce que la France n’est jamais aussi forte …",
+     "mots": 17,
+     "theme": "general"
+    },
+    {
+     "n": 45,
+     "debut": "Un pacte entre les générations Pour nos enfants",
+     "mots": 8,
+     "theme": "general"
+    },
+    {
+     "n": 46,
+     "debut": "Priorité aux fondamentaux, mathématiques et français. Des enseignants …",
+     "mots": 17,
+     "theme": "education"
+    },
+    {
+     "n": 47,
+     "debut": "Des bilans de santé complets aux âges clés. …",
+     "mots": 29,
+     "theme": "sante"
+    },
+    {
+     "n": 48,
+     "debut": "Une pension minimale à taux plein à 1 …",
+     "mots": 25,
+     "theme": "retraites"
+    },
+    {
+     "n": 49,
+     "debut": "Améliorer la vie en maison de retraite par …",
+     "mots": 18,
+     "theme": "sante"
+    },
+    {
+     "n": 50,
+     "debut": "Un pacte pour la production Pour le travail …",
+     "mots": 10,
+     "theme": "general"
+    },
+    {
+     "n": 51,
+     "debut": "Triplement de la prime dite « Macron » …",
+     "mots": 20,
+     "theme": "prix"
+    },
+    {
+     "n": 52,
+     "debut": "Aucun impôt sur les successions jusqu’à 150 000 …",
+     "mots": 24,
+     "theme": "dette_impots"
+    },
+    {
+     "n": 53,
+     "debut": "Un « compte épargne-temps universel » pour monétiser …",
+     "mots": 30,
+     "theme": "retraites"
+    },
+    {
+     "n": 54,
+     "debut": "Pour rouler et se loger vert et moins …",
+     "mots": 32,
+     "theme": "environnement"
+    },
+    {
+     "n": 55,
+     "debut": "Un pacte pour la République Pour défendre nos …",
+     "mots": 12,
+     "theme": "immigration"
+    },
+    {
+     "n": 56,
+     "debut": "Pour renforcer la sécurité du quotidien et lutter …",
+     "mots": 10,
+     "theme": "insecurite"
+    },
+    {
+     "n": 57,
+     "debut": "Une nouvelle « force des frontières » aux …",
+     "mots": 18,
+     "theme": "immigration"
+    },
+    {
+     "n": 58,
+     "debut": "Achever le doublement de la présence des forces …",
+     "mots": 27,
+     "theme": "insecurite"
+    },
+    {
+     "n": 59,
+     "debut": "Pour lutter contre les discriminations Un « testing …",
+     "mots": 24,
+     "theme": "societe"
+    },
+    {
+     "n": 60,
+     "debut": "Pour garantir notre souveraineté Livraison d’ici 2030 à …",
+     "mots": 33,
+     "theme": "international"
+    },
+    {
+     "n": 61,
+     "debut": "Pour mieux vivre de son travail",
+     "mots": 6,
+     "theme": "prix"
+    }
+   ]
+  }
+ ]
+}

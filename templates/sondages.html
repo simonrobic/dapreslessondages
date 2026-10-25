@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block title %}Sondages 2027 — {{ site_name }}{% endblock %}
+{% block content %}
+<div class="hero">
+  <div class="eyebrow">Présidentielle 2027</div>
+  <h1>Tous les sondages</h1>
+  <p class="lede">{{ rows|length }} hypothèses de premier tour et {{ duels|length }} duels de second tour, publiés depuis {{ rows[-1].fin|date_fr }}. Chaque ligne est une hypothèse : un même sondage teste souvent plusieurs listes de candidats.</p>
+  <p class="muted small">Source : <a href="{{ source }}">Wikipédia</a>{% if revision %}, révision {{ revision }}{% endif %}, récupérée le {{ recupere|date_fr }} (<a href="{{ wiki.historique }}">auteurs</a>). Les tableaux de cette page sont <strong>extraits et mis en forme</strong> par {{ site_name }} (noms harmonisés, « &lt; 1 » converti en 0,5) et diffusés, comme leur source, sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>. Intentions de vote en % des suffrages exprimés, telles que publiées. <a href="{{ root }}donnees/">Télécharger en CSV</a>.</p>
+</div>
+
+{% set he = inst.effets %}
+{% if he and he.instituts %}
+<section>
+  <h2>Les instituts</h2>
+  <h3>Écart de chaque institut à la moyenne des autres, depuis le {{ he.depuis|date_fr }}</h3>
+  <p class="muted small" style="max-width:52em">Chaque hypothèse est comparée à la moyenne des hypothèses identiques (même liste de candidats) publiées par au moins deux autres instituts, à trois semaines près. Un écart de +1,5 signifie que l'institut donne en moyenne 1,5 point de plus à ce candidat. Ces écarts tiennent surtout aux méthodes (panels, redressements, formulation) : ils ne disent pas qui a raison.</p>
+  <div class="table-wrap">
+    <table class="heat">
+      <thead><tr><th>Institut</th><th class="n">Hypothèses</th>
+        {% for c in he.candidats %}<th class="n"><span class="tbl-cand"><span class="key-rect" style="--c:var(--s{{ p.candidats.get(c, {}).get('slot', 0) }})"></span>{{ p.candidats.get(c, {}).get('court', c) }}</span></th>{% endfor %}
+      </tr></thead>
+      <tbody>
+      {% for t in he.instituts %}
+      <tr><td>{{ t.institut }}</td><td class="n">{{ t.n }}</td>
+        {% for c in he.candidats %}{% set v = t.ecarts[c] %}
+        {% if v is none %}<td class="cell na">—</td>{% else %}<td class="cell" style="--div:var({{ '--div-pos' if v > 0 else '--div-neg' }});--k:{{ [((v|abs) / 3 * 55)|round|int, 55]|min }}%">{{ v|signed }}</td>{% endif %}
+        {% endfor %}
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p class="heat-legend"><span class="sw" style="background:color-mix(in oklab, var(--div-neg) 55%, var(--surface))"></span> plus bas que les autres instituts <span class="sw" style="background:var(--wash)"></span> proche de la moyenne <span class="sw" style="background:color-mix(in oklab, var(--div-pos) 55%, var(--surface))"></span> plus haut · en points</p>
+
+  {% set pa = inst.precision %}
+  <h3 style="margin-top:28px">Précision passée : écart moyen avec le résultat du premier tour</h3>
+  <p class="muted small" style="max-width:52em">Dernier sondage de chaque institut dans les dix jours précédant le vote, comparé au résultat officiel des candidats ayant obtenu au moins 5 %. Plus le chiffre est bas, plus l'institut était proche du résultat.</p>
+  {% set inst_names = [] %}{% for y in accuracy_years %}{% for k in pa[y].instituts %}{% if k not in inst_names %}{% set _ = inst_names.append(k) %}{% endif %}{% endfor %}{% endfor %}
+  <div class="table-wrap" style="max-width:720px">
+    <table>
+      <thead><tr><th>Institut</th>{% for y in accuracy_years %}<th class="n">{{ y }}</th>{% endfor %}</tr></thead>
+      <tbody>
+      {% for k in inst_names|sort %}
+      <tr><td>{{ k }}</td>{% for y in accuracy_years %}{% set e = pa[y].instituts.get(k) %}<td class="n">{{ (e.erreur_moyenne|num(1) ~ ' pt') if e else '—' }}</td>{% endfor %}</tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% for y in accuracy_years|reverse %}
+  <details class="data">
+    <summary>Détail {{ y }} : écart par candidat (sondage − résultat)</summary>
+    <div class="table-wrap">
+      <table class="heat">
+        <thead><tr><th>Institut</th><th>Dernier sondage</th>{% for c in pa[y].principaux %}<th class="n">{{ c }}</th>{% endfor %}</tr></thead>
+        <tbody>
+        {% for k, e in pa[y].instituts|dictsort %}
+        <tr><td>{{ k }}</td><td>{{ e.fin|date_fr }}</td>
+          {% for c in pa[y].principaux %}{% set v = e.ecarts[c] %}<td class="cell" style="--div:var({{ '--div-pos' if v > 0 else '--div-neg' }});--k:{{ [((v|abs) / 3 * 55)|round|int, 55]|min }}%">{{ v|signed }}</td>{% endfor %}
+        </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </details>
+  {% endfor %}
+  <p class="muted small" style="margin-top:10px">Les noms des instituts sont harmonisés : Kantar Sofres est devenu Kantar Public puis Verian, Toluna Harris Interactive est regroupé avec Harris Interactive.</p>
+</section>
+{% endif %}
+
+<section>
+  <h2>Premier tour</h2>
+  <div class="table-wrap scroll" style="max-height:70vh">
+    <table>
+      <thead><tr>
+        <th>Fin de l'enquête</th><th>Institut</th><th class="n">Échantillon</th>
+        {% for c in names %}<th class="n"><span class="tbl-cand"><span class="key-rect" style="--c:var(--s{{ slots[c] }})"></span>{{ short[c] }}</span></th>{% endfor %}
+        <th class="n">Autres</th>
+      </tr></thead>
+      <tbody>
+      {% for r in rows %}
+      <tr>
+        <td>{{ r.fin_txt }}</td>
+        <td>{% if r.source %}<a href="{{ r.source }}" rel="noopener">{{ r.sondeur }}</a>{% else %}{{ r.sondeur }}{% endif %}</td>
+        <td class="n">{{ '{:,}'.format(r.echantillon).replace(',', ' ') if r.echantillon else '' }}</td>
+        {% for v in r.valeurs %}{% if v is none %}<td class="empty">—</td>{% else %}<td class="n">{{ v|num(1) if v != v|int else v|int }}</td>{% endif %}{% endfor %}
+        <td class="n">{{ (r.autres|num(1) if r.autres != r.autres|int else r.autres|int) if r.autres else '' }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>Second tour</h2>
+  <div class="table-wrap scroll" style="max-height:60vh">
+    <table>
+      <thead><tr><th>Fin de l'enquête</th><th>Institut</th><th>En tête</th><th class="n">%</th><th>Second</th><th class="n">%</th></tr></thead>
+      <tbody>
+      {% for d in duels %}
+      <tr><td>{{ d.fin_txt }}</td><td>{% if d.source %}<a href="{{ d.source }}" rel="noopener">{{ d.sondeur }}</a>{% else %}{{ d.sondeur }}{% endif %}</td><td>{{ d.a }}</td><td class="n">{{ d.va|num(1) if d.va != d.va|int else d.va|int }}</td><td>{{ d.b }}</td><td class="n">{{ d.vb|num(1) if d.vb != d.vb|int else d.vb|int }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

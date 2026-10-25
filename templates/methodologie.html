@@ -1,166 +1,48 @@
 {% extends "base.html" %}
-{% block head %}
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<title>Depuis 1958 — Méthodologie</title>
-{% endblock %}
-
+{% block title %}Méthodologie — {{ site_name }}{% endblock %}
 {% block content %}
-<div class="year-nav-bar">
-<h1>Méthodologie</h1>
+<div class="hero">
+  <div class="eyebrow">Méthodologie</div>
+  <h1>Comment fonctionne le modèle</h1>
+  <p class="lede">Chaque sondage mesure les intentions de vote d'un échantillon, à une date donnée, avec une marge d'erreur. Le modèle combine tous ces relevés pour estimer, avec leur incertitude, les chances de chaque candidat le jour du scrutin.</p>
 </div>
+<div class="prose">
+  <h2>1. Des sondages aux intentions de vote</h2>
+  <p>Chaque hypothèse de premier tour est traitée comme un tirage dans l'électorat : les parts des candidats suivent une loi multinomiale. Avec un a priori uniforme, la loi a posteriori des scores est une <strong>loi de Dirichlet</strong>, dont chaque candidat a une loi bêta marginale. C'est le modèle conçu par Victor Poughon pour Depuis 1958 en 2017, que nous reprenons, avec un a priori plus faible ({{ params.PRIOR|num(2) }} répondant fictif par candidat au lieu de 1) pour ne pas gonfler les petits candidats quand les sondages sont lointains.</p>
+  <ul>
+    <li>Seul le <strong>dernier sondage de chaque institut</strong> compte. Quand un même sondage publie plusieurs hypothèses identiques pour les candidats principaux, elles sont moyennées.</li>
+    <li>Les instituts ne sont pas indépendants : leurs méthodes (quotas, redressements, panels en ligne) se ressemblent et leurs erreurs aussi. L'ensemble des sondages pèse donc au plus <strong>{{ params.D }} répondants « équivalents »</strong>, quel que soit leur nombre.</li>
+    <li>Seuls les sondages des {{ params.WINDOW_FIRST }} derniers jours sont pris en compte pour le premier tour, et ceux des {{ params.WINDOW_SECOND }} derniers jours pour le second.</li>
+  </ul>
 
-<p>On l'entend souvent, les sondages ne sont pas une prédiction mais une capture
-de l'opinion à un instant donné. Mais cette capture instantanée est imparfaite.
-D'abord à cause de la nature aléatoire du processus d’échantillonnage lors de
-l'enquête de terrain, et aussi parce que l'opinion mesurée n'est pas
-nécessairement la même que celle qui sera exprimée le jour du vote («&thinsp;ça peut
-encore changer&thinsp;»). D'autres problèmes viennent perturber la pertinence
-d'un sondage&thinsp;: le biais de sélection (le fait que les sondages représentent
-l'opinion… des gens qui répondent aux sondages), la méthodologie des
-instituts (la <em>méthode des quotas</em>, le <em>rolling</em>) et le fait qu'une partie des
-sondés ne répondent pas honnêtement.</p>
+  <h2>2. Le poids du temps</h2>
+  <p>Plus le vote est loin, moins les sondages disent du résultat. Le poids d'un sondage réalisé <em>j</em> jours avant le scrutin est f(j) = 1 / (1 + (j / {{ params.TAU }})<sup>1,5</sup>) :</p>
+  <div class="table-wrap" style="max-width:420px">
+    <table>
+      <thead><tr><th>Jours avant le vote</th><th class="n">Poids</th><th class="n">Répondants équivalents</th></tr></thead>
+      <tbody>
+      {% for d, f in decay %}<tr><td>{{ d }}</td><td class="n">{{ f|num(2) }}</td><td class="n">{{ (f * params.D)|round|int }}</td></tr>{% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p style="margin-top:12px">Le modèle de 2017 utilisait une droite qui s'annulait 130 jours avant le vote, ce qui empêchait toute prévision plus tôt. La nouvelle courbe la suit de près sur les trois derniers mois, mais reste positive au-delà : on peut publier une prévision un an avant l'élection, avec l'incertitude qui convient.</p>
 
-<p>L'objectif de <em>Depuis 1958</em> est de prendre en compte ces incertitudes et
-de les transformer en une prédiction du résultat le jour du vote. Cette
-prédiction est probabiliste au sens
-<a href="http://www.christian-faure.net/2013/08/31/deux-visages-du-calcul-des-probabilites-bayesiens-et-frequentistes/">bayésien</a>.
-C'est à dire qu'elle reflète la
-quantité d'information disponible pour affirmer un résultat. En effet l'élection
-présidentielle est déterministe, mais c'est l'observation stochastique faite via
-les sondages qui est par nature aléatoire.</p>
+  <h2>3. Les scénarios de candidatures</h2>
+  <p>Avant 2027, les sondages testent de nombreuses hypothèses : avec ou sans tel candidat du centre, avec tel ou tel candidat de la droite… Le modèle les regroupe automatiquement en <strong>scénarios</strong> : deux hypothèses appartiennent au même scénario si elles testent les mêmes candidats « significatifs », c'est-à-dire ceux qui pèsent en moyenne au moins {{ params.SIGNIFICANT|int }} %. Les autres candidats sont regroupés dans « Autres », qui ne peut pas se qualifier pour le second tour.</p>
+  <p>Le scénario affiché par défaut est celui que le plus d'instituts ont testé récemment. Les autres restent consultables.</p>
 
-<p>De plus, l'élection présidentielle en France est particulière
-parce qu'elle comporte
-<a href="http://www.conseil-constitutionnel.fr/conseil-constitutionnel/francais/la-constitution/la-constitution-du-4-octobre-1958/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur.5074.html#article7">deux tours</a>.
-Les deux candidats du second tours sont les deux candidats arrivés en tête au
-premier. Mais comme les votes exprimés au premier et second tours sont issus de
-distributions différentes, estimer la probabilité finale qu'un candidat gagne
-l’élection nécessite un calcul de
-<a href="http://www.bibmath.net/dico/index.php?action=affiche&quoi=./p/probatot.html">
-probabilité totale
-</a>
-avec simulation
-<a href="https://www.monte-carlo.mc/fr/">Monte-Carlo</a>.</p>
+  <h2>4. Simuler les deux tours</h2>
+  <p>Le modèle tire au hasard 500 000 premiers tours dans la loi de Dirichlet. Dans chaque tirage, les deux premiers se qualifient (sauf majorité absolue dès le premier tour). Le second tour est tiré dans la loi bêta construite de la même manière à partir des sondages de ce duel. Si un duel n'a jamais été sondé, le modèle le considère à 50/50 et le signale.</p>
+  <p>La probabilité de victoire d'un candidat est simplement la part des tirages qu'il remporte. Elle intègre à la fois l'incertitude sur le premier tour et celle sur chaque second tour possible.</p>
 
-<h2>Observations multinomiales</h2>
+  <h2>5. Limites</h2>
+  <ul>
+    <li>Le modèle ne sait pas qui sera candidat : chaque scénario est une hypothèse, pas une prévision des candidatures.</li>
+    <li>Il suppose que les erreurs des sondages sont aléatoires. Une erreur commune à tous les instituts, comme la sous-estimation de Jean-Marie Le Pen en 2002, n'est couverte que par la largeur des intervalles.</li>
+    <li>Il ne tient compte ni de l'abstention différentielle, ni des reports de voix au-delà de ce que mesurent les sondages de second tour.</li>
+  </ul>
 
-<p>Soit \(\theta = (\theta_1, \theta_2, \ldots \theta_M)\) le vecteur, inconnu,
-du résultat d'un scrutin uninominal à un tour en votes exprimés. Il y a \(M\) candidats, et on a
-\(\sum{\theta_i} = 1\).</p>
-
-<p>Un sondage idéal est un tirage&thinsp;:</p>
-
-<ul>
-    <li>Issu de la population des votes exprimés</li>
-    <li>Aléatoire (loi uniforme)</li>
-    <li>Avec remise</li>
-</ul>
-
-<p>Dans ce cas parfait \(\theta_i\) est la probabilité qu'un individu pris au
-hasard réponde en faveur du candidat \(i\). Alors les résultats d'un sondage de
-taille \(N\) suivent une
-<a href="https://fr.wikipedia.org/wiki/Loi_multinomiale">loi
-multinomiale</a>&thinsp;:\[
-    X\,|\,\theta \sim \text{Multinomial}(\theta)
-\]
-</p>
-
-<p>\(X = (X_1, X_2, \ldots X_M)\) est le vecteur résultat d'un sondage, en
-nombres entiers de répondants. On a \(\sum{X_i} = N\), la taille de
-l'échantillon.
-En pratique, les trois critères ci-dessus ne sont pas vraiment applicables
-aux sondages publiés en France. On en fait cependant l'hypothèse ici. Les
-paramètres finaux du modèle sont adaptés de façon à maîtriser l'erreur
-introduite par cette simplification.</p>
-
-<p>Une enquête est effectuée à une date précise, et représente donc
-l'opinion <em>le jour du sondage</em>. Pour traduire les variations temporelles,
-on pondère \(N\) par un facteur temporel qui dépend du nombre de jours à venir
-avant le scrutin. Ça n'est pas tout à fait exact, et en théorie on pourrait utiliser un
-<a href="http://votamatic.org/wp-content/uploads/2013/07/Linzer-JASA13.pdf">modèle dynamique</a>.
-En pratique c'est suffisant, car la seule prédiction intéressante c'est celle du
-jour de l'élection, et les calculs sont très simplifiés.
-\(N\) est aussi diminué pour prendre en compte la méthode des quotas, qui
-corrige l'hétérogénéité de la population sondée mais diminue la précision.</p>
-
-<h2>Inférence bayésienne</h2>
-<p>La
-<a href="https://fr.wikipedia.org/wiki/Loi_de_Dirichlet">loi de Dirichlet</a>
-est l'apriori conjuguée de la loi multinomiale.
-Ainsi, la distribution aposteriori après observation d'un sondage est donnée
-par:\[
-    \theta\,|\,X \sim \text{Dir}(\alpha + x)
-\]
-Avec \(\alpha\) les paramètres de Dirichlet, et \(x\) la réalisation de \(X\),
-le sondage. Typiquement on prend un apriori uniforme&nbsp;\(\alpha = (1, 1,
-\ldots 1)\).</p>
-
-<p>Ainsi, les votes exprimés sont modélisés par un vecteur aléatoire qui suit une
-loi de Dirichlet. La dimension de ce vecteur est \(M\) pour le premier tour, et
-\(2\) pour le second. Pour le premier tour, il est impossible de visualiser
-graphiquement cette distribution. On peut tout de même se contenter des
-densités marginales de chaque candidat qui sont des
-<a href="https://fr.wikipedia.org/wiki/Loi_b%C3%AAta">lois bêta</a>.</p>
-
-<figure>
-<figcaption>Premier tour 2017 &mdash; Densités marginales aposteriori</figcaption>
-<img src="/violin-2017.png" alt="Figure a posteriori">
-</figure>
-
-<p>Sur cette figure, on observe les densités marginales de résultat au
-premier tour. C'est à dire les chances de chaque candidat en votes exprimés, en
-intégrant tous les autres. Il s'agit de lois bêta de paramètres
-\((\alpha_i, \alpha_0 - \alpha_i)\) avec \(\alpha_0 = \sum_i \alpha_i\).
-Les traits noirs indiquent les moyennes.
-On peut faire le même exercice pour l'élection de 2012. Dans ce cas les
-traits rouges indiquent le
-<a href="http://www.interieur.gouv.fr/Elections/Les-resultats/Presidentielles/elecresult__PR2012/%28path%29/PR2012/FE.html">résultat
-officiel</a>&thinsp;:</p>
-
-<figure>
-<figcaption>Premier tour 2012 &mdash; Densités marginales aposteriori</figcaption>
-<img src="/violin-2012.png" alt="Figure a posteriori">
-</figure>
-
-<h2>Échantillonnage Monte-Carlo</h2>
-
-<p>Une fois \(\theta\) mis à jour avec l'addition de tous les sondages
-observés, on peut l'utiliser pour calculer la probabilité de n'importe quel
-évènement concernant le premier tour. Par exemple la probabilité qu'il n'y ait
-pas de second tour. Cependant, au delà de la moyenne, du mode et des paramètres
-des densités marginales, la loi de Dirichlet n'admet
-<a href="https://stats.stackexchange.com/questions/256662">pas beaucoup</a>
-de solutions analytiques. Qu'à cela ne tienne, on
-<a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.dirichlet.html">simule</a>
-plusieurs millions de scrutins et on estime la probabilité empiriquement.</p>
-
-<p>Un de ces évènements exotiques et important, c'est celui qui indique quel
-second tour aura lieu. C'est à dire la paire non ordonnée des deux candidats en
-tête. Soit donc \(S_{AB}\) la probabilité que \(A\) affronte \(B\) au second
-tour.</p>
-
-<h2>Probabilités totales</h2>
-
-<p>Pour être élu président il faut passer au second tour puis le gagner. On
-peut calculer la probabilité de cet évènement \(T_A\) pour chaque candidat
-\(A\) avec une partition sur les \( M(M-1)/2 \) seconds tours
-<a href="http://lousodrome.net/blog/blog/2008/05/14/anecdotes-de-la-science-le-petit-gauss/">possibles</a>&thinsp;:\[
-    P(T_A) = P(\theta_A \gt 0.5) + \sum_{B} P(S_{AB}) \times P(\pi_{AB} \gt 0.5)
-\]
-Avec \(\pi_{AB}\) le vecteur aléatoire représentant la distribution aposteriori
-des votes exprimés au second tour entre les candidats \(A\) et \(B\), étant
-donné qu'il a lieu. On utilise le même modèle que pour le premier
-tour&thinsp;:&nbsp;une loi de Dirichlet avec des observations multinomiales
-indépendantes. Cela dit les seconds tours sont des élections à deux candidats,
-et ce cas général se réduit à des loi bêta et binomiales, respectivement. Si
-aucun sondage n'envisage l'hypothèse \(S_{AB}\) on prend un apriori uniforme
-(i.e. 50/50).</p>
-
-<figure class="small-fig">
-<figcaption>Depuis 1958 &mdash; Modèle graphique</figcaption>
-<img src="/pgm.png" alt="Modèle graphique">
-</figure>
-
+  <h2>Code et données</h2>
+  <p>Les sondages 2027 sont extraits de la page Wikipédia qui les recense, avec un lien vers la notice de chaque sondage déposée à la Commission des sondages. L'historique 1981–2017 provient du dépôt d'origine <a href="https://github.com/depuis1958/sondages">depuis1958/sondages</a> (Victor Poughon et contributeurs), complété pour 2016 par la <a href="https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2017">page Wikipédia des sondages 2017</a> afin de comparer 2027 à 2017 au même stade de la campagne ; 2022 provient de <a href="https://github.com/nsppolls/nsppolls">NSPPolls</a>. Deux duels de 1988 dont les colonnes étaient inversées dans le dépôt d'origine ont été corrigés. Toutes les données sont <a href="{{ root }}donnees/">téléchargeables</a>.</p>
+</div>
 {% endblock %}

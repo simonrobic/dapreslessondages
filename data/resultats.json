@@ -1,0 +1,226 @@
+{
+ "1965": {
+  "premier_tour": {
+   "Charles de Gaulle": 44.65,
+   "François Mitterrand": 31.72,
+   "Jean Lecanuet": 15.57,
+   "Jean-Louis Tixier-Vignancour": 5.2,
+   "Pierre Marcilhacy": 1.71,
+   "Marcel Barbu": 1.15
+  },
+  "second_tour": {
+   "Charles de Gaulle": 55.2,
+   "François Mitterrand": 44.8
+  },
+  "date_premier_tour": "1965-12-05",
+  "date_second_tour": "1965-12-19"
+ },
+ "1969": {
+  "premier_tour": {
+   "Georges Pompidou": 44.47,
+   "Alain Poher": 23.31,
+   "Jacques Duclos": 21.27,
+   "Gaston Defferre": 5.01,
+   "Michel Rocard": 3.61,
+   "Louis Ducatel": 1.27,
+   "Alain Krivine": 1.06
+  },
+  "second_tour": {
+   "Georges Pompidou": 58.21,
+   "Alain Poher": 41.79
+  },
+  "date_premier_tour": "1969-06-01",
+  "date_second_tour": "1969-06-15"
+ },
+ "1974": {
+  "premier_tour": {
+   "François Mitterrand": 43.25,
+   "Valéry Giscard d'Estaing": 32.6,
+   "Jacques Chaban-Delmas": 15.11,
+   "Jean Royer": 3.17,
+   "Arlette Laguiller": 2.33,
+   "René Dumont": 1.32,
+   "Jean-Marie Le Pen": 0.75,
+   "Émile Muller": 0.69,
+   "Alain Krivine": 0.37,
+   "Bertrand Renouvin": 0.17,
+   "Jean-Claude Sebag": 0.16,
+   "Guy Héraud": 0.08
+  },
+  "second_tour": {
+   "Valéry Giscard d'Estaing": 50.81,
+   "François Mitterrand": 49.19
+  },
+  "date_premier_tour": "1974-05-05",
+  "date_second_tour": "1974-05-19"
+ },
+ "1981": {
+  "premier_tour": {
+   "Valéry Giscard d'Estaing": 28.32,
+   "François Mitterrand": 25.85,
+   "Jacques Chirac": 18.0,
+   "Georges Marchais": 15.35,
+   "Brice Lalonde": 3.88,
+   "Arlette Laguiller": 2.3,
+   "Michel Crépeau": 2.21,
+   "Michel Debré": 1.66,
+   "Marie-France Garaud": 1.33,
+   "Huguette Bouchardeau": 1.1
+  },
+  "second_tour": {
+   "François Mitterrand": 51.76,
+   "Valéry Giscard d'Estaing": 48.24
+  },
+  "date_premier_tour": "1981-04-26",
+  "date_second_tour": "1981-05-10"
+ },
+ "1988": {
+  "premier_tour": {
+   "François Mitterrand": 34.1,
+   "Jacques Chirac": 19.96,
+   "Raymond Barre": 16.54,
+   "Jean-Marie Le Pen": 14.38,
+   "André Lajoinie": 6.76,
+   "Antoine Waechter": 3.78,
+   "Pierre Juquin": 2.1,
+   "Arlette Laguiller": 1.99,
+   "Pierre Boussel": 0.38
+  },
+  "second_tour": {
+   "François Mitterrand": 54.02,
+   "Jacques Chirac": 45.98
+  },
+  "date_premier_tour": "1988-04-24",
+  "date_second_tour": "1988-05-08"
+ },
+ "1995": {
+  "premier_tour": {
+   "Lionel Jospin": 23.3,
+   "Jacques Chirac": 20.84,
+   "Édouard Balladur": 18.58,
+   "Jean-Marie Le Pen": 15.0,
+   "Robert Hue": 8.64,
+   "Arlette Laguiller": 5.3,
+   "Philippe de Villiers": 4.74,
+   "Dominique Voynet": 3.32,
+   "Jacques Cheminade": 0.28
+  },
+  "second_tour": {
+   "Jacques Chirac": 52.64,
+   "Lionel Jospin": 47.36
+  },
+  "date_premier_tour": "1995-04-23",
+  "date_second_tour": "1995-05-07"
+ },
+ "2002": {
+  "premier_tour": {
+   "Jacques Chirac": 19.88,
+   "Jean-Marie Le Pen": 16.86,
+   "Lionel Jospin": 16.18,
+   "François Bayrou": 6.84,
+   "Arlette Laguiller": 5.72,
+   "Jean-Pierre Chevènement": 5.33,
+   "Noël Mamère": 5.25,
+   "Olivier Besancenot": 4.25,
+   "Jean Saint-Josse": 4.23,
+   "Alain Madelin": 3.91,
+   "Robert Hue": 3.37,
+   "Bruno Mégret": 2.34,
+   "Christiane Taubira": 2.32,
+   "Corinne Lepage": 1.88,
+   "Christine Boutin": 1.19,
+   "Daniel Gluckstein": 0.47
+  },
+  "second_tour": {
+   "Jacques Chirac": 82.21,
+   "Jean-Marie Le Pen": 17.79
+  },
+  "date_premier_tour": "2002-04-21",
+  "date_second_tour": "2002-05-05"
+ },
+ "2007": {
+  "premier_tour": {
+   "Nicolas Sarkozy": 31.18,
+   "Ségolène Royal": 25.87,
+   "François Bayrou": 18.57,
+   "Jean-Marie Le Pen": 10.44,
+   "Olivier Besancenot": 4.08,
+   "Philippe de Villiers": 2.23,
+   "Marie-George Buffet": 1.93,
+   "Dominique Voynet": 1.57,
+   "Arlette Laguiller": 1.33,
+   "José Bové": 1.32,
+   "Frédéric Nihous": 1.15,
+   "Gérard Schivardi": 0.34
+  },
+  "second_tour": {
+   "Nicolas Sarkozy": 53.06,
+   "Ségolène Royal": 46.94
+  },
+  "date_premier_tour": "2007-04-22",
+  "date_second_tour": "2007-05-06"
+ },
+ "2012": {
+  "premier_tour": {
+   "François Hollande": 28.63,
+   "Nicolas Sarkozy": 27.18,
+   "Marine Le Pen": 17.9,
+   "Jean-Luc Mélenchon": 11.1,
+   "François Bayrou": 9.13,
+   "Eva Joly": 2.31,
+   "Nicolas Dupont-Aignan": 1.79,
+   "Philippe Poutou": 1.15,
+   "Nathalie Arthaud": 0.56,
+   "Jacques Cheminade": 0.25
+  },
+  "second_tour": {
+   "François Hollande": 51.64,
+   "Nicolas Sarkozy": 48.36
+  },
+  "date_premier_tour": "2012-04-22",
+  "date_second_tour": "2012-05-06"
+ },
+ "2017": {
+  "premier_tour": {
+   "Emmanuel Macron": 24.01,
+   "Marine Le Pen": 21.3,
+   "François Fillon": 20.01,
+   "Jean-Luc Mélenchon": 19.58,
+   "Benoît Hamon": 6.36,
+   "Nicolas Dupont-Aignan": 4.7,
+   "Jean Lassalle": 1.21,
+   "Philippe Poutou": 1.09,
+   "François Asselineau": 0.92,
+   "Nathalie Arthaud": 0.64,
+   "Jacques Cheminade": 0.18
+  },
+  "second_tour": {
+   "Emmanuel Macron": 66.1,
+   "Marine Le Pen": 33.9
+  },
+  "date_premier_tour": "2017-04-23",
+  "date_second_tour": "2017-05-07"
+ },
+ "2022": {
+  "premier_tour": {
+   "Emmanuel Macron": 27.85,
+   "Marine Le Pen": 23.15,
+   "Jean-Luc Mélenchon": 21.95,
+   "Éric Zemmour": 7.07,
+   "Valérie Pécresse": 4.78,
+   "Yannick Jadot": 4.63,
+   "Jean Lassalle": 3.13,
+   "Fabien Roussel": 2.28,
+   "Nicolas Dupont-Aignan": 2.06,
+   "Anne Hidalgo": 1.75,
+   "Philippe Poutou": 0.77,
+   "Nathalie Arthaud": 0.56
+  },
+  "second_tour": {
+   "Emmanuel Macron": 58.55,
+   "Marine Le Pen": 41.45
+  },
+  "date_premier_tour": "2022-04-10",
+  "date_second_tour": "2022-04-24"
+ }
+}

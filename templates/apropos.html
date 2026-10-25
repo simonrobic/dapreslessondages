@@ -1,27 +1,34 @@
 {% extends "base.html" %}
-{% block head %}
-<title>Depuis 1958 — À propos</title>
-<script src="/email.js"></script>
-{% endblock %}
-
+{% block title %}À propos — {{ site_name }}{% endblock %}
 {% block content %}
-<div class="year-nav-bar">
-<h1>À propos</h1>
+<div class="hero">
+  <div class="eyebrow">À propos</div>
+  <h1>{{ site_name }}</h1>
+  <p class="lede">Des prévisions probabilistes de l'élection présidentielle française, dans la lignée des modèles popularisés par FiveThirtyEight.</p>
 </div>
+<div class="prose">
+  <h2>Histoire du projet</h2>
+  <p>{{ site_name }} est la suite de <strong>Depuis 1958</strong>, créé en 2017 par <strong>Victor Poughon</strong> (<a href="https://victorpoughon.fr">victorpoughon.fr</a>, <a href="https://github.com/victorpoughon">GitHub</a>). Le projet réunissait un modèle bayésien de l'élection présidentielle, un jeu de données ouvert des sondages depuis 1981 et un site tenu pendant toute la campagne 2017, avec l'aide de contributeurs bénévoles pour la saisie des sondages. Depuis 1958 n'est plus en ligne aujourd'hui.</p>
+  <p>{{ site_name }} reprend sa méthode et son historique des sondages, les étend à 2022 et à 2027, et ajoute une prévision possible plus tôt dans la campagne, la gestion des scénarios de candidatures et une page qui confronte le modèle aux résultats passés. Le site conserve les licences du projet d'origine.</p>
 
-<ul>
-    <li>Suivez-moi sur <a href="https://twitter.com/victorpoughon">Twitter</a>.</li>
-    <li>Envoyez-moi des mots doux <a href="#" id="email">par email</a>.</li>
-    <li>Un sondage qui manque&nbsp;? Ajoutez-le <a href="https://github.com/depuis1958/sondages">sur GitHub</a>.</li>
-    <li>Code source&thinsp;:&nbsp;disponible aussi <a href="https://github.com/depuis1958/depuis1958">sur GitHub</a>&nbsp;!</li>
-</ul>
+  <h2>Ce que ce site n'est pas</h2>
+  <p>Ce n'est pas un sondage : aucune enquête n'est réalisée ici. Ce n'est pas non plus un pronostic d'expert : les chiffres découlent mécaniquement des sondages publiés et du modèle décrit dans la <a href="{{ root }}methodologie/">méthodologie</a>.</p>
 
-<p>
-Pour faire <em>Depuis 1958</em> je me suis humblement inspiré des modèles
-Américains comme le très célèbre <a
-href="https://projects.fivethirtyeight.com/2016-election-forecast/">FiveThirtyEight</a>,
-le
-<a href="http://elections.dailykos.com/app/elections/2016">DailyKos</a>,
-le <a href="https://www.nytimes.com/interactive/2016/upshot/presidential-polls-forecast.html?_r=0">nytimes</a>,
-et <a href="http://www.270towin.com/2016-simulation/">tant d'autres</a>. Merci à eux d'avoir fait tout le travail et publié leurs méthodologies avec autant de détails :)&thinsp;!</p>
+  <h2 id="licences">Crédits et licences</h2>
+  <p>Comme Depuis 1958, {{ site_name }} est distribué sous trois licences.</p>
+  <ul>
+    <li><strong>Textes et graphiques du site</strong> : <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/fr/">Creative Commons Attribution – Pas d'utilisation commerciale 3.0 France</a> (CC BY-NC 3.0 FR), licence du site Depuis 1958 de 2017.</li>
+    <li><strong>Code du modèle et du site</strong> : <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License v3</a> ou toute version ultérieure, licence du code d'origine (dépôt <code>depuis1958/depuis1958</code>, dont une copie est conservée sur <a href="https://github.com/cljoly/depuis1958">github.com/cljoly/depuis1958</a>).{% if source_code %} Le code de cette version est disponible sur <a href="{{ source_code }}">{{ source_code }}</a>.{% endif %}</li>
+    <li><strong>Données</strong>, sous la licence de leur source :
+      <ul>
+        <li>sondages 1981–2017 : <a href="https://github.com/depuis1958/sondages">depuis1958/sondages</a>, Victor Poughon et contributeurs, <a href="https://creativecommons.org/licenses/by-sa/3.0/fr/">CC BY-SA 3.0 FR</a> ;</li>
+        <li>sondages 2022 : <a href="https://github.com/nsppolls/nsppolls">NSPPolls</a>, licence MIT ;</li>
+        <li>sondages 2027 : contributeurs de <a href="https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027">Wikipédia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a> ;</li>
+        <li>résultats officiels : Conseil constitutionnel.</li>
+      </ul>
+    </li>
+    <li><strong>Polices</strong> : <a href="https://github.com/adobe-fonts/source-serif">Source Serif 4</a> (Adobe) et <a href="https://github.com/IBM/plex">IBM Plex Sans</a> (IBM), sous <a href="https://openfontlicense.org">SIL Open Font License 1.1</a>, hébergées sur le site avec leur licence.</li>
+  </ul>
+  <p>La méthode s'inspire elle-même, comme l'expliquait le site d'origine, des modèles américains publiés par FiveThirtyEight, le Daily Kos et le New York Times.</p>
+</div>
 {% endblock %}

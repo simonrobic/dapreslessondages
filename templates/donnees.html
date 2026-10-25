@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Données — {{ site_name }}{% endblock %}
+{% block content %}
+<div class="hero">
+  <div class="eyebrow">Données ouvertes</div>
+  <h1>Télécharger les données</h1>
+  <p class="lede">Les sondages au format du dépôt d'origine (une ligne par hypothèse, une colonne par candidat) et les prévisions complètes au format JSON.</p>
+</div>
+<div class="table-wrap" style="max-width:640px">
+  <table>
+    <thead><tr><th>Fichier</th><th class="n">Taille</th></tr></thead>
+    <tbody>
+    {% for name, size in files %}<tr><td><a href="{{ name }}">{{ name }}</a></td><td class="n">{{ size }}</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</div>
+<p class="muted small" style="margin-top:12px">Chaque fichier garde la licence de sa source : sondages 1981–2017 en <a href="https://creativecommons.org/licenses/by-sa/3.0/fr/">CC BY-SA 3.0 FR</a> (Victor Poughon et contributeurs, <a href="https://github.com/depuis1958/sondages">depuis1958/sondages</a>), 2022 en licence MIT (<a href="https://github.com/nsppolls/nsppolls">NSPPolls</a>), 2027 en <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a> (contributeurs de Wikipédia). Citez ces sources, {{ site_name }} et Depuis 1958, et partagez vos dérivés des données CC BY-SA sous la même licence. Le détail, les modifications apportées et le texte de la licence MIT sont dans <a href="LICENCES.md">LICENCES.md</a>.</p>
+{% endblock %}

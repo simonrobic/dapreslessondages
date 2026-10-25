@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+site/
+*.egg-info/
+.DS_Store
+data/raw/eurobarometre/
+data/raw/professions-de-foi/
+data/raw/candidats-2027/
+.site-tmp/
+.site-old/
+apercus/

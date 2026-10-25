@@ -1,0 +1,340 @@
+{
+ "election": 1981,
+ "date_premier_tour": "1981-04-26",
+ "date_second_tour": "1981-05-10",
+ "source": "https://github.com/depuis1958/sondages",
+ "licence": "CC BY-SA 3.0 FR — Victor Poughon et contributeurs",
+ "sources": [
+  {
+   "url": "https://github.com/depuis1958/sondages",
+   "licence": "CC BY-SA 3.0 FR — Victor Poughon et contributeurs"
+  },
+  {
+   "url": "https://fr.wikipedia.org/wiki/Élection_présidentielle_française_de_1981",
+   "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
+   "periode": "sondages antérieurs au 10 janvier 1981",
+   "revision": 240400957
+  }
+ ],
+ "premier_tour": [
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1980-10-01",
+   "fin": "1980-10-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "Alain Krivine": 1.0,
+    "Roger Garaudy": 1.0,
+    "Georges Marchais": 17.0,
+    "Huguette Bouchardeau": 1.0,
+    "François Mitterrand": 19.0,
+    "Michel Crépeau": 1.0,
+    "Brice Lalonde": 5.0,
+    "Valéry Giscard d'Estaing": 34.0,
+    "Jacques Chirac": 12.0,
+    "Michel Debré": 5.0,
+    "Jean-Marie Le Pen": 0.5
+   },
+   "total_brut": 98.5
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1980-11-01",
+   "fin": "1980-11-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "Alain Krivine": 0.5,
+    "Roger Garaudy": 0.5,
+    "Georges Marchais": 17.0,
+    "Huguette Bouchardeau": 1.0,
+    "François Mitterrand": 18.0,
+    "Michel Crépeau": 2.0,
+    "Brice Lalonde": 4.0,
+    "Valéry Giscard d'Estaing": 35.0,
+    "Jacques Chirac": 11.0,
+    "Michel Debré": 6.0,
+    "Marie-France Garaud": 2.0,
+    "Jean-Marie Le Pen": 0.5
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1980-12-01",
+   "fin": "1980-12-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "Alain Krivine": 0.5,
+    "Roger Garaudy": 0.5,
+    "Georges Marchais": 17.0,
+    "Huguette Bouchardeau": 1.0,
+    "François Mitterrand": 19.0,
+    "Michel Crépeau": 1.5,
+    "Brice Lalonde": 3.0,
+    "Valéry Giscard d'Estaing": 35.0,
+    "Jacques Chirac": 11.0,
+    "Michel Debré": 6.0,
+    "Marie-France Garaud": 2.5,
+    "Jean-Marie Le Pen": 0.5
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-01-10",
+   "fin": "1981-01-10",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "Georges Marchais": 16.0,
+    "Huguette Bouchardeau": 1.0,
+    "François Mitterrand": 23.0,
+    "Michel Crépeau": 2.0,
+    "Brice Lalonde": 3.5,
+    "Valéry Giscard d'Estaing": 31.0,
+    "Jacques Chirac": 11.0,
+    "Michel Debré": 5.5,
+    "Marie-France Garaud": 2.5
+   },
+   "total_brut": 97.5
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-02-10",
+   "fin": "1981-02-10",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "Georges Marchais": 17.0,
+    "Huguette Bouchardeau": 0.5,
+    "François Mitterrand": 25.0,
+    "Michel Crépeau": 1.5,
+    "Brice Lalonde": 3.5,
+    "Valéry Giscard d'Estaing": 28.0,
+    "Jacques Chirac": 13.0,
+    "Michel Debré": 4.0,
+    "Marie-France Garaud": 3.0
+   },
+   "total_brut": 96.5
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-03-11",
+   "fin": "1981-03-12",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "Georges Marchais": 16.0,
+    "Huguette Bouchardeau": 0.5,
+    "François Mitterrand": 25.0,
+    "Michel Crépeau": 2.0,
+    "Brice Lalonde": 3.5,
+    "Valéry Giscard d'Estaing": 29.0,
+    "Jacques Chirac": 15.0,
+    "Michel Debré": 3.5,
+    "Marie-France Garaud": 2.0
+   },
+   "total_brut": 97.5
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-03-25",
+   "fin": "1981-03-26",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "Georges Marchais": 16.5,
+    "Huguette Bouchardeau": 1.0,
+    "François Mitterrand": 24.0,
+    "Michel Crépeau": 1.0,
+    "Brice Lalonde": 3.5,
+    "Valéry Giscard d'Estaing": 29.0,
+    "Jacques Chirac": 16.0,
+    "Michel Debré": 3.0,
+    "Marie-France Garaud": 2.0
+   },
+   "total_brut": 97.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-04-16",
+   "fin": "1981-04-17",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "Georges Marchais": 18.5,
+    "Huguette Bouchardeau": 1.5,
+    "François Mitterrand": 22.0,
+    "Michel Crépeau": 1.5,
+    "Brice Lalonde": 3.5,
+    "Valéry Giscard d'Estaing": 27.5,
+    "Jacques Chirac": 19.5,
+    "Michel Debré": 2.0,
+    "Marie-France Garaud": 2.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-04-22",
+   "fin": "1981-04-23",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 2.5,
+    "Georges Marchais": 18.5,
+    "Huguette Bouchardeau": 1.5,
+    "François Mitterrand": 22.0,
+    "Michel Crépeau": 2.0,
+    "Brice Lalonde": 3.5,
+    "Valéry Giscard d'Estaing": 27.5,
+    "Jacques Chirac": 18.5,
+    "Michel Debré": 2.5,
+    "Marie-France Garaud": 1.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-04-24",
+   "fin": "1981-04-25",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 2.5,
+    "Georges Marchais": 19.0,
+    "Huguette Bouchardeau": 1.0,
+    "François Mitterrand": 21.5,
+    "Michel Crépeau": 2.5,
+    "Brice Lalonde": 3.5,
+    "Valéry Giscard d'Estaing": 27.5,
+    "Jacques Chirac": 18.5,
+    "Michel Debré": 2.0,
+    "Marie-France Garaud": 2.0
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "second_tour": [
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1980-10-01",
+   "fin": "1980-10-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 43.0,
+    "Valéry Giscard d'Estaing": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1980-11-01",
+   "fin": "1980-11-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 41.0,
+    "Valéry Giscard d'Estaing": 59.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1980-12-01",
+   "fin": "1980-12-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 44.0,
+    "Valéry Giscard d'Estaing": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-01-10",
+   "fin": "1981-01-10",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Valéry Giscard d'Estaing": 51.0,
+    "François Mitterrand": 49.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-01-10",
+   "fin": "1981-01-10",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Valéry Giscard d'Estaing": 48.0,
+    "François Mitterrand": 52.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-03-11",
+   "fin": "1981-03-11",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Valéry Giscard d'Estaing": 50.0,
+    "François Mitterrand": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-03-25",
+   "fin": "1981-03-25",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Valéry Giscard d'Estaing": 50.0,
+    "François Mitterrand": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-04-15",
+   "fin": "1981-04-15",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Valéry Giscard d'Estaing": 50.0,
+    "François Mitterrand": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1981-05-07",
+   "fin": "1981-05-07",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Valéry Giscard d'Estaing": 48.0,
+    "François Mitterrand": 52.0
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "evenements": []
+}

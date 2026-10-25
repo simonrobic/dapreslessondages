@@ -1,0 +1,1591 @@
+{
+ "election": 1995,
+ "date_premier_tour": "1995-04-23",
+ "date_second_tour": "1995-05-07",
+ "source": "https://github.com/depuis1958/sondages",
+ "licence": "CC BY-SA 3.0 FR — Victor Poughon et contributeurs",
+ "sources": [
+  {
+   "url": "https://github.com/depuis1958/sondages",
+   "licence": "CC BY-SA 3.0 FR — Victor Poughon et contributeurs"
+  },
+  {
+   "url": "https://fr.wikipedia.org/wiki/Élection_présidentielle_française_de_1995",
+   "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
+   "periode": "sondages antérieurs au 11 janvier 1995",
+   "revision": 240675989
+  }
+ ],
+ "premier_tour": [
+  {
+   "sondeur": "Ipsos",
+   "debut": "1993-10-02",
+   "fin": "1993-10-02",
+   "echantillon": 1004,
+   "source": "https://www.ipsos.com/fr-fr/la-cote-de-lopinion-0",
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "André Lajoinie": 8.0,
+    "Jean-Pierre Chevènement": 4.0,
+    "Michel Rocard": 23.0,
+    "Brice Lalonde": 7.0,
+    "Valéry Giscard d'Estaing": 14.0,
+    "Jacques Chirac": 29.0,
+    "Jean-Marie Le Pen": 12.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1993-10-02",
+   "fin": "1993-10-02",
+   "echantillon": 1004,
+   "source": "https://www.ipsos.com/fr-fr/la-cote-de-lopinion-0",
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "André Lajoinie": 8.0,
+    "Jean-Pierre Chevènement": 5.0,
+    "Jacques Delors": 28.0,
+    "Brice Lalonde": 7.0,
+    "Valéry Giscard d'Estaing": 12.0,
+    "Jacques Chirac": 25.0,
+    "Jean-Marie Le Pen": 12.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1993-10-02",
+   "fin": "1993-10-02",
+   "echantillon": 1004,
+   "source": "https://www.ipsos.com/fr-fr/la-cote-de-lopinion-0",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "André Lajoinie": 8.0,
+    "Jean-Pierre Chevènement": 4.0,
+    "Michel Rocard": 21.0,
+    "Brice Lalonde": 7.0,
+    "Valéry Giscard d'Estaing": 9.0,
+    "Édouard Balladur": 39.0,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1993-10-02",
+   "fin": "1993-10-02",
+   "echantillon": 1004,
+   "source": "https://www.ipsos.com/fr-fr/la-cote-de-lopinion-0",
+   "scores": {
+    "Arlette Laguiller": 1.0,
+    "André Lajoinie": 8.0,
+    "Jean-Pierre Chevènement": 4.0,
+    "Michel Rocard": 24.0,
+    "Brice Lalonde": 7.0,
+    "Valéry Giscard d'Estaing": 9.0,
+    "Édouard Balladur": 35.0,
+    "Jean-Marie Le Pen": 11.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1994-03-05",
+   "fin": "1994-03-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Arlette Laguiller": 2.5,
+    "Robert Hue": 4.5,
+    "Jacques Delors": 24.0,
+    "Dominique Voynet": 4.0,
+    "Valéry Giscard d'Estaing": 7.0,
+    "Édouard Balladur": 33.0,
+    "Jacques Chirac": 14.0,
+    "Jean-Marie Le Pen": 11.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1994-03-25",
+   "fin": "1994-03-25",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "Robert Hue": 5.0,
+    "Michel Rocard": 25.0,
+    "Dominique Voynet": 4.0,
+    "Valéry Giscard d'Estaing": 7.0,
+    "Édouard Balladur": 29.0,
+    "Jacques Chirac": 17.0,
+    "Jean-Marie Le Pen": 11.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1994-05-09",
+   "fin": "1994-05-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Arlette Laguiller": 2.5,
+    "Robert Hue": 6.0,
+    "Michel Rocard": 26.0,
+    "Dominique Voynet": 4.5,
+    "Valéry Giscard d'Estaing": 6.0,
+    "Édouard Balladur": 28.0,
+    "Jacques Chirac": 17.0,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1994-07-05",
+   "fin": "1994-07-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 4.0,
+    "Jacques Delors": 26.0,
+    "Dominique Voynet": 4.0,
+    "Valéry Giscard d'Estaing": 8.0,
+    "Édouard Balladur": 28.0,
+    "Jacques Chirac": 16.0,
+    "Jean-Marie Le Pen": 11.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1994-09-08",
+   "fin": "1994-09-08",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Arlette Laguiller": 2.5,
+    "Robert Hue": 3.5,
+    "Jacques Delors": 27.0,
+    "Dominique Voynet": 2.0,
+    "Valéry Giscard d'Estaing": 5.0,
+    "Édouard Balladur": 30.0,
+    "Jacques Chirac": 16.0,
+    "Philippe de Villiers": 4.0,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-09-16",
+   "fin": "1994-09-16",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-40",
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "Robert Hue": 5.0,
+    "Jacques Delors": 25.0,
+    "Bernard Tapie": 9.0,
+    "Dominique Voynet": 1.0,
+    "Valéry Giscard d'Estaing": 3.0,
+    "Édouard Balladur": 31.0,
+    "Jacques Chirac": 13.0,
+    "Philippe de Villiers": 3.0,
+    "Jean-Marie Le Pen": 8.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-09-16",
+   "fin": "1994-09-16",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-40",
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "Robert Hue": 5.0,
+    "Jacques Delors": 29.0,
+    "Dominique Voynet": 1.0,
+    "Valéry Giscard d'Estaing": 5.0,
+    "Édouard Balladur": 32.0,
+    "Jacques Chirac": 17.0,
+    "Jean-Marie Le Pen": 9.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-09-16",
+   "fin": "1994-09-16",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-40",
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "Robert Hue": 6.0,
+    "Jacques Delors": 29.0,
+    "Dominique Voynet": 1.0,
+    "Édouard Balladur": 35.0,
+    "Jacques Chirac": 19.0,
+    "Jean-Marie Le Pen": 8.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1994-10-06",
+   "fin": "1994-10-06",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Arlette Laguiller": 4.0,
+    "Robert Hue": 5.0,
+    "Jacques Delors": 29.5,
+    "Dominique Voynet": 1.5,
+    "Valéry Giscard d'Estaing": 6.0,
+    "Édouard Balladur": 28.0,
+    "Jacques Chirac": 14.0,
+    "Philippe de Villiers": 3.0,
+    "Jean-Marie Le Pen": 9.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-11-02",
+   "fin": "1994-11-02",
+   "echantillon": 935,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-50",
+   "scores": {
+    "Arlette Laguiller": 2.0,
+    "Robert Hue": 4.0,
+    "Jacques Delors": 28.0,
+    "Bernard Tapie": 8.0,
+    "Dominique Voynet": 1.0,
+    "Valéry Giscard d'Estaing": 3.0,
+    "Édouard Balladur": 26.0,
+    "Jacques Chirac": 17.0,
+    "Philippe de Villiers": 3.0,
+    "Jean-Marie Le Pen": 8.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-11-02",
+   "fin": "1994-11-02",
+   "echantillon": 935,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-50",
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 4.0,
+    "Jacques Delors": 29.0,
+    "Dominique Voynet": 1.0,
+    "Valéry Giscard d'Estaing": 8.0,
+    "Édouard Balladur": 25.0,
+    "Jacques Chirac": 21.0,
+    "Jean-Marie Le Pen": 9.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-11-02",
+   "fin": "1994-11-02",
+   "echantillon": 935,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-50",
+   "scores": {
+    "Arlette Laguiller": 4.0,
+    "Robert Hue": 6.0,
+    "Jacques Delors": 33.0,
+    "Dominique Voynet": 1.0,
+    "Édouard Balladur": 26.0,
+    "Jacques Chirac": 20.0,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1994-11-09",
+   "fin": "1994-11-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Arlette Laguiller": 3.5,
+    "Robert Hue": 5.0,
+    "Jacques Delors": 26.0,
+    "Dominique Voynet": 3.0,
+    "Valéry Giscard d'Estaing": 4.5,
+    "Édouard Balladur": 28.0,
+    "Jacques Chirac": 18.0,
+    "Philippe de Villiers": 4.0,
+    "Jean-Marie Le Pen": 9.0
+   },
+   "total_brut": 101.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-11-21",
+   "fin": "1994-11-21",
+   "echantillon": 1000,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-53",
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 5.0,
+    "Jacques Delors": 32.0,
+    "Dominique Voynet": 2.0,
+    "Brice Lalonde": 3.0,
+    "Édouard Balladur": 27.0,
+    "Jacques Chirac": 18.0,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-11-21",
+   "fin": "1994-11-21",
+   "echantillon": 1000,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-53",
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 3.0,
+    "Jacques Delors": 28.0,
+    "Bernard Tapie": 10.0,
+    "Dominique Voynet": 2.0,
+    "Brice Lalonde": 3.0,
+    "Édouard Balladur": 26.0,
+    "Jacques Chirac": 17.0,
+    "Jean-Marie Le Pen": 8.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-11-21",
+   "fin": "1994-11-21",
+   "echantillon": 1000,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-53",
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 5.0,
+    "Jacques Delors": 28.0,
+    "Bernard Tapie": 9.0,
+    "Dominique Voynet": 2.0,
+    "Brice Lalonde": 3.0,
+    "Édouard Balladur": 24.0,
+    "Jacques Chirac": 15.0,
+    "Philippe de Villiers": 4.0,
+    "Jean-Marie Le Pen": 7.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-11-24",
+   "fin": "1994-11-24",
+   "echantillon": 1004,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-delors-en-tete",
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 5.0,
+    "Jacques Delors": 32.0,
+    "Dominique Voynet": 1.0,
+    "Brice Lalonde": 1.0,
+    "Valéry Giscard d'Estaing": 4.0,
+    "Édouard Balladur": 26.0,
+    "Jacques Chirac": 14.0,
+    "Philippe de Villiers": 4.0,
+    "Jean-Marie Le Pen": 9.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-11-24",
+   "fin": "1994-11-24",
+   "echantillon": 1004,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-delors-en-tete",
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 5.0,
+    "Jacques Delors": 27.0,
+    "Bernard Tapie": 7.0,
+    "Dominique Voynet": 1.0,
+    "Brice Lalonde": 2.0,
+    "Valéry Giscard d'Estaing": 5.0,
+    "Édouard Balladur": 24.0,
+    "Jacques Chirac": 14.0,
+    "Philippe de Villiers": 4.0,
+    "Jean-Marie Le Pen": 7.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1994-12-07",
+   "fin": "1994-12-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 5.0,
+    "Jacques Delors": 32.0,
+    "Dominique Voynet": 3.0,
+    "Valéry Giscard d'Estaing": 5.0,
+    "Édouard Balladur": 25.0,
+    "Jacques Chirac": 12.0,
+    "Philippe de Villiers": 5.0,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-12-12",
+   "fin": "1994-12-12",
+   "echantillon": 800,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-apres-delors",
+   "scores": {
+    "Arlette Laguiller": 4.0,
+    "Robert Hue": 6.0,
+    "Michel Rocard": 11.0,
+    "Bernard Tapie": 9.0,
+    "Dominique Voynet": 1.0,
+    "Brice Lalonde": 2.0,
+    "Raymond Barre": 10.0,
+    "Édouard Balladur": 25.0,
+    "Jacques Chirac": 17.0,
+    "Philippe de Villiers": 5.0,
+    "Jean-Marie Le Pen": 10.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-12-12",
+   "fin": "1994-12-12",
+   "echantillon": 800,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-apres-delors",
+   "scores": {
+    "Arlette Laguiller": 5.0,
+    "Robert Hue": 7.0,
+    "Michel Rocard": 14.0,
+    "Dominique Voynet": 2.0,
+    "Brice Lalonde": 2.0,
+    "Raymond Barre": 12.0,
+    "Édouard Balladur": 27.0,
+    "Jacques Chirac": 17.0,
+    "Philippe de Villiers": 5.0,
+    "Jean-Marie Le Pen": 9.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-12-12",
+   "fin": "1994-12-12",
+   "echantillon": 800,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-apres-delors",
+   "scores": {
+    "Arlette Laguiller": 4.0,
+    "Robert Hue": 6.0,
+    "Jack Lang": 14.0,
+    "Bernard Tapie": 9.0,
+    "Dominique Voynet": 1.0,
+    "Brice Lalonde": 1.0,
+    "Raymond Barre": 10.0,
+    "Édouard Balladur": 25.0,
+    "Jacques Chirac": 16.0,
+    "Philippe de Villiers": 5.0,
+    "Jean-Marie Le Pen": 9.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-12-12",
+   "fin": "1994-12-12",
+   "echantillon": 800,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-apres-delors",
+   "scores": {
+    "Arlette Laguiller": 5.0,
+    "Robert Hue": 6.0,
+    "Jack Lang": 15.0,
+    "Dominique Voynet": 2.0,
+    "Brice Lalonde": 2.0,
+    "Raymond Barre": 11.0,
+    "Édouard Balladur": 28.0,
+    "Jacques Chirac": 17.0,
+    "Philippe de Villiers": 5.0,
+    "Jean-Marie Le Pen": 9.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-01-10",
+   "fin": "1995-01-12",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 2.5,
+    "Robert Hue": 6.0,
+    "Lionel Jospin": 20.0,
+    "Dominique Voynet": 4.0,
+    "Édouard Balladur": 29.0,
+    "Jacques Chirac": 17.0,
+    "Philippe de Villiers": 9.0,
+    "Jean-Marie Le Pen": 11.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-01-24",
+   "fin": "1995-01-26",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 7.0,
+    "Lionel Jospin": 17.0,
+    "Dominique Voynet": 3.0,
+    "Édouard Balladur": 32.0,
+    "Jacques Chirac": 18.0,
+    "Philippe de Villiers": 7.0,
+    "Jean-Marie Le Pen": 12.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-02-07",
+   "fin": "1995-02-09",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 7.0,
+    "Lionel Jospin": 22.5,
+    "Dominique Voynet": 4.0,
+    "Édouard Balladur": 28.0,
+    "Jacques Chirac": 17.5,
+    "Philippe de Villiers": 6.5,
+    "Jean-Marie Le Pen": 10.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-02-21",
+   "fin": "1995-02-23",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 7.0,
+    "Lionel Jospin": 24.0,
+    "Dominique Voynet": 5.0,
+    "Édouard Balladur": 23.5,
+    "Jacques Chirac": 19.0,
+    "Philippe de Villiers": 7.5,
+    "Jean-Marie Le Pen": 11.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-03-08",
+   "fin": "1995-03-09",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 4.0,
+    "Robert Hue": 9.0,
+    "Lionel Jospin": 21.0,
+    "Dominique Voynet": 3.5,
+    "Édouard Balladur": 20.0,
+    "Jacques Chirac": 24.0,
+    "Philippe de Villiers": 7.5,
+    "Jean-Marie Le Pen": 10.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-03-11",
+   "fin": "1995-03-13",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 3.5,
+    "Robert Hue": 8.0,
+    "Lionel Jospin": 20.0,
+    "Dominique Voynet": 2.5,
+    "Édouard Balladur": 20.0,
+    "Jacques Chirac": 27.0,
+    "Philippe de Villiers": 6.5,
+    "Jean-Marie Le Pen": 12.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-03-21",
+   "fin": "1995-03-22",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 3.0,
+    "Robert Hue": 8.5,
+    "Lionel Jospin": 22.0,
+    "Dominique Voynet": 2.5,
+    "Édouard Balladur": 17.0,
+    "Jacques Chirac": 26.0,
+    "Philippe de Villiers": 7.0,
+    "Jean-Marie Le Pen": 13.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-03-25",
+   "fin": "1995-03-27",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 3.5,
+    "Robert Hue": 8.0,
+    "Lionel Jospin": 21.0,
+    "Dominique Voynet": 3.5,
+    "Édouard Balladur": 18.0,
+    "Jacques Chirac": 26.0,
+    "Philippe de Villiers": 6.5,
+    "Jean-Marie Le Pen": 13.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-04-04",
+   "fin": "1995-04-05",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 4.5,
+    "Robert Hue": 8.0,
+    "Lionel Jospin": 22.0,
+    "Dominique Voynet": 3.5,
+    "Édouard Balladur": 20.0,
+    "Jacques Chirac": 24.0,
+    "Philippe de Villiers": 5.5,
+    "Jean-Marie Le Pen": 12.0,
+    "Jacques Cheminade": 0.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-04-08",
+   "fin": "1995-04-10",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 4.5,
+    "Robert Hue": 8.5,
+    "Lionel Jospin": 21.0,
+    "Dominique Voynet": 3.0,
+    "Édouard Balladur": 19.0,
+    "Jacques Chirac": 26.0,
+    "Philippe de Villiers": 5.0,
+    "Jean-Marie Le Pen": 13.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-04-13",
+   "fin": "1995-04-14",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 5.0,
+    "Robert Hue": 8.5,
+    "Lionel Jospin": 21.0,
+    "Dominique Voynet": 3.5,
+    "Édouard Balladur": 16.0,
+    "Jacques Chirac": 26.0,
+    "Philippe de Villiers": 6.5,
+    "Jean-Marie Le Pen": 13.0,
+    "Jacques Cheminade": 0.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-04-20",
+   "fin": "1995-04-21",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Arlette Laguiller": 5.0,
+    "Robert Hue": 9.5,
+    "Lionel Jospin": 20.5,
+    "Dominique Voynet": 4.0,
+    "Édouard Balladur": 16.5,
+    "Jacques Chirac": 24.0,
+    "Philippe de Villiers": 6.0,
+    "Jean-Marie Le Pen": 14.0,
+    "Jacques Cheminade": 0.5
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "second_tour": [
+  {
+   "sondeur": "Sofres",
+   "debut": "1993-09-01",
+   "fin": "1993-09-15",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 47.0,
+    "Jacques Delors": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1993-10-01",
+   "fin": "1993-10-02",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/la-cote-de-lopinion-0",
+   "scores": {
+    "Jacques Chirac": 47.0,
+    "Jacques Delors": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1993-11-01",
+   "fin": "1993-11-15",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 50.0,
+    "Jacques Delors": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1994-01-01",
+   "fin": "1994-01-15",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 49.0,
+    "Jacques Delors": 51.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-02-15",
+   "fin": "1994-02-18",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/les-intentions-de-vote-lelection-presidentielle-de-95",
+   "scores": {
+    "Jacques Chirac": 52.0,
+    "Jacques Delors": 48.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1994-03-01",
+   "fin": "1994-03-15",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 49.0,
+    "Jacques Delors": 51.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1994-05-01",
+   "fin": "1994-05-15",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 50.0,
+    "Jacques Delors": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1994-06-01",
+   "fin": "1994-06-15",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 48.0,
+    "Jacques Delors": 52.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-06-16",
+   "fin": "1994-06-21",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/intentions-de-vote-aux-presidentielles-de-1995",
+   "scores": {
+    "Jacques Chirac": 54.0,
+    "Jacques Delors": 46.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-07-01",
+   "fin": "1994-07-02",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-29",
+   "scores": {
+    "Édouard Balladur": 65.0,
+    "Jacques Chirac": 35.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-07-01",
+   "fin": "1994-07-02",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-29",
+   "scores": {
+    "Jacques Chirac": 48.0,
+    "Jacques Delors": 52.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-07-02",
+   "fin": "1994-07-05",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-31",
+   "scores": {
+    "Jacques Chirac": 46.0,
+    "Jacques Delors": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1994-07-01",
+   "fin": "1994-07-15",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 46.0,
+    "Jacques Delors": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-09-09",
+   "fin": "1994-09-12",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentiables-39",
+   "scores": {
+    "Jacques Chirac": 48.0,
+    "Jacques Delors": 52.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1994-09-01",
+   "fin": "1994-09-15",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 48.5,
+    "Jacques Delors": 51.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1994-10-01",
+   "fin": "1994-10-15",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 46.0,
+    "Jacques Delors": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1994-11-05",
+   "fin": "1994-11-09",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 45.0,
+    "Jacques Delors": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1994-11-22",
+   "fin": "1994-11-24",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 40.0,
+    "Jacques Delors": 60.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1994-12-05",
+   "fin": "1994-12-07",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 39.0,
+    "Jacques Delors": 61.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1994-12-15",
+   "fin": "1994-12-19",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/election-presidentielle-anticipeeles-francais-ny-croient-pas",
+   "scores": {
+    "Édouard Balladur": 58.0,
+    "Jacques Chirac": 42.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1994-12-26",
+   "fin": "1994-12-28",
+   "echantillon": null,
+   "source": "https://lelab2012.com/historique-election-presidentielle-1995.php",
+   "scores": {
+    "Jacques Chirac": 51.0,
+    "Jacques Delors": 49.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-01-06",
+   "fin": "1995-01-07",
+   "echantillon": null,
+   "source": "https://www.ipsos.com/fr-fr/les-presidentielles-0",
+   "scores": {
+    "Édouard Balladur": 61.0,
+    "Lionel Jospin": 39.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1995-01-11",
+   "fin": "1995-01-11",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Édouard Balladur": 66.0,
+    "Jacques Chirac": 34.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-01-10",
+   "fin": "1995-01-12",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 51.0,
+    "Lionel Jospin": 49.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1995-01-19",
+   "fin": "1995-01-20",
+   "echantillon": null,
+   "source": "Ifop",
+   "scores": {
+    "Édouard Balladur": 64.0,
+    "Jacques Chirac": 36.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-01-24",
+   "fin": "1995-01-26",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 54.0,
+    "Lionel Jospin": 46.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-02-04",
+   "fin": "1995-02-05",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Édouard Balladur": 55.0,
+    "Jacques Chirac": 45.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-02-04",
+   "fin": "1995-02-05",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Jacques Chirac": 57.0,
+    "Lionel Jospin": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "1995-02-06",
+   "fin": "1995-02-06",
+   "echantillon": null,
+   "source": "CSA",
+   "scores": {
+    "Édouard Balladur": 61.0,
+    "Jacques Chirac": 39.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-02-07",
+   "fin": "1995-02-09",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 52.0,
+    "Lionel Jospin": 48.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-02-17",
+   "fin": "1995-02-18",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Édouard Balladur": 53.0,
+    "Jacques Chirac": 47.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "1995-02-17",
+   "fin": "1995-02-20",
+   "echantillon": null,
+   "source": "BVA",
+   "scores": {
+    "Édouard Balladur": 50.0,
+    "Jacques Chirac": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-02-17",
+   "fin": "1995-02-20",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Jacques Chirac": 53.0,
+    "Lionel Jospin": 47.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "1995-02-17",
+   "fin": "1995-02-20",
+   "echantillon": null,
+   "source": "BVA",
+   "scores": {
+    "Jacques Chirac": 54.0,
+    "Lionel Jospin": 46.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-02-21",
+   "fin": "1995-02-23",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 53.0,
+    "Lionel Jospin": 47.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "1995-02-28",
+   "fin": "1995-03-01",
+   "echantillon": null,
+   "source": "CSA",
+   "scores": {
+    "Édouard Balladur": 41.0,
+    "Jacques Chirac": 59.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-03-01",
+   "fin": "1995-03-01",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Édouard Balladur": 49.0,
+    "Jacques Chirac": 51.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "1995-02-28",
+   "fin": "1995-03-01",
+   "echantillon": null,
+   "source": "CSA",
+   "scores": {
+    "Jacques Chirac": 56.0,
+    "Lionel Jospin": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-03-01",
+   "fin": "1995-03-01",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Jacques Chirac": 56.0,
+    "Lionel Jospin": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1995-03-02",
+   "fin": "1995-03-03",
+   "echantillon": null,
+   "source": "Ifop",
+   "scores": {
+    "Édouard Balladur": 44.0,
+    "Jacques Chirac": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1995-03-02",
+   "fin": "1995-03-03",
+   "echantillon": null,
+   "source": "Ifop",
+   "scores": {
+    "Jacques Chirac": 57.0,
+    "Lionel Jospin": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "1995-03-02",
+   "fin": "1995-03-05",
+   "echantillon": null,
+   "source": "BVA",
+   "scores": {
+    "Édouard Balladur": 41.0,
+    "Jacques Chirac": 59.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "1995-03-02",
+   "fin": "1995-03-05",
+   "echantillon": null,
+   "source": "BVA",
+   "scores": {
+    "Jacques Chirac": 57.0,
+    "Lionel Jospin": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1995-03-06",
+   "fin": "1995-03-06",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Édouard Balladur": 40.0,
+    "Jacques Chirac": 60.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1995-03-06",
+   "fin": "1995-03-06",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Jacques Chirac": 56.0,
+    "Lionel Jospin": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-03-08",
+   "fin": "1995-03-09",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 57.0,
+    "Lionel Jospin": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1995-03-09",
+   "fin": "1995-03-10",
+   "echantillon": null,
+   "source": "Ifop",
+   "scores": {
+    "Jacques Chirac": 59.0,
+    "Lionel Jospin": 41.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-03-10",
+   "fin": "1995-03-11",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Édouard Balladur": 36.0,
+    "Jacques Chirac": 64.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-03-10",
+   "fin": "1995-03-11",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Jacques Chirac": 59.0,
+    "Lionel Jospin": 41.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1995-03-11",
+   "fin": "1995-03-13",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Édouard Balladur": 40.0,
+    "Jacques Chirac": 60.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-03-11",
+   "fin": "1995-03-13",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 60.0,
+    "Lionel Jospin": 40.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-03-15",
+   "fin": "1995-03-15",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Édouard Balladur": 35.0,
+    "Jacques Chirac": 65.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-03-15",
+   "fin": "1995-03-15",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Jacques Chirac": 56.0,
+    "Lionel Jospin": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-03-22",
+   "fin": "1995-03-22",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Édouard Balladur": 38.0,
+    "Jacques Chirac": 62.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-03-21",
+   "fin": "1995-03-22",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 58.0,
+    "Lionel Jospin": 42.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Louis Harris",
+   "debut": "1995-03-22",
+   "fin": "1995-03-22",
+   "echantillon": null,
+   "source": "Louis Harris",
+   "scores": {
+    "Jacques Chirac": 55.0,
+    "Lionel Jospin": 45.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1995-03-23",
+   "fin": "1995-03-24",
+   "echantillon": null,
+   "source": "Ifop",
+   "scores": {
+    "Édouard Balladur": 38.0,
+    "Jacques Chirac": 62.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1995-03-23",
+   "fin": "1995-03-24",
+   "echantillon": null,
+   "source": "Ifop",
+   "scores": {
+    "Jacques Chirac": 58.0,
+    "Lionel Jospin": 42.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1995-03-25",
+   "fin": "1995-03-27",
+   "echantillon": null,
+   "source": "Sofres",
+   "scores": {
+    "Édouard Balladur": 39.0,
+    "Jacques Chirac": 61.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-03-25",
+   "fin": "1995-03-27",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 57.0,
+    "Lionel Jospin": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-04-04",
+   "fin": "1995-04-05",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 57.0,
+    "Lionel Jospin": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1995-04-11",
+   "fin": "1995-04-13",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Édouard Balladur": 41.0,
+    "Jacques Chirac": 59.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "1995-04-11",
+   "fin": "1995-04-13",
+   "echantillon": null,
+   "source": "Ipsos",
+   "scores": {
+    "Jacques Chirac": 59.0,
+    "Lionel Jospin": 41.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-04-13",
+   "fin": "1995-04-14",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 52.0,
+    "Lionel Jospin": 48.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-04-20",
+   "fin": "1995-04-21",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 57.0,
+    "Lionel Jospin": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-04-24",
+   "fin": "1995-04-24",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 55.0,
+    "Lionel Jospin": 45.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-04-28",
+   "fin": "1995-04-29",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 54.0,
+    "Lionel Jospin": 46.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "1995-05-04",
+   "fin": "1995-05-05",
+   "echantillon": null,
+   "source": "TNS Sofres",
+   "scores": {
+    "Jacques Chirac": 53.0,
+    "Lionel Jospin": 47.0
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "evenements": [
+  {
+   "date": "1994-06-12",
+   "texte": "Élections européennes : la liste socialiste de Michel Rocard est talonée par la liste menée par Bernard Tapie et réalise un score historiquement faible"
+  },
+  {
+   "date": "1994-06-19",
+   "texte": "Michel Rocard démissionne à titre de premier secrétaire du PS"
+  },
+  {
+   "date": "1994-12-11",
+   "texte": "Jacques Delors annonce à 7 sur 7 qu'il renonce à se présenter"
+  }
+ ]
+}

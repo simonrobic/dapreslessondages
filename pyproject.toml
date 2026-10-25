@@ -1,0 +1,15 @@
+[project]
+name = "dapreslessondages"
+version = "1.0.0"
+description = "Modèle probabiliste de l'élection présidentielle française, à partir des sondages."
+requires-python = ">=3.12"
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE", "NOTICE.md"]
+dependencies = [
+    "numpy>=2.0",
+    "beautifulsoup4>=4.12",
+    "jinja2>=3.1",
+    "pillow>=10.1",
+    "openpyxl>=3.1",
+    "xlrd>=2.0",
+]

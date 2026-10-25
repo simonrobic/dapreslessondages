@@ -1,0 +1,253 @@
+{
+ "election": 1969,
+ "date_premier_tour": "1969-06-01",
+ "date_second_tour": "1969-06-15",
+ "source": "https://fr.wikipedia.org/wiki/Élection_présidentielle_française_de_1969",
+ "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
+ "sources": [
+  {
+   "url": "https://fr.wikipedia.org/wiki/Élection_présidentielle_française_de_1969",
+   "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
+   "periode": null,
+   "revision": 240298025
+  }
+ ],
+ "premier_tour": [
+  {
+   "sondeur": "Sofres",
+   "debut": "1969-05-05",
+   "fin": "1969-05-06",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Jacques Duclos": 10.0,
+    "Michel Rocard": 2.0,
+    "Gaston Defferre": 11.0,
+    "Alain Poher": 35.0,
+    "Georges Pompidou": 42.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1969-05-06",
+   "fin": "1969-05-12",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Jacques Duclos": 10.0,
+    "Michel Rocard": 3.0,
+    "Gaston Defferre": 10.0,
+    "Alain Poher": 34.0,
+    "Georges Pompidou": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1969-05-13",
+   "fin": "1969-05-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Jacques Duclos": 12.0,
+    "Michel Rocard": 1.0,
+    "Gaston Defferre": 8.0,
+    "Alain Poher": 37.0,
+    "Georges Pompidou": 41.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1969-05-14",
+   "fin": "1969-05-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Krivine": 1.0,
+    "Jacques Duclos": 12.0,
+    "Michel Rocard": 2.0,
+    "Gaston Defferre": 7.0,
+    "Alain Poher": 37.0,
+    "Georges Pompidou": 41.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1969-05-16",
+   "fin": "1969-05-17",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Jacques Duclos": 12.0,
+    "Michel Rocard": 1.0,
+    "Gaston Defferre": 6.0,
+    "Alain Poher": 39.0,
+    "Georges Pompidou": 42.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1969-05-22",
+   "fin": "1969-05-22",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Krivine": 2.0,
+    "Jacques Duclos": 14.0,
+    "Michel Rocard": 4.0,
+    "Gaston Defferre": 8.0,
+    "Louis Ducatel": 1.0,
+    "Alain Poher": 30.0,
+    "Georges Pompidou": 41.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1969-05-22",
+   "fin": "1969-05-22",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Krivine": 1.0,
+    "Jacques Duclos": 15.0,
+    "Michel Rocard": 3.0,
+    "Gaston Defferre": 9.0,
+    "Louis Ducatel": 1.0,
+    "Alain Poher": 32.0,
+    "Georges Pompidou": 39.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1969-05-27",
+   "fin": "1969-05-27",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Krivine": 1.0,
+    "Jacques Duclos": 17.0,
+    "Michel Rocard": 3.0,
+    "Gaston Defferre": 7.0,
+    "Louis Ducatel": 1.0,
+    "Alain Poher": 31.0,
+    "Georges Pompidou": 40.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1969-05-26",
+   "fin": "1969-05-27",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Krivine": 1.0,
+    "Jacques Duclos": 17.0,
+    "Michel Rocard": 3.0,
+    "Gaston Defferre": 7.0,
+    "Louis Ducatel": 1.0,
+    "Alain Poher": 31.0,
+    "Georges Pompidou": 40.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1969-05-29",
+   "fin": "1969-05-29",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Krivine": 1.0,
+    "Jacques Duclos": 18.0,
+    "Michel Rocard": 5.0,
+    "Gaston Defferre": 9.0,
+    "Louis Ducatel": 1.0,
+    "Alain Poher": 25.0,
+    "Georges Pompidou": 41.0
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "second_tour": [
+  {
+   "sondeur": "Ifop",
+   "debut": "1969-05-22",
+   "fin": "1969-05-22",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Poher": 55.0,
+    "Georges Pompidou": 45.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1969-06-04",
+   "fin": "1969-06-04",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Poher": 42.0,
+    "Georges Pompidou": 58.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1969-06-05",
+   "fin": "1969-06-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Poher": 45.0,
+    "Georges Pompidou": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1969-06-07",
+   "fin": "1969-06-10",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Poher": 43.0,
+    "Georges Pompidou": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "1969-06-11",
+   "fin": "1969-06-11",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Poher": 43.0,
+    "Georges Pompidou": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1969-06-12",
+   "fin": "1969-06-12",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Alain Poher": 42.0,
+    "Georges Pompidou": 58.0
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "evenements": []
+}

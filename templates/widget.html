@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Présidentielle {{ p.annee }} : la prévision — {{ site_name }}</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="{{ site_url }}">
+<base target="_blank">
+<link rel="stylesheet" href="{{ root }}assets/style.css?v={{ assets_v }}">
+<style>
+  body { background: var(--page); margin: 0; }
+  .w { padding: 14px 16px; max-width: 640px; }
+  .w-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+  .w-brand { font: 600 16px/1 var(--serif); color: var(--ink); text-decoration: none; }
+  .w-fig { display: flex; align-items: baseline; gap: 12px; margin: 10px 0 8px; flex-wrap: wrap; }
+  .w-num { font: 600 48px/0.95 var(--serif); letter-spacing: -0.03em; font-variant-numeric: lining-nums tabular-nums; }
+  .w-cap { font-size: 15px; }
+  .w .bars { gap: 6px; }
+  .w .bar-row { grid-template-columns: 7em 1fr; }
+  .w .bar-track { height: 18px; }
+  .w .bar { height: 14px; }
+  .w-note { font-size: 13px; color: var(--ink-2); margin: 10px 0 0; }
+  .w-foot { font-size: 12px; color: var(--muted); margin-top: 8px; }
+</style>
+</head>
+<body>
+{% set sc = p.scenarios[0] %}
+<div class="w">
+  <div class="w-head">
+    <a class="w-brand" href="{{ site_url }}">{{ site_name }}</a>
+    <span>Présidentielle {{ p.annee }} · J-{{ p.jours_avant }}</span>
+  </div>
+  <div class="w-fig"><span class="w-num">{{ h.p_txt }}</span><span class="w-cap">de chances de victoire pour <strong>{{ h.nom }}</strong></span></div>
+  <div class="bars" role="list" aria-label="Chances de victoire">
+    {% for c in sc.candidats[:4] %}{% set v = sc.stats[c].p_victoire %}
+    <div class="bar-row" role="listitem">
+      <div class="bar-label">{{ p.candidats[c].court }}</div>
+      <div class="bar-track"><div class="bar" style="width:{{ [100 * v * 0.8, 0.4]|max }}%;--c:var(--s{{ p.candidats[c].slot }})"></div><span class="bar-value">{{ v|pct }}</span></div>
+    </div>
+    {% endfor %}
+  </div>
+  {% for c in p.comparaisons if c.etapes[p.jours_avant].issue and c.etapes[p.jours_avant].issue != "gagne" %}{% if loop.first %}{% set snap = c.etapes[p.jours_avant] %}
+  <p class="w-note">Au même stade en {{ snap.date[:4] }}, {{ snap.favori }} était en tête à {{ snap.p_favori|pct }}. {{ c.elu }} l'a emporté.</p>
+  {% endif %}{% endfor %}
+  <div class="w-foot">Scénario de candidatures le plus sondé · mise à jour le {{ p.date_prevision|date_fr }} · <a href="{{ site_url }}">voir la prévision complète</a></div>
+</div>
+</body>
+</html>

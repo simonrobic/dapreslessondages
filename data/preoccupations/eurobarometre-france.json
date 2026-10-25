@@ -1,0 +1,4157 @@
+{
+ "source": "Eurobaromètre standard, Commission européenne — https://data.europa.eu",
+ "licence": "CC BY 4.0",
+ "question": "À votre avis, quels sont les deux problèmes les plus importants auxquels doit faire face la France actuellement ? (2 réponses maximum)",
+ "themes": [
+  {
+   "cle": "prix",
+   "libelle": "Prix et pouvoir d'achat"
+  },
+  {
+   "cle": "economie",
+   "libelle": "Situation économique"
+  },
+  {
+   "cle": "chomage",
+   "libelle": "Chômage et emploi"
+  },
+  {
+   "cle": "insecurite",
+   "libelle": "Insécurité et délinquance"
+  },
+  {
+   "cle": "terrorisme",
+   "libelle": "Terrorisme"
+  },
+  {
+   "cle": "immigration",
+   "libelle": "Immigration"
+  },
+  {
+   "cle": "sante",
+   "libelle": "Santé et protection sociale"
+  },
+  {
+   "cle": "retraites",
+   "libelle": "Retraites"
+  },
+  {
+   "cle": "education",
+   "libelle": "Éducation"
+  },
+  {
+   "cle": "environnement",
+   "libelle": "Environnement, climat et énergie"
+  },
+  {
+   "cle": "dette_impots",
+   "libelle": "Dette publique et impôts"
+  },
+  {
+   "cle": "logement",
+   "libelle": "Logement"
+  },
+  {
+   "cle": "international",
+   "libelle": "International et défense"
+  },
+  {
+   "cle": "democratie",
+   "libelle": "Démocratie et institutions"
+  }
+ ],
+ "vagues": [
+  {
+   "vague": 63,
+   "terrain": [
+    "2005-05-01",
+    "2005-06-30"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 21.0
+    },
+    {
+     "libelle": "Public transport",
+     "theme": null,
+     "part": 1.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 25.0
+    },
+    {
+     "libelle": "Rising prices/inflation",
+     "theme": "prix",
+     "part": 24.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 67.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 5.0
+    },
+    {
+     "libelle": "Defence/Foreign affairs",
+     "theme": "international",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 11.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 9.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 6.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 11.0
+    },
+    {
+     "libelle": "Protecting the environment",
+     "theme": "environnement",
+     "part": 6.0
+    }
+   ],
+   "fichier": "VolumeAEB634PRESSstandardall20050624.xls",
+   "themes": {
+    "insecurite": 21.0,
+    "economie": 25.0,
+    "prix": 24.0,
+    "dette_impots": 5.0,
+    "chomage": 67.0,
+    "terrorisme": 5.0,
+    "international": 1.0,
+    "logement": 6.0,
+    "immigration": 11.0,
+    "sante": 9.0,
+    "education": 6.0,
+    "retraites": 11.0,
+    "environnement": 6.0
+   },
+   "date": "2005-06-30",
+   "date_approx": false
+  },
+  {
+   "vague": 64,
+   "terrain": [
+    "2005-10-01",
+    "2005-10-31"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 26.0
+    },
+    {
+     "libelle": "Public transport",
+     "theme": null,
+     "part": 1.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 25.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 24.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 52.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 10.0
+    },
+    {
+     "libelle": "Defence\\ Foreign affairs",
+     "theme": "international",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 11.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 13.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 10.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 6.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 8.0
+    },
+    {
+     "libelle": "Protecting the environment",
+     "theme": "environnement",
+     "part": 7.0
+    }
+   ],
+   "fichier": "VolumeAEB642PRESSstandard20051121.xls",
+   "themes": {
+    "insecurite": 26.0,
+    "economie": 25.0,
+    "prix": 24.0,
+    "dette_impots": 5.0,
+    "chomage": 52.0,
+    "terrorisme": 10.0,
+    "international": 1.0,
+    "logement": 11.0,
+    "immigration": 13.0,
+    "sante": 10.0,
+    "education": 6.0,
+    "retraites": 8.0,
+    "environnement": 7.0
+   },
+   "date": "2005-10-31",
+   "date_approx": false
+  },
+  {
+   "vague": 65,
+   "terrain": [
+    "2006-04-01",
+    "2006-04-30"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 28.0
+    },
+    {
+     "libelle": "Public transport",
+     "theme": null,
+     "part": 1.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 27.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 18.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 65.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 4.0
+    },
+    {
+     "libelle": "Defence\\ Foreign affairs",
+     "theme": "international",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 9.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 11.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 6.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 9.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 7.0
+    },
+    {
+     "libelle": "Protecting the environment",
+     "theme": "environnement",
+     "part": 5.0
+    }
+   ],
+   "fichier": "VolumeAEB652COMMstandard20060510.xls",
+   "themes": {
+    "insecurite": 28.0,
+    "economie": 27.0,
+    "prix": 18.0,
+    "dette_impots": 5.0,
+    "chomage": 65.0,
+    "terrorisme": 4.0,
+    "international": 1.0,
+    "logement": 9.0,
+    "immigration": 11.0,
+    "sante": 6.0,
+    "education": 9.0,
+    "retraites": 7.0,
+    "environnement": 5.0
+   },
+   "date": "2006-04-30",
+   "date_approx": false
+  },
+  {
+   "vague": 66,
+   "terrain": [
+    "2006-09-01",
+    "2006-09-30"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 29.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 23.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 20.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 3.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 47.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 11.0
+    },
+    {
+     "libelle": "Defence\\ Foreign affairs",
+     "theme": "international",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 8.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 18.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 5.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 8.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 12.0
+    },
+    {
+     "libelle": "Protecting the environment",
+     "theme": "environnement",
+     "part": 8.0
+    },
+    {
+     "libelle": "Energy related issues",
+     "theme": "environnement",
+     "part": 4.0
+    }
+   ],
+   "fichier": "VolumeAEB661COMMstandard20061020.xls",
+   "themes": {
+    "insecurite": 29.0,
+    "economie": 23.0,
+    "prix": 20.0,
+    "dette_impots": 3.0,
+    "chomage": 47.0,
+    "terrorisme": 11.0,
+    "international": 1.0,
+    "logement": 8.0,
+    "immigration": 18.0,
+    "sante": 5.0,
+    "education": 8.0,
+    "retraites": 12.0,
+    "environnement": 8.0
+   },
+   "date": "2006-09-30",
+   "date_approx": false
+  },
+  {
+   "vague": 67,
+   "terrain": [
+    "2007-04-01",
+    "2007-05-31"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 24.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 23.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 21.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 51.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 6.0
+    },
+    {
+     "libelle": "Defence\\ Foreign affairs",
+     "theme": "international",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 17.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 10.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 6.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 8.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 12.0
+    },
+    {
+     "libelle": "Protecting the environment",
+     "theme": "environnement",
+     "part": 11.0
+    },
+    {
+     "libelle": "Energy related issues",
+     "theme": "environnement",
+     "part": 3.0
+    }
+   ],
+   "fichier": "VolumeAEB672COMMstandard20070613.xls",
+   "themes": {
+    "insecurite": 24.0,
+    "economie": 23.0,
+    "prix": 21.0,
+    "dette_impots": 5.0,
+    "chomage": 51.0,
+    "terrorisme": 6.0,
+    "international": 1.0,
+    "logement": 17.0,
+    "immigration": 10.0,
+    "sante": 6.0,
+    "education": 8.0,
+    "retraites": 12.0,
+    "environnement": 11.0
+   },
+   "date": "2007-05-31",
+   "date_approx": false
+  },
+  {
+   "vague": 68,
+   "terrain": [
+    "2007-09-01",
+    "2007-10-31"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 17.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 19.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 27.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 3.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 38.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 6.0
+    },
+    {
+     "libelle": "Defence\\ Foreign affairs",
+     "theme": "international",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 12.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 14.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 14.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 9.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 20.0
+    },
+    {
+     "libelle": "Protecting the environment",
+     "theme": "environnement",
+     "part": 13.0
+    },
+    {
+     "libelle": "Energy related issues",
+     "theme": "environnement",
+     "part": 3.0
+    }
+   ],
+   "fichier": "VolumeAEB681COMMstandard20071107.xls",
+   "themes": {
+    "insecurite": 17.0,
+    "economie": 19.0,
+    "prix": 27.0,
+    "dette_impots": 3.0,
+    "chomage": 38.0,
+    "terrorisme": 6.0,
+    "international": 1.0,
+    "logement": 12.0,
+    "immigration": 14.0,
+    "sante": 14.0,
+    "education": 9.0,
+    "retraites": 20.0,
+    "environnement": 13.0
+   },
+   "date": "2007-10-31",
+   "date_approx": false
+  },
+  {
+   "vague": 69,
+   "terrain": [
+    "2008-03-01",
+    "2008-04-30"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 14.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 20.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 51.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 4.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 30.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 3.0
+    },
+    {
+     "libelle": "Defence\\ Foreign affairs",
+     "theme": "international",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 16.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 7.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 13.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 11.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 17.0
+    },
+    {
+     "libelle": "Protecting the environment",
+     "theme": "environnement",
+     "part": 8.0
+    },
+    {
+     "libelle": "Energy related issues",
+     "theme": "environnement",
+     "part": 4.0
+    }
+   ],
+   "fichier": "VolumeAEB692COMMcomplet20080711.xls",
+   "themes": {
+    "insecurite": 14.0,
+    "economie": 20.0,
+    "prix": 51.0,
+    "dette_impots": 4.0,
+    "chomage": 30.0,
+    "terrorisme": 3.0,
+    "international": 1.0,
+    "logement": 16.0,
+    "immigration": 7.0,
+    "sante": 13.0,
+    "education": 11.0,
+    "retraites": 17.0,
+    "environnement": 8.0
+   },
+   "date": "2008-04-30",
+   "date_approx": false
+  },
+  {
+   "vague": 70,
+   "terrain": [
+    "2008-10-01",
+    "2008-10-31"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 14.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 38.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 41.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 35.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 3.0
+    },
+    {
+     "libelle": "Defence\\ Foreign affairs",
+     "theme": "international",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 15.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 7.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 8.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 6.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 14.0
+    },
+    {
+     "libelle": "Protecting the environment",
+     "theme": "environnement",
+     "part": 9.0
+    },
+    {
+     "libelle": "Energy related issues",
+     "theme": "environnement",
+     "part": 3.0
+    }
+   ],
+   "fichier": "VolumeAEB701COMMstandard20081118.xls",
+   "themes": {
+    "insecurite": 14.0,
+    "economie": 38.0,
+    "prix": 41.0,
+    "dette_impots": 5.0,
+    "chomage": 35.0,
+    "terrorisme": 3.0,
+    "international": 1.0,
+    "logement": 15.0,
+    "immigration": 7.0,
+    "sante": 8.0,
+    "education": 6.0,
+    "retraites": 14.0,
+    "environnement": 9.0
+   },
+   "date": "2008-10-31",
+   "date_approx": false
+  },
+  {
+   "vague": 71,
+   "terrain": [
+    "2009-06-01",
+    "2009-06-30"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 14.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 35.0
+    },
+    {
+     "libelle": "Rising prices/ inflation",
+     "theme": "prix",
+     "part": 25.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 3.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 62.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 2.0
+    },
+    {
+     "libelle": "Defence/ Foreign affairs",
+     "theme": "international",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 9.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 6.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 11.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 7.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 11.0
+    },
+    {
+     "libelle": "(ONLY TO SPLIT A) Protecting the environment",
+     "theme": "environnement",
+     "part": 11.0
+    },
+    {
+     "libelle": "(ONLY TO SPLIT B) The environment",
+     "theme": "environnement",
+     "part": 11.0
+    },
+    {
+     "libelle": "Energy",
+     "theme": "environnement",
+     "part": 2.0
+    }
+   ],
+   "fichier": "VolumeAEB713COMMstandard20091126.xls",
+   "themes": {
+    "insecurite": 14.0,
+    "economie": 35.0,
+    "prix": 25.0,
+    "dette_impots": 3.0,
+    "chomage": 62.0,
+    "terrorisme": 2.0,
+    "international": 1.0,
+    "logement": 9.0,
+    "immigration": 6.0,
+    "sante": 11.0,
+    "education": 7.0,
+    "retraites": 11.0,
+    "environnement": 11.0
+   },
+   "date": "2009-06-30",
+   "date_approx": false
+  },
+  {
+   "vague": 72,
+   "terrain": [
+    "2009-10-01",
+    "2009-11-30"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 16.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 31.0
+    },
+    {
+     "libelle": "Rising prices/ inflation",
+     "theme": "prix",
+     "part": 22.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 6.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 59.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 2.0
+    },
+    {
+     "libelle": "Defence/ Foreign affairs",
+     "theme": "international",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 10.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 6.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 11.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 8.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 14.0
+    },
+    {
+     "libelle": "The environment",
+     "theme": "environnement",
+     "part": 10.0
+    },
+    {
+     "libelle": "Energy",
+     "theme": "environnement",
+     "part": 1.0
+    }
+   ],
+   "fichier": "VolumeAEB724COMMstandard20091124.xls",
+   "themes": {
+    "insecurite": 16.0,
+    "economie": 31.0,
+    "prix": 22.0,
+    "dette_impots": 6.0,
+    "chomage": 59.0,
+    "terrorisme": 2.0,
+    "international": 1.0,
+    "logement": 10.0,
+    "immigration": 6.0,
+    "sante": 11.0,
+    "education": 8.0,
+    "retraites": 14.0,
+    "environnement": 10.0
+   },
+   "date": "2009-11-30",
+   "date_approx": false
+  },
+  {
+   "vague": 73,
+   "terrain": [
+    "2010-05-01",
+    "2010-05-31"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 20.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 31.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 17.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 57.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 2.0
+    },
+    {
+     "libelle": "Defence\\ Foreign affairs",
+     "theme": "international",
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 9.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 6.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 10.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 8.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 25.0
+    },
+    {
+     "libelle": "The environment",
+     "theme": "environnement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Energy",
+     "theme": "environnement",
+     "part": 2.0
+    }
+   ],
+   "fichier": "VolumeAEB734COMMcomplet20100602.xls",
+   "themes": {
+    "insecurite": 20.0,
+    "economie": 31.0,
+    "prix": 17.0,
+    "dette_impots": 5.0,
+    "chomage": 57.0,
+    "terrorisme": 2.0,
+    "international": 0,
+    "logement": 9.0,
+    "immigration": 6.0,
+    "sante": 10.0,
+    "education": 8.0,
+    "retraites": 25.0,
+    "environnement": 6.0
+   },
+   "date": "2010-05-31",
+   "date_approx": false
+  },
+  {
+   "vague": 74,
+   "terrain": [
+    "2010-11-01",
+    "2010-11-30"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 17.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 31.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 18.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 57.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 6.0
+    },
+    {
+     "libelle": "Defence\\ Foreign affairs",
+     "theme": "international",
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 10.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 9.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 11.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 9.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 16.0
+    },
+    {
+     "libelle": "The environment",
+     "theme": "environnement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Energy",
+     "theme": "environnement",
+     "part": 1.0
+    }
+   ],
+   "fichier": "VolumeAEB742COMMcomplet20101206.xls",
+   "themes": {
+    "insecurite": 17.0,
+    "economie": 31.0,
+    "prix": 18.0,
+    "dette_impots": 5.0,
+    "chomage": 57.0,
+    "terrorisme": 6.0,
+    "international": 0,
+    "logement": 10.0,
+    "immigration": 9.0,
+    "sante": 11.0,
+    "education": 9.0,
+    "retraites": 16.0,
+    "environnement": 6.0
+   },
+   "date": "2010-11-30",
+   "date_approx": false
+  },
+  {
+   "vague": 75,
+   "terrain": [
+    "2011-05-06",
+    "2011-05-25"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 19.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 24.0
+    },
+    {
+     "libelle": "Rising prices/ inflation",
+     "theme": "prix",
+     "part": 33.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 3.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 47.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 5.0
+    },
+    {
+     "libelle": "Defence/ Foreign affairs",
+     "theme": "international",
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 14.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 8.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 11.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 14.0
+    },
+    {
+     "libelle": "The environment",
+     "theme": "environnement",
+     "part": 7.0
+    },
+    {
+     "libelle": "Energy",
+     "theme": "environnement",
+     "part": 5.0
+    }
+   ],
+   "fichier": "VolumeAEB753COMMstandard20110531.xls",
+   "themes": {
+    "insecurite": 19.0,
+    "economie": 24.0,
+    "prix": 33.0,
+    "dette_impots": 3.0,
+    "chomage": 47.0,
+    "terrorisme": 5.0,
+    "international": 0,
+    "logement": 6.0,
+    "immigration": 14.0,
+    "sante": 8.0,
+    "education": 11.0,
+    "retraites": 14.0,
+    "environnement": 7.0
+   },
+   "date": "2011-05-25",
+   "date_approx": false
+  },
+  {
+   "vague": 76,
+   "terrain": [
+    "2011-11-03",
+    "2011-11-20"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 14.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 41.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 29.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 49.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 3.0
+    },
+    {
+     "libelle": "Defence\\ Foreign affairs",
+     "theme": "international",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 10.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 7.0
+    },
+    {
+     "libelle": "Healthcare system",
+     "theme": "sante",
+     "part": 11.0
+    },
+    {
+     "libelle": "The educational system",
+     "theme": "education",
+     "part": 9.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 11.0
+    },
+    {
+     "libelle": "The environment",
+     "theme": "environnement",
+     "part": 4.0
+    },
+    {
+     "libelle": "Energy",
+     "theme": "environnement",
+     "part": 2.0
+    }
+   ],
+   "fichier": "VolumeAEB763COMMstandard.xls",
+   "themes": {
+    "insecurite": 14.0,
+    "economie": 41.0,
+    "prix": 29.0,
+    "dette_impots": 5.0,
+    "chomage": 49.0,
+    "terrorisme": 3.0,
+    "international": 1.0,
+    "logement": 10.0,
+    "immigration": 7.0,
+    "sante": 11.0,
+    "education": 9.0,
+    "retraites": 11.0,
+    "environnement": 4.0
+   },
+   "date": "2011-11-20",
+   "date_approx": false
+  },
+  {
+   "vague": 77,
+   "terrain": [
+    "2012-05-12",
+    "2012-05-27"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 15.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 29.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 21.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 4.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 55.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 2.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 9.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 24.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 12.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 6.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 9.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 9.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 4.0
+    }
+   ],
+   "fichier": "VolumeAEB773COMMstandard20120601.xls",
+   "themes": {
+    "insecurite": 15.0,
+    "economie": 29.0,
+    "prix": 21.0,
+    "dette_impots": 24.0,
+    "chomage": 55.0,
+    "terrorisme": 2.0,
+    "logement": 9.0,
+    "immigration": 12.0,
+    "sante": 6.0,
+    "education": 9.0,
+    "retraites": 9.0,
+    "environnement": 4.0
+   },
+   "date": "2012-05-27",
+   "date_approx": false
+  },
+  {
+   "vague": 78,
+   "terrain": [
+    "2012-11-02",
+    "2012-11-18"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 18.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 35.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 20.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 6.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 59.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 2.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 7.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 16.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 9.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 10.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 5.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 7.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 3.0
+    }
+   ],
+   "fichier": "VolumeAEB781COMMstandard20121217.xls",
+   "themes": {
+    "insecurite": 18.0,
+    "economie": 35.0,
+    "prix": 20.0,
+    "dette_impots": 16.0,
+    "chomage": 59.0,
+    "terrorisme": 2.0,
+    "logement": 7.0,
+    "immigration": 9.0,
+    "sante": 10.0,
+    "education": 5.0,
+    "retraites": 7.0,
+    "environnement": 3.0
+   },
+   "date": "2012-11-18",
+   "date_approx": false
+  },
+  {
+   "vague": 79,
+   "terrain": [
+    "2013-05-10",
+    "2013-05-26"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 19.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 33.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 17.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 66.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 2.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 10.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 12.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 8.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 5.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 6.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 11.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 4.0
+    }
+   ],
+   "fichier": "VolumeAEB793COMMstandardEU2820130531.xls",
+   "themes": {
+    "insecurite": 19.0,
+    "economie": 33.0,
+    "prix": 17.0,
+    "dette_impots": 12.0,
+    "chomage": 66.0,
+    "terrorisme": 2.0,
+    "logement": 10.0,
+    "immigration": 8.0,
+    "sante": 5.0,
+    "education": 6.0,
+    "retraites": 11.0,
+    "environnement": 4.0
+   },
+   "date": "2013-05-26",
+   "date_approx": false
+  },
+  {
+   "vague": 80,
+   "terrain": [
+    "2013-11-02",
+    "2013-11-17"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 16.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 37.0
+    },
+    {
+     "libelle": "Rising prices/ inflation",
+     "theme": "prix",
+     "part": 15.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 13.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 59.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 1.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 13.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 12.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 7.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 5.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 8.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 5.0
+    }
+   ],
+   "fichier": "VolumeAEB801COMMstandard20131129.xls",
+   "themes": {
+    "insecurite": 16.0,
+    "economie": 37.0,
+    "prix": 15.0,
+    "dette_impots": 13.0,
+    "chomage": 59.0,
+    "terrorisme": 1.0,
+    "logement": 6.0,
+    "immigration": 12.0,
+    "sante": 7.0,
+    "education": 5.0,
+    "retraites": 8.0,
+    "environnement": 5.0
+   },
+   "date": "2013-11-17",
+   "date_approx": false
+  },
+  {
+   "vague": 81,
+   "terrain": [
+    "2014-05-31",
+    "2014-06-14"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 15.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 34.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 16.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 10.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 61.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 3.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 4.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 16.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 9.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 6.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 7.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 8.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 7.0
+    }
+   ],
+   "fichier": "VolumeAEB814COMMstandard.xls",
+   "themes": {
+    "insecurite": 15.0,
+    "economie": 34.0,
+    "prix": 16.0,
+    "dette_impots": 16.0,
+    "chomage": 61.0,
+    "terrorisme": 3.0,
+    "logement": 4.0,
+    "immigration": 9.0,
+    "sante": 6.0,
+    "education": 7.0,
+    "retraites": 8.0,
+    "environnement": 7.0
+   },
+   "date": "2014-06-14",
+   "date_approx": false
+  },
+  {
+   "vague": 82,
+   "terrain": [
+    "2014-11-08",
+    "2014-11-17"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 8.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 26.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation",
+     "theme": "prix",
+     "part": 13.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 13.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 63.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 5.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 7.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 18.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 11.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 7.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 6.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 9.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 8.0
+    }
+   ],
+   "fichier": "VolumeAEB823COMMstandard20141120.xls",
+   "themes": {
+    "insecurite": 8.0,
+    "economie": 26.0,
+    "prix": 13.0,
+    "dette_impots": 18.0,
+    "chomage": 63.0,
+    "terrorisme": 5.0,
+    "logement": 7.0,
+    "immigration": 11.0,
+    "sante": 7.0,
+    "education": 6.0,
+    "retraites": 9.0,
+    "environnement": 8.0
+   },
+   "date": "2014-11-17",
+   "date_approx": false
+  },
+  {
+   "vague": 83,
+   "terrain": [
+    "2015-05-16",
+    "2015-05-27"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 10.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 19.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation\\ cost of living",
+     "theme": "prix",
+     "part": 15.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 8.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 65.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 13.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 5.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 13.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 12.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 7.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 10.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 11.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 7.0
+    }
+   ],
+   "fichier": "VolumeAEB833COMMcomplet20150619.xls",
+   "themes": {
+    "insecurite": 10.0,
+    "economie": 19.0,
+    "prix": 15.0,
+    "dette_impots": 13.0,
+    "chomage": 65.0,
+    "terrorisme": 13.0,
+    "logement": 5.0,
+    "immigration": 12.0,
+    "sante": 7.0,
+    "education": 10.0,
+    "retraites": 11.0,
+    "environnement": 7.0
+   },
+   "date": "2015-05-27",
+   "date_approx": false
+  },
+  {
+   "vague": 84,
+   "terrain": [
+    "2015-11-07",
+    "2015-11-17"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 12.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 14.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation\\ cost of living",
+     "theme": "prix",
+     "part": 15.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 9.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 54.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 18.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 10.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 22.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 6.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 8.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 11.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 8.0
+    }
+   ],
+   "fichier": "VolumeAEB843COMMstandard20151119.xls",
+   "themes": {
+    "insecurite": 12.0,
+    "economie": 14.0,
+    "prix": 15.0,
+    "dette_impots": 10.0,
+    "chomage": 54.0,
+    "terrorisme": 18.0,
+    "logement": 6.0,
+    "immigration": 22.0,
+    "sante": 6.0,
+    "education": 8.0,
+    "retraites": 11.0,
+    "environnement": 8.0
+   },
+   "date": "2015-11-17",
+   "date_approx": false
+  },
+  {
+   "vague": 85,
+   "terrain": [
+    "2016-05-21",
+    "2016-05-30"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 13.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 21.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation\\ cost of living",
+     "theme": "prix",
+     "part": 12.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 6.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 52.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 30.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 4.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 11.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 14.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 7.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 9.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 8.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 9.0
+    }
+   ],
+   "fichier": "EB85.2 Volume A.xls",
+   "themes": {
+    "insecurite": 13.0,
+    "economie": 21.0,
+    "prix": 12.0,
+    "dette_impots": 11.0,
+    "chomage": 52.0,
+    "terrorisme": 30.0,
+    "logement": 4.0,
+    "immigration": 14.0,
+    "sante": 7.0,
+    "education": 9.0,
+    "retraites": 8.0,
+    "environnement": 9.0
+   },
+   "date": "2016-05-30",
+   "date_approx": false
+  },
+  {
+   "vague": 86,
+   "terrain": [
+    "2016-11-05",
+    "2016-11-14"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 14.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 16.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation\\ cost of living",
+     "theme": "prix",
+     "part": 13.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 49.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 31.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 9.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 19.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 6.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 11.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 10.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 10.0
+    }
+   ],
+   "fichier": "ST86 - Volume A.xls",
+   "themes": {
+    "insecurite": 14.0,
+    "economie": 16.0,
+    "prix": 13.0,
+    "dette_impots": 9.0,
+    "chomage": 49.0,
+    "terrorisme": 31.0,
+    "logement": 6.0,
+    "immigration": 19.0,
+    "sante": 6.0,
+    "education": 11.0,
+    "retraites": 10.0,
+    "environnement": 10.0
+   },
+   "date": "2016-11-14",
+   "date_approx": false
+  },
+  {
+   "vague": 87,
+   "terrain": [
+    "2017-05-20",
+    "2017-05-30"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 11.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 11.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation\\ cost of living",
+     "theme": "prix",
+     "part": 14.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 50.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 36.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 5.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 10.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 14.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 9.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 10.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 11.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 10.0
+    }
+   ],
+   "fichier": "eb87_Volume_A_final.xls",
+   "themes": {
+    "insecurite": 11.0,
+    "economie": 11.0,
+    "prix": 14.0,
+    "dette_impots": 10.0,
+    "chomage": 50.0,
+    "terrorisme": 36.0,
+    "logement": 5.0,
+    "immigration": 14.0,
+    "sante": 9.0,
+    "education": 10.0,
+    "retraites": 11.0,
+    "environnement": 10.0
+   },
+   "date": "2017-05-30",
+   "date_approx": false
+  },
+  {
+   "vague": 88,
+   "terrain": [
+    "2017-11-05",
+    "2017-11-14"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 14.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 11.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation\\ cost of living",
+     "theme": "prix",
+     "part": 13.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 40.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 33.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 9.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 11.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 17.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 8.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 11.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 12.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 13.0
+    }
+   ],
+   "fichier": "eb88_Volume_A_final.xls",
+   "themes": {
+    "insecurite": 14.0,
+    "economie": 11.0,
+    "prix": 13.0,
+    "dette_impots": 11.0,
+    "chomage": 40.0,
+    "terrorisme": 33.0,
+    "logement": 9.0,
+    "immigration": 17.0,
+    "sante": 8.0,
+    "education": 11.0,
+    "retraites": 12.0,
+    "environnement": 13.0
+   },
+   "date": "2017-11-14",
+   "date_approx": false
+  },
+  {
+   "vague": 89,
+   "terrain": [
+    "2018-03-13",
+    "2018-03-28"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 10.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 11.0
+    },
+    {
+     "libelle": "Rising prices/ inflation/ cost of living",
+     "theme": "prix",
+     "part": 17.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 6.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 40.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 22.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 7.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 11.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 17.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 14.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 11.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 15.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 13.0
+    }
+   ],
+   "fichier": "eb_89_vol_A.xls",
+   "themes": {
+    "insecurite": 10.0,
+    "economie": 11.0,
+    "prix": 17.0,
+    "dette_impots": 11.0,
+    "chomage": 40.0,
+    "terrorisme": 22.0,
+    "logement": 7.0,
+    "immigration": 17.0,
+    "sante": 14.0,
+    "education": 11.0,
+    "retraites": 15.0,
+    "environnement": 13.0
+   },
+   "date": "2018-03-28",
+   "date_approx": false
+  },
+  {
+   "vague": 90,
+   "terrain": [
+    "2018-11-08",
+    "2018-11-22"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 11.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 12.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation\\ cost of living",
+     "theme": "prix",
+     "part": 31.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 8.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 38.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 18.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 7.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 8.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 15.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 7.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 11.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 14.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 16.0
+    }
+   ],
+   "fichier": "eb_90_volume_A.xls",
+   "themes": {
+    "insecurite": 11.0,
+    "economie": 12.0,
+    "prix": 31.0,
+    "dette_impots": 8.0,
+    "chomage": 38.0,
+    "terrorisme": 18.0,
+    "logement": 7.0,
+    "immigration": 15.0,
+    "sante": 7.0,
+    "education": 11.0,
+    "retraites": 14.0,
+    "environnement": 16.0
+   },
+   "date": "2018-11-22",
+   "date_approx": false
+  },
+  {
+   "vague": 91,
+   "terrain": [
+    "2019-06-07",
+    "2019-07-01"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 9.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 11.0
+    },
+    {
+     "libelle": "Rising prices\\ inflation\\ cost of living",
+     "theme": "prix",
+     "part": 28.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 7.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 33.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 13.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 7.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 11.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 17.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 12.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 11.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 15.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 23.0
+    }
+   ],
+   "fichier": "eb_91_volume_A.xls",
+   "themes": {
+    "insecurite": 9.0,
+    "economie": 11.0,
+    "prix": 28.0,
+    "dette_impots": 11.0,
+    "chomage": 33.0,
+    "terrorisme": 13.0,
+    "logement": 7.0,
+    "immigration": 17.0,
+    "sante": 12.0,
+    "education": 11.0,
+    "retraites": 15.0,
+    "environnement": 23.0
+   },
+   "date": "2019-07-01",
+   "date_approx": false
+  },
+  {
+   "vague": 92,
+   "terrain": [
+    "2019-11-14",
+    "2019-11-29"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 11.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 12.0
+    },
+    {
+     "libelle": "Rising prices/inflation/cost of living",
+     "theme": "prix",
+     "part": 24.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 5.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 30.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 14.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 7.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 7.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 14.0
+    },
+    {
+     "libelle": "Health and social security",
+     "theme": "sante",
+     "part": 17.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 11.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 18.0
+    },
+    {
+     "libelle": "The environment, climate and energy issues",
+     "theme": "environnement",
+     "part": 23.0
+    }
+   ],
+   "fichier": "eb92_Volume_A.xls",
+   "themes": {
+    "insecurite": 11.0,
+    "economie": 12.0,
+    "prix": 24.0,
+    "dette_impots": 7.0,
+    "chomage": 30.0,
+    "terrorisme": 14.0,
+    "logement": 7.0,
+    "immigration": 14.0,
+    "sante": 17.0,
+    "education": 11.0,
+    "retraites": 18.0,
+    "environnement": 23.0
+   },
+   "date": "2019-11-29",
+   "date_approx": false
+  },
+  {
+   "vague": 93,
+   "terrain": [
+    "2020-07-10",
+    "2020-08-26"
+   ],
+   "reponses": [
+    {
+     "libelle": "La situation économique\nEconomic situation",
+     "theme": "economie",
+     "part": 26.0
+    },
+    {
+     "libelle": "La hausse des prix / l'inflation / le coût de la vie\nRising prices/ inflation/ cost of living",
+     "theme": "prix",
+     "part": 15.0
+    },
+    {
+     "libelle": "Les impôts\nTaxation",
+     "theme": "dette_impots",
+     "part": 2.0
+    },
+    {
+     "libelle": "Le chômage\nUnemployment",
+     "theme": "chomage",
+     "part": 37.0
+    },
+    {
+     "libelle": "Le terrorisme\nTerrorism",
+     "theme": "terrorisme",
+     "part": 4.0
+    },
+    {
+     "libelle": "Le logement\nHousing",
+     "theme": "logement",
+     "part": 2.0
+    },
+    {
+     "libelle": "La dette publique\nGovernment debt",
+     "theme": "dette_impots",
+     "part": 10.0
+    },
+    {
+     "libelle": "L'immigration\nImmigration",
+     "theme": "immigration",
+     "part": 9.0
+    },
+    {
+     "libelle": "La santé\nHealth (M)",
+     "theme": "sante",
+     "part": 31.0
+    },
+    {
+     "libelle": "Le système éducatif\nThe education system",
+     "theme": "education",
+     "part": 7.0
+    },
+    {
+     "libelle": "Les retraites, les pensions\nPensions",
+     "theme": "retraites",
+     "part": 13.0
+    },
+    {
+     "libelle": "L'environnement et le changement climatique\nThe environment and climate change",
+     "theme": "environnement",
+     "part": 20.0
+    },
+    {
+     "libelle": "L'approvisionnement en énergie\nEnergy supply",
+     "theme": "environnement",
+     "part": 2.0
+    }
+   ],
+   "fichier": "eb_93_volume_A.xlsx",
+   "themes": {
+    "economie": 26.0,
+    "prix": 15.0,
+    "dette_impots": 10.0,
+    "chomage": 37.0,
+    "terrorisme": 4.0,
+    "logement": 2.0,
+    "immigration": 9.0,
+    "sante": 31.0,
+    "education": 7.0,
+    "retraites": 13.0,
+    "environnement": 20.0
+   },
+   "date": "2020-08-26",
+   "date_approx": false
+  },
+  {
+   "vague": 94,
+   "terrain": [
+    "2021-02-12",
+    "2021-03-11"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 14.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 24.0
+    },
+    {
+     "libelle": "Rising prices/ inflation/ cost of living",
+     "theme": "prix",
+     "part": 13.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 3.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 31.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 9.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 4.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 11.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 9.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 40.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 12.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 7.0
+    },
+    {
+     "libelle": "The environment and climate change",
+     "theme": "environnement",
+     "part": 17.0
+    },
+    {
+     "libelle": "Energy supply",
+     "theme": "environnement",
+     "part": 1.0
+    }
+   ],
+   "fichier": "eb_94_volume_A.xlsx",
+   "themes": {
+    "insecurite": 14.0,
+    "economie": 24.0,
+    "prix": 13.0,
+    "dette_impots": 11.0,
+    "chomage": 31.0,
+    "terrorisme": 9.0,
+    "logement": 4.0,
+    "immigration": 9.0,
+    "sante": 40.0,
+    "education": 12.0,
+    "retraites": 7.0,
+    "environnement": 17.0
+   },
+   "date": "2021-03-11",
+   "date_approx": false
+  },
+  {
+   "vague": 95,
+   "terrain": [
+    "2021-06-14",
+    "2021-07-15"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 21.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 17.0
+    },
+    {
+     "libelle": "Rising prices/ inflation/ cost of living",
+     "theme": "prix",
+     "part": 17.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 3.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 26.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 10.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 13.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 13.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 21.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 13.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 14.0
+    },
+    {
+     "libelle": "The environment and climate change",
+     "theme": "environnement",
+     "part": 20.0
+    },
+    {
+     "libelle": "Energy supply",
+     "theme": "environnement",
+     "part": 2.0
+    }
+   ],
+   "fichier": "eb95_vol_A.xlsx",
+   "themes": {
+    "insecurite": 21.0,
+    "economie": 17.0,
+    "prix": 17.0,
+    "dette_impots": 13.0,
+    "chomage": 26.0,
+    "terrorisme": 10.0,
+    "logement": 6.0,
+    "immigration": 13.0,
+    "sante": 21.0,
+    "education": 13.0,
+    "retraites": 14.0,
+    "environnement": 20.0
+   },
+   "date": "2021-07-15",
+   "date_approx": false
+  },
+  {
+   "vague": 96,
+   "terrain": [
+    "2022-01-18",
+    "2022-02-14"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 16.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 11.0
+    },
+    {
+     "libelle": "Rising prices/ inflation/ cost of living",
+     "theme": "prix",
+     "part": 39.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 4.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 15.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 6.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 7.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 8.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 10.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 29.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 15.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 13.0
+    },
+    {
+     "libelle": "The environment and climate change",
+     "theme": "environnement",
+     "part": 17.0
+    },
+    {
+     "libelle": "Energy supply",
+     "theme": "environnement",
+     "part": 4.0
+    }
+   ],
+   "fichier": "eb96_Volume_A.xlsx",
+   "themes": {
+    "insecurite": 16.0,
+    "economie": 11.0,
+    "prix": 39.0,
+    "dette_impots": 8.0,
+    "chomage": 15.0,
+    "terrorisme": 6.0,
+    "logement": 7.0,
+    "immigration": 10.0,
+    "sante": 29.0,
+    "education": 15.0,
+    "retraites": 13.0,
+    "environnement": 17.0
+   },
+   "date": "2022-02-14",
+   "date_approx": false
+  },
+  {
+   "vague": 97,
+   "terrain": [
+    "2022-06-17",
+    "2022-07-17"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 14.0
+    },
+    {
+     "libelle": "Economic situation",
+     "theme": "economie",
+     "part": 13.0
+    },
+    {
+     "libelle": "Rising prices/ inflation/ cost of living",
+     "theme": "prix",
+     "part": 48.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 2.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 11.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 3.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 5.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 8.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 9.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 23.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 10.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 14.0
+    },
+    {
+     "libelle": "The environment and climate change",
+     "theme": "environnement",
+     "part": 20.0
+    },
+    {
+     "libelle": "Energy supply",
+     "theme": "environnement",
+     "part": 8.0
+    },
+    {
+     "libelle": "The international situation",
+     "theme": "international",
+     "part": 6.0
+    }
+   ],
+   "fichier": "eb97_Volume_A.xlsx",
+   "themes": {
+    "insecurite": 14.0,
+    "economie": 13.0,
+    "prix": 48.0,
+    "dette_impots": 8.0,
+    "chomage": 11.0,
+    "terrorisme": 3.0,
+    "logement": 5.0,
+    "immigration": 9.0,
+    "sante": 23.0,
+    "education": 10.0,
+    "retraites": 14.0,
+    "environnement": 20.0,
+    "international": 6.0
+   },
+   "date": "2022-07-17",
+   "date_approx": false
+  },
+  {
+   "vague": 98,
+   "terrain": [
+    "2023-01-12",
+    "2023-02-06"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 13.0
+    },
+    {
+     "libelle": "The economic situation",
+     "theme": "economie",
+     "part": 11.0
+    },
+    {
+     "libelle": "Rising prices/ inflation/ cost of living",
+     "theme": "prix",
+     "part": 47.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 2.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 11.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 2.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 3.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 8.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 8.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 23.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 12.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 22.0
+    },
+    {
+     "libelle": "The environment and climate change",
+     "theme": "environnement",
+     "part": 15.0
+    },
+    {
+     "libelle": "Energy supply",
+     "theme": "environnement",
+     "part": 11.0
+    },
+    {
+     "libelle": "The international situation",
+     "theme": "international",
+     "part": 6.0
+    }
+   ],
+   "fichier": "eb98_volume_A.xlsx",
+   "themes": {
+    "insecurite": 13.0,
+    "economie": 11.0,
+    "prix": 47.0,
+    "dette_impots": 8.0,
+    "chomage": 11.0,
+    "terrorisme": 2.0,
+    "logement": 3.0,
+    "immigration": 8.0,
+    "sante": 23.0,
+    "education": 12.0,
+    "retraites": 22.0,
+    "environnement": 15.0,
+    "international": 6.0
+   },
+   "date": "2023-02-06",
+   "date_approx": false
+  },
+  {
+   "vague": 99,
+   "terrain": [
+    "2023-05-31",
+    "2023-06-25"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 19.0
+    },
+    {
+     "libelle": "The economic situation",
+     "theme": "economie",
+     "part": 11.0
+    },
+    {
+     "libelle": "Rising prices / inflation / cost of living",
+     "theme": "prix",
+     "part": 43.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 2.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 9.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 2.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 7.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 8.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 11.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 19.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 14.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 20.0
+    },
+    {
+     "libelle": "The environment and climate change",
+     "theme": "environnement",
+     "part": 18.0
+    },
+    {
+     "libelle": "Energy supply",
+     "theme": "environnement",
+     "part": 5.0
+    },
+    {
+     "libelle": "The international situation",
+     "theme": "international",
+     "part": 6.0
+    }
+   ],
+   "fichier": "Eurobarometer_Standard_99_Spring_2023_volume_A.xlsx",
+   "themes": {
+    "insecurite": 19.0,
+    "economie": 11.0,
+    "prix": 43.0,
+    "dette_impots": 8.0,
+    "chomage": 9.0,
+    "terrorisme": 2.0,
+    "logement": 7.0,
+    "immigration": 11.0,
+    "sante": 19.0,
+    "education": 14.0,
+    "retraites": 20.0,
+    "environnement": 18.0,
+    "international": 6.0
+   },
+   "date": "2023-06-25",
+   "date_approx": false
+  },
+  {
+   "vague": 100,
+   "terrain": [
+    "2023-10-23",
+    "2023-11-17"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 21.0
+    },
+    {
+     "libelle": "The economic situation",
+     "theme": "economie",
+     "part": 9.0
+    },
+    {
+     "libelle": "Rising prices inflation cost of living",
+     "theme": "prix",
+     "part": 44.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 3.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 10.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 13.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 5.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 8.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 17.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 13.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 15.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 10.0
+    },
+    {
+     "libelle": "The environment and climate change",
+     "theme": "environnement",
+     "part": 15.0
+    },
+    {
+     "libelle": "Energy supply",
+     "theme": "environnement",
+     "part": 4.0
+    },
+    {
+     "libelle": "The international situation",
+     "theme": "international",
+     "part": 8.0
+    }
+   ],
+   "fichier": "eb100_Volume_A.xlsx",
+   "themes": {
+    "insecurite": 21.0,
+    "economie": 9.0,
+    "prix": 44.0,
+    "dette_impots": 8.0,
+    "chomage": 10.0,
+    "terrorisme": 13.0,
+    "logement": 5.0,
+    "immigration": 17.0,
+    "sante": 13.0,
+    "education": 15.0,
+    "retraites": 10.0,
+    "environnement": 15.0,
+    "international": 8.0
+   },
+   "date": "2023-11-17",
+   "date_approx": false
+  },
+  {
+   "vague": 101,
+   "terrain": [
+    "2024-04-02",
+    "2024-05-09"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 21.0
+    },
+    {
+     "libelle": "The economic situation",
+     "theme": "economie",
+     "part": 13.0
+    },
+    {
+     "libelle": "Rising prices/ inflation/ cost of living",
+     "theme": "prix",
+     "part": 40.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 3.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 9.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 8.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 7.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 14.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 13.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 18.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 15.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 7.0
+    },
+    {
+     "libelle": "The environment and climate change",
+     "theme": "environnement",
+     "part": 12.0
+    },
+    {
+     "libelle": "Energy supply",
+     "theme": "environnement",
+     "part": 4.0
+    },
+    {
+     "libelle": "The international situation",
+     "theme": "international",
+     "part": 9.0
+    }
+   ],
+   "fichier": "STD101_VOL_A.xlsx",
+   "themes": {
+    "insecurite": 21.0,
+    "economie": 13.0,
+    "prix": 40.0,
+    "dette_impots": 14.0,
+    "chomage": 9.0,
+    "terrorisme": 8.0,
+    "logement": 7.0,
+    "immigration": 13.0,
+    "sante": 18.0,
+    "education": 15.0,
+    "retraites": 7.0,
+    "environnement": 12.0,
+    "international": 9.0
+   },
+   "date": "2024-05-09",
+   "date_approx": false
+  },
+  {
+   "vague": 102,
+   "terrain": [
+    "2024-10-10",
+    "2024-11-05"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 19.0
+    },
+    {
+     "libelle": "The economic situation",
+     "theme": "economie",
+     "part": 16.0
+    },
+    {
+     "libelle": "Rising prices/ inflation/ cost of living",
+     "theme": "prix",
+     "part": 32.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 6.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 10.0
+    },
+    {
+     "libelle": "Terrorism",
+     "theme": "terrorisme",
+     "part": 4.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 22.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 17.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 18.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 11.0
+    },
+    {
+     "libelle": "Pensions",
+     "theme": "retraites",
+     "part": 11.0
+    },
+    {
+     "libelle": "The environment and climate change",
+     "theme": "environnement",
+     "part": 13.0
+    },
+    {
+     "libelle": "Energy supply",
+     "theme": "environnement",
+     "part": 3.0
+    },
+    {
+     "libelle": "The international situation",
+     "theme": "international",
+     "part": 8.0
+    }
+   ],
+   "fichier": "Eurobarometer_Standard_STD102_Autumn_2024_volume_A.xlsx",
+   "themes": {
+    "insecurite": 19.0,
+    "economie": 16.0,
+    "prix": 32.0,
+    "dette_impots": 22.0,
+    "chomage": 10.0,
+    "terrorisme": 4.0,
+    "logement": 6.0,
+    "immigration": 17.0,
+    "sante": 18.0,
+    "education": 11.0,
+    "retraites": 11.0,
+    "environnement": 13.0,
+    "international": 8.0
+   },
+   "date": "2024-11-05",
+   "date_approx": false
+  },
+  {
+   "vague": 103,
+   "terrain": [
+    "2025-03-26",
+    "2025-04-22"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 17.0
+    },
+    {
+     "libelle": "The economic situation",
+     "theme": "economie",
+     "part": 16.0
+    },
+    {
+     "libelle": "Rising prices/ inflation/ cost of living",
+     "theme": "prix",
+     "part": 33.0
+    },
+    {
+     "libelle": "Taxation",
+     "theme": "dette_impots",
+     "part": 3.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 7.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 5.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 20.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 14.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 15.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 11.0
+    },
+    {
+     "libelle": "The international situation",
+     "theme": "international",
+     "part": 12.0
+    },
+    {
+     "libelle": "Threats to democracy (for example through information manipulation)",
+     "theme": "democratie",
+     "part": 7.0
+    },
+    {
+     "libelle": "The environment and risks related to climate change",
+     "theme": "environnement",
+     "part": 9.0
+    },
+    {
+     "libelle": "Security and defence",
+     "theme": "international",
+     "part": 11.0
+    },
+    {
+     "libelle": "Russia’s invasion of Ukraine",
+     "theme": "international",
+     "part": 9.0
+    }
+   ],
+   "fichier": "Eurobarometer_Standard_STD103_Spring_2025_volume_A.xlsx",
+   "themes": {
+    "insecurite": 17.0,
+    "economie": 16.0,
+    "prix": 33.0,
+    "dette_impots": 20.0,
+    "chomage": 7.0,
+    "logement": 5.0,
+    "immigration": 14.0,
+    "sante": 15.0,
+    "education": 11.0,
+    "international": 12.0,
+    "democratie": 7.0,
+    "environnement": 9.0
+   },
+   "date": "2025-04-22",
+   "date_approx": false
+  },
+  {
+   "vague": 104,
+   "terrain": [
+    "2025-10-09",
+    "2025-11-05"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 18.0
+    },
+    {
+     "libelle": "The economic situation",
+     "theme": "economie",
+     "part": 23.0
+    },
+    {
+     "libelle": "Rising prices/ inflation/ cost of living",
+     "theme": "prix",
+     "part": 36.0
+    },
+    {
+     "libelle": "The conflict in the Middle East",
+     "theme": "international",
+     "part": 2.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 7.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 24.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 11.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 16.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 10.0
+    },
+    {
+     "libelle": "The international situation",
+     "theme": "international",
+     "part": 6.0
+    },
+    {
+     "libelle": "Threats to democracy (for example through information manipulation)",
+     "theme": "democratie",
+     "part": 6.0
+    },
+    {
+     "libelle": "The environment and risks related to climate change",
+     "theme": "environnement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Security and defence",
+     "theme": "international",
+     "part": 9.0
+    },
+    {
+     "libelle": "Russia’s invasion of Ukraine",
+     "theme": "international",
+     "part": 4.0
+    }
+   ],
+   "fichier": "Standard_Eurobarometer_104_Autumn_2025_volume_A.xlsx",
+   "themes": {
+    "insecurite": 18.0,
+    "economie": 23.0,
+    "prix": 36.0,
+    "international": 9.0,
+    "chomage": 7.0,
+    "logement": 6.0,
+    "dette_impots": 24.0,
+    "immigration": 11.0,
+    "sante": 16.0,
+    "education": 10.0,
+    "democratie": 6.0,
+    "environnement": 6.0
+   },
+   "date": "2025-11-05",
+   "date_approx": false
+  }
+ ],
+ "manquantes": [
+  {
+   "vague": 57,
+   "raison": "question introuvable dans le volume A"
+  },
+  {
+   "vague": 58,
+   "raison": "question introuvable dans le volume A"
+  },
+  {
+   "vague": 59,
+   "raison": "question introuvable dans le volume A"
+  },
+  {
+   "vague": 60,
+   "raison": "question introuvable dans le volume A"
+  },
+  {
+   "vague": 61,
+   "raison": "question introuvable dans le volume A"
+  },
+  {
+   "vague": 62,
+   "raison": "question introuvable dans le volume A"
+  }
+ ]
+}

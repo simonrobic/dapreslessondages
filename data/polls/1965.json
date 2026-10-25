@@ -1,0 +1,118 @@
+{
+ "election": 1965,
+ "date_premier_tour": "1965-12-05",
+ "date_second_tour": "1965-12-19",
+ "source": "https://fr.wikipedia.org/wiki/Élection_présidentielle_française_de_1965",
+ "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
+ "sources": [
+  {
+   "url": "https://fr.wikipedia.org/wiki/Élection_présidentielle_française_de_1965",
+   "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
+   "periode": null,
+   "revision": 240395259
+  }
+ ],
+ "premier_tour": [
+  {
+   "sondeur": "Ifop",
+   "debut": "1965-10-22",
+   "fin": "1965-11-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 23.0,
+    "Jean Lecanuet": 5.0,
+    "Pierre Marcilhacy": 1.0,
+    "Charles de Gaulle": 66.0,
+    "Jean-Louis Tixier-Vignancour": 5.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1965-11-06",
+   "fin": "1965-11-16",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Mitterrand": 24.0,
+    "Jean Lecanuet": 7.0,
+    "Pierre Marcilhacy": 1.0,
+    "Charles de Gaulle": 61.0,
+    "Jean-Louis Tixier-Vignancour": 7.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1965-11-17",
+   "fin": "1965-11-27",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Marcel Barbu": 1.5,
+    "François Mitterrand": 28.0,
+    "Jean Lecanuet": 14.0,
+    "Pierre Marcilhacy": 3.0,
+    "Charles de Gaulle": 46.5,
+    "Jean-Louis Tixier-Vignancour": 7.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1965-12-01",
+   "fin": "1965-12-02",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Marcel Barbu": 1.0,
+    "François Mitterrand": 27.0,
+    "Jean Lecanuet": 20.0,
+    "Pierre Marcilhacy": 2.0,
+    "Charles de Gaulle": 43.0,
+    "Jean-Louis Tixier-Vignancour": 7.0
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "second_tour": [
+  {
+   "sondeur": "Ifop",
+   "debut": "1965-12-01",
+   "fin": "1965-12-02",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Charles de Gaulle": 60.0,
+    "François Mitterrand": 40.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1965-12-08",
+   "fin": "1965-12-11",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Charles de Gaulle": 55.0,
+    "François Mitterrand": 45.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "1965-12-14",
+   "fin": "1965-12-16",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Charles de Gaulle": 55.0,
+    "François Mitterrand": 45.0
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "evenements": []
+}

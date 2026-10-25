@@ -1,0 +1,5969 @@
+{
+ "election": 2012,
+ "date_premier_tour": "2012-04-22",
+ "date_second_tour": "2012-05-06",
+ "source": "https://github.com/depuis1958/sondages",
+ "licence": "CC BY-SA 3.0 FR — Victor Poughon et contributeurs",
+ "sources": [
+  {
+   "url": "https://github.com/depuis1958/sondages",
+   "licence": "CC BY-SA 3.0 FR — Victor Poughon et contributeurs"
+  },
+  {
+   "url": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2012",
+   "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
+   "periode": "sondages antérieurs au 6 janvier 2012",
+   "revision": 238741176
+  }
+ ],
+ "premier_tour": [
+  {
+   "sondeur": "Ifop",
+   "debut": "2010-10-14",
+   "fin": "2010-10-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 5.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "Martine Aubry": 24.0,
+    "Cécile Duflot": 5.0,
+    "François Bayrou": 11.0,
+    "Dominique de Villepin": 8.0,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 13.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2010-11-18",
+   "fin": "2010-11-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Olivier Besancenot": 4.0,
+    "Jean-Luc Mélenchon": 6.5,
+    "Martine Aubry": 23.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 7.0,
+    "Jean-Louis Borloo": 7.0,
+    "Dominique de Villepin": 5.0,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 13.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2010-11-19",
+   "fin": "2010-11-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 5.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "Martine Aubry": 22.0,
+    "Eva Joly": 7.5,
+    "François Bayrou": 9.0,
+    "Hervé Morin": 2.5,
+    "Dominique de Villepin": 7.0,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 12.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2010-11-19",
+   "fin": "2010-11-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 4.5,
+    "Jean-Luc Mélenchon": 6.0,
+    "Dominique Strauss-Kahn": 29.0,
+    "Eva Joly": 6.0,
+    "François Bayrou": 7.5,
+    "Hervé Morin": 2.0,
+    "Dominique de Villepin": 6.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 13.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2010-11-19",
+   "fin": "2010-11-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 6.0,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 18.0,
+    "Eva Joly": 8.0,
+    "François Bayrou": 9.5,
+    "Hervé Morin": 2.0,
+    "Dominique de Villepin": 8.5,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 12.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2010-11-19",
+   "fin": "2010-11-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 5.5,
+    "Jean-Luc Mélenchon": 7.5,
+    "Ségolène Royal": 18.0,
+    "Eva Joly": 8.0,
+    "François Bayrou": 9.5,
+    "Hervé Morin": 2.0,
+    "Dominique de Villepin": 7.5,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 13.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-01-13",
+   "fin": "2011-01-13",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 3.5,
+    "Jean-Luc Mélenchon": 6.5,
+    "Martine Aubry": 23.0,
+    "Nicolas Hulot": 6.0,
+    "François Bayrou": 8.0,
+    "Hervé Morin": 2.0,
+    "Dominique de Villepin": 6.0,
+    "Nicolas Sarkozy": 26.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-02-17",
+   "fin": "2011-02-17",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 5.0,
+    "Jean-Luc Mélenchon": 5.5,
+    "Martine Aubry": 22.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 8.0,
+    "Hervé Morin": 2.5,
+    "Dominique de Villepin": 5.0,
+    "Nicolas Sarkozy": 23.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-02-17",
+   "fin": "2011-02-17",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 5.5,
+    "Jean-Luc Mélenchon": 6.0,
+    "Dominique Strauss-Kahn": 26.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 7.0,
+    "Hervé Morin": 2.0,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 22.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-03-06",
+   "fin": "2011-03-06",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 5.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "Martine Aubry": 21.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 8.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 7.0,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 23.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-03-06",
+   "fin": "2011-03-06",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 6.0,
+    "Jean-Luc Mélenchon": 7.0,
+    "Dominique Strauss-Kahn": 23.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 6.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 20.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 24.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-03-06",
+   "fin": "2011-03-06",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 6.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "François Hollande": 20.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 8.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 5.0,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 24.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-03-09",
+   "fin": "2011-03-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 4.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "Martine Aubry": 24.0,
+    "Eva Joly": 6.0,
+    "François Bayrou": 7.0,
+    "Hervé Morin": 1.5,
+    "Dominique de Villepin": 4.5,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 22.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-03-09",
+   "fin": "2011-03-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 4.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "Dominique Strauss-Kahn": 29.0,
+    "Eva Joly": 5.5,
+    "François Bayrou": 6.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 23.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 21.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-03-09",
+   "fin": "2011-03-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 4.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "François Hollande": 23.0,
+    "Eva Joly": 6.5,
+    "François Bayrou": 7.5,
+    "Hervé Morin": 2.0,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 22.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-03-09",
+   "fin": "2011-03-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 5.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "Ségolène Royal": 19.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 8.0,
+    "Hervé Morin": 2.0,
+    "Dominique de Villepin": 5.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 22.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-03-14",
+   "fin": "2011-03-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 6.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "Martine Aubry": 23.0,
+    "Eva Joly": 5.0,
+    "François Bayrou": 8.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 7.0,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 21.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-03-14",
+   "fin": "2011-03-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 6.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "Dominique Strauss-Kahn": 33.0,
+    "Eva Joly": 5.0,
+    "François Bayrou": 5.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 5.0,
+    "Nicolas Sarkozy": 18.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-03-14",
+   "fin": "2011-03-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 7.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "François Hollande": 23.0,
+    "Eva Joly": 5.0,
+    "François Bayrou": 8.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 6.0,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 21.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-03-14",
+   "fin": "2011-03-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 7.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "Ségolène Royal": 17.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 10.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 7.0,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 21.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-03-26",
+   "fin": "2011-03-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 6.0,
+    "Jean-Luc Mélenchon": 4.0,
+    "Martine Aubry": 25.0,
+    "Eva Joly": 5.0,
+    "François Bayrou": 7.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 8.0,
+    "Nicolas Sarkozy": 20.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 21.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-03-26",
+   "fin": "2011-03-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 6.0,
+    "Jean-Luc Mélenchon": 4.0,
+    "Dominique Strauss-Kahn": 34.0,
+    "Eva Joly": 5.0,
+    "François Bayrou": 5.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 5.0,
+    "Nicolas Sarkozy": 17.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 21.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-03-26",
+   "fin": "2011-03-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 6.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "François Hollande": 23.0,
+    "Eva Joly": 5.0,
+    "François Bayrou": 7.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 8.0,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 22.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-03-26",
+   "fin": "2011-03-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 7.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "Ségolène Royal": 17.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 8.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 9.0,
+    "Nicolas Sarkozy": 20.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 22.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-03-26",
+   "fin": "2011-03-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Olivier Besancenot": 6.0,
+    "Jean-Luc Mélenchon": 4.0,
+    "Martine Aubry": 24.0,
+    "Nicolas Hulot": 8.0,
+    "François Bayrou": 5.0,
+    "Jean-Louis Borloo": 6.0,
+    "Dominique de Villepin": 7.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-03-26",
+   "fin": "2011-03-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 7.0,
+    "Jean-Luc Mélenchon": 4.0,
+    "Dominique Strauss-Kahn": 29.0,
+    "Nicolas Hulot": 7.0,
+    "François Bayrou": 4.0,
+    "Jean-Louis Borloo": 5.0,
+    "Dominique de Villepin": 6.0,
+    "Nicolas Sarkozy": 17.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2011-04-07",
+   "fin": "2011-04-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 3.0,
+    "Jean-Luc Mélenchon": 4.0,
+    "Martine Aubry": 22.0,
+    "Jean-Pierre Chevènement": 7.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 9.0,
+    "Jean-Louis Borloo": 8.0,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 21.0
+   },
+   "total_brut": 101.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 5.0,
+    "Jean-Luc Mélenchon": 5.5,
+    "Dominique Strauss-Kahn": 30.0,
+    "Jean-Pierre Chevènement": 8.5,
+    "François Bayrou": 7.0,
+    "Nicolas Sarkozy": 22.5,
+    "Marine Le Pen": 20.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Olivier Besancenot": 4.0,
+    "Jean-Luc Mélenchon": 4.5,
+    "Martine Aubry": 20.0,
+    "Jean-Pierre Chevènement": 8.5,
+    "François Bayrou": 6.5,
+    "Jean-Louis Borloo": 9.5,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 21.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 21.0
+   },
+   "total_brut": 101.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Olivier Besancenot": 4.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "Dominique Strauss-Kahn": 27.0,
+    "Jean-Pierre Chevènement": 7.0,
+    "François Bayrou": 5.0,
+    "Jean-Louis Borloo": 7.5,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 20.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Olivier Besancenot": 5.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "Dominique Strauss-Kahn": 25.0,
+    "Nicolas Hulot": 5.5,
+    "François Bayrou": 6.0,
+    "Jean-Louis Borloo": 8.0,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 4.5,
+    "Jean-Luc Mélenchon": 4.5,
+    "François Hollande": 21.0,
+    "Jean-Pierre Chevènement": 8.0,
+    "François Bayrou": 6.0,
+    "Jean-Louis Borloo": 8.5,
+    "Dominique de Villepin": 4.5,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Olivier Besancenot": 4.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "Ségolène Royal": 16.0,
+    "Jean-Pierre Chevènement": 9.0,
+    "François Bayrou": 6.5,
+    "Jean-Louis Borloo": 11.0,
+    "Dominique de Villepin": 5.0,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-04-26",
+   "fin": "2011-04-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 5.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "Martine Aubry": 21.0,
+    "Jean-Pierre Chevènement": 5.0,
+    "François Bayrou": 5.0,
+    "Jean-Louis Borloo": 9.0,
+    "Dominique de Villepin": 5.0,
+    "Nicolas Sarkozy": 20.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 23.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-04-26",
+   "fin": "2011-04-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 4.0,
+    "Jean-Luc Mélenchon": 4.0,
+    "Dominique Strauss-Kahn": 30.0,
+    "Jean-Pierre Chevènement": 6.0,
+    "François Bayrou": 4.0,
+    "Jean-Louis Borloo": 7.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 21.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-04-26",
+   "fin": "2011-04-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 5.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "François Hollande": 22.0,
+    "Jean-Pierre Chevènement": 6.0,
+    "François Bayrou": 5.0,
+    "Jean-Louis Borloo": 8.0,
+    "Dominique de Villepin": 5.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 23.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-04-26",
+   "fin": "2011-04-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 5.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "Ségolène Royal": 15.0,
+    "Jean-Pierre Chevènement": 8.0,
+    "François Bayrou": 7.0,
+    "Jean-Louis Borloo": 10.0,
+    "Dominique de Villepin": 6.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 22.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-05-14",
+   "fin": "2011-05-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 1.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "Martine Aubry": 25.0,
+    "Nicolas Hulot": 9.0,
+    "François Bayrou": 6.0,
+    "Jean-Louis Borloo": 9.0,
+    "Dominique de Villepin": 5.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-05-14",
+   "fin": "2011-05-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 1.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "François Hollande": 26.0,
+    "Nicolas Hulot": 11.0,
+    "François Bayrou": 5.0,
+    "Jean-Louis Borloo": 8.0,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-05-14",
+   "fin": "2011-05-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 1.0,
+    "Jean-Luc Mélenchon": 8.0,
+    "Ségolène Royal": 16.0,
+    "Nicolas Hulot": 12.0,
+    "François Bayrou": 7.0,
+    "Jean-Louis Borloo": 11.0,
+    "Dominique de Villepin": 6.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-05-18",
+   "fin": "2011-05-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 0.5,
+    "Jean-Luc Mélenchon": 4.0,
+    "Martine Aubry": 27.0,
+    "Nicolas Hulot": 11.0,
+    "François Bayrou": 5.0,
+    "Jean-Louis Borloo": 9.0,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-05-18",
+   "fin": "2011-05-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 0.5,
+    "Jean-Luc Mélenchon": 4.0,
+    "François Hollande": 29.0,
+    "Nicolas Hulot": 11.0,
+    "François Bayrou": 5.0,
+    "Jean-Louis Borloo": 9.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-05-18",
+   "fin": "2011-05-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 0.5,
+    "Jean-Luc Mélenchon": 6.0,
+    "Ségolène Royal": 16.0,
+    "Nicolas Hulot": 13.0,
+    "François Bayrou": 7.0,
+    "Jean-Louis Borloo": 12.0,
+    "Dominique de Villepin": 6.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-06-05",
+   "fin": "2011-06-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Olivier Besancenot": 0.0,
+    "Jean-Luc Mélenchon": 7.0,
+    "Martine Aubry": 25.0,
+    "Jean-Pierre Chevènement": 6.0,
+    "François Bayrou": 6.0,
+    "Jean-Louis Borloo": 7.0,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 22.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-06-05",
+   "fin": "2011-06-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Olivier Besancenot": 0.0,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 27.0,
+    "Jean-Pierre Chevènement": 6.0,
+    "François Bayrou": 6.0,
+    "Jean-Louis Borloo": 7.0,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 23.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 21.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-06-05",
+   "fin": "2011-06-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Olivier Besancenot": 0.0,
+    "Jean-Luc Mélenchon": 8.0,
+    "Ségolène Royal": 17.0,
+    "Jean-Pierre Chevènement": 7.0,
+    "François Bayrou": 7.0,
+    "Jean-Louis Borloo": 9.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 22.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-06-20",
+   "fin": "2011-06-20",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Olivier Besancenot": 0.5,
+    "Jean-Luc Mélenchon": 7.0,
+    "Martine Aubry": 30.0,
+    "Jean-Pierre Chevènement": 7.0,
+    "François Bayrou": 5.0,
+    "Jean-Louis Borloo": 8.0,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-06-20",
+   "fin": "2011-06-20",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.5,
+    "Olivier Besancenot": 0.5,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 32.0,
+    "Jean-Pierre Chevènement": 7.5,
+    "François Bayrou": 5.0,
+    "Jean-Louis Borloo": 7.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-06-20",
+   "fin": "2011-06-20",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 1.0,
+    "Jean-Luc Mélenchon": 9.5,
+    "Ségolène Royal": 19.0,
+    "Jean-Pierre Chevènement": 8.5,
+    "François Bayrou": 7.0,
+    "Jean-Louis Borloo": 11.0,
+    "Dominique de Villepin": 4.5,
+    "Nicolas Sarkozy": 19.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-06-23",
+   "fin": "2011-06-23",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Olivier Besancenot": 0.5,
+    "Jean-Luc Mélenchon": 6.5,
+    "François Hollande": 26.5,
+    "Jean-Pierre Chevènement": 6.5,
+    "Eva Joly": 1.5,
+    "François Bayrou": 6.0,
+    "Jean-Louis Borloo": 7.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 0.0,
+    "Marine Le Pen": 21.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-06-23",
+   "fin": "2011-06-23",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Olivier Besancenot": 0.5,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 26.0,
+    "Eva Joly": 1.5,
+    "François Bayrou": 6.0,
+    "Jean-Louis Borloo": 7.5,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 21.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 20.5
+   },
+   "total_brut": 94.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-07-09",
+   "fin": "2011-07-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 1.0,
+    "Jean-Luc Mélenchon": 4.5,
+    "Martine Aubry": 29.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 5.0,
+    "Jean-Louis Borloo": 8.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 22.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-07-09",
+   "fin": "2011-07-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Olivier Besancenot": 1.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "François Hollande": 29.0,
+    "Eva Joly": 7.5,
+    "François Bayrou": 5.0,
+    "Jean-Louis Borloo": 8.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 22.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-07-09",
+   "fin": "2011-07-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 3.0,
+    "Olivier Besancenot": 1.0,
+    "Jean-Luc Mélenchon": 7.0,
+    "Ségolène Royal": 17.0,
+    "Eva Joly": 9.0,
+    "François Bayrou": 6.0,
+    "Jean-Louis Borloo": 11.0,
+    "Dominique de Villepin": 3.5,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-07-21",
+   "fin": "2011-07-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Olivier Besancenot": 0.5,
+    "Jean-Luc Mélenchon": 4.0,
+    "Martine Aubry": 25.0,
+    "Jean-Pierre Chevènement": 1.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 7.5,
+    "Jean-Louis Borloo": 8.0,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 23.5,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-07-21",
+   "fin": "2011-07-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Olivier Besancenot": 0.0,
+    "Jean-Luc Mélenchon": 4.0,
+    "François Hollande": 28.0,
+    "Jean-Pierre Chevènement": 0.5,
+    "Eva Joly": 7.0,
+    "François Bayrou": 6.5,
+    "Jean-Louis Borloo": 7.5,
+    "Dominique de Villepin": 2.5,
+    "Nicolas Sarkozy": 23.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-07-21",
+   "fin": "2011-07-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Olivier Besancenot": 0.5,
+    "Jean-Luc Mélenchon": 6.0,
+    "Ségolène Royal": 16.0,
+    "Jean-Pierre Chevènement": 1.0,
+    "Eva Joly": 9.5,
+    "François Bayrou": 9.0,
+    "Jean-Louis Borloo": 8.5,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 25.0,
+    "Nicolas Dupont-Aignan": 0.0,
+    "Marine Le Pen": 20.5
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-09-03",
+   "fin": "2011-09-03",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 5.5,
+    "Martine Aubry": 27.0,
+    "Eva Joly": 6.0,
+    "François Bayrou": 6.0,
+    "Jean-Louis Borloo": 7.0,
+    "Dominique de Villepin": 3.5,
+    "Nicolas Sarkozy": 23.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-09-03",
+   "fin": "2011-09-03",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 5.0,
+    "François Hollande": 30.0,
+    "Eva Joly": 5.0,
+    "François Bayrou": 6.0,
+    "Jean-Louis Borloo": 7.0,
+    "Dominique de Villepin": 4.5,
+    "Nicolas Sarkozy": 22.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-09-03",
+   "fin": "2011-09-03",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 2.0,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 8.5,
+    "Ségolène Royal": 19.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 7.0,
+    "Jean-Louis Borloo": 9.0,
+    "Dominique de Villepin": 5.0,
+    "Nicolas Sarkozy": 23.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-09-05",
+   "fin": "2011-09-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 5.0,
+    "Martine Aubry": 24.0,
+    "Eva Joly": 7.0,
+    "François Bayrou": 8.0,
+    "Jean-Louis Borloo": 7.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 100.5
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-09-05",
+   "fin": "2011-09-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 3.0,
+    "François Hollande": 28.5,
+    "Eva Joly": 8.0,
+    "François Bayrou": 7.0,
+    "Jean-Louis Borloo": 7.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 23.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 100.5
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-09-05",
+   "fin": "2011-09-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 7.0,
+    "Ségolène Royal": 15.0,
+    "Eva Joly": 10.0,
+    "François Bayrou": 9.0,
+    "Jean-Louis Borloo": 9.0,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 100.5
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-10-20",
+   "fin": "2011-10-20",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 6.0,
+    "François Hollande": 35.0,
+    "Eva Joly": 4.5,
+    "François Bayrou": 6.5,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 25.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 97.5
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-10-29",
+   "fin": "2011-10-29",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "François Hollande": 35.0,
+    "Eva Joly": 6.0,
+    "François Bayrou": 5.5,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-11-02",
+   "fin": "2011-11-02",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "François Hollande": 35.0,
+    "Eva Joly": 6.0,
+    "François Bayrou": 5.5,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-11-04",
+   "fin": "2011-11-04",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.25,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 6.0,
+    "François Hollande": 32.5,
+    "Eva Joly": 4.5,
+    "Corinne Lepage": 1.0,
+    "François Bayrou": 7.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 25.5,
+    "Nicolas Dupont-Aignan": 0.25,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-11-16",
+   "fin": "2011-11-16",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 32.5,
+    "Eva Joly": 4.0,
+    "Corinne Lepage": 0.5,
+    "François Bayrou": 6.0,
+    "Hervé Morin": 0.5,
+    "Dominique de Villepin": 1.5,
+    "Nicolas Sarkozy": 26.0,
+    "Christine Boutin": 0.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-11-17",
+   "fin": "2011-11-17",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 5.0,
+    "François Hollande": 34.0,
+    "Jean-Pierre Chevènement": 1.0,
+    "Eva Joly": 4.0,
+    "François Bayrou": 7.0,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0
+   },
+   "total_brut": 96.5
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-11-20",
+   "fin": "2011-11-20",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.25,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 30.0,
+    "Jean-Pierre Chevènement": 1.5,
+    "Eva Joly": 6.0,
+    "Corinne Lepage": 0.5,
+    "François Bayrou": 7.0,
+    "Hervé Morin": 0.5,
+    "Nicolas Sarkozy": 29.0,
+    "Christine Boutin": 0.5,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 15.0
+   },
+   "total_brut": 98.25
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-11-22",
+   "fin": "2011-11-22",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 5.0,
+    "François Hollande": 32.0,
+    "Jean-Pierre Chevènement": 3.0,
+    "Eva Joly": 4.0,
+    "François Bayrou": 7.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 27.0,
+    "Christine Boutin": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2011-11-25",
+   "fin": "2011-11-25",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 30.0,
+    "Jean-Pierre Chevènement": 1.0,
+    "Eva Joly": 5.0,
+    "François Bayrou": 7.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 1.0,
+    "Nicolas Sarkozy": 26.0,
+    "Christine Boutin": 1.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2011-11-30",
+   "fin": "2011-11-30",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 31.0,
+    "Jean-Pierre Chevènement": 0.5,
+    "Eva Joly": 5.0,
+    "Corinne Lepage": 0.5,
+    "François Bayrou": 7.0,
+    "Hervé Morin": 0.5,
+    "Dominique de Villepin": 1.0,
+    "Nicolas Sarkozy": 28.0,
+    "Christine Boutin": 0.25,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.5
+   },
+   "total_brut": 100.25
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-12-01",
+   "fin": "2011-12-01",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.25,
+    "Philippe Poutou": 0.25,
+    "Jean-Luc Mélenchon": 7.5,
+    "François Hollande": 29.5,
+    "Jean-Pierre Chevènement": 0.5,
+    "Eva Joly": 4.0,
+    "Corinne Lepage": 0.5,
+    "François Bayrou": 8.5,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 1.5,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 19.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-12-03",
+   "fin": "2011-12-03",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 7.5,
+    "François Hollande": 32.0,
+    "Jean-Pierre Chevènement": 0.5,
+    "Eva Joly": 6.0,
+    "Corinne Lepage": 0.5,
+    "François Bayrou": 7.0,
+    "Hervé Morin": 0.0,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 25.5,
+    "Christine Boutin": 0.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-12-06",
+   "fin": "2011-12-06",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.25,
+    "Philippe Poutou": 0.25,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 35.0,
+    "Jean-Pierre Chevènement": 1.0,
+    "Eva Joly": 3.0,
+    "Corinne Lepage": 1.0,
+    "François Bayrou": 9.0,
+    "Hervé Morin": 0.0,
+    "Dominique de Villepin": 1.0,
+    "Nicolas Sarkozy": 24.5,
+    "Christine Boutin": 1.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 100.5
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-12-06",
+   "fin": "2011-12-06",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.25,
+    "Jean-Luc Mélenchon": 7.5,
+    "François Hollande": 32.0,
+    "Eva Joly": 6.0,
+    "François Bayrou": 7.0,
+    "Nicolas Sarkozy": 25.5,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 96.75
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-12-11",
+   "fin": "2011-12-11",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.25,
+    "Philippe Poutou": 0.25,
+    "Jean-Luc Mélenchon": 6.5,
+    "François Hollande": 31.5,
+    "Eva Joly": 4.5,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 13.5
+   },
+   "total_brut": 96.5
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-12-15",
+   "fin": "2011-12-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 6.0,
+    "François Hollande": 32.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 11.0,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 16.0
+   },
+   "total_brut": 96.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2011-12-16",
+   "fin": "2011-12-16",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "François Hollande": 29.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 11.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 25.0,
+    "Christine Boutin": 1.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-12-16",
+   "fin": "2011-12-16",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.25,
+    "Philippe Poutou": 0.25,
+    "Jean-Luc Mélenchon": 6.5,
+    "François Hollande": 27.5,
+    "Jean-Pierre Chevènement": 0.5,
+    "Eva Joly": 5.0,
+    "Corinne Lepage": 1.0,
+    "François Bayrou": 11.0,
+    "Hervé Morin": 0.5,
+    "Dominique de Villepin": 3.5,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 100.5
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-12-16",
+   "fin": "2011-12-16",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.25,
+    "Jean-Luc Mélenchon": 6.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 4.0,
+    "François Bayrou": 11.0,
+    "Nicolas Sarkozy": 25.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 94.75
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2011-12-21",
+   "fin": "2011-12-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 7.5,
+    "François Hollande": 27.0,
+    "Eva Joly": 4.0,
+    "François Bayrou": 14.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 24.0,
+    "Christine Boutin": 1.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-01-07",
+   "fin": "2012-01-06",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "François Hollande": 28.0,
+    "Jean-Pierre Chevènement": 0.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 12.0,
+    "Hervé Morin": 0.0,
+    "Dominique de Villepin": 2.5,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 0.0,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 96.5
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-01-10",
+   "fin": "2012-01-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 28.0,
+    "Jean-Pierre Chevènement": 0.0,
+    "Eva Joly": 4.0,
+    "François Bayrou": 11.0,
+    "Hervé Morin": 0.0,
+    "Dominique de Villepin": 4.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 0.0,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 97.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-01-14",
+   "fin": "2012-01-13",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 6.0,
+    "François Hollande": 27.0,
+    "Jean-Pierre Chevènement": 0.5,
+    "Eva Joly": 3.0,
+    "François Bayrou": 15.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 25.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-01-14",
+   "fin": "2012-01-13",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 29.0,
+    "Jean-Pierre Chevènement": 0.5,
+    "Eva Joly": 2.0,
+    "François Bayrou": 13.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 0.0,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-01-16",
+   "fin": "2012-01-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 8.5,
+    "François Hollande": 30.0,
+    "Jean-Pierre Chevènement": 0.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 14.0,
+    "Hervé Morin": 0.0,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 23.5,
+    "Nicolas Dupont-Aignan": 0.0,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 98.5
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-01-18",
+   "fin": "2012-01-17",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 7.5,
+    "François Hollande": 29.0,
+    "Jean-Pierre Chevènement": 0.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 14.0,
+    "Hervé Morin": 0.0,
+    "Dominique de Villepin": 3.0,
+    "Nicolas Sarkozy": 23.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-01-18",
+   "fin": "2012-01-17",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 7.5,
+    "François Hollande": 28.0,
+    "Jean-Pierre Chevènement": 0.5,
+    "Eva Joly": 3.0,
+    "François Bayrou": 12.5,
+    "Hervé Morin": 0.5,
+    "Dominique de Villepin": 2.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-01-22",
+   "fin": "2012-01-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 30.0,
+    "Jean-Pierre Chevènement": 0.0,
+    "Eva Joly": 4.0,
+    "François Bayrou": 13.0,
+    "Hervé Morin": 1.0,
+    "Dominique de Villepin": 1.5,
+    "Nicolas Sarkozy": 23.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-01-26",
+   "fin": "2012-01-25",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 27.0,
+    "Jean-Pierre Chevènement": 0.0,
+    "Eva Joly": 4.0,
+    "François Bayrou": 14.0,
+    "Hervé Morin": 0.5,
+    "Dominique de Villepin": 1.0,
+    "Nicolas Sarkozy": 23.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-01-27",
+   "fin": "2012-01-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 9.0,
+    "François Hollande": 31.0,
+    "Jean-Pierre Chevènement": 0.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 15.0,
+    "Hervé Morin": 0.0,
+    "Dominique de Villepin": 1.0,
+    "Nicolas Sarkozy": 25.0,
+    "Nicolas Dupont-Aignan": 0.0,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-01-31",
+   "fin": "2012-01-30",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 7.5,
+    "François Hollande": 31.0,
+    "Jean-Pierre Chevènement": 0.5,
+    "Eva Joly": 3.0,
+    "François Bayrou": 11.5,
+    "Hervé Morin": 0.5,
+    "Dominique de Villepin": 1.0,
+    "Nicolas Sarkozy": 24.5,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 19.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2012-02-01",
+   "fin": "2012-02-02",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 9.0,
+    "François Hollande": 31.5,
+    "Eva Joly": 3.0,
+    "François Bayrou": 12.0,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 16.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-02-01",
+   "fin": "2012-02-02",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 34.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 12.0,
+    "Nicolas Sarkozy": 25.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 15.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-02-06",
+   "fin": "2012-02-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 8.5,
+    "François Hollande": 32.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 12.5,
+    "Nicolas Sarkozy": 25.0,
+    "Nicolas Dupont-Aignan": 0.0,
+    "Marine Le Pen": 16.0
+   },
+   "total_brut": 97.5
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-02-07",
+   "fin": "2012-02-08",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 30.5,
+    "Eva Joly": 3.0,
+    "François Bayrou": 10.5,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 97.5
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-02-07",
+   "fin": "2012-02-08",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 34.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 14.0,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 0.0,
+    "Marine Le Pen": 16.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-02-08",
+   "fin": "2012-02-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 7.0,
+    "François Hollande": 29.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 25.5,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 97.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-02-09",
+   "fin": "2012-02-10",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 30.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 17.5
+   },
+   "total_brut": 98.5
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-02-14",
+   "fin": "2012-02-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 7.5,
+    "François Hollande": 30.0,
+    "Eva Joly": 3.5,
+    "François Bayrou": 11.5,
+    "Nicolas Sarkozy": 25.5,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 17.5
+   },
+   "total_brut": 96.5
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-02-15",
+   "fin": "2012-02-16",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 4.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 20.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-02-17",
+   "fin": "2012-02-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 9.0,
+    "François Hollande": 31.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 15.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-02-20",
+   "fin": "2012-02-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 29.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 16.5
+   },
+   "total_brut": 97.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-02-21",
+   "fin": "2012-02-22",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 9.0,
+    "François Hollande": 32.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 11.0,
+    "Nicolas Sarkozy": 25.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 16.0
+   },
+   "total_brut": 97.5
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-02-22",
+   "fin": "2012-02-23",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 9.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 11.0,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 97.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-02-24",
+   "fin": "2012-02-25",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 27.5,
+    "Eva Joly": 3.0,
+    "François Bayrou": 12.5,
+    "Nicolas Sarkozy": 26.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 18.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-02-28",
+   "fin": "2012-02-29",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 31.5,
+    "Eva Joly": 2.5,
+    "François Bayrou": 11.5,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0
+   },
+   "total_brut": 98.5
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2012-02-28",
+   "fin": "2012-02-29",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 9.5,
+    "François Hollande": 30.0,
+    "Eva Joly": 2.5,
+    "François Bayrou": 10.5,
+    "Nicolas Sarkozy": 28.0,
+    "Nicolas Dupont-Aignan": 0.0,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 97.5
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-02-29",
+   "fin": "2012-03-01",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 8.5,
+    "François Hollande": 28.5,
+    "Eva Joly": 3.0,
+    "François Bayrou": 12.5,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 17.0
+   },
+   "total_brut": 98.5
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-01",
+   "fin": "2012-03-02",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 29.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 12.5,
+    "Nicolas Sarkozy": 25.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 18.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-02",
+   "fin": "2012-03-03",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 29.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 12.0,
+    "Nicolas Sarkozy": 25.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 18.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-03-04",
+   "fin": "2012-03-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 8.5,
+    "François Hollande": 30.5,
+    "Eva Joly": 4.5,
+    "François Bayrou": 15.0,
+    "Nicolas Sarkozy": 23.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 15.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-03-05",
+   "fin": "2012-03-06",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 8.0,
+    "François Hollande": 33.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 25.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 14.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-03-06",
+   "fin": "2012-03-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 9.5,
+    "François Hollande": 29.5,
+    "Eva Joly": 2.0,
+    "François Bayrou": 12.5,
+    "Nicolas Sarkozy": 25.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 17.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-03-07",
+   "fin": "2012-03-08",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 10.0,
+    "François Hollande": 30.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 28.0,
+    "Nicolas Dupont-Aignan": 0.0,
+    "Marine Le Pen": 15.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-03-07",
+   "fin": "2012-03-08",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 9.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 25.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 18.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 98.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-13",
+   "fin": "2012-03-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 10.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.5,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 28.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 98.5
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-03-15",
+   "fin": "2012-03-16",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 11.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 1.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 28.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 98.5
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-16",
+   "fin": "2012-03-17",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 10.5,
+    "François Hollande": 26.5,
+    "Eva Joly": 3.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 27.5,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 17.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-03-16",
+   "fin": "2012-03-17",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 10.0,
+    "François Hollande": 27.5,
+    "Eva Joly": 2.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 27.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 98.5
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-16",
+   "fin": "2012-03-17",
+   "echantillon": 961,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 13.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.5,
+    "Marine Le Pen": 17.5,
+    "Jean-Luc Mélenchon": 11.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 27.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-03-16",
+   "fin": "2012-03-17",
+   "echantillon": 950,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 13.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "François Hollande": 28.5,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 15.0,
+    "Jean-Luc Mélenchon": 11.5,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 27.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-18",
+   "fin": "2012-03-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 11.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.5,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 27.5,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 17.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-03-18",
+   "fin": "2012-03-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 11.0,
+    "François Hollande": 30.5,
+    "Eva Joly": 2.5,
+    "François Bayrou": 12.5,
+    "Nicolas Sarkozy": 27.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 14.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.5
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-03-19",
+   "fin": "2012-03-20",
+   "echantillon": 888,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "François Bayrou": 13.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 13.5,
+    "Jean-Luc Mélenchon": 13.0,
+    "Philippe Poutou": 0.0,
+    "Nicolas Sarkozy": 30.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-03-20",
+   "fin": "2012-03-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 11.5,
+    "François Hollande": 28.5,
+    "Eva Joly": 2.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 27.5,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 15.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-20",
+   "fin": "2012-03-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 10.5,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.5,
+    "François Bayrou": 12.0,
+    "Nicolas Sarkozy": 27.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 17.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-03-21",
+   "fin": "2012-03-22",
+   "echantillon": 926,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "François Bayrou": 12.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "François Hollande": 29.5,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 13.0,
+    "Jean-Luc Mélenchon": 14.0,
+    "Philippe Poutou": 0.0,
+    "Nicolas Sarkozy": 28.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-03-22",
+   "fin": "2012-03-23",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 14.0,
+    "François Hollande": 29.5,
+    "Eva Joly": 2.0,
+    "François Bayrou": 12.0,
+    "Nicolas Sarkozy": 28.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 13.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-03-22",
+   "fin": "2012-03-23",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 13.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 30.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 13.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-03-23",
+   "fin": "2012-03-24",
+   "echantillon": 978,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 11.5,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 16.0,
+    "Jean-Luc Mélenchon": 13.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 27.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-22",
+   "fin": "2012-03-25",
+   "echantillon": 1769,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 11.5,
+    "Jacques Cheminade": 0.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 15.5,
+    "Jean-Luc Mélenchon": 13.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 28.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-03-22",
+   "fin": "2012-03-26",
+   "echantillon": 1231,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 11.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 3.0,
+    "Marine Le Pen": 16.0,
+    "Jean-Luc Mélenchon": 13.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 28.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-03-26",
+   "fin": "2012-03-27",
+   "echantillon": 876,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 12.5,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "François Hollande": 26.0,
+    "Eva Joly": 2.5,
+    "Marine Le Pen": 15.0,
+    "Jean-Luc Mélenchon": 12.5,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 30.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-03-26",
+   "fin": "2012-03-27",
+   "echantillon": 1448,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "François Bayrou": 12.0,
+    "Jacques Cheminade": 0.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 17.0,
+    "Jean-Luc Mélenchon": 11.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 28.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-03-27",
+   "fin": "2012-03-28",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 11.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 28.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-03-27",
+   "fin": "2012-03-28",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 11.5,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 13.0,
+    "Nicolas Sarkozy": 27.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-03-27",
+   "fin": "2012-03-28",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 11.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 12.0,
+    "Nicolas Sarkozy": 28.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 17.0,
+    "Jacques Cheminade": 0.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-27",
+   "fin": "2012-03-28",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 13.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 11.5,
+    "Nicolas Sarkozy": 28.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 15.5,
+    "Jacques Cheminade": 0.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2012-03-28",
+   "fin": "2012-03-29",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 13.5,
+    "François Hollande": 28.0,
+    "Eva Joly": 1.0,
+    "François Bayrou": 10.0,
+    "Nicolas Sarkozy": 29.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 15.0,
+    "Jacques Cheminade": 0.5
+   },
+   "total_brut": 99.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-03-28",
+   "fin": "2012-03-29",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 12.5,
+    "François Hollande": 26.0,
+    "Eva Joly": 2.5,
+    "François Bayrou": 12.5,
+    "Nicolas Sarkozy": 30.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 15.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 99.5
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-30",
+   "fin": "2012-03-31",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 14.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.5,
+    "François Bayrou": 10.5,
+    "Nicolas Sarkozy": 28.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.5
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-03-29",
+   "fin": "2012-03-31",
+   "echantillon": 2555,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "François Bayrou": 11.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 15.0,
+    "Jean-Luc Mélenchon": 14.0,
+    "Philippe Poutou": 1.0,
+    "Nicolas Sarkozy": 27.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-03-30",
+   "fin": "2012-03-31",
+   "echantillon": 973,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 12.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "François Hollande": 28.5,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 13.5,
+    "Jean-Luc Mélenchon": 15.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 27.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-03-30",
+   "fin": "2012-03-31",
+   "echantillon": 881,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "François Bayrou": 10.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 27.5,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 14.0,
+    "Jean-Luc Mélenchon": 14.5,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 29.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-04-01",
+   "fin": "2012-04-02",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 15.0,
+    "François Hollande": 28.5,
+    "Eva Joly": 2.0,
+    "François Bayrou": 12.0,
+    "Nicolas Sarkozy": 27.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 13.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 101.5
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-03-29",
+   "fin": "2012-04-02",
+   "echantillon": 1059,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 10.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 26.0,
+    "Eva Joly": 3.0,
+    "Marine Le Pen": 16.0,
+    "Jean-Luc Mélenchon": 14.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 29.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-02",
+   "fin": "2012-04-03",
+   "echantillon": 884,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 10.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "François Hollande": 29.0,
+    "Eva Joly": 1.5,
+    "Marine Le Pen": 13.0,
+    "Jean-Luc Mélenchon": 15.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 30.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-04-03",
+   "fin": "2012-04-04",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 14.5,
+    "François Hollande": 27.5,
+    "Eva Joly": 2.0,
+    "François Bayrou": 10.0,
+    "Nicolas Sarkozy": 29.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 14.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-04-03",
+   "fin": "2012-04-04",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 14.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 11.0,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 15.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-04-03",
+   "fin": "2012-04-04",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 14.0,
+    "François Hollande": 26.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 10.0,
+    "Nicolas Sarkozy": 29.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-04-03",
+   "fin": "2012-04-04",
+   "echantillon": 969,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 11.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 26.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 16.0,
+    "Jean-Luc Mélenchon": 14.0,
+    "Philippe Poutou": 1.0,
+    "Nicolas Sarkozy": 28.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-04",
+   "fin": "2012-04-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 15.0,
+    "François Hollande": 29.0,
+    "Eva Joly": 1.5,
+    "François Bayrou": 10.0,
+    "Nicolas Sarkozy": 30.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 13.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-04-05",
+   "fin": "2012-04-06",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 14.0,
+    "François Hollande": 26.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 11.0,
+    "Nicolas Sarkozy": 28.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-04-03",
+   "fin": "2012-04-06",
+   "echantillon": 1033,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "François Bayrou": 10.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 3.0,
+    "Marine Le Pen": 16.0,
+    "Jean-Luc Mélenchon": 13.0,
+    "Philippe Poutou": 1.0,
+    "Nicolas Sarkozy": 28.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-04-05",
+   "fin": "2012-04-07",
+   "echantillon": 1869,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 9.5,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.5,
+    "Marine Le Pen": 16.5,
+    "Jean-Luc Mélenchon": 14.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 28.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-04-06",
+   "fin": "2012-04-07",
+   "echantillon": 955,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 9.5,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 28.5,
+    "Eva Joly": 1.5,
+    "Marine Le Pen": 15.0,
+    "Jean-Luc Mélenchon": 14.5,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 29.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-04-10",
+   "fin": "2012-04-11",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 13.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 10.0,
+    "Nicolas Sarkozy": 28.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-04-10",
+   "fin": "2012-04-11",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 14.5,
+    "François Hollande": 28.5,
+    "Eva Joly": 1.5,
+    "François Bayrou": 9.5,
+    "Nicolas Sarkozy": 29.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 15.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-04-10",
+   "fin": "2012-04-11",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 14.5,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.5,
+    "François Bayrou": 9.5,
+    "Nicolas Sarkozy": 28.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.5
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-10",
+   "fin": "2012-04-11",
+   "echantillon": 1013,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 11.0,
+    "Jacques Cheminade": 0.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 1.5,
+    "Marine Le Pen": 15.0,
+    "Jean-Luc Mélenchon": 17.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 26.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-04-11",
+   "fin": "2012-04-12",
+   "echantillon": 885,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 11.0,
+    "Jacques Cheminade": 0.5,
+    "Nicolas Dupont-Aignan": 0.5,
+    "François Hollande": 30.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 15.0,
+    "Jean-Luc Mélenchon": 13.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 27.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "2012-04-11",
+   "fin": "2012-04-12",
+   "echantillon": 1000,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "François Bayrou": 9.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.5,
+    "Marine Le Pen": 16.0,
+    "Jean-Luc Mélenchon": 16.0,
+    "Philippe Poutou": 0.5,
+    "Nicolas Sarkozy": 26.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-04-12",
+   "fin": "2012-04-13",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 13.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.5,
+    "François Bayrou": 10.0,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 16.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-04-12",
+   "fin": "2012-04-13",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 13.0,
+    "François Hollande": 29.5,
+    "Eva Joly": 2.5,
+    "François Bayrou": 10.5,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 14.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-04-12",
+   "fin": "2012-04-13",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 13.0,
+    "François Hollande": 30.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 11.0,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 0.5,
+    "Marine Le Pen": 15.0,
+    "Jacques Cheminade": 0.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2012-04-13",
+   "fin": "2012-04-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 0.5,
+    "Jean-Luc Mélenchon": 16.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.5,
+    "François Bayrou": 9.0,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 16.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-13",
+   "fin": "2012-04-14",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Philippe Poutou": 0.0,
+    "Jean-Luc Mélenchon": 17.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 1.5,
+    "François Bayrou": 11.0,
+    "Nicolas Sarkozy": 26.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 15.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 98.5
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-04-13",
+   "fin": "2012-04-14",
+   "echantillon": 894,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "François Bayrou": 10.0,
+    "Jacques Cheminade": 0.5,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.5,
+    "Marine Le Pen": 15.5,
+    "Jean-Luc Mélenchon": 14.5,
+    "Philippe Poutou": 1.0,
+    "Nicolas Sarkozy": 27.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-04-12",
+   "fin": "2012-04-15",
+   "echantillon": 1808,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 9.5,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 3.0,
+    "Marine Le Pen": 15.5,
+    "Jean-Luc Mélenchon": 14.5,
+    "Philippe Poutou": 1.0,
+    "Nicolas Sarkozy": 27.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-04-12",
+   "fin": "2012-04-16",
+   "echantillon": 991,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 11.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 17.0,
+    "Jean-Luc Mélenchon": 12.0,
+    "Philippe Poutou": 1.0,
+    "Nicolas Sarkozy": 28.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-04-16",
+   "fin": "2012-04-17",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 14.5,
+    "François Hollande": 28.0,
+    "Eva Joly": 3.0,
+    "François Bayrou": 9.5,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 15.5,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-16",
+   "fin": "2012-04-17",
+   "echantillon": 886,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 10.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "François Hollande": 29.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 17.0,
+    "Jean-Luc Mélenchon": 15.0,
+    "Philippe Poutou": 1.0,
+    "Nicolas Sarkozy": 24.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-04-16",
+   "fin": "2012-04-17",
+   "echantillon": 1181,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "François Bayrou": 12.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "François Hollande": 29.5,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 14.0,
+    "Jean-Luc Mélenchon": 13.0,
+    "Philippe Poutou": 1.0,
+    "Nicolas Sarkozy": 27.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-04-16",
+   "fin": "2012-04-17",
+   "echantillon": 1002,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 10.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "François Hollande": 27.5,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 16.0,
+    "Jean-Luc Mélenchon": 13.0,
+    "Philippe Poutou": 2.0,
+    "Nicolas Sarkozy": 27.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-04-17",
+   "fin": "2012-04-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 14.5,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.5,
+    "François Bayrou": 10.0,
+    "Nicolas Sarkozy": 27.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 15.5,
+    "Jacques Cheminade": 0.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-04-17",
+   "fin": "2012-04-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 12.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 11.0,
+    "Nicolas Sarkozy": 28.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 17.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-17",
+   "fin": "2012-04-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Philippe Poutou": 1.0,
+    "Jean-Luc Mélenchon": 15.0,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.0,
+    "François Bayrou": 11.0,
+    "Nicolas Sarkozy": 24.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 17.0,
+    "Jacques Cheminade": 0.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-04-17",
+   "fin": "2012-04-18",
+   "echantillon": 956,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "François Bayrou": 10.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "François Hollande": 27.0,
+    "Eva Joly": 2.5,
+    "Marine Le Pen": 15.5,
+    "Jean-Luc Mélenchon": 15.0,
+    "Philippe Poutou": 1.0,
+    "Nicolas Sarkozy": 26.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-18",
+   "fin": "2012-04-19",
+   "echantillon": 1005,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "François Bayrou": 10.5,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "François Hollande": 28.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 16.0,
+    "Jean-Luc Mélenchon": 14.5,
+    "Philippe Poutou": 1.5,
+    "Nicolas Sarkozy": 25.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-04-18",
+   "fin": "2012-04-19",
+   "echantillon": 2161,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "François Bayrou": 10.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "François Hollande": 30.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 14.0,
+    "Jean-Luc Mélenchon": 14.0,
+    "Philippe Poutou": 1.5,
+    "Nicolas Sarkozy": 26.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-04-18",
+   "fin": "2012-04-19",
+   "echantillon": 1021,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "François Bayrou": 10.0,
+    "Jacques Cheminade": 0.5,
+    "Nicolas Dupont-Aignan": 1.5,
+    "François Hollande": 29.0,
+    "Eva Joly": 2.0,
+    "Marine Le Pen": 16.0,
+    "Jean-Luc Mélenchon": 14.0,
+    "Philippe Poutou": 1.5,
+    "Nicolas Sarkozy": 25.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-04-18",
+   "fin": "2012-04-19",
+   "echantillon": 1068,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "François Bayrou": 11.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "François Hollande": 27.5,
+    "Eva Joly": 3.0,
+    "Marine Le Pen": 16.0,
+    "Jean-Luc Mélenchon": 12.0,
+    "Philippe Poutou": 1.5,
+    "Nicolas Sarkozy": 26.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "2012-04-18",
+   "fin": "2012-04-19",
+   "echantillon": 1000,
+   "source": null,
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "François Bayrou": 10.0,
+    "Jacques Cheminade": 0.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "François Hollande": 27.0,
+    "Eva Joly": 3.0,
+    "Marine Le Pen": 17.0,
+    "Jean-Luc Mélenchon": 13.0,
+    "Philippe Poutou": 1.0,
+    "Nicolas Sarkozy": 27.0
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "second_tour": [
+  {
+   "sondeur": "BVA",
+   "debut": "2010-09-11",
+   "fin": "2010-09-11",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 51.0,
+    "François Fillon": 49.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2010-09-11",
+   "fin": "2010-09-11",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 55.0,
+    "François Fillon": 45.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2010-11-10",
+   "fin": "2010-11-10",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 53.0,
+    "Nicolas Sarkozy": 47.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2010-11-10",
+   "fin": "2010-11-10",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 49.0,
+    "François Fillon": 51.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2010-11-19",
+   "fin": "2010-11-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 52.0,
+    "Nicolas Sarkozy": 48.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2010-11-19",
+   "fin": "2010-11-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 50.0,
+    "Ségolène Royal": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2010-11-19",
+   "fin": "2010-11-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 59.0,
+    "Nicolas Sarkozy": 41.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2010-11-20",
+   "fin": "2010-11-20",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 55.0,
+    "Nicolas Sarkozy": 45.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2010-11-20",
+   "fin": "2010-11-20",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 48.0,
+    "Ségolène Royal": 52.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2010-11-20",
+   "fin": "2010-11-20",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 62.0,
+    "Nicolas Sarkozy": 38.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-01-15",
+   "fin": "2011-01-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 57.0,
+    "Nicolas Sarkozy": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-01-15",
+   "fin": "2011-01-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 64.0,
+    "Nicolas Sarkozy": 36.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-01-18",
+   "fin": "2011-01-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 55.0,
+    "Nicolas Sarkozy": 45.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-01-18",
+   "fin": "2011-01-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 56.0,
+    "Nicolas Sarkozy": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-01-18",
+   "fin": "2011-01-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 50.0,
+    "Ségolène Royal": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-01-18",
+   "fin": "2011-01-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 64.0,
+    "Nicolas Sarkozy": 36.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-02-15",
+   "fin": "2011-02-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 54.0,
+    "Nicolas Sarkozy": 46.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-02-15",
+   "fin": "2011-02-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 54.0,
+    "Nicolas Sarkozy": 46.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-02-15",
+   "fin": "2011-02-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 50.0,
+    "Ségolène Royal": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-02-15",
+   "fin": "2011-02-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 61.0,
+    "Nicolas Sarkozy": 39.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2011-02-19",
+   "fin": "2011-02-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 56.0,
+    "Nicolas Sarkozy": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2011-02-19",
+   "fin": "2011-02-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 56.0,
+    "Nicolas Sarkozy": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2011-02-19",
+   "fin": "2011-02-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 48.0,
+    "Ségolène Royal": 52.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2011-02-19",
+   "fin": "2011-02-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 63.0,
+    "Nicolas Sarkozy": 37.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2011-04-07",
+   "fin": "2011-04-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 63.0,
+    "Marine Le Pen": 37.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2011-04-07",
+   "fin": "2011-04-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 63.0,
+    "Marine Le Pen": 37.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2011-04-07",
+   "fin": "2011-04-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 56.0,
+    "Nicolas Sarkozy": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 56.0,
+    "Nicolas Sarkozy": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 72.0,
+    "Marine Le Pen": 28.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 73.0,
+    "Marine Le Pen": 27.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 69.0,
+    "Marine Le Pen": 31.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 75.0,
+    "Marine Le Pen": 25.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 55.0,
+    "Nicolas Sarkozy": 45.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 49.0,
+    "Ségolène Royal": 51.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-04-21",
+   "fin": "2011-04-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 63.0,
+    "Nicolas Sarkozy": 37.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-05-07",
+   "fin": "2011-05-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 60.0,
+    "Nicolas Sarkozy": 40.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-05-07",
+   "fin": "2011-05-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 76.0,
+    "Marine Le Pen": 24.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-05-07",
+   "fin": "2011-05-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 74.0,
+    "Marine Le Pen": 26.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-05-07",
+   "fin": "2011-05-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 71.0,
+    "Marine Le Pen": 29.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-05-07",
+   "fin": "2011-05-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 77.0,
+    "Marine Le Pen": 23.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-05-07",
+   "fin": "2011-05-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 56.0,
+    "Nicolas Sarkozy": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-05-07",
+   "fin": "2011-05-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 50.0,
+    "Ségolène Royal": 50.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-05-07",
+   "fin": "2011-05-07",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 65.0,
+    "Nicolas Sarkozy": 35.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-05-21",
+   "fin": "2011-05-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 62.0,
+    "Nicolas Sarkozy": 38.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-05-21",
+   "fin": "2011-05-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 59.0,
+    "Nicolas Sarkozy": 41.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2011-05-21",
+   "fin": "2011-05-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 56.0,
+    "Nicolas Sarkozy": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-06-05",
+   "fin": "2011-06-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 60.0,
+    "Nicolas Sarkozy": 40.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-06-05",
+   "fin": "2011-06-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 63.0,
+    "Marine Le Pen": 37.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-06-05",
+   "fin": "2011-06-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 58.0,
+    "Nicolas Sarkozy": 42.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-06-05",
+   "fin": "2011-06-05",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 49.0,
+    "Ségolène Royal": 51.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-07-09",
+   "fin": "2011-07-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 60.0,
+    "Nicolas Sarkozy": 40.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-07-09",
+   "fin": "2011-07-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 58.0,
+    "Nicolas Sarkozy": 42.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-07-09",
+   "fin": "2011-07-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 58.0,
+    "Nicolas Sarkozy": 42.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-07-09",
+   "fin": "2011-07-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 58.0,
+    "Nicolas Sarkozy": 42.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-07-09",
+   "fin": "2011-07-09",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Dominique Strauss-Kahn": 54.0,
+    "Nicolas Sarkozy": 46.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-07-21",
+   "fin": "2011-07-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 57.0,
+    "Nicolas Sarkozy": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-07-21",
+   "fin": "2011-07-21",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 53.0,
+    "Nicolas Sarkozy": 47.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-09-02",
+   "fin": "2011-09-02",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 59.0,
+    "Nicolas Sarkozy": 41.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-09-02",
+   "fin": "2011-09-02",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 54.0,
+    "Nicolas Sarkozy": 46.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-09-03",
+   "fin": "2011-09-03",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 54.0,
+    "Nicolas Sarkozy": 46.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-09-03",
+   "fin": "2011-09-03",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 51.0,
+    "Ségolène Royal": 49.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-10-01",
+   "fin": "2011-10-01",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 60.0,
+    "Nicolas Sarkozy": 40.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2011-10-01",
+   "fin": "2011-10-01",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "Martine Aubry": 57.0,
+    "Nicolas Sarkozy": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-10-17",
+   "fin": "2011-10-17",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 62.0,
+    "Nicolas Sarkozy": 38.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-10-18",
+   "fin": "2011-10-18",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 64.0,
+    "Nicolas Sarkozy": 36.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-10-20",
+   "fin": "2011-10-20",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 60.0,
+    "Nicolas Sarkozy": 40.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2011-10-29",
+   "fin": "2011-10-29",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 62.0,
+    "Nicolas Sarkozy": 38.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-11-04",
+   "fin": "2011-11-04",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 57.0,
+    "Nicolas Sarkozy": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-11-15",
+   "fin": "2011-11-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 59.0,
+    "Nicolas Sarkozy": 41.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-11-19",
+   "fin": "2011-11-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 58.0,
+    "Nicolas Sarkozy": 42.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Sofres",
+   "debut": "2011-11-26",
+   "fin": "2011-11-26",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 60.0,
+    "Nicolas Sarkozy": 40.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-11-30",
+   "fin": "2011-11-30",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 56.0,
+    "Nicolas Sarkozy": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ispos",
+   "debut": "2011-12-03",
+   "fin": "2011-12-03",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 60.0,
+    "Nicolas Sarkozy": 40.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2011-12-03",
+   "fin": "2011-12-03",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 59.0,
+    "Nicolas Sarkozy": 41.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2011-12-13",
+   "fin": "2011-12-13",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 58.0,
+    "Nicolas Sarkozy": 42.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2011-12-15",
+   "fin": "2011-12-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 57.0,
+    "Nicolas Sarkozy": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2011-12-15",
+   "fin": "2011-12-15",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 56.0,
+    "Nicolas Sarkozy": 44.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2011-12-19",
+   "fin": "2011-12-19",
+   "echantillon": null,
+   "source": null,
+   "scores": {
+    "François Hollande": 57.0,
+    "Nicolas Sarkozy": 43.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-01-04",
+   "fin": "2012-01-06",
+   "echantillon": 1163,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-01-06",
+   "fin": "2012-01-07",
+   "echantillon": 973,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-01-09",
+   "fin": "2012-01-10",
+   "echantillon": 1005,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-01-10",
+   "fin": "2012-01-11",
+   "echantillon": 1060,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-01-11",
+   "fin": "2012-01-13",
+   "echantillon": 1550,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-01-13",
+   "fin": "2012-01-14",
+   "echantillon": 966,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-01-13",
+   "fin": "2012-01-14",
+   "echantillon": 949,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 41.0,
+    "François Hollande": 59.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-01-18",
+   "fin": "2012-01-19",
+   "echantillon": 974,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-01-19",
+   "fin": "2012-01-22",
+   "echantillon": 1029,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-01-23",
+   "fin": "2012-01-24",
+   "echantillon": 898,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 40.0,
+    "François Hollande": 60.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-01-23",
+   "fin": "2012-01-25",
+   "echantillon": 1087,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-01-29",
+   "fin": "2012-01-30",
+   "echantillon": 1387,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 42.0,
+    "François Hollande": 58.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "2012-01-30",
+   "fin": "2012-01-30",
+   "echantillon": 1000,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 42.0,
+    "François Hollande": 58.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-01-30",
+   "fin": "2012-01-31",
+   "echantillon": 1448,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-02-03",
+   "fin": "2012-02-04",
+   "echantillon": 955,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-02-03",
+   "fin": "2012-02-04",
+   "echantillon": 968,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 42.0,
+    "François Hollande": 58.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-02-03",
+   "fin": "2012-02-04",
+   "echantillon": 953,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 41.0,
+    "François Hollande": 59.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-02-06",
+   "fin": "2012-02-07",
+   "echantillon": 869,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 40.0,
+    "François Hollande": 60.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-02-06",
+   "fin": "2012-02-08",
+   "echantillon": 1346,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-02-09",
+   "fin": "2012-02-12",
+   "echantillon": 1723,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 42.5,
+    "François Hollande": 57.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-02-09",
+   "fin": "2012-02-13",
+   "echantillon": 954,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-02-15",
+   "fin": "2012-02-16",
+   "echantillon": 949,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-02-17",
+   "fin": "2012-02-18",
+   "echantillon": 967,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-02-17",
+   "fin": "2012-02-18",
+   "echantillon": 975,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-02-17",
+   "fin": "2012-02-18",
+   "echantillon": 969,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 41.0,
+    "François Hollande": 59.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-02-20",
+   "fin": "2012-02-20",
+   "echantillon": 891,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-02-24",
+   "fin": "2012-02-25",
+   "echantillon": 959,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 42.0,
+    "François Hollande": 58.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-02-23",
+   "fin": "2012-02-26",
+   "echantillon": 1723,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.5,
+    "François Hollande": 56.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "2012-02-27",
+   "fin": "2012-02-27",
+   "echantillon": 1000,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-03-02",
+   "fin": "2012-03-03",
+   "echantillon": 971,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 42.0,
+    "François Hollande": 58.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-03-02",
+   "fin": "2012-03-03",
+   "echantillon": 963,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 41.0,
+    "François Hollande": 59.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-03-02",
+   "fin": "2012-03-03",
+   "echantillon": 966,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 42.0,
+    "François Hollande": 58.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-03-05",
+   "fin": "2012-03-05",
+   "echantillon": 888,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-03-01",
+   "fin": "2012-03-05",
+   "echantillon": 975,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-03-05",
+   "fin": "2012-03-07",
+   "echantillon": 1221,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-11",
+   "fin": "2012-03-12",
+   "echantillon": 1638,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.5,
+    "François Hollande": 54.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "2012-03-12",
+   "fin": "2012-03-12",
+   "echantillon": 1000,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 42.0,
+    "François Hollande": 58.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-03-12",
+   "fin": "2012-03-13",
+   "echantillon": 861,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-03-14",
+   "fin": "2012-03-15",
+   "echantillon": 1183,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-16",
+   "fin": "2012-03-17",
+   "echantillon": 961,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-03-16",
+   "fin": "2012-03-17",
+   "echantillon": 962,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-03-16",
+   "fin": "2012-03-17",
+   "echantillon": 950,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-03-15",
+   "fin": "2012-03-19",
+   "echantillon": 1097,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-03-19",
+   "fin": "2012-03-20",
+   "echantillon": 888,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-03-21",
+   "fin": "2012-03-22",
+   "echantillon": 926,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-03-23",
+   "fin": "2012-03-24",
+   "echantillon": 978,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-03-22",
+   "fin": "2012-03-25",
+   "echantillon": 1769,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-03-22",
+   "fin": "2012-03-26",
+   "echantillon": 1231,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-03-26",
+   "fin": "2012-03-27",
+   "echantillon": 1148,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "2012-03-26",
+   "fin": "2012-03-27",
+   "echantillon": 1000,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-03-26",
+   "fin": "2012-03-27",
+   "echantillon": 876,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.0,
+    "François Hollande": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-03-29",
+   "fin": "2012-03-31",
+   "echantillon": 2555,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-03-30",
+   "fin": "2012-03-31",
+   "echantillon": 973,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-03-30",
+   "fin": "2012-03-31",
+   "echantillon": 881,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-03-29",
+   "fin": "2012-04-02",
+   "echantillon": 1059,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.0,
+    "François Hollande": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-02",
+   "fin": "2012-04-03",
+   "echantillon": 884,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-04-03",
+   "fin": "2012-04-04",
+   "echantillon": 1033,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.0,
+    "François Hollande": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-04-03",
+   "fin": "2012-04-06",
+   "echantillon": 1033,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.0,
+    "François Hollande": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-04-05",
+   "fin": "2012-04-07",
+   "echantillon": 1869,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.0,
+    "François Hollande": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-04-06",
+   "fin": "2012-04-07",
+   "echantillon": 955,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-04-10",
+   "fin": "2012-04-11",
+   "echantillon": 977,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-10",
+   "fin": "2012-04-11",
+   "echantillon": 1123,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-04-10",
+   "fin": "2012-04-12",
+   "echantillon": 1000,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-04-11",
+   "fin": "2012-04-12",
+   "echantillon": 885,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "2012-04-11",
+   "fin": "2012-04-12",
+   "echantillon": 1000,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-04-13",
+   "fin": "2012-04-14",
+   "echantillon": 894,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-04-12",
+   "fin": "2012-04-15",
+   "echantillon": 1808,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.5,
+    "François Hollande": 55.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-04-12",
+   "fin": "2012-04-16",
+   "echantillon": 991,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.0,
+    "François Hollande": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-16",
+   "fin": "2012-04-17",
+   "echantillon": 886,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 42.0,
+    "François Hollande": 58.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-04-16",
+   "fin": "2012-04-17",
+   "echantillon": 1161,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-04-16",
+   "fin": "2012-04-17",
+   "echantillon": 1002,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-04-17",
+   "fin": "2012-04-18",
+   "echantillon": 956,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-18",
+   "fin": "2012-04-19",
+   "echantillon": 1005,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-04-18",
+   "fin": "2012-04-19",
+   "echantillon": 2161,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 43.0,
+    "François Hollande": 57.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-04-18",
+   "fin": "2012-04-19",
+   "echantillon": 1021,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-04-18",
+   "fin": "2012-04-19",
+   "echantillon": 1068,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "2012-04-18",
+   "fin": "2012-04-19",
+   "echantillon": 1000,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-04-22",
+   "fin": "2012-04-22",
+   "echantillon": 1004,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.5,
+    "François Hollande": 54.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-04-22",
+   "fin": "2012-04-22",
+   "echantillon": 7900,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-04-22",
+   "fin": "2012-04-22",
+   "echantillon": 1090,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-22",
+   "fin": "2012-04-22",
+   "echantillon": 1009,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 44.0,
+    "François Hollande": 56.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-04-22",
+   "fin": "2012-04-22",
+   "echantillon": 678,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.0,
+    "François Hollande": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-04-22",
+   "fin": "2012-04-22",
+   "echantillon": 1088,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-04-23",
+   "fin": "2012-04-23",
+   "echantillon": 1227,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "2012-04-24",
+   "fin": "2012-04-25",
+   "echantillon": 1000,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-04-24",
+   "fin": "2012-04-25",
+   "echantillon": 1009,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-04-24",
+   "fin": "2012-04-25",
+   "echantillon": 1467,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.5,
+    "François Hollande": 54.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-04-25",
+   "fin": "2012-04-26",
+   "echantillon": 1032,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 45.0,
+    "François Hollande": 55.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-04-27",
+   "fin": "2012-04-28",
+   "echantillon": 958,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-04-27",
+   "fin": "2012-04-28",
+   "echantillon": 988,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.0,
+    "François Hollande": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2012-04-27",
+   "fin": "2012-04-29",
+   "echantillon": 1962,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.0,
+    "François Hollande": 54.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-04-30",
+   "fin": "2012-05-01",
+   "echantillon": 1387,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.5,
+    "François Hollande": 53.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "LH2",
+   "debut": "2012-04-30",
+   "fin": "2012-05-02",
+   "echantillon": 1565,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.0,
+    "François Hollande": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2012-04-30",
+   "fin": "2012-05-03",
+   "echantillon": 2101,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.5,
+    "François Hollande": 52.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2012-05-02",
+   "fin": "2012-05-03",
+   "echantillon": 1072,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.0,
+    "François Hollande": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "BVA",
+   "debut": "2012-05-03",
+   "fin": "2012-05-03",
+   "echantillon": 2161,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.5,
+    "François Hollande": 52.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ipsos",
+   "debut": "2012-05-03",
+   "fin": "2012-05-03",
+   "echantillon": 1018,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.5,
+    "François Hollande": 52.5
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "CSA",
+   "debut": "2012-05-03",
+   "fin": "2012-05-03",
+   "echantillon": 1002,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 47.0,
+    "François Hollande": 53.0
+   },
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "TNS Sofres",
+   "debut": "2012-05-03",
+   "fin": "2012-05-03",
+   "echantillon": 1000,
+   "source": null,
+   "scores": {
+    "Nicolas Sarkozy": 46.5,
+    "François Hollande": 53.5
+   },
+   "total_brut": 100.0
+  }
+ ],
+ "evenements": []
+}

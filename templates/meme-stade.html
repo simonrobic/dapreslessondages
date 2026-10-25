@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Au même stade de la campagne — {{ site_name }}{% endblock %}
+{% block description %}Qui les sondages donnaient-ils gagnant au même stade de la campagne, à chaque présidentielle depuis 1958 ? Et qui a gagné ?{% endblock %}
+{% block content %}
+<div class="hero">
+  <div class="eyebrow">Toutes les présidentielles depuis 1958</div>
+  <h1>Au même stade de la campagne</h1>
+  <p class="lede">Nous avons appliqué le modèle d'aujourd'hui aux sondages publiés lors de chaque élection, à la même distance du premier tour. Une prévision à {{ sp.jours_avant }} jours du vote se lit à la lumière de ces précédents.</p>
+</div>
+
+<div class="filters" role="group" aria-label="Stade de la campagne">
+  <span class="filters-label">Stade :</span>
+  {% for j in sp.etapes %}
+  <button class="chip" type="button" data-stage="{{ j }}" aria-pressed="{{ 'true' if j == sp.jours_avant else 'false' }}">{% if j == 1 %}Veille du vote{% else %}J-{{ j }}{% endif %}{% if j == sp.jours_avant %} (aujourd'hui){% endif %}</button>
+  {% endfor %}
+</div>
+<p class="stage-summary" id="stage-summary" aria-live="polite"></p>
+<noscript><p>Cette page a besoin de JavaScript pour afficher les cartes. Les données sont aussi <a href="{{ root }}donnees/meme-stade.json">téléchargeables</a>.</p></noscript>
+<div class="grid compare-grid" id="stage-cards"></div>
+
+<section class="block prose">
+  <h2>Comment lire ces cartes</h2>
+  <p>Pour chaque élection, le modèle ne voit que les sondages publiés jusqu'à la date indiquée, avec les mêmes règles qu'aujourd'hui : dernier sondage de chaque institut, poids qui diminue avec l'éloignement du vote, scénario de candidatures le plus sondé. La courbe montre ensuite l'évolution des chances du candidat alors en tête et du futur élu, jusqu'à la veille du vote.</p>
+  <p>Avant 1981, les sondages sont rares et publiés seulement dans les dernières semaines. En 1969 et en 1974, l'élection n'était pas prévue : elle a suivi la démission ou la mort du président en exercice. En 1958, le président était élu par un collège de grands électeurs.</p>
+  <p>Sources : Wikipédia (CC BY-SA 4.0), depuis1958/sondages (CC BY-SA 3.0 FR), NSPPolls (MIT). <a href="{{ root }}methodologie/">Méthodologie</a>.</p>
+</section>
+{% endblock %}
+{% block scripts %}
+<script id="payload" type="application/json">{{ {"meme_stade": sp, "jours_avant": sp.jours_avant}|json|safe }}</script>
+<script src="{{ root }}assets/charts.js?v={{ assets_v }}" defer></script>
+{% endblock %}
