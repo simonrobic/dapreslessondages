@@ -32,11 +32,21 @@
 {% set ctot = A.preoccupations.values()|sum %}
 {% set first = A.liste[0] %}
 {% set k1 = first.top3[0] %}
+{% set dates = A.liste|map(attribute='collecte')|unique|sort|list %}
 <section class="block" id="candidats-2027">
-  <div class="block-head">
-    <div class="eyebrow">Provisoire · candidats 2027</div>
-    <h2>Les candidats parlent-ils de ce qui inquiète les Français&nbsp;?</h2>
-    <p>Score d'alignement entre les textes programmatiques publiés par chaque candidat et la dernière vague de l'Eurobaromètre (n° {{ A.vague }}, terrain du {{ A.terrain[0]|date_fr }} au {{ A.terrain[1]|date_fr }}). Le score des élus de 2007 à 2022, calculé de la même façon sur leur profession de foi à J-{{ pp.jours_avant }}, sert de repère.</p>
+  <div class="block-head-split">
+    <div class="block-head">
+      <div class="eyebrow">Provisoire · candidats 2027</div>
+      <h2>Les candidats parlent-ils de ce qui inquiète les Français&nbsp;?</h2>
+      <p>Score d'alignement entre les textes programmatiques publiés par chaque candidat et la dernière vague de l'Eurobaromètre (n° {{ A.vague }}, terrain du {{ A.terrain[0]|date_fr }} au {{ A.terrain[1]|date_fr }}). Le score des élus de 2007 à 2022, calculé de la même façon sur leur profession de foi à J-{{ pp.jours_avant }}, sert de repère.</p>
+    </div>
+    <aside class="status-note" aria-label="État des programmes">
+      <div class="eyebrow">Analyse mise à jour au fil de la campagne</div>
+      <p>Les programmes ne sont pas encore tous publics, ni définitifs : la plupart des candidats n'ont publié qu'une partie de leurs propositions, ou s'appuient encore sur un programme précédent. Les scores sont recalculés à chaque nouveau texte.</p>
+      {% for c in A.non_classes if c.a_venir %}<p><strong>{{ c.candidat }}</strong> : {{ c.a_venir }}</p>
+      {% endfor %}
+      <p class="status-meta">Textes consultés {% if dates|length == 1 %}le {{ dates[0]|date_fr }}{% else %}entre le {{ dates[0]|date_fr }} et le {{ dates[-1]|date_fr }}{% endif %}{% if A.non_classes %} · <a href="#non-classes">{{ A.non_classes|length }} candidat{{ 's' if A.non_classes|length > 1 }} non classé{{ 's' if A.non_classes|length > 1 }}</a>{% endif %}</p>
+    </aside>
   </div>
   <div id="align-chart"></div>
 </section>
@@ -47,7 +57,7 @@
   <h2>Comment se calcule le score d'alignement</h2>
   <ol>
     <li><strong>Ce qui préoccupe les Français.</strong> Dans la vague {{ A.vague }} de l'Eurobaromètre, chaque personne interrogée cite les deux problèmes les plus importants pour le pays : les pourcentages font donc environ 200 %. On les ramène à 100. Par exemple, {{ A.preoccupations[k1]|round|int }} % des Français citent « {{ pp.themes[k1]|lower }} », soit {{ (100 * A.preoccupations[k1] / ctot)|round|int }} points sur 100.</li>
-    <li><strong>Ce dont parle chaque candidat.</strong> Nous retenons les textes programmatiques mis en avant sur le site officiel du candidat ou de son parti, {% set dates = A.liste|map(attribute='collecte')|unique|sort|list %}consultés {% if dates|length == 1 %}le {{ dates[0]|date_fr }}{% else %}entre le {{ dates[0]|date_fr }} et le {{ dates[-1]|date_fr }}{% endif %} ; les sites tiers (agrégateurs, « fiches programme ») sont exclus. Les textes sont découpés en passages. {{ A.methode }} On compte les mots consacrés à chaque thème, sans les généralités, et on les ramène aussi à 100.</li>
+    <li><strong>Ce dont parle chaque candidat.</strong> Nous retenons les textes programmatiques mis en avant sur le site officiel du candidat ou de son parti, consultés {% if dates|length == 1 %}le {{ dates[0]|date_fr }}{% else %}entre le {{ dates[0]|date_fr }} et le {{ dates[-1]|date_fr }}{% endif %} ; les sites tiers (agrégateurs, « fiches programme ») sont exclus. Les textes sont découpés en passages. {{ A.methode }} On compte les mots consacrés à chaque thème, sans les généralités, et on les ramène aussi à 100.</li>
     <li><strong>Le score.</strong> Pour chaque thème, on retient la plus petite des deux parts, puis on additionne. Avec 100, le programme donnerait à chaque sujet exactement la place que lui donnent les Français ; avec 0, il ne parlerait que de sujets qu'ils ne citent pas. Exemple : « {{ pp.themes[k1]|lower }} » pèse {{ (100 * A.preoccupations[k1] / ctot)|round|int }} points chez les Français et {{ (first.parts[k1] or 0)|round|int }} % des propositions de {{ first.candidat }}, qui gagne donc {{ [(100 * A.preoccupations[k1] / ctot), (first.parts[k1] or 0)]|min|round|int }} points sur ce thème.</li>
     <li><strong>La marge.</strong> Elle montre de combien le score varie si l'on tire au hasard d'autres combinaisons des mêmes passages (2 000 tirages, 8 sur 10 dans la marge). Une marge large signale un texte court ou dominé par quelques passages. Elle ne tient compte ni du choix des documents ni des choix de classement.</li>
     <li><strong>Le repère.</strong> Au même stade de leur campagne, les élus de 2007 à 2022 obtenaient {% for y, v in R.elus|dictsort|reverse %}{{ v }} ({{ y }}){{ ", " if not loop.last else "" }}{% endfor %}, soit {{ R.alignement }} en moyenne.</li>
@@ -60,7 +70,7 @@
     <li><strong>Certains sujets ne comptent pas.</strong> L'Eurobaromètre ne propose ni l'Europe ni les questions de société : un programme qui leur donne beaucoup de place est mécaniquement pénalisé.</li>
     <li><strong>Le classement est un jugement.</strong> Il est publié passage par passage sous chaque candidat, pour pouvoir être vérifié et contesté.</li>
   </ul>
-  <h3>Candidats non classés</h3>
+  <h3 id="non-classes">Candidats non classés</h3>
   <ul>
     {% for c in A.non_classes %}<li><strong>{{ c.candidat }}</strong> : {{ c.raison }}</li>
     {% endfor %}

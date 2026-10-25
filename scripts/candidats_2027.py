@@ -63,7 +63,10 @@ CANDIDATES = [
 ]
 NOT_SCORED = [
     {"candidat": "Jean-Luc Mélenchon", "raison": "La 5e édition de L'Avenir en commun paraît le 6 novembre 2026 ; "
-                                                 "l'édition 2025 en ligne refuse les téléchargements automatiques."},
+                                                 "l'édition 2025 en ligne refuse les téléchargements automatiques.",
+     # affiché en tête de section tant que le candidat n'est pas classé
+     "a_venir": "la prochaine version de son programme, la 5e édition de L'Avenir en commun, n'est pas encore "
+                "publiée (parution annoncée le 6 novembre 2026). Il sera ajouté dès sa sortie."},
     {"candidat": "Éric Zemmour", "raison": "Pas de programme publié : Reconquête mène une consultation en ligne "
                                            "(« Le programme pour la France ») et présente un plan budgétaire de Sarah Knafo."},
     {"candidat": "David Lisnard", "raison": "Aucun texte programmatique trouvé sur un site officiel."},
