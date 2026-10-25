@@ -535,7 +535,7 @@ def main():
     # Version des fichiers dans leur adresse : elle change dès que leur contenu change,
     # pour que les navigateurs ne gardent pas une ancienne feuille de style en cache
     assets_v = hashlib.sha1(b"".join((TEMPLATES / "assets" / f).read_bytes()
-                                     for f in ("style.css", "charts.js"))).hexdigest()[:10]
+                                     for f in ("style.css", "charts.js", "consent.js"))).hexdigest()[:10]
 
     results = json.loads((ROOT / "data" / "resultats.json").read_text())
     nav = [("", "Prévision 2027"), ("meme-stade/", "Au même stade"), ("preoccupations/", "Préoccupations"),

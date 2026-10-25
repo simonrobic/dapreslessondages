@@ -65,9 +65,17 @@
         <p>Sondages : <a href="https://github.com/depuis1958/sondages">depuis1958/sondages</a> (CC BY-SA 3.0 FR), <a href="https://github.com/nsppolls/nsppolls">NSPPolls</a> (MIT), <a href="https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027">Wikipédia</a> (CC BY-SA 4.0). Résultats : Conseil constitutionnel.</p>
       </div>
     </div>
-    <p class="footer-meta">Page générée le {{ built|date_fr }}.</p>
+    <p class="footer-meta">Page générée le {{ built|date_fr }} · <button type="button" class="link-button" data-consent="ouvrir">Cookies</button></p>
   </div>
 </footer>
+<div class="consent" id="consent" role="region" aria-label="Cookies" hidden>
+  <p>Avec votre accord, ce site utilise Screeb pour vous proposer de courts questionnaires et comprendre l'usage qui en est fait. Sans accord, rien n'est chargé. <a href="{{ root }}a-propos/#confidentialite">En savoir plus</a></p>
+  <div class="consent-actions">
+    <button type="button" class="consent-btn" data-consent="non">Refuser</button>
+    <button type="button" class="consent-btn" data-consent="oui">Accepter</button>
+  </div>
+</div>
+<script src="{{ root }}assets/consent.js?v={{ assets_v }}" defer></script>
 {% block scripts %}{% endblock %}
 </body>
 </html>

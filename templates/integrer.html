@@ -27,7 +27,11 @@
   document.getElementById("copy-embed").addEventListener("click", async () => {
     const code = document.getElementById("embed-code").textContent;
     const status = document.getElementById("copy-status");
-    try { await navigator.clipboard.writeText(code); status.textContent = "Copié."; }
+    try {
+      await navigator.clipboard.writeText(code);
+      status.textContent = "Copié.";
+      if (window.$screeb) $screeb("event.track", "embed_code_copied");  // seulement si le visiteur a accepté Screeb
+    }
     catch (e) { status.textContent = "Sélectionnez le code et copiez-le."; }
   });
 </script>
