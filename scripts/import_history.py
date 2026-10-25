@@ -137,7 +137,9 @@ RESULTS = {
 
 # Erreurs relevées dans le dépôt d'origine : en 1988, les colonnes des duels
 # sont inversées (Mitterrand était donné gagnant à 54-57 % face à Chirac comme
-# face à Barre, et l'a emporté avec 54,02 %).
+# face à Barre, et l'a emporté avec 54,02 %). Correction proposée en retour :
+# https://github.com/depuis1958/sondages/pull/45 ; si elle est acceptée et que la
+# copie de data/raw/sondages est mise à jour, vider cet ensemble.
 SWAPPED_COLUMNS = {"1988/second-tour-chirac-mitterand.csv", "1988/second-tour-barre-mitterand.csv"}
 
 
