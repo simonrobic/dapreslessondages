@@ -3,8 +3,8 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 240677053,
- "recupere_le": "2026-10-25",
+ "source_revision": 240731388,
+ "recupere_le": "2026-10-26",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "premier_tour": [
   {
@@ -6556,7 +6556,7 @@
    "debut": "2026-10-21",
    "fin": "2026-10-22",
    "echantillon": 1500,
-   "source": "https://www.ipsos.com/fr-fr/presidentielle-2027-melenchon-progresse-le-pen-reste-en-tete",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10338-pres-iv-ipsos-bva-le-parisien-24-octobre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 17.0,
@@ -6578,7 +6578,7 @@
    "debut": "2026-10-21",
    "fin": "2026-10-22",
    "echantillon": 1500,
-   "source": "https://www.ipsos.com/fr-fr/presidentielle-2027-melenchon-progresse-le-pen-reste-en-tete",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10338-pres-iv-ipsos-bva-le-parisien-24-octobre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 17.0,
@@ -6599,7 +6599,7 @@
    "debut": "2026-10-21",
    "fin": "2026-10-22",
    "echantillon": 1500,
-   "source": "https://www.ipsos.com/fr-fr/presidentielle-2027-melenchon-progresse-le-pen-reste-en-tete",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10338-pres-iv-ipsos-bva-le-parisien-24-octobre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 17.0,
@@ -6620,7 +6620,7 @@
    "debut": "2026-10-21",
    "fin": "2026-10-22",
    "echantillon": 1500,
-   "source": "https://www.ipsos.com/fr-fr/presidentielle-2027-melenchon-progresse-le-pen-reste-en-tete",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10338-pres-iv-ipsos-bva-le-parisien-24-octobre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 17.0,
@@ -6660,6 +6660,49 @@
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 101.0
+  },
+  {
+   "sondeur": "Cluster 17",
+   "debut": "2026-10-19",
+   "fin": "2026-10-22",
+   "echantillon": 3000,
+   "source": "https://www.politico.eu/article/sondage-exclusif-2027-la-chute-de-philippe-relegue-derriere-melenchon/",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 18.5,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 2.0,
+    "Raphaël Glucksmann": 13.0,
+    "Édouard Philippe": 16.0,
+    "Bruno Retailleau": 8.0,
+    "Nicolas Dupont-Aignan": 3.0,
+    "Marine Le Pen": 33.0,
+    "Éric Zemmour": 4.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Cluster 17",
+   "debut": "2026-10-19",
+   "fin": "2026-10-22",
+   "echantillon": 3000,
+   "source": "https://www.politico.eu/article/sondage-exclusif-2027-la-chute-de-philippe-relegue-derriere-melenchon/",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 19.5,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 2.5,
+    "François Hollande": 6.5,
+    "Édouard Philippe": 17.0,
+    "David Lisnard": 8.0,
+    "Bruno Retailleau": 7.0,
+    "Nicolas Dupont-Aignan": 3.0,
+    "Marine Le Pen": 30.5,
+    "Éric Zemmour": 3.5
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
   }
  ],
  "second_tour": [
