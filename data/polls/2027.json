@@ -3,8 +3,8 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 240731388,
- "recupere_le": "2026-10-26",
+ "source_revision": 240741132,
+ "recupere_le": "2026-10-27",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "premier_tour": [
   {
@@ -6662,11 +6662,11 @@
    "total_brut": 101.0
   },
   {
-   "sondeur": "Cluster 17",
+   "sondeur": "Cluster17",
    "debut": "2026-10-19",
    "fin": "2026-10-22",
    "echantillon": 3000,
-   "source": "https://www.politico.eu/article/sondage-exclusif-2027-la-chute-de-philippe-relegue-derriere-melenchon/",
+   "source": "https://cluster17.com/wp-content/uploads/2026/10/ITV-Politico-Octobre-C17.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 18.5,
@@ -6683,11 +6683,32 @@
    "total_brut": 100.0
   },
   {
-   "sondeur": "Cluster 17",
+   "sondeur": "Cluster17",
    "debut": "2026-10-19",
    "fin": "2026-10-22",
    "echantillon": 3000,
-   "source": "https://www.politico.eu/article/sondage-exclusif-2027-la-chute-de-philippe-relegue-derriere-melenchon/",
+   "source": "https://cluster17.com/wp-content/uploads/2026/10/ITV-Politico-Octobre-C17.pdf",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 19.5,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 2.0,
+    "Raphaël Glucksmann": 14.0,
+    "Gabriel Attal": 12.0,
+    "Bruno Retailleau": 10.0,
+    "Nicolas Dupont-Aignan": 3.5,
+    "Marine Le Pen": 32.5,
+    "Éric Zemmour": 4.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Cluster17",
+   "debut": "2026-10-19",
+   "fin": "2026-10-22",
+   "echantillon": 3000,
+   "source": "https://cluster17.com/wp-content/uploads/2026/10/ITV-Politico-Octobre-C17.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 19.5,
