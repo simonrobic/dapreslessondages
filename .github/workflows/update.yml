@@ -1,9 +1,9 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
-# Mise à jour quotidienne : récupère les sondages, recalcule, publie sur GitHub Pages.
+# Mise à jour toutes les 3 heures : récupère les sondages, recalcule, publie sur GitHub Pages.
 name: Mise à jour du site
 on:
   schedule:
-    - cron: "30 6 * * *"   # 7 h 30 / 8 h 30 à Paris
+    - cron: "17 */3 * * *"   # toutes les 3 heures (GitHub peut retarder chaque passage)
   workflow_dispatch:
   push:
     branches: [main]
