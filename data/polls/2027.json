@@ -3,7 +3,7 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 240741132,
+ "source_revision": 240766888,
  "recupere_le": "2026-10-27",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "premier_tour": [
@@ -6665,8 +6665,8 @@
    "sondeur": "Cluster17",
    "debut": "2026-10-19",
    "fin": "2026-10-22",
-   "echantillon": 3000,
-   "source": "https://cluster17.com/wp-content/uploads/2026/10/ITV-Politico-Octobre-C17.pdf",
+   "echantillon": 2817,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10339-pres-iv-cluster17-politico-26-octobre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 18.5,
@@ -6686,8 +6686,8 @@
    "sondeur": "Cluster17",
    "debut": "2026-10-19",
    "fin": "2026-10-22",
-   "echantillon": 3000,
-   "source": "https://cluster17.com/wp-content/uploads/2026/10/ITV-Politico-Octobre-C17.pdf",
+   "echantillon": 2817,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10339-pres-iv-cluster17-politico-26-octobre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 19.5,
@@ -6707,8 +6707,8 @@
    "sondeur": "Cluster17",
    "debut": "2026-10-19",
    "fin": "2026-10-22",
-   "echantillon": 3000,
-   "source": "https://cluster17.com/wp-content/uploads/2026/10/ITV-Politico-Octobre-C17.pdf",
+   "echantillon": 2817,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10339-pres-iv-cluster17-politico-26-octobre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 19.5,
