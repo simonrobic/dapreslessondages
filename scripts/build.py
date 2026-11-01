@@ -501,12 +501,13 @@ def polls_table(election, candidates):
             "valeurs": [None if c not in r["scores"] else r["scores"][c] for c in names],
             "autres": others,
             "total": total,
+            "ajout": r.get("origine") == "ajout",
         })
     duels = []
     for r in sorted(election["second_tour"], key=lambda r: r["fin"], reverse=True):
         (a, va), (b, vb) = sorted(r["scores"].items(), key=lambda kv: -kv[1])
         duels.append({"sondeur": r["sondeur"], "source": r.get("source"), "fin_txt": date_fr(r["fin"]),
-                      "a": a, "va": va, "b": b, "vb": vb})
+                      "a": a, "va": va, "b": b, "vb": vb, "ajout": r.get("origine") == "ajout"})
     return names, rows, duels
 
 

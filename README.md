@@ -34,7 +34,8 @@ Le site est généré, entièrement statique, dans `site/`.
 | Chemin | Rôle |
 |---|---|
 | `scripts/wikipedia.py` | Lecture des tableaux de sondages Wikipédia (hypothèses de 1er tour, duels, jalons de campagne) |
-| `scripts/fetch_2027.py` | Télécharge et convertit les sondages 2027 |
+| `scripts/fetch_2027.py` | Télécharge et convertit les sondages 2027, et y ajoute ceux que Wikipédia n'a pas encore (`data/polls/2027-ajouts.json`) |
+| `scripts/notices.py` | Contrôle : liste les notices officielles d'intentions de vote (Commission des sondages) absentes des données |
 | `scripts/import_history.py` | Convertit l'historique 1965–2022 (dépôt d'origine, NSPPolls, Wikipédia) et écrit les résultats officiels |
 | `scripts/share_image.py` | Image de partage du jour (Open Graph, 1200 × 630) |
 | `scripts/eurobarometer.py` | Préoccupations des Français : Eurobaromètre standard 2005–2025, colonne France, thèmes stables |

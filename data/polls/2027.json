@@ -6,6 +6,11 @@
  "source_revision": 240766888,
  "recupere_le": "2026-11-01",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
+ "ajouts": {
+  "fichier": "data/polls/2027-ajouts.json",
+  "inclus": [],
+  "deja_sur_wikipedia": []
+ },
  "premier_tour": [
   {
    "sondeur": "Ifop",

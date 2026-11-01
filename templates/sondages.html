@@ -6,6 +6,8 @@
   <h1>Tous les sondages</h1>
   <p class="lede">{{ rows|length }} hypothèses de premier tour et {{ duels|length }} duels de second tour, publiés depuis {{ rows[-1].fin|date_fr }}. Chaque ligne est une hypothèse : un même sondage teste souvent plusieurs listes de candidats.</p>
   <p class="muted small">Source : <a href="{{ source }}">Wikipédia</a>{% if revision %}, révision {{ revision }}{% endif %}, récupérée le {{ recupere|date_fr }} (<a href="{{ wiki.historique }}">auteurs</a>). Les tableaux de cette page sont <strong>extraits et mis en forme</strong> par {{ site_name }} (noms harmonisés, « &lt; 1 » converti en 0,5) et diffusés, comme leur source, sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>. Intentions de vote en % des suffrages exprimés, telles que publiées. <a href="{{ root }}donnees/">Télécharger en CSV</a>.</p>
+  {% set n_ajouts = (rows|selectattr("ajout")|list|length) + (duels|selectattr("ajout")|list|length) %}
+  <p class="muted small">Quand un sondage est publié avant d'être repris par Wikipédia, nous relevons ses chiffres dans sa notice officielle, déposée auprès de la <a href="https://www.commission-des-sondages.fr/notices/">Commission des sondages</a>, et les publions dans le fichier <a href="{{ source_code }}/blob/main/data/polls/2027-ajouts.json"><code>data/polls/2027-ajouts.json</code></a> du dépôt. Ces lignes sont marquées d'un astérisque{% if n_ajouts %} ({{ n_ajouts }} en ce moment){% else %} (aucune en ce moment){% endif %} ; elles disparaissent dès que Wikipédia publie le même sondage.</p>
 </div>
 
 {% set he = inst.effets %}
@@ -80,7 +82,7 @@
       {% for r in rows %}
       <tr>
         <td>{{ r.fin_txt }}</td>
-        <td>{% if r.source %}<a href="{{ r.source }}" rel="noopener">{{ r.sondeur }}</a>{% else %}{{ r.sondeur }}{% endif %}</td>
+        <td>{% if r.source %}<a href="{{ r.source }}" rel="noopener">{{ r.sondeur }}</a>{% else %}{{ r.sondeur }}{% endif %}{% if r.ajout %}<span title="Pas encore sur Wikipédia : chiffres relevés dans la notice officielle">*</span>{% endif %}</td>
         <td class="n">{{ '{:,}'.format(r.echantillon).replace(',', ' ') if r.echantillon else '' }}</td>
         {% for v in r.valeurs %}{% if v is none %}<td class="empty">—</td>{% else %}<td class="n">{{ v|num(1) if v != v|int else v|int }}</td>{% endif %}{% endfor %}
         <td class="n">{{ (r.autres|num(1) if r.autres != r.autres|int else r.autres|int) if r.autres else '' }}</td>
@@ -98,7 +100,7 @@
       <thead><tr><th>Fin de l'enquête</th><th>Institut</th><th>En tête</th><th class="n">%</th><th>Second</th><th class="n">%</th></tr></thead>
       <tbody>
       {% for d in duels %}
-      <tr><td>{{ d.fin_txt }}</td><td>{% if d.source %}<a href="{{ d.source }}" rel="noopener">{{ d.sondeur }}</a>{% else %}{{ d.sondeur }}{% endif %}</td><td>{{ d.a }}</td><td class="n">{{ d.va|num(1) if d.va != d.va|int else d.va|int }}</td><td>{{ d.b }}</td><td class="n">{{ d.vb|num(1) if d.vb != d.vb|int else d.vb|int }}</td></tr>
+      <tr><td>{{ d.fin_txt }}</td><td>{% if d.source %}<a href="{{ d.source }}" rel="noopener">{{ d.sondeur }}</a>{% else %}{{ d.sondeur }}{% endif %}{% if d.ajout %}<span title="Pas encore sur Wikipédia : chiffres relevés dans la notice officielle">*</span>{% endif %}</td><td>{{ d.a }}</td><td class="n">{{ d.va|num(1) if d.va != d.va|int else d.va|int }}</td><td>{{ d.b }}</td><td class="n">{{ d.vb|num(1) if d.vb != d.vb|int else d.vb|int }}</td></tr>
       {% endfor %}
       </tbody>
     </table>

@@ -1,0 +1,21 @@
+{
+ "description": "Sondages d'intentions de vote pour la présidentielle 2027 publiés mais pas encore repris par la page Wikipédia. Les chiffres sont relevés par D’après les sondages dans la notice officielle déposée auprès de la Commission des sondages (champ notice_url), qui permet de les vérifier. Dès que Wikipédia publie le même sondage (même numéro de notice, ou même institut et mêmes dates de terrain), l'entrée est ignorée et c'est la version de Wikipédia qui fait foi.",
+ "licence": "CC BY-SA 4.0 — D’après les sondages, d'après les notices de la Commission des sondages",
+ "format": {
+  "notice": "numéro de la notice à la Commission des sondages",
+  "notice_url": "adresse du PDF de la notice",
+  "sondeur": "nom de l'institut, écrit comme sur Wikipédia",
+  "commanditaire": "média ou commanditaire du sondage",
+  "debut, fin": "dates de terrain (AAAA-MM-JJ)",
+  "echantillon": "nombre de personnes interrogées",
+  "publie_le": "date de première publication indiquée dans la notice",
+  "ajoute_le": "date de l'ajout dans ce fichier",
+  "premier_tour": "une entrée par hypothèse : libellé et scores en % des suffrages exprimés (« < 1 » noté 0,5)",
+  "second_tour": "une entrée par duel testé",
+  "remarque": "précision utile au lecteur (facultatif)"
+ },
+ "notices_deja_reprises": {
+  "10310": "Odoxa du 24 septembre au 7 octobre 2026 : déjà sur Wikipédia, qui renvoie au site d'Odoxa plutôt qu'à la notice."
+ },
+ "sondages": []
+}
