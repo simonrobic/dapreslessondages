@@ -4126,6 +4126,112 @@
    },
    "date": "2025-11-05",
    "date_approx": false
+  },
+  {
+   "vague": 105,
+   "terrain": [
+    "2026-03-12",
+    "2026-04-05"
+   ],
+   "reponses": [
+    {
+     "libelle": "Crime",
+     "theme": "insecurite",
+     "part": 15.0
+    },
+    {
+     "libelle": "The economic situation",
+     "theme": "economie",
+     "part": 17.0
+    },
+    {
+     "libelle": "Rising prices / inflation / cost of living",
+     "theme": "prix",
+     "part": 40.0
+    },
+    {
+     "libelle": "The conflict in the Middle East",
+     "theme": "international",
+     "part": 12.0
+    },
+    {
+     "libelle": "Unemployment",
+     "theme": "chomage",
+     "part": 10.0
+    },
+    {
+     "libelle": "La question chypriote",
+     "theme": null,
+     "part": 0.0
+    },
+    {
+     "libelle": "Housing",
+     "theme": "logement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Government debt",
+     "theme": "dette_impots",
+     "part": 16.0
+    },
+    {
+     "libelle": "Immigration",
+     "theme": "immigration",
+     "part": 10.0
+    },
+    {
+     "libelle": "Health",
+     "theme": "sante",
+     "part": 17.0
+    },
+    {
+     "libelle": "The education system",
+     "theme": "education",
+     "part": 8.0
+    },
+    {
+     "libelle": "The international situation",
+     "theme": "international",
+     "part": 11.0
+    },
+    {
+     "libelle": "Threats to democracy (for example through information manipulation)",
+     "theme": "democratie",
+     "part": 5.0
+    },
+    {
+     "libelle": "The environment and risks related to climate change",
+     "theme": "environnement",
+     "part": 6.0
+    },
+    {
+     "libelle": "Security and defence",
+     "theme": "international",
+     "part": 9.0
+    },
+    {
+     "libelle": "Russia’s invasion of Ukraine",
+     "theme": "international",
+     "part": 7.0
+    }
+   ],
+   "fichier": "Standard_Eurobarometer_105_spring_2026_volume_A.xlsx",
+   "themes": {
+    "insecurite": 15.0,
+    "economie": 17.0,
+    "prix": 40.0,
+    "international": 12.0,
+    "chomage": 10.0,
+    "logement": 6.0,
+    "dette_impots": 16.0,
+    "immigration": 10.0,
+    "sante": 17.0,
+    "education": 8.0,
+    "democratie": 5.0,
+    "environnement": 6.0
+   },
+   "date": "2026-04-05",
+   "date_approx": false
   }
  ],
  "manquantes": [
