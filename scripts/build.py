@@ -345,12 +345,16 @@ def concerns_payload(stages, days_now, results, slots):
     docs = {d["annee"]: d for d in pf["documents"]}
     elections = json.loads((ROOT / "data" / "resultats.json").read_text())
 
-    def wave_at(day):
-        """Dernière vague dont le terrain était terminé à cette date (au plus un an avant)."""
+    def wave_at(day, max_age=365):
+        """
+        Dernière vague dont le terrain était terminé à cette date, au plus un an
+        avant pour les campagnes passées ; pour la campagne en cours (max_age=None),
+        la dernière publiée, quel que soit son âge : sa date est affichée.
+        """
         best = None
         for w in waves:
             end = to_date(w["date"])
-            if end <= day and (day - end).days <= 365:
+            if end <= day and (max_age is None or (day - end).days <= max_age):
                 best = w
         return best
 
@@ -387,7 +391,7 @@ def concerns_payload(stages, days_now, results, slots):
                                  "source": doc["source"], "passages": doc["passages"]}
         for st in stages:
             day = e1 - datetime.timedelta(days=st)
-            w = wave_at(min(day, datetime.date.today()))
+            w = wave_at(min(day, datetime.date.today()), None if year == CURRENT else 365)
             if w is None:
                 card["etapes"][st] = {"date": day.isoformat(),
                                       "absence": "Pas de mesure ouverte et comparable des préoccupations des Français "
@@ -412,7 +416,7 @@ def concerns_payload(stages, days_now, results, slots):
 
     # Candidats 2027 : leurs textes programmatiques face à la dernière vague publiée
     cand = json.loads((ROOT / "data" / "programmes" / "candidats-2027.json").read_text())
-    latest = wave_at(datetime.date.today())
+    latest = wave_at(datetime.date.today(), None)
     now = {k: latest["themes"][k] for k in eb_keys if k in latest["themes"]}
     rng = random.Random(CURRENT)
     candidates = []
