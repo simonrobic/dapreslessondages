@@ -3,8 +3,8 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241019119,
- "recupere_le": "2026-11-04",
+ "source_revision": 241186034,
+ "recupere_le": "2026-11-09",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
   "fichier": "data/polls/2027-ajouts.json",
@@ -6816,6 +6816,116 @@
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-03",
+   "fin": "2026-11-05",
+   "echantillon": 2101,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10362-pres-iv-toluna-harris-interactive-9-novembre.pdf",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 1.0,
+    "Marine Tondelier": 2.0,
+    "Raphaël Glucksmann": 11.0,
+    "Édouard Philippe": 12.0,
+    "David Lisnard": 9.0,
+    "Bruno Retailleau": 5.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 34.0,
+    "Éric Zemmour": 3.0,
+    "Dominique de Villepin": 2.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-03",
+   "fin": "2026-11-05",
+   "echantillon": 2101,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10362-pres-iv-toluna-harris-interactive-9-novembre.pdf",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 1.0,
+    "Marine Tondelier": 2.0,
+    "Raphaël Glucksmann": 12.0,
+    "Gabriel Attal": 9.0,
+    "David Lisnard": 9.0,
+    "Bruno Retailleau": 6.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 35.0,
+    "Éric Zemmour": 3.0,
+    "Dominique de Villepin": 2.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-03",
+   "fin": "2026-11-05",
+   "echantillon": 2101,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10362-pres-iv-toluna-harris-interactive-9-novembre.pdf",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 18.0,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 2.0,
+    "Raphaël Glucksmann": 11.0,
+    "Gabriel Attal": 6.0,
+    "Édouard Philippe": 11.0,
+    "Bruno Retailleau": 7.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 36.0,
+    "Éric Zemmour": 4.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-03",
+   "fin": "2026-11-05",
+   "echantillon": 2101,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10362-pres-iv-toluna-harris-interactive-9-novembre.pdf",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 2.0,
+    "Raphaël Glucksmann": 12.0,
+    "Édouard Philippe": 14.0,
+    "Bruno Retailleau": 8.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 36.0,
+    "Éric Zemmour": 4.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-03",
+   "fin": "2026-11-05",
+   "echantillon": 2101,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10362-pres-iv-toluna-harris-interactive-9-novembre.pdf",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 3.0,
+    "Raphaël Glucksmann": 13.0,
+    "Gabriel Attal": 10.0,
+    "Bruno Retailleau": 10.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 36.0,
+    "Éric Zemmour": 4.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
   }
  ],
  "second_tour": [
@@ -8193,6 +8303,45 @@
    "scores": {
     "Édouard Philippe": 44.0,
     "Marine Le Pen": 56.0
+   },
+   "section": "Hypothèse Philippe – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-03",
+   "fin": "2026-11-05",
+   "echantillon": 2101,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10362-pres-iv-toluna-harris-interactive-9-novembre.pdf",
+   "scores": {
+    "Raphaël Glucksmann": 40.0,
+    "Marine Le Pen": 60.0
+   },
+   "section": "Hypothèse Glucksmann – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-03",
+   "fin": "2026-11-05",
+   "echantillon": 2101,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10362-pres-iv-toluna-harris-interactive-9-novembre.pdf",
+   "scores": {
+    "Jean-Luc Mélenchon": 32.0,
+    "Marine Le Pen": 68.0
+   },
+   "section": "Hypothèse Mélenchon – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-03",
+   "fin": "2026-11-05",
+   "echantillon": 2101,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10362-pres-iv-toluna-harris-interactive-9-novembre.pdf",
+   "scores": {
+    "Édouard Philippe": 42.0,
+    "Marine Le Pen": 58.0
    },
    "section": "Hypothèse Philippe – Le Pen",
    "total_brut": 100.0
