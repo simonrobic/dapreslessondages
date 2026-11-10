@@ -3,8 +3,8 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241186034,
- "recupere_le": "2026-11-09",
+ "source_revision": 241207183,
+ "recupere_le": "2026-11-10",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
   "fichier": "data/polls/2027-ajouts.json",
