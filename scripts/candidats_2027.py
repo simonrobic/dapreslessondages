@@ -60,14 +60,14 @@ CANDIDATES = [
          "url": "https://republicains.fr/nos-propositions/"}],
      "remarque": "Propositions du parti dont il est le candidat. Elles ne couvrent encore ni la sécurité ni "
                  "l'immigration, au cœur de son discours : le score mesure ce qui est publié, pas tout ce qu'il dit."},
+    {"candidat": "Jean-Luc Mélenchon", "documents": [
+        {"fichier": "melenchon_aec", "titre": "L'Avenir en commun, 5e édition",
+         "url": "https://melenchon2027.fr/programme/livre/"}],
+     "collecte": "2026-11-11",
+     "remarque": "Programme complet, publié chapitre par chapitre sur le site de campagne : environ 39 000 mots, "
+                 "près de neuf fois le texte le plus long des autres candidats."},
 ]
 NOT_SCORED = [
-    {"candidat": "Jean-Luc Mélenchon", "raison": "La 5e édition de L'Avenir en commun est parue en librairie le "
-                                                 "6 novembre 2026, mais n'est pas encore en ligne (annoncée « bientôt » "
-                                                 "sur le site de campagne) ; l'édition précédente a été retirée du site.",
-     # affiché en tête de section tant que le candidat n'est pas classé
-     "a_venir": "la 5e édition de L'Avenir en commun, son programme, est parue en librairie le 6 novembre 2026 "
-                "mais n'est pas encore en ligne. Il sera ajouté dès sa mise en ligne sur le site de campagne."},
     {"candidat": "Éric Zemmour", "raison": "Pas de programme publié : Reconquête mène une consultation en ligne "
                                            "(« Le programme pour la France ») et présente un plan budgétaire de Sarah Knafo."},
     {"candidat": "David Lisnard", "raison": "Aucun texte programmatique trouvé sur un site officiel."},
