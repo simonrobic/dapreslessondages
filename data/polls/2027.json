@@ -3,7 +3,7 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241332866,
+ "source_revision": 241335013,
  "recupere_le": "2026-11-14",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
@@ -7093,7 +7093,7 @@
    "sondeur": "OpinionWay",
    "debut": "2026-11-10",
    "fin": "2026-11-12",
-   "echantillon": 1001,
+   "echantillon": 964,
    "source": "http://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
@@ -7118,7 +7118,7 @@
    "sondeur": "OpinionWay",
    "debut": "2026-11-10",
    "fin": "2026-11-12",
-   "echantillon": 1001,
+   "echantillon": 964,
    "source": "http://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
@@ -8553,6 +8553,45 @@
    "scores": {
     "Édouard Philippe": 42.0,
     "Marine Le Pen": 58.0
+   },
+   "section": "Hypothèse Philippe – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2026-11-10",
+   "fin": "2026-11-12",
+   "echantillon": 964,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf",
+   "scores": {
+    "Raphaël Glucksmann": 42.0,
+    "Marine Le Pen": 58.0
+   },
+   "section": "Hypothèse Glucksmann – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2026-11-10",
+   "fin": "2026-11-12",
+   "echantillon": 964,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf",
+   "scores": {
+    "Jean-Luc Mélenchon": 32.0,
+    "Marine Le Pen": 68.0
+   },
+   "section": "Hypothèse Mélenchon – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinionWay",
+   "debut": "2026-11-10",
+   "fin": "2026-11-12",
+   "echantillon": 964,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf",
+   "scores": {
+    "Édouard Philippe": 44.0,
+    "Marine Le Pen": 56.0
    },
    "section": "Hypothèse Philippe – Le Pen",
    "total_brut": 100.0
