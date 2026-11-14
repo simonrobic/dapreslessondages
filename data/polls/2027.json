@@ -3,8 +3,8 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241312018,
- "recupere_le": "2026-11-13",
+ "source_revision": 241332866,
+ "recupere_le": "2026-11-14",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
   "fichier": "data/polls/2027-ajouts.json",
@@ -7094,7 +7094,7 @@
    "debut": "2026-11-10",
    "fin": "2026-11-12",
    "echantillon": 1001,
-   "source": "https://www.cnews.fr/france/2026-11-12/presidentielle-2027-marine-le-pen-reste-en-tete-des-intentions-de-vote-teddy",
+   "source": "http://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 16.0,
@@ -7119,13 +7119,13 @@
    "debut": "2026-11-10",
    "fin": "2026-11-12",
    "echantillon": 1001,
-   "source": "https://www.cnews.fr/france/2026-11-12/presidentielle-2027-marine-le-pen-reste-en-tete-des-intentions-de-vote-teddy",
+   "source": "http://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10371-pres-iv-opinionway-cnews-12-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 16.0,
-    "Fabien Roussel": 2.0,
+    "Fabien Roussel": 1.0,
     "Marine Tondelier": 3.0,
-    "Raphaël Glucksmann": 10.0,
+    "Raphaël Glucksmann": 11.0,
     "Gabriel Attal": 4.0,
     "Édouard Philippe": 12.0,
     "David Lisnard": 10.0,
@@ -7133,10 +7133,10 @@
     "Nicolas Dupont-Aignan": 2.0,
     "Marine Le Pen": 32.0,
     "Éric Zemmour": 2.0,
-    "Karim Bouamrane": 0.5
+    "Karim Bouamrane": 1.0
    },
    "section": "Octobre-décembre 2026",
-   "total_brut": 99.5
+   "total_brut": 100.0
   }
  ],
  "second_tour": [
