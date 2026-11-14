@@ -3,7 +3,7 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241335013,
+ "source_revision": 241348766,
  "recupere_le": "2026-11-14",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
@@ -7137,6 +7137,140 @@
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
+  },
+  {
+   "sondeur": "Elabe",
+   "debut": "2026-11-12",
+   "fin": "2026-11-13",
+   "echantillon": 1500,
+   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 17.0,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 3.0,
+    "Raphaël Glucksmann": 13.5,
+    "Édouard Philippe": 15.0,
+    "Bruno Retailleau": 6.0,
+    "Nicolas Dupont-Aignan": 3.0,
+    "Marine Le Pen": 33.0,
+    "Éric Zemmour": 4.5,
+    "Dominique de Villepin": 2.5
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Elabe",
+   "debut": "2026-11-12",
+   "fin": "2026-11-13",
+   "echantillon": 1500,
+   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 17.5,
+    "Fabien Roussel": 2.5,
+    "Marine Tondelier": 3.0,
+    "Raphaël Glucksmann": 14.0,
+    "Gabriel Attal": 10.0,
+    "Bruno Retailleau": 9.0,
+    "Nicolas Dupont-Aignan": 2.5,
+    "Marine Le Pen": 33.0,
+    "Éric Zemmour": 4.5,
+    "Dominique de Villepin": 3.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Elabe",
+   "debut": "2026-11-12",
+   "fin": "2026-11-13",
+   "echantillon": 1500,
+   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 17.5,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 3.5,
+    "Raphaël Glucksmann": 13.0,
+    "Gabriel Attal": 5.5,
+    "Édouard Philippe": 12.0,
+    "Bruno Retailleau": 6.0,
+    "Nicolas Dupont-Aignan": 3.0,
+    "Marine Le Pen": 33.0,
+    "Éric Zemmour": 4.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Elabe",
+   "debut": "2026-11-12",
+   "fin": "2026-11-13",
+   "echantillon": 1500,
+   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 17.5,
+    "Fabien Roussel": 1.5,
+    "Raphaël Glucksmann": 14.0,
+    "Gabriel Attal": 8.5,
+    "David Lisnard": 10.5,
+    "Bruno Retailleau": 6.0,
+    "Nicolas Dupont-Aignan": 2.5,
+    "Marine Le Pen": 32.0,
+    "Éric Zemmour": 4.0,
+    "François Ruffin": 3.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Elabe",
+   "debut": "2026-11-12",
+   "fin": "2026-11-13",
+   "echantillon": 1500,
+   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 18.5,
+    "Fabien Roussel": 2.5,
+    "Raphaël Glucksmann": 13.5,
+    "Édouard Philippe": 13.0,
+    "David Lisnard": 9.0,
+    "Bruno Retailleau": 4.0,
+    "Nicolas Dupont-Aignan": 3.0,
+    "Marine Le Pen": 32.5,
+    "Éric Zemmour": 3.5
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Elabe",
+   "debut": "2026-11-12",
+   "fin": "2026-11-13",
+   "echantillon": 1500,
+   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 17.0,
+    "Fabien Roussel": 1.5,
+    "Marine Tondelier": 3.0,
+    "Raphaël Glucksmann": 10.5,
+    "Gabriel Attal": 4.0,
+    "Édouard Philippe": 9.5,
+    "David Lisnard": 8.0,
+    "Bruno Retailleau": 4.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 31.0,
+    "Éric Zemmour": 3.0,
+    "Natacha Polony": 1.5,
+    "Teddy Riner": 4.5
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
   }
  ],
  "second_tour": [
@@ -8592,6 +8726,45 @@
    "scores": {
     "Édouard Philippe": 44.0,
     "Marine Le Pen": 56.0
+   },
+   "section": "Hypothèse Philippe – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Elabe",
+   "debut": "2026-11-12",
+   "fin": "2026-11-13",
+   "echantillon": 1500,
+   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "scores": {
+    "Raphaël Glucksmann": 45.0,
+    "Marine Le Pen": 55.0
+   },
+   "section": "Hypothèse Glucksmann – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Elabe",
+   "debut": "2026-11-12",
+   "fin": "2026-11-13",
+   "echantillon": 1500,
+   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "scores": {
+    "Jean-Luc Mélenchon": 31.5,
+    "Marine Le Pen": 68.5
+   },
+   "section": "Hypothèse Mélenchon – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Elabe",
+   "debut": "2026-11-12",
+   "fin": "2026-11-13",
+   "echantillon": 1500,
+   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "scores": {
+    "Édouard Philippe": 45.0,
+    "Marine Le Pen": 55.0
    },
    "section": "Hypothèse Philippe – Le Pen",
    "total_brut": 100.0
