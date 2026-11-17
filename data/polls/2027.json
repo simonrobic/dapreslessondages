@@ -3,8 +3,8 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241375145,
- "recupere_le": "2026-11-16",
+ "source_revision": 241431275,
+ "recupere_le": "2026-11-17",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
   "fichier": "data/polls/2027-ajouts.json",
@@ -6932,7 +6932,7 @@
    "debut": "2026-11-09",
    "fin": "2026-11-10",
    "echantillon": 982,
-   "source": "https://f.dviz.factoviz.com/UserFiles/0/9/2/2027/OpinionWay%20pour%20Les%20Echos%20et%20Radio%20Classique%20-%20Barom%C3%A8tre%20Pr%C3%A9sitrack%202027%20Vague%204%20-%20Novembre%202026.pdf",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10372-pres-presitrack-opinionway-13-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 17.0,
@@ -6955,7 +6955,7 @@
    "debut": "2026-11-09",
    "fin": "2026-11-10",
    "echantillon": 982,
-   "source": "https://f.dviz.factoviz.com/UserFiles/0/9/2/2027/OpinionWay%20pour%20Les%20Echos%20et%20Radio%20Classique%20-%20Barom%C3%A8tre%20Pr%C3%A9sitrack%202027%20Vague%204%20-%20Novembre%202026.pdf",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10372-pres-presitrack-opinionway-13-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 16.0,
@@ -6977,7 +6977,7 @@
    "debut": "2026-11-09",
    "fin": "2026-11-10",
    "echantillon": 982,
-   "source": "https://f.dviz.factoviz.com/UserFiles/0/9/2/2027/OpinionWay%20pour%20Les%20Echos%20et%20Radio%20Classique%20-%20Barom%C3%A8tre%20Pr%C3%A9sitrack%202027%20Vague%204%20-%20Novembre%202026.pdf",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10372-pres-presitrack-opinionway-13-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 16.0,
@@ -6999,7 +6999,7 @@
    "debut": "2026-11-09",
    "fin": "2026-11-10",
    "echantillon": 1164,
-   "source": "https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10368-pres-iv-cluster17-politico-11-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 20.0,
@@ -7021,7 +7021,7 @@
    "debut": "2026-11-09",
    "fin": "2026-11-10",
    "echantillon": 1164,
-   "source": "https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10368-pres-iv-cluster17-politico-11-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 20.5,
@@ -7043,7 +7043,7 @@
    "debut": "2026-11-09",
    "fin": "2026-11-10",
    "echantillon": 1164,
-   "source": "https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10368-pres-iv-cluster17-politico-11-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 20.5,
@@ -7065,7 +7065,7 @@
    "debut": "2026-11-09",
    "fin": "2026-11-10",
    "echantillon": 1164,
-   "source": "https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10368-pres-iv-cluster17-politico-11-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 19.0,
@@ -7143,7 +7143,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-13",
    "echantillon": 1500,
-   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10375-pres-iv-elabe-14-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 17.0,
@@ -7165,7 +7165,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-13",
    "echantillon": 1500,
-   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10375-pres-iv-elabe-14-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 17.5,
@@ -7187,7 +7187,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-13",
    "echantillon": 1500,
-   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10375-pres-iv-elabe-14-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 17.5,
@@ -7209,7 +7209,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-13",
    "echantillon": 1500,
-   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10375-pres-iv-elabe-14-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 17.5,
@@ -7231,7 +7231,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-13",
    "echantillon": 1500,
-   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10375-pres-iv-elabe-14-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 18.5,
@@ -7252,7 +7252,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-13",
    "echantillon": 1500,
-   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10375-pres-iv-elabe-14-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 0.5,
     "Jean-Luc Mélenchon": 17.0,
@@ -8735,7 +8735,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-13",
    "echantillon": 1500,
-   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10375-pres-iv-elabe-14-novembre.pdf",
    "scores": {
     "Raphaël Glucksmann": 45.0,
     "Marine Le Pen": 55.0
@@ -8748,7 +8748,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-13",
    "echantillon": 1500,
-   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10375-pres-iv-elabe-14-novembre.pdf",
    "scores": {
     "Jean-Luc Mélenchon": 31.5,
     "Marine Le Pen": 68.5
@@ -8761,7 +8761,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-13",
    "echantillon": 1500,
-   "source": "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10375-pres-iv-elabe-14-novembre.pdf",
    "scores": {
     "Édouard Philippe": 45.0,
     "Marine Le Pen": 55.0
