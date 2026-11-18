@@ -3,7 +3,7 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241453622,
+ "source_revision": 241460275,
  "recupere_le": "2026-11-18",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
@@ -7277,8 +7277,9 @@
    "debut": "2026-11-13",
    "fin": "2026-11-16",
    "echantillon": 1690,
-   "source": "https://www.tf1info.fr/politique/elections/presidentielle/en-direct-election-presidentielle-2027-en-panne-dans-les-sondages-edouard-philippe-presente-son-projet-a-date-conference-de-presse-2476527.html",
+   "source": "https://www.ifopgroup.com/wp-content/uploads/2026/11/122919-petit-dejeuner-electoral-intentions-de-vote-et-determinants-du-vote.pdf",
    "scores": {
+    "Nathalie Arthaud": 0.0,
     "Jean-Luc Mélenchon": 17.0,
     "Fabien Roussel": 1.5,
     "Marine Tondelier": 2.0,
@@ -7292,11 +7293,231 @@
     "Éric Zemmour": 3.0,
     "Natacha Polony": 1.0,
     "Teddy Riner": 4.0,
-    "Autres": 2.0,
+    "François Ruffin": 2.0,
     "Dominique de Villepin": 1.5
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2026-11-13",
+   "fin": "2026-11-16",
+   "echantillon": 1690,
+   "source": "https://www.ifopgroup.com/wp-content/uploads/2026/11/122919-petit-dejeuner-electoral-intentions-de-vote-et-determinants-du-vote.pdf",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 1.5,
+    "Marine Tondelier": 2.5,
+    "Raphaël Glucksmann": 10.0,
+    "Gabriel Attal": 4.0,
+    "Édouard Philippe": 11.0,
+    "David Lisnard": 9.0,
+    "Bruno Retailleau": 4.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 34.0,
+    "Éric Zemmour": 3.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2026-11-13",
+   "fin": "2026-11-16",
+   "echantillon": 1690,
+   "source": "https://www.ifopgroup.com/wp-content/uploads/2026/11/122919-petit-dejeuner-electoral-intentions-de-vote-et-determinants-du-vote.pdf",
+   "scores": {
+    "Nathalie Arthaud": 0.0,
+    "Jean-Luc Mélenchon": 19.5,
+    "Fabien Roussel": 2.5,
+    "Marine Tondelier": 2.5,
+    "Raphaël Glucksmann": 10.0,
+    "Édouard Philippe": 12.0,
+    "David Lisnard": 10.0,
+    "Bruno Retailleau": 4.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 35.0,
+    "Éric Zemmour": 3.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2026-11-13",
+   "fin": "2026-11-16",
+   "echantillon": 1690,
+   "source": "https://www.ifopgroup.com/wp-content/uploads/2026/11/122919-petit-dejeuner-electoral-intentions-de-vote-et-determinants-du-vote.pdf",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 2.5,
+    "Raphaël Glucksmann": 11.0,
+    "Gabriel Attal": 9.0,
+    "David Lisnard": 11.0,
+    "Bruno Retailleau": 5.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 35.0,
+    "Éric Zemmour": 3.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2026-11-13",
+   "fin": "2026-11-16",
+   "echantillon": 1690,
+   "source": "https://www.ifopgroup.com/wp-content/uploads/2026/11/122919-petit-dejeuner-electoral-intentions-de-vote-et-determinants-du-vote.pdf",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 19.5,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 2.5,
+    "Raphaël Glucksmann": 11.0,
+    "Édouard Philippe": 14.0,
+    "David Lisnard": 12.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 34.0,
+    "Éric Zemmour": 3.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2026-11-13",
+   "fin": "2026-11-16",
+   "echantillon": 1690,
+   "source": "https://www.ifopgroup.com/wp-content/uploads/2026/11/122919-petit-dejeuner-electoral-intentions-de-vote-et-determinants-du-vote.pdf",
+   "scores": {
+    "Nathalie Arthaud": 0.5,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 2.5,
+    "Marine Tondelier": 3.0,
+    "Raphaël Glucksmann": 11.5,
+    "Édouard Philippe": 15.0,
+    "Bruno Retailleau": 7.0,
+    "Nicolas Dupont-Aignan": 3.0,
+    "Marine Le Pen": 36.0,
+    "Éric Zemmour": 3.5
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 101.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 4.0,
+    "Raphaël Glucksmann": 9.0,
+    "Gabriel Attal": 5.0,
+    "Édouard Philippe": 8.0,
+    "David Lisnard": 9.0,
+    "Bruno Retailleau": 6.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 32.0,
+    "Éric Zemmour": 3.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 3.0,
+    "Marine Tondelier": 4.0,
+    "Raphaël Glucksmann": 10.0,
+    "Édouard Philippe": 9.0,
+    "David Lisnard": 10.0,
+    "Bruno Retailleau": 7.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 33.0,
+    "Éric Zemmour": 3.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 101.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 22.0,
+    "Fabien Roussel": 3.0,
+    "Raphaël Glucksmann": 12.0,
+    "Édouard Philippe": 16.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 40.0,
+    "Éric Zemmour": 4.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 6.0,
+    "Raphaël Glucksmann": 10.0,
+    "Gabriel Attal": 7.0,
+    "David Lisnard": 10.0,
+    "Bruno Retailleau": 8.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 34.0,
+    "Éric Zemmour": 3.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 101.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 17.0,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 5.0,
+    "Raphaël Glucksmann": 9.0,
+    "Gabriel Attal": 4.0,
+    "Édouard Philippe": 7.0,
+    "David Lisnard": 9.0,
+    "Bruno Retailleau": 6.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 32.0,
+    "Éric Zemmour": 3.0,
+    "Teddy Riner": 3.0,
+    "Dominique de Villepin": 2.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 102.0
   }
  ],
  "second_tour": [
@@ -8793,6 +9014,71 @@
     "Marine Le Pen": 55.0
    },
    "section": "Hypothèse Philippe – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "scores": {
+    "Gabriel Attal": 45.0,
+    "Marine Le Pen": 55.0
+   },
+   "section": "Hypothèse Attal – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "scores": {
+    "Raphaël Glucksmann": 42.0,
+    "Marine Le Pen": 58.0
+   },
+   "section": "Hypothèse Glucksmann – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "scores": {
+    "Jean-Luc Mélenchon": 37.0,
+    "Marine Le Pen": 63.0
+   },
+   "section": "Hypothèse Mélenchon – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "scores": {
+    "Édouard Philippe": 46.0,
+    "Marine Le Pen": 54.0
+   },
+   "section": "Hypothèse Philippe – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "scores": {
+    "Jean-Luc Mélenchon": 39.0,
+    "Édouard Philippe": 61.0
+   },
+   "section": "Hypothèse Mélenchon – Philippe",
    "total_brut": 100.0
   }
  ],
