@@ -3,7 +3,7 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241444750,
+ "source_revision": 241453622,
  "recupere_le": "2026-11-18",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
@@ -7268,6 +7268,32 @@
     "Éric Zemmour": 3.0,
     "Natacha Polony": 1.5,
     "Teddy Riner": 4.5
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Ifop",
+   "debut": "2026-11-13",
+   "fin": "2026-11-16",
+   "echantillon": 1690,
+   "source": "https://www.tf1info.fr/politique/elections/presidentielle/en-direct-election-presidentielle-2027-en-panne-dans-les-sondages-edouard-philippe-presente-son-projet-a-date-conference-de-presse-2476527.html",
+   "scores": {
+    "Jean-Luc Mélenchon": 17.0,
+    "Fabien Roussel": 1.5,
+    "Marine Tondelier": 2.0,
+    "Raphaël Glucksmann": 8.0,
+    "Gabriel Attal": 4.5,
+    "Édouard Philippe": 10.0,
+    "David Lisnard": 8.0,
+    "Bruno Retailleau": 4.0,
+    "Nicolas Dupont-Aignan": 1.5,
+    "Marine Le Pen": 32.0,
+    "Éric Zemmour": 3.0,
+    "Natacha Polony": 1.0,
+    "Teddy Riner": 4.0,
+    "Autres": 2.0,
+    "Dominique de Villepin": 1.5
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
