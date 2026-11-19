@@ -3,7 +3,7 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241473567,
+ "source_revision": 241480048,
  "recupere_le": "2026-11-19",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
@@ -7413,7 +7413,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-17",
    "echantillon": 952,
-   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "source": "http://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 19.0,
@@ -7436,48 +7436,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-17",
    "echantillon": 952,
-   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
-   "scores": {
-    "Nathalie Arthaud": 1.0,
-    "Jean-Luc Mélenchon": 19.0,
-    "Fabien Roussel": 3.0,
-    "Marine Tondelier": 4.0,
-    "Raphaël Glucksmann": 10.0,
-    "Édouard Philippe": 9.0,
-    "David Lisnard": 10.0,
-    "Bruno Retailleau": 7.0,
-    "Nicolas Dupont-Aignan": 2.0,
-    "Marine Le Pen": 33.0,
-    "Éric Zemmour": 3.0
-   },
-   "section": "Octobre-décembre 2026",
-   "total_brut": 101.0
-  },
-  {
-   "sondeur": "YouGov",
-   "debut": "2026-11-12",
-   "fin": "2026-11-17",
-   "echantillon": 952,
-   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
-   "scores": {
-    "Nathalie Arthaud": 1.0,
-    "Jean-Luc Mélenchon": 22.0,
-    "Fabien Roussel": 3.0,
-    "Raphaël Glucksmann": 12.0,
-    "Édouard Philippe": 16.0,
-    "Nicolas Dupont-Aignan": 2.0,
-    "Marine Le Pen": 40.0,
-    "Éric Zemmour": 4.0
-   },
-   "section": "Octobre-décembre 2026",
-   "total_brut": 100.0
-  },
-  {
-   "sondeur": "YouGov",
-   "debut": "2026-11-12",
-   "fin": "2026-11-17",
-   "echantillon": 952,
-   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "source": "http://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 19.0,
@@ -7499,7 +7458,48 @@
    "debut": "2026-11-12",
    "fin": "2026-11-17",
    "echantillon": 952,
-   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "source": "http://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 3.0,
+    "Marine Tondelier": 4.0,
+    "Raphaël Glucksmann": 10.0,
+    "Édouard Philippe": 9.0,
+    "David Lisnard": 10.0,
+    "Bruno Retailleau": 7.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 33.0,
+    "Éric Zemmour": 3.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 101.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "http://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 22.0,
+    "Fabien Roussel": 3.0,
+    "Raphaël Glucksmann": 12.0,
+    "Édouard Philippe": 16.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 40.0,
+    "Éric Zemmour": 4.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "YouGov",
+   "debut": "2026-11-12",
+   "fin": "2026-11-17",
+   "echantillon": 952,
+   "source": "http://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 17.0,
