@@ -3,8 +3,8 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241460275,
- "recupere_le": "2026-11-18",
+ "source_revision": 241473567,
+ "recupere_le": "2026-11-19",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
   "fichier": "data/polls/2027-ajouts.json",
@@ -9134,6 +9134,10 @@
   {
    "date": "2025-12-08",
    "texte": "Nathalie Arthaud, porte-parole de Lutte ouvrière (LO), déclare sa candidature"
+  },
+  {
+   "date": "2026-03-31",
+   "texte": "David Lisnard, quitte Les Républicains (LR) et se déclare candidat pour Nouvelle Énergie (NE)"
   },
   {
    "date": "2026-04-19",
