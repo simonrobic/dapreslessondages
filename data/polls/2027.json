@@ -3,8 +3,8 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241538168,
- "recupere_le": "2026-11-21",
+ "source_revision": 241571056,
+ "recupere_le": "2026-11-22",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
   "fichier": "data/polls/2027-ajouts.json",
@@ -9258,6 +9258,22 @@
   {
    "date": "2026-10-11",
    "texte": "Raphaël Glucksmann, président de Place publique (PP), remporte la primaire socialiste"
+  },
+  {
+   "date": "2026-10-14",
+   "texte": "Natacha Polony officialise sa candidature"
+  },
+  {
+   "date": "2026-11-09",
+   "texte": "Teddy Riner officialise sa candidature"
+  },
+  {
+   "date": "2026-11-20",
+   "texte": "Dominique de Villepin, fondateur de La France humaniste (LFH), officialise sa candidature"
+  },
+  {
+   "date": "2026-11-21",
+   "texte": "François Ruffin, président de Debout ! (D!), retire sa candidature"
   }
  ]
 }
