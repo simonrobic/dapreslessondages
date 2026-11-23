@@ -3,7 +3,7 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241589570,
+ "source_revision": 241596892,
  "recupere_le": "2026-11-23",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
@@ -7598,6 +7598,79 @@
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 102.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-18",
+   "fin": "2026-11-19",
+   "echantillon": 2088,
+   "source": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 18.0,
+    "Fabien Roussel": 1.0,
+    "Marine Tondelier": 1.0,
+    "Raphaël Glucksmann": 11.0,
+    "Gabriel Attal": 4.0,
+    "Édouard Philippe": 9.0,
+    "Bruno Retailleau": 4.0,
+    "David Lisnard": 11.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 31.0,
+    "Éric Zemmour": 3.0,
+    "Teddy Riner": 4.0,
+    "Dominique de Villepin": 1.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-18",
+   "fin": "2026-11-19",
+   "echantillon": 2088,
+   "source": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 1.0,
+    "Marine Tondelier": 1.0,
+    "Raphaël Glucksmann": 11.0,
+    "Édouard Philippe": 10.0,
+    "Bruno Retailleau": 4.0,
+    "David Lisnard": 11.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 31.0,
+    "Éric Zemmour": 4.0,
+    "Teddy Riner": 4.0,
+    "Dominique de Villepin": 2.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-18",
+   "fin": "2026-11-19",
+   "echantillon": 2088,
+   "source": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 19.0,
+    "Fabien Roussel": 1.0,
+    "Marine Tondelier": 2.0,
+    "Raphaël Glucksmann": 11.0,
+    "Gabriel Attal": 7.0,
+    "Bruno Retailleau": 5.0,
+    "David Lisnard": 12.0,
+    "Nicolas Dupont-Aignan": 1.0,
+    "Marine Le Pen": 30.0,
+    "Éric Zemmour": 4.0,
+    "Teddy Riner": 5.0,
+    "Dominique de Villepin": 2.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
   }
  ],
  "second_tour": [
@@ -9159,6 +9232,19 @@
     "Édouard Philippe": 61.0
    },
    "section": "Hypothèse Mélenchon – Philippe",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "Harris",
+   "debut": "2026-11-18",
+   "fin": "2026-11-19",
+   "echantillon": 2088,
+   "source": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
+   "scores": {
+    "Jean-Luc Mélenchon": 35.0,
+    "Marine Le Pen": 65.0
+   },
+   "section": "Hypothèse Mélenchon – Le Pen",
    "total_brut": 100.0
   }
  ],
