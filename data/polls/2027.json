@@ -3,8 +3,8 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241603730,
- "recupere_le": "2026-11-23",
+ "source_revision": 241614820,
+ "recupere_le": "2026-11-24",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
   "fichier": "data/polls/2027-ajouts.json",
@@ -7604,7 +7604,7 @@
    "debut": "2026-11-18",
    "fin": "2026-11-19",
    "echantillon": 2088,
-   "source": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10393-pres-iv-vague-10-toluna-harris-interactive-23-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 18.0,
@@ -7629,7 +7629,7 @@
    "debut": "2026-11-18",
    "fin": "2026-11-19",
    "echantillon": 2088,
-   "source": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10393-pres-iv-vague-10-toluna-harris-interactive-23-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 19.0,
@@ -7653,7 +7653,7 @@
    "debut": "2026-11-18",
    "fin": "2026-11-19",
    "echantillon": 2088,
-   "source": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10393-pres-iv-vague-10-toluna-harris-interactive-23-novembre.pdf",
    "scores": {
     "Nathalie Arthaud": 1.0,
     "Jean-Luc Mélenchon": 19.0,
@@ -9344,6 +9344,10 @@
   {
    "date": "2026-10-11",
    "texte": "Raphaël Glucksmann, président de Place publique (PP), remporte la primaire socialiste"
+  },
+  {
+   "date": "2026-11-16",
+   "texte": "Débat présidentiel rassemblant 5 candidats : Attal, Glucksmann, Le Pen, Mélenchon, Retailleau"
   },
   {
    "date": "2026-11-21",
