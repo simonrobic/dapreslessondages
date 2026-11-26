@@ -3,8 +3,8 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241633669,
- "recupere_le": "2026-11-24",
+ "source_revision": 241701360,
+ "recupere_le": "2026-11-26",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
   "fichier": "data/polls/2027-ajouts.json",
@@ -7667,6 +7667,31 @@
     "Marine Le Pen": 30.0,
     "Éric Zemmour": 4.0,
     "Teddy Riner": 5.0,
+    "Dominique de Villepin": 2.0
+   },
+   "section": "Octobre-décembre 2026",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinonWay",
+   "debut": "2026-11-25",
+   "fin": "2026-11-26",
+   "echantillon": 912,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10400-pres-iv-vague-5-opinionway-26-novembre.pdf",
+   "scores": {
+    "Nathalie Arthaud": 1.0,
+    "Jean-Luc Mélenchon": 16.0,
+    "Fabien Roussel": 2.0,
+    "Marine Tondelier": 1.0,
+    "Raphaël Glucksmann": 10.0,
+    "Gabriel Attal": 4.0,
+    "Édouard Philippe": 8.0,
+    "Bruno Retailleau": 4.0,
+    "David Lisnard": 12.0,
+    "Nicolas Dupont-Aignan": 2.0,
+    "Marine Le Pen": 33.0,
+    "Éric Zemmour": 3.0,
+    "Teddy Riner": 2.0,
     "Dominique de Villepin": 2.0
    },
    "section": "Octobre-décembre 2026",
