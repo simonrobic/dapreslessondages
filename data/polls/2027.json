@@ -3,8 +3,8 @@
  "date_premier_tour": "2027-04-18",
  "date_second_tour": "2027-05-02",
  "source": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l'élection_présidentielle_française_de_2027",
- "source_revision": 241701360,
- "recupere_le": "2026-11-26",
+ "source_revision": 241704906,
+ "recupere_le": "2026-11-27",
  "licence": "CC BY-SA 4.0 — contributeurs de Wikipédia",
  "ajouts": {
   "fichier": "data/polls/2027-ajouts.json",
@@ -5853,13 +5853,13 @@
     "Raphaël Glucksmann": 11.5,
     "Gabriel Attal": 5.0,
     "Édouard Philippe": 13.0,
+    "Dominique de Villepin": 1.5,
     "Bruno Retailleau": 5.0,
     "David Lisnard": 6.0,
     "Nicolas Dupont-Aignan": 1.0,
     "Marine Le Pen": 32.0,
     "Éric Zemmour": 3.0,
-    "François Ruffin": 2.0,
-    "Dominique de Villepin": 1.5
+    "François Ruffin": 2.0
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -6129,13 +6129,13 @@
     "Raphaël Glucksmann": 12.0,
     "Gabriel Attal": 6.0,
     "Édouard Philippe": 8.0,
+    "Dominique de Villepin": 1.0,
     "Bruno Retailleau": 5.0,
     "David Lisnard": 4.0,
     "Nicolas Dupont-Aignan": 2.0,
     "Marine Le Pen": 35.0,
     "Éric Zemmour": 4.0,
-    "François Ruffin": 2.0,
-    "Dominique de Villepin": 1.0
+    "François Ruffin": 2.0
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 99.0
@@ -6153,11 +6153,11 @@
     "Marine Tondelier": 3.0,
     "Raphaël Glucksmann": 15.5,
     "Édouard Philippe": 16.5,
+    "Dominique de Villepin": 2.0,
     "Bruno Retailleau": 7.0,
     "Nicolas Dupont-Aignan": 2.5,
     "Marine Le Pen": 32.5,
-    "Éric Zemmour": 3.5,
-    "Dominique de Villepin": 2.0
+    "Éric Zemmour": 3.5
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -6175,11 +6175,11 @@
     "Marine Tondelier": 2.5,
     "Raphaël Glucksmann": 16.5,
     "Gabriel Attal": 10.5,
+    "Dominique de Villepin": 3.0,
     "Bruno Retailleau": 9.5,
     "Nicolas Dupont-Aignan": 2.0,
     "Marine Le Pen": 33.5,
-    "Éric Zemmour": 3.5,
-    "Dominique de Villepin": 3.0
+    "Éric Zemmour": 3.5
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -6389,13 +6389,13 @@
     "Raphaël Glucksmann": 12.0,
     "Gabriel Attal": 4.0,
     "Édouard Philippe": 12.0,
+    "Dominique de Villepin": 1.5,
     "Bruno Retailleau": 5.5,
     "David Lisnard": 5.5,
     "Nicolas Dupont-Aignan": 1.5,
     "Marine Le Pen": 34.0,
     "Éric Zemmour": 3.0,
-    "François Ruffin": 1.5,
-    "Dominique de Villepin": 1.5
+    "François Ruffin": 1.5
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -6459,12 +6459,12 @@
     "Marine Tondelier": 2.0,
     "Raphaël Glucksmann": 12.0,
     "Édouard Philippe": 15.0,
+    "Dominique de Villepin": 1.0,
     "Bruno Retailleau": 4.0,
     "David Lisnard": 7.0,
     "Nicolas Dupont-Aignan": 1.0,
     "Marine Le Pen": 33.0,
-    "Éric Zemmour": 5.0,
-    "Dominique de Villepin": 1.0
+    "Éric Zemmour": 5.0
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -6482,12 +6482,12 @@
     "Marine Tondelier": 2.0,
     "Raphaël Glucksmann": 14.0,
     "Gabriel Attal": 10.0,
+    "Dominique de Villepin": 2.0,
     "Bruno Retailleau": 5.0,
     "David Lisnard": 8.0,
     "Nicolas Dupont-Aignan": 1.0,
     "Marine Le Pen": 33.0,
-    "Éric Zemmour": 5.0,
-    "Dominique de Villepin": 2.0
+    "Éric Zemmour": 5.0
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -6910,12 +6910,12 @@
     "Marine Tondelier": 2.0,
     "Raphaël Glucksmann": 11.0,
     "Édouard Philippe": 12.0,
+    "Dominique de Villepin": 2.0,
     "Bruno Retailleau": 5.0,
     "David Lisnard": 9.0,
     "Nicolas Dupont-Aignan": 1.0,
     "Marine Le Pen": 34.0,
-    "Éric Zemmour": 3.0,
-    "Dominique de Villepin": 2.0
+    "Éric Zemmour": 3.0
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -6933,12 +6933,12 @@
     "Marine Tondelier": 2.0,
     "Raphaël Glucksmann": 12.0,
     "Gabriel Attal": 9.0,
+    "Dominique de Villepin": 2.0,
     "Bruno Retailleau": 6.0,
     "David Lisnard": 9.0,
     "Nicolas Dupont-Aignan": 1.0,
     "Marine Le Pen": 35.0,
-    "Éric Zemmour": 3.0,
-    "Dominique de Villepin": 2.0
+    "Éric Zemmour": 3.0
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -7154,6 +7154,7 @@
     "Raphaël Glucksmann": 8.0,
     "Gabriel Attal": 2.0,
     "Édouard Philippe": 8.0,
+    "Dominique de Villepin": 1.0,
     "Bruno Retailleau": 5.0,
     "David Lisnard": 8.0,
     "Nicolas Dupont-Aignan": 2.0,
@@ -7163,8 +7164,7 @@
     "Christine Lagarde": 8.0,
     "Natacha Polony": 2.5,
     "Teddy Riner": 2.0,
-    "François Ruffin": 1.5,
-    "Dominique de Villepin": 1.0
+    "François Ruffin": 1.5
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -7231,11 +7231,11 @@
     "Marine Tondelier": 3.0,
     "Raphaël Glucksmann": 13.5,
     "Édouard Philippe": 15.0,
+    "Dominique de Villepin": 2.5,
     "Bruno Retailleau": 6.0,
     "Nicolas Dupont-Aignan": 3.0,
     "Marine Le Pen": 33.0,
-    "Éric Zemmour": 4.5,
-    "Dominique de Villepin": 2.5
+    "Éric Zemmour": 4.5
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -7253,11 +7253,11 @@
     "Marine Tondelier": 3.0,
     "Raphaël Glucksmann": 14.0,
     "Gabriel Attal": 10.0,
+    "Dominique de Villepin": 3.0,
     "Bruno Retailleau": 9.0,
     "Nicolas Dupont-Aignan": 2.5,
     "Marine Le Pen": 33.0,
-    "Éric Zemmour": 4.5,
-    "Dominique de Villepin": 3.0
+    "Éric Zemmour": 4.5
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -7366,6 +7366,7 @@
     "Raphaël Glucksmann": 8.0,
     "Gabriel Attal": 4.5,
     "Édouard Philippe": 10.0,
+    "Dominique de Villepin": 1.5,
     "Bruno Retailleau": 4.0,
     "David Lisnard": 8.0,
     "Nicolas Dupont-Aignan": 1.5,
@@ -7373,8 +7374,7 @@
     "Éric Zemmour": 3.0,
     "Natacha Polony": 1.0,
     "Teddy Riner": 4.0,
-    "François Ruffin": 2.0,
-    "Dominique de Villepin": 1.5
+    "François Ruffin": 2.0
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -7588,13 +7588,13 @@
     "Raphaël Glucksmann": 9.0,
     "Gabriel Attal": 4.0,
     "Édouard Philippe": 7.0,
+    "Dominique de Villepin": 2.0,
     "Bruno Retailleau": 6.0,
     "David Lisnard": 9.0,
     "Nicolas Dupont-Aignan": 2.0,
     "Marine Le Pen": 32.0,
     "Éric Zemmour": 3.0,
-    "Teddy Riner": 3.0,
-    "Dominique de Villepin": 2.0
+    "Teddy Riner": 3.0
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 102.0
@@ -7613,13 +7613,13 @@
     "Raphaël Glucksmann": 11.0,
     "Gabriel Attal": 4.0,
     "Édouard Philippe": 9.0,
+    "Dominique de Villepin": 1.0,
     "Bruno Retailleau": 4.0,
     "David Lisnard": 11.0,
     "Nicolas Dupont-Aignan": 1.0,
     "Marine Le Pen": 31.0,
     "Éric Zemmour": 3.0,
-    "Teddy Riner": 4.0,
-    "Dominique de Villepin": 1.0
+    "Teddy Riner": 4.0
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -7637,13 +7637,13 @@
     "Marine Tondelier": 1.0,
     "Raphaël Glucksmann": 11.0,
     "Édouard Philippe": 10.0,
+    "Dominique de Villepin": 2.0,
     "Bruno Retailleau": 4.0,
     "David Lisnard": 11.0,
     "Nicolas Dupont-Aignan": 1.0,
     "Marine Le Pen": 31.0,
     "Éric Zemmour": 4.0,
-    "Teddy Riner": 4.0,
-    "Dominique de Villepin": 2.0
+    "Teddy Riner": 4.0
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -7661,13 +7661,13 @@
     "Marine Tondelier": 2.0,
     "Raphaël Glucksmann": 11.0,
     "Gabriel Attal": 7.0,
+    "Dominique de Villepin": 2.0,
     "Bruno Retailleau": 5.0,
     "David Lisnard": 12.0,
     "Nicolas Dupont-Aignan": 1.0,
     "Marine Le Pen": 30.0,
     "Éric Zemmour": 4.0,
-    "Teddy Riner": 5.0,
-    "Dominique de Villepin": 2.0
+    "Teddy Riner": 5.0
    },
    "section": "Octobre-décembre 2026",
    "total_brut": 100.0
@@ -7686,16 +7686,17 @@
     "Raphaël Glucksmann": 10.0,
     "Gabriel Attal": 4.0,
     "Édouard Philippe": 8.0,
+    "Dominique de Villepin": 2.0,
     "Bruno Retailleau": 4.0,
     "David Lisnard": 12.0,
     "Nicolas Dupont-Aignan": 2.0,
     "Marine Le Pen": 33.0,
     "Éric Zemmour": 3.0,
-    "Teddy Riner": 2.0,
-    "Dominique de Villepin": 2.0
+    "Karim Bouamrane": 0.5,
+    "Teddy Riner": 2.0
    },
    "section": "Octobre-décembre 2026",
-   "total_brut": 100.0
+   "total_brut": 100.5
   }
  ],
  "second_tour": [
@@ -9199,7 +9200,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-17",
    "echantillon": 952,
-   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
    "scores": {
     "Gabriel Attal": 45.0,
     "Marine Le Pen": 55.0
@@ -9212,7 +9213,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-17",
    "echantillon": 952,
-   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
    "scores": {
     "Raphaël Glucksmann": 42.0,
     "Marine Le Pen": 58.0
@@ -9225,7 +9226,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-17",
    "echantillon": 952,
-   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
    "scores": {
     "Jean-Luc Mélenchon": 37.0,
     "Marine Le Pen": 63.0
@@ -9238,7 +9239,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-17",
    "echantillon": 952,
-   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
    "scores": {
     "Édouard Philippe": 46.0,
     "Marine Le Pen": 54.0
@@ -9251,7 +9252,7 @@
    "debut": "2026-11-12",
    "fin": "2026-11-17",
    "echantillon": 952,
-   "source": "https://www.huffingtonpost.fr/politique/article/dans-notre-sondage-sur-la-presidentielle-2027-edouard-philippe-atteint-la-cote-d-alerte_360406.html",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10382-pres-iv-yougov-le-huffpost-19-novembre.pdf",
    "scores": {
     "Jean-Luc Mélenchon": 39.0,
     "Édouard Philippe": 61.0
@@ -9264,12 +9265,64 @@
    "debut": "2026-11-18",
    "fin": "2026-11-19",
    "echantillon": 2088,
-   "source": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf",
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10393-pres-iv-vague-10-toluna-harris-interactive-23-novembre.pdf",
    "scores": {
     "Jean-Luc Mélenchon": 35.0,
     "Marine Le Pen": 65.0
    },
    "section": "Hypothèse Mélenchon – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinonWay",
+   "debut": "2026-11-25",
+   "fin": "2026-11-26",
+   "echantillon": 912,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10400-pres-iv-vague-5-opinionway-26-novembre.pdf",
+   "scores": {
+    "Raphaël Glucksmann": 42.0,
+    "Marine Le Pen": 58.0
+   },
+   "section": "Hypothèse Glucksmann – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinonWay",
+   "debut": "2026-11-25",
+   "fin": "2026-11-26",
+   "echantillon": 912,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10400-pres-iv-vague-5-opinionway-26-novembre.pdf",
+   "scores": {
+    "David Lisnard": 45.0,
+    "Marine Le Pen": 55.0
+   },
+   "section": "Hypothèse Lisnard – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinonWay",
+   "debut": "2026-11-25",
+   "fin": "2026-11-26",
+   "echantillon": 912,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10400-pres-iv-vague-5-opinionway-26-novembre.pdf",
+   "scores": {
+    "Jean-Luc Mélenchon": 31.0,
+    "Marine Le Pen": 69.0
+   },
+   "section": "Hypothèse Mélenchon – Le Pen",
+   "total_brut": 100.0
+  },
+  {
+   "sondeur": "OpinonWay",
+   "debut": "2026-11-25",
+   "fin": "2026-11-26",
+   "echantillon": 912,
+   "source": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10400-pres-iv-vague-5-opinionway-26-novembre.pdf",
+   "scores": {
+    "Édouard Philippe": 41.0,
+    "Marine Le Pen": 59.0
+   },
+   "section": "Hypothèse Philippe – Le Pen",
    "total_brut": 100.0
   }
  ],
@@ -9373,6 +9426,10 @@
   {
    "date": "2026-11-16",
    "texte": "Débat présidentiel rassemblant 5 candidats : Attal, Glucksmann, Le Pen, Mélenchon, Retailleau"
+  },
+  {
+   "date": "2026-11-20",
+   "texte": "Dominique de Villepin, président de La France Humaniste, officialise sa candidature"
   },
   {
    "date": "2026-11-21",
